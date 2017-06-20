@@ -1,0 +1,10 @@
+
+LOGBASE
+2016-12-19_15:51:09 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[35] event 
+LOGBASE
+2016-12-19_15:51:09 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[35] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-19_15:51:09 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error

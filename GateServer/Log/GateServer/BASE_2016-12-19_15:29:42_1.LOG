@@ -1,0 +1,7 @@
+
+LOGBASE
+2016-12-19_15:31:06 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=21] time[26628] too more-----------------
+LOGBASE
+2016-12-19_15:31:06 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 26628852

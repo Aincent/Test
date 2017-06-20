@@ -1,0 +1,4 @@
+
+LOGFATAL
+2016-12-19_15:31:06 FILE:../src/CharactorMgr/CharactorLogin.cpp FUNC:Handle_Request LINE:86
+ 	  Message:Message:[messageid = 1007 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[26628]

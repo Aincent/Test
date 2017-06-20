@@ -1,0 +1,46 @@
+
+LOGBASE
+2016-12-20_18:43:58 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=25] time[77844] too more-----------------
+LOGBASE
+2016-12-20_18:43:58 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 77844279
+LOGBASE
+2016-12-20_18:44:00 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=18] time[1694] too more-----------------
+LOGBASE
+2016-12-20_18:44:00 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 1693532
+LOGBASE
+2016-12-20_18:45:15 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=25] time[29072] too more-----------------
+LOGBASE
+2016-12-20_18:45:15 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 29071336
+LOGBASE
+2016-12-20_18:46:32 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=25] time[31487] too more-----------------
+LOGBASE
+2016-12-20_18:46:32 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 31486984
+LOGBASE
+2016-12-20_18:47:50 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=25] time[11655] too more-----------------
+LOGBASE
+2016-12-20_18:47:50 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 11654402
+LOGBASE
+2016-12-20_18:47:57 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=18] time[6989] too more-----------------
+LOGBASE
+2016-12-20_18:47:57 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 6988974
+LOGBASE
+2016-12-20_18:48:57 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[57] event 
+LOGBASE
+2016-12-20_18:48:59 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[57] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-20_18:48:59 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error

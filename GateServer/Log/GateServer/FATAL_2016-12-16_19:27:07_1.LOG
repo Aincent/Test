@@ -1,0 +1,13 @@
+
+LOGFATAL
+2016-12-16_19:29:11 FILE:../src/CharactorMgr/CharactorLogin.cpp FUNC:Handle_Request LINE:86
+ 	  Message:Message:[messageid = 1007 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[9593]
+LOGFATAL
+2016-12-16_19:29:30 FILE:../src/CharactorMgr/CharactorLogin.cpp FUNC:Handle_Request LINE:86
+ 	  Message:Message:[messageid = 1007 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[8994]
+LOGFATAL
+2016-12-16_19:38:56 FILE:../src/CharactorMgr/CharactorLogin.cpp FUNC:Handle_Request LINE:86
+ 	  Message:Message:[messageid = 1007 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[559699]
+LOGFATAL
+2016-12-16_19:39:00 FILE:../src/CharactorMgr/CharactorLogin.cpp FUNC:Handle_Request LINE:86
+ 	  Message:Message:[messageid = 1007 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[4242]

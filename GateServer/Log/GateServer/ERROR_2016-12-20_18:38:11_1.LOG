@@ -1,0 +1,7 @@
+
+LOGERROR
+2016-12-20_18:40:08 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:40:51 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence

@@ -1,0 +1,13 @@
+
+LOGBASE
+2016-12-19_15:29:24 FILE:../Network/ConnManager.cpp FUNC:svr LINE:141
+ 	  Message: connect Server socket but connect error rtype[4] ip[127.0.0.1] port[14001]
+LOGBASE
+2016-12-19_15:29:25 FILE:../Network/ConnManager.cpp FUNC:svr LINE:141
+ 	  Message: connect Server socket but connect error rtype[4] ip[127.0.0.1] port[14001]
+LOGBASE
+2016-12-19_15:29:26 FILE:../Network/ConnManager.cpp FUNC:svr LINE:141
+ 	  Message: connect Server socket but connect error rtype[4] ip[127.0.0.1] port[14001]
+LOGBASE
+2016-12-19_15:29:27 FILE:../Network/ConnManager.cpp FUNC:svr LINE:141
+ 	  Message: connect Server socket but connect error rtype[4] ip[127.0.0.1] port[14001]

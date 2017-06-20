@@ -1,0 +1,34 @@
+
+LOGERROR
+2016-12-20_18:42:46 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:44:00 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:44:49 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:46:03 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:46:54 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:47:12 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:47:42 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:47:54 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:48:50 FILE:../src/ServerManager.cpp FUNC:GetGameServerInfo LINE:1358
+ 	  Message:Change Map to Instance,But Instance is not existence
+LOGERROR
+2016-12-20_18:49:02 FILE:../src/CommonMessage/CommonMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GT2GM_QUICKMESSAGE LINE:181
+ 	  Message:gateserver request gameserver quick ack timeout playerID:0 msgID:6701
+LOGERROR
+2016-12-20_18:49:22 FILE:../src/CharactorMgr/CharactorLogin.cpp FUNC:On_MSG_ACK_MSG_REQ_GT2GM_CLIENTIN LINE:490
+ 	  Message:gateserver request gameserver client in and ack timeout

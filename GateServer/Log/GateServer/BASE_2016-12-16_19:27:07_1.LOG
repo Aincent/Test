@@ -1,0 +1,46 @@
+
+LOGBASE
+2016-12-16_19:29:11 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=21] time[9593] too more-----------------
+LOGBASE
+2016-12-16_19:29:11 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 9593589
+LOGBASE
+2016-12-16_19:29:30 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=21] time[8994] too more-----------------
+LOGBASE
+2016-12-16_19:29:30 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 8993497
+LOGBASE
+2016-12-16_19:38:56 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=21] time[559699] too more-----------------
+LOGBASE
+2016-12-16_19:38:56 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 1] time = 559699395
+LOGBASE
+2016-12-16_19:39:00 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1007 , len=21] time[4242] too more-----------------
+LOGBASE
+2016-12-16_19:39:00 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:399
+ 	  Message:dispatch[index=3] message[count = 2] time = 4241440
+LOGBASE
+2016-12-16_19:39:29 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:167
+ 	  Message:dispatching simple message but message id[12411] is not existed
+LOGBASE
+2016-12-16_19:40:03 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[57] event 
+LOGBASE
+2016-12-16_19:40:03 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-16_19:40:03 FILE:../Network/Session.cpp FUNC:Write LINE:424
+ 	  Message:send get epoll error socket[57]
+LOGBASE
+2016-12-16_19:40:03 FILE:../Network/Session.cpp FUNC:AddMessage LINE:1120
+ 	  Message:write message to session buff error
+LOGBASE
+2016-12-16_19:40:03 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[57] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-16_19:40:03 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
