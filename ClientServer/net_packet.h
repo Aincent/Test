@@ -35,8 +35,8 @@ static inline net_packet* create_net_packet(int messageID,int messageType)
 	packet->_off = HEADER_LENGTH;
 	packet->messageID = messageID;
 	packet->messageType = messageType;
-	packet->remoteType = 0;
-	packet->remoteID = 0;
+	packet->remoteType = 1;
+	packet->remoteID = 1;
 	packet->localType = 0;//6
 	packet->security = 0;
 	packet->reqID = 0;
