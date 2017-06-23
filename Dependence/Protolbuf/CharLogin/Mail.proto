@@ -1,0 +1,99 @@
+import "CharLogin/CharBaseInfo.proto";
+
+package MailInfo;
+
+message SpecialItem
+{
+	required int32 itemID = 1;
+	required int32 num = 2;
+}
+
+message SpecialMailItemList
+{
+	repeated SpecialItem itemList = 1;
+}
+
+//请求邮件信息列表--6701
+message MailItems	
+{
+	repeated MailItemInfo info = 1;		//基本信息
+}
+
+//邮件详细信息
+//收到新邮件--6707--  -- 6709
+message MailItemInfo
+{
+	required bool isopened = 1;		//是否提取 0为提取 1为未提取
+	required string name = 2;						//发件人
+	required string theme = 3;						//主题
+	required string substance = 4;					//内容
+	required int64 index = 5;						//邮件索引
+	required int32 sendtime = 6;	//发送时间
+	required int32 day = 7;			//剩余天数
+	optional SpecialMailItemList itemList = 8;//金钱，元宝，绑定元宝等等
+}
+
+//请求邮件详细信息--6702
+//message ServerReturn::ServerRetInt
+//message ServerReturn::ServerDoubleInt   retf ：错误码 rets: 邮件ID
+
+
+//提取物品--6705
+message ReqGoodsInfo
+{
+	required int64 MailId = 1;				//邮件ID
+	required int32 type = 2;				//0：单个邮件邻取 1：全部领取
+}
+
+message ResGoodsInfo
+{
+	required int64 MailId = 1;				//邮件ID		
+	required int32 type = 2;				//0：单个邮件邻取 1：全部领取
+	optional int32 ret = 3; //错误码 
+}
+
+message RetGoodsInfo
+{
+	required int64 charid = 1;						//玩家ID
+	required ResGoodsInfo ret = 2;					//返回值
+	optional SpecialMailItemList itemList = 3;//金钱，元宝，绑定元宝等等
+}
+
+//发送邮件toDB
+message SimDBSendMail
+{
+	required string sendname = 1;				//发件人
+	required int64 charid = 2;					//收件人ID
+	required string endname = 3;				//收件人
+	required string theme = 4;					//主题
+	required string substance = 5;				//内容
+	optional SpecialMailItemList itemList = 6;//金钱，元宝，绑定元宝等等
+}
+
+//邮件基本信息和收件人
+message MailItemAndName
+{
+	required string name = 1;				//收件人
+	required MailItemInfo item = 2;				//基本上信息
+}
+
+
+//----------------------------------------------------------------//
+//管理服发送邮件 协议
+message MSSimDBSendMail
+{
+	required string sendname = 1;				//发送者名称
+	repeated string endname = 2;				//接受者名称
+	required string theme = 3;					//标题
+	required string substance = 4;				//内容
+	optional SpecialMailItemList itemList = 5;//金钱，元宝，绑定元宝等等
+}
+
+
+
+
+
+
+
+
+

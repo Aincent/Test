@@ -1,0 +1,52 @@
+package ServerMessage;
+
+//转发客户端到逻辑服的简单消息通用协议
+//协议好：15
+//转发客户端请求逻辑服通用协议
+//协议号:17
+message ClientSingleMessage
+{
+	required int32 id = 1; //消息id
+	optional bytes content = 2; //消息
+}
+
+//发给客户端的简单消息通用协议（所有转发给客户端的消息都可以用这条协议）
+//协议号：14
+message ClientMessagePackage
+{
+	repeated ClientSingleMessage content = 1;
+}
+
+message ToGateServerMessagePack
+{
+	required int64 id = 1; //玩家id
+	optional ClientMessagePackage content = 2; //发往客户端的消息内容
+}
+
+message WSToGateServerMessage
+{
+	required int64 id = 1; //玩家id
+	optional ClientSingleMessage content = 2; //发往客户端的消息内容
+}
+
+//message ClientSimplePackage
+//{
+//	required ClientSingleMessage content = 1;
+//}
+
+message ToGMSimplePackage
+{
+	required int64 id = 1;
+	optional ClientSingleMessage content = 2;
+}
+
+//message ClientRequestPackage
+//{
+//	required ClientSingleMessage content = 1;
+//}
+
+message ToGMRequestPackage
+{
+	required int64 id = 1;
+	optional ClientSingleMessage content = 2;
+}

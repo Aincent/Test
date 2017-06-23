@@ -1,0 +1,109 @@
+package AnswerProto;
+
+message ReqEnterScence		//进入场景 消息号：10051
+{
+}
+
+message RetEnterScence		//
+{
+	required int32 error = 1;
+}
+
+message ReqLeaveScence	//离开场景 消息号：10052
+{
+}
+
+message RetLeaveScence	//
+{
+	required int32 error = 1;
+	optional int64 scenceId = 2;	//场景ID
+}
+
+
+message SimSyncAnswerInfo	//进入场景时同步信息 10063
+{
+	required int32  number = 1;	//当前答的是第几题
+	required int32 index = 2;	//答题题目的序号
+	required int32 answer = 3;	//正确答案 0:A 1:B
+	optional int32	lefttime = 4;	//活动剩余时间
+	required int32	rightCount = 5;	//已答对的题目
+}
+
+message SimPublishAnswer	//公布答案	消息号:10060
+{
+	required int32  answer = 1;	//答案的对错
+	required int32  rightCount = 2;	//答对题数
+}
+
+message SimNextQuestionStart	//下一题开始 消息号：10061
+{
+	required int32 number = 1;	//当前答的是第几题
+	required int32 index = 2;	//答题题目的序号
+	required int32 answer = 3;	//正确答案 0:A 1:B
+}
+
+message SimSyncRank				//同步给客户端的排名信息	消息号10071
+{
+	repeated AnswerRankInfo rankinfo = 1;
+}
+
+//-----------------------------------GM2GT---------------------------------
+message ReqGenQuestion			//请求世界服生成题目和答案
+{
+}
+
+message RetGenQuestion
+{
+	required QuestionAnswerInfo infos = 1;
+}
+
+message QuestionAnswerInfo
+{
+	repeated int32 questions = 1;		//生成的题目
+	repeated int32 answers = 2;			//生成的答案	
+}
+
+message ReqActivityEnd
+{
+}
+
+message SyncRank			//GM发给WS本服的排名		
+{
+	repeated AnswerRankInfo rankinfo = 1;
+}
+
+message AnswerRankInfo
+{
+	required string playername = 1;	//玩家名称
+	required int32 score = 2;		//答对题数
+	required int32 continueright = 3;//连续答对的题目
+	optional int64 scenceid = 4;	//地图id，世界服用
+}
+
+///////////////////////////////////////////////////////////////////////new Answer////////////////////////////////////
+
+//玩家请求个人答题数据
+//消息号：10080（快捷消息：17）
+//message ClientReqAnswerInfo
+message AckReqAnswerInfo
+{
+	required int32 ret =1; //错误码
+	optional int32 currentIndex = 2; //当前第几题
+	optional int32 currentTitleID = 3;//当前题目
+	optional int32 rightCounts = 4;
+	optional int32 state = 5; //1 对  2 错
+}
+
+//请求答题
+//消息号：10081（快捷消息：17）
+//message ClientReqAnswerInfo
+message  ReqChoiceAnswer
+{
+	required int32 ret = 1; //选择的答案
+}
+
+//返回消息同上
+//message AckReqAnswerInfo
+
+
+

@@ -1,0 +1,301 @@
+import "CharLogin/CharBaseInfo.proto";
+package Goods;
+
+//-------------------客户与网关通讯协议在此添加------------------------
+
+
+message ToGTDropInfo
+{
+	required int64 charid = 1;
+	optional SynToClientDrop item = 2;
+}
+
+//掉落物品协议(广播消息)
+//消息号：3017
+message SynToClientDrop
+{
+	repeated DropItemInfo item = 1;
+}
+
+message DropItemInfo
+{
+	required int32 id = 1;//尸体盒id
+	repeated uint32 key = 2;//拥有者的唯一id
+	repeated SingleDropItem item = 3;//掉落的物品
+	optional bool isBoss = 4;
+}
+
+message SingleDropItem
+{
+	required int32 id = 1;//物品id
+	optional int32 onlyid = 2;//物品在尸体盒中的唯一id
+	optional uint32 pos = 3;//位置   (xpos << 16 | ypos)
+}
+
+message ToGMPickItem
+{
+	required int64 charid = 1;
+	optional PickUpItem item = 2;
+}
+
+message AckGTPickItem
+{
+	required int64 charid = 1;
+	optional SynPickUpItem item = 2;
+}
+
+//拾取物品(请求消息)
+//协议号：3018
+message PickUpItem
+{
+	repeated PickedItem item = 1;
+}
+
+message PickedItem
+{
+	required int32 id = 1; //尸体盒id
+	optional int32 onlyid = 2; //物品在尸体盒中的唯一id
+}
+
+//拾取物品后广播删除物品消息（3018回复消息，也是这条协议）
+//消息号：3022
+message SynPickUpItem
+{
+	repeated PickedItem item = 1;
+	optional int32 ret = 2; //返回值
+}
+
+message ToGTDeleteDrop
+{
+	required int64 charid = 1;
+	optional DeleteDropItem item = 2;
+}
+
+//删除尸体盒(广播)
+//协议号:3021
+message DeleteDropItem
+{
+	repeated int32 id = 1; //尸体盒id
+}
+
+//请求移动物品协议   ----客户与网关协议:协议号:3003----
+message ClientReqMoveGoods
+{
+	required int32 startContainer=1;  //开始的容器类型
+	required int32 startPos=2;		//开始的格子号
+	required int32 endContainer=3;    //结束的容器类型
+	required int32 endPos=4;          //结束的格子号
+	required int32 type=5;               //操作类型 1表示是移动操作 2表示是存储操作
+}
+
+//移动物品后网关向客户端更新容器信息   ----客户与网关协议----
+//通知客户端增加和删除物品，也是这条协议    协议号：3008
+message GTAckToCUpdateGoodsRet
+{
+	required int32    status=1;        //状态码
+	repeated UpdateGoods updateGoods=2;
+	optional int32 IsAdd = 3; //是否是获取到的物品 (1任务获得物品 2地上拾取物品 3其他奖励获取)
+}
+
+message UpdateGoods
+{
+	required int32 container=1;       //要更新的容器类型
+	required int32 pos=2;             //需要更新的格子号
+	required CharLogin.ClientItemInfo itemInfo=3;        //当前格子的物品信息
+}
+
+//请求容器整理   ----客户与网关协议:协议号:3004----
+message ClientReqArrangeGoods
+{
+	required int32 container=1;       //要整理的容器类型
+}
+
+//请求物品使用   ----客户与网关协议----
+message ClientReqUseGoods
+{
+	required int32 goodID=1;             //物品ID
+	required int32 num=2;             //有可能以后批量使用
+	required int32 pos=3;             //物品所在位置，如果是快捷栏此处为-1
+}
+
+//使用物品后网关向客户端更新容器信息   ----客户与网关协议:协议号:3005----
+message GTAckToCUseGoodsRet
+{
+	required int32 status=1;         //使用是否成功
+	repeated UpdateGoods updategoods=2;  //更新背包
+}
+
+//请求物品丢弃   ----客户与网关协议----
+message ClientReqRecoverGoods
+{
+	required int32 container=1;       //要丢弃物品所在的容器类型
+	required int32 pos=2;             //格子号
+}
+
+//客户向网关请求添加格子   ----客户与网关协议:协议号:3007----
+message CReqToGTOpenGoodsRet
+{
+	required int32 container=1;  //容器类型
+	required int32 num=2;        //数量
+}
+
+//添加格子后网关向客户端更新容器信息   ----客户与网关协议:协议号:3007----
+message GTAckToCOpenGoodsRet
+{
+	required int32 status=1;             //是否开启成功
+	required int32 container=2;			 //容器类型
+	repeated int32   pos=3;                //位置数组
+}
+
+//添加物品后网关向客户端更新容器信息   ----客户与网关协议:协议号:3008----
+message GTAckToCSaveGoodsRet
+{
+	repeated UpdateGoods updategoods=1;  //更新背包
+}
+
+message ToGTAddItem
+{
+	required int64 charid = 1;
+	optional GTAckToCUpdateGoodsRet item = 2;
+}
+
+//快捷栏拖动协议   ----客户与网关协议:协议号:3024----
+message ClientReqMoveQuickSector
+{
+	required int32 type=1;              //类型0移动(快捷栏到快捷栏) 1表示技能 2表示物品 3表示丢弃
+	required int32 id=2;                //技能ID或者是背包的格子位置ID from
+	required int32 pos=3;               //快捷栏的位置ID to
+	required int32 container=4;          //容器编号
+}
+//                 0,pos,pos,3表示快捷栏
+//玩家技能到快捷栏 1,技能ID,快捷栏格子号,4
+//从背包到快捷栏   2,背包格子号,快捷栏格子号,0
+//快捷栏到玩家技能 3,快捷栏格子号,0,4
+//快捷栏拖动向客户端更新协议   ----客户与网关协议:协议号:3024---
+message GTAckToCMoveQuickSectorRet
+{
+	required int32 type=1;              //类型 1表示技能 2表示物品
+	required int32 id=2;                //技能ID或者是背包的格子位置ID
+	required int32 pos=3;               //快捷栏的位置ID
+	required int32 container=4;          //容器编号
+	required int32 status=5;            //错误码
+}
+
+//拆分协议   ----客户与网关协议:协议号:3037----
+message SplitGoods
+{
+	required int32 pos=1;               //快捷栏的位置ID 
+	required int32 num=2;				//拆分数量
+}
+//------------------------------------------------------------------------------
+
+//---------------------游戏内部通讯协议在此添加----------------------------------
+
+message GTtoGMMoveGoods
+{
+	required int64 charid=1;          //角色ID
+	required int32 startContainer=2;  //开始的容器类型
+	required int32 startPos=3;		  //开始的格子号
+	required int32 endContainer=4;    //结束的容器类型
+	required int32 endPos=5;          //结束的格子号
+	required int32 type=6;            //操作类型 1表示是移动操作 2表示是存储操作
+}
+
+message GTtoGMRecoverGoods
+{
+	required int64 charid=1;          //角色ID
+	required int32 container=2;       //容器类型
+	required int32 pos=3;             //格子号
+}
+
+//网关向游戏服发送整理容器消息
+message GTtoGMArrangeGoods
+{
+	required int64 charid=1;         //角色ID
+	required int32 container=2;		 //要整理的容器类型
+}
+
+//添加格子后游戏服向网关更新容器信息
+message GMAckToCTOpenGoodsRet
+{
+	required int64 charid=1;              //角色ID
+	required GTAckToCOpenGoodsRet ret=2;   
+}
+
+//网关向游戏服请求添加格子信息
+message GTReqToCMOpenGoodsRet
+{
+	required int64 charid=1;              //角色ID
+	required int32 container=2;           //容器类型
+	required int32 num=3;                 //数量
+}
+
+//请求物品使用   ----网关与游戏服协议----
+message GTtoGMUseGoods
+{
+	required int64 charid=1;          //角色ID
+	required int32 goodID=2;          //物品ID
+	required int32 num=3;             //有可能以后批量使用
+	required int32 pos=4;             //
+}
+
+//快捷栏拖动协议
+message CTReqGMMoveQuickSector
+{
+	required int64 charid=1;            //角色ID
+	required int32 type=2;              //类型0移动(快捷栏到快捷栏) 1表示技能 2表示物品 3表示丢弃
+	required int32 id=3;                //技能ID或者是背包的格子位置ID from
+	required int32 pos=4;               //快捷栏的位置ID to
+	required int32 container=5;          //容器编号
+}
+
+//拆分
+message GT2GMSplitGoods
+{
+	required int64 charid=1;            //角色ID
+	required SplitGoods splitgoods = 2;	//拆分信息
+}
+
+message UpdateQuickSector  //-------------协议号 3038-------------------
+{
+	required int32 type = 1;                //1表示移除
+	required int32 pos = 2;                 //快捷栏位置
+	required int32 goodID = 3;                 //物品ID
+}
+
+
+
+//移动物品后网关向客户端更新容器信息   ----客户与网关协议3010----
+message MoveUpdateGoodsRet
+{
+	required int32    status=1;        //状态码
+	repeated UpdateGoods updateGoods=2;
+}
+
+//丢弃物品后网关向客户端更新容器信息 
+message DiscardUpdateGoodsRet
+{
+	required int32 status = 1;        //状态码
+	required UpdateGoods updateGoods = 2;
+	required int32 goodsID = 3;
+	required int32 discardNum = 4;
+}
+
+message DropGoodsInfo
+{
+	repeated DiscardUpdateGoodsRet goods = 1;
+}
+
+//强制玩家掉落物品,客户端更新容器信息 
+message SimDropSomeGoods
+{
+	required int32 error = 1;        //状态码
+	optional DropGoodsInfo goodsInfo = 2;
+}
+
+//拆分物品后网关向客户端更新容器信息 
+message SplitUpdateGoodsRet
+{
+	required int32 status = 1;        //状态码
+	repeated UpdateGoods updateGoods = 2;
+}

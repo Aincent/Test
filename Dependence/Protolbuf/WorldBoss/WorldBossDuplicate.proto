@@ -1,0 +1,145 @@
+package WorldBossDuplicate;
+
+//请求查询所有世界BOSS信息
+//消息号：12815 消息类型：25
+message ReqWorldBossInfo
+{
+	required int32 flag = 1;//0表示正常请求; 1表示刷新
+}
+
+//返回查询所有世界BOSS信息
+message AckWorldBossInfo
+{
+	repeated BossData info = 1; 
+}
+
+//BOSS副本信息
+message BossData
+{
+	required int32 id = 1; 		//副本地图id
+	optional int32 state = 2; 	//副本状态
+	optional int32 num = 3;		//副本人数
+	optional int64 cooltime = 4;//进入冷却时间
+	optional int64 charid = 5;	//上次击杀玩家id
+	optional bytes charname = 6;//上次击杀玩家名字 
+	optional int32 viplevel = 7;//上次击杀玩家vip等级
+	optional int64 time = 8;	//下次刷新的时间点	
+}
+
+//请求副本的id
+//消息号：12816 消息类型：25
+message ReqDuplicateID
+{
+	required int32 id = 1;	//副本地图id
+}
+
+//返回请求副本id
+message AckReqDuplicateID
+{
+	required int32 id = 1;	//请求时的副本静态地图id		
+	optional int32 code = 2;	//错误码 0表示存在副本可进入，其它为错误码
+	optional int64 duplicateid = 3; //进入的副本实际id
+}
+
+//请求领取奖励
+//消息号：12817 消息类型：17
+//空消息
+
+
+//返回领取奖励结果
+message AckReqFitPrize
+{
+	required int32 ret = 1; //0表示成功，其它为错误码
+}
+
+//服务器推送boss伤害排名
+//消息号：12818
+message BossDamage
+{
+	repeated int32 bossId   = 1; 	//bossId
+	repeated int32 bood = 2;  //boss 血量
+}
+
+//服务器推送结算结果 
+//消息号：12819
+message PrizeInfo
+{
+	required bytes charname = 1;	 //最后一击角色名字
+	optional int32 viplevel = 2;	 //最后一击角色vip
+	optional int32 damagesort = 3; 	 //伤害排名
+	optional int64 lastattackid = 4; //最后一击角色id 	
+}
+
+//进入副本服务器推送副本到点时间
+//消息号：12820 
+message TimeLimit
+{
+	required int64 time = 1;
+}
+
+
+//以下为服务器内部使用
+//逻辑服通知世界服离开或进入副本
+message GS2WSEnterOrLeave
+{
+	required int64 charid = 1; //角色id
+	optional int32 mapid  = 2; //地图id
+	optional bool  flag   = 3; //进入或离开副本 true表示进入
+	optional int64 time   = 4; //如果是离开，表示下次可以进入副本的时间点；否则无意义
+}
+
+//逻辑服通知世界服某个副本的boss死亡了
+message GS2WSBossDead
+{
+	required int32 mapid = 1;	//地图id
+	optional int64 charid = 2;	//上次击杀玩家id
+	optional int32 viplevel = 3;//上次击杀玩家vip等级
+	optional bytes charname = 4;//上次击杀玩家名字 
+}
+
+// 世界服通知逻辑服UI高亮状态
+message WS2GMBossUIHLState
+{
+	required bool flag = 1; // Add Or Del
+	required int32 num = 2; // number 
+	optional int32 mapID = 3; // 地图ID/副本ID
+}
+
+//boss刷新时间
+
+message OneBossUpdateData
+{
+	optional int32 bossid = 1;	//boss配置表中的ID
+	optional uint64 time   = 2;	//刷新时间
+}
+
+
+//玩家请求boss伤害排名
+//消息号：12825（快捷消息：17）
+message ClientReqBossDamage
+{
+	required int32 bossId = 1;
+}
+
+message AckReqBossDamage
+{
+	repeated DamageData infos = 1;	//伤害列表
+	optional int32 selfsort   = 2; 	//自己的排名
+	optional float selfdamage = 3;  //自己的伤害
+}
+
+message DamageData
+{
+	required bytes charname = 1;	//角色名
+	optional int32 viplevel = 2;	//vip等级	
+	optional float damage = 3;		//伤害值
+	optional int64 charid = 4;		//角色id	
+}
+
+
+//世界BOSS刷新通知客户端,协议ID13350
+message WorldBossUpdate
+{
+	repeated  OneBossUpdateData datas = 1;
+}
+

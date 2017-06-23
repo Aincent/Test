@@ -1,0 +1,72 @@
+import "ServerReturn3Int.proto";
+import "ServerReturnInt.proto";
+
+package AchievementProto;
+
+
+message ReqAchievementAll		//成就总览请求 消息号9001
+{
+}
+
+message RetAchievementAll		//成就总览返回
+{
+	required int32 prestige = 1;		//玩家声望点	
+	repeated ServerReturn.ServerThreeInt prestigeInfo = 2;	//最近3个成就信息
+	repeated ServerReturn.ServerRetInt prestigeProgress = 3;	//成就进度
+}
+
+message ReqLookForTitle		//查看称号请求 消息号9002
+{
+}
+
+message RetLookForTitle		//查看称号请求
+{
+	repeated ServerReturn.ServerThreeInt titleInfo = 1;	//1:id 2:按钮状态(0:未获得1:获得未领取2:已领取) 3：是否激活
+}
+
+message ReqLookForPrestigeType			//查看各个类型的成就 消息号9003
+{
+	required int32	type = 1;
+}
+
+message RetLookForPrestigeType
+{
+	repeated ServerReturn.ServerThreeInt prestigeInfo = 1;	//1:id 2:按钮状态(0:未获得1:获得未领取2:已领取) 3：进度
+}
+
+//message ReqGetPrestigePrize			//领取成就奖励 消息号9004
+//ServerInt 高位:类型 低位:ID
+
+
+//领取成就返回
+//ServerThreeInt 1:错误码 2:类型 3:ID
+
+message ReqTitleActive				//称号激活  消息号9005
+{
+	required int32 titleID = 1;		//称号ID
+}
+
+message RetTitleActive			//称号激活返回
+{
+	required int32 dwError = 1;		//错误码
+}
+
+message SimPrestigeComplete			//推送成就完成   消息号9020
+{
+	required int32 completeID = 1;		//完成的成就ID
+	required int32 completeType = 2;    //完成的类型 0成就 1称号
+}
+
+//获取成就商店信息
+message RetAchShopInfo
+{
+	required int64 time = 1;			//刷新时间
+	repeated RetAchShopItem item = 2;	//子项
+}
+//获取成就商店信息子项
+message RetAchShopItem
+{
+	required int32 id = 1;			//区间ID
+	required int32 count = 2;		//已经购买次数
+	repeated int32 goodsid = 3;		//商品ID
+}

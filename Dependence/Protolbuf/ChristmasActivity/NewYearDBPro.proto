@@ -1,0 +1,12 @@
+package NewYearDBPro;
+
+message LimitPlayerData
+{
+	optional int64 playerID = 1;
+	optional int32 counts   = 2;
+}
+
+message NewYearLimitData
+{
+	repeated LimitPlayerData datas = 1;
+}

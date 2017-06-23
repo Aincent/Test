@@ -1,0 +1,40 @@
+import "MSProtoc/MS_Mail.proto";
+
+package MS_ExchangeGift;
+ 
+//兑换奖品  C2MS消息ID：10438  网页后台->MS
+message Admin_ExchangeGift//返回Admin_ExchangeGiftRet
+{
+	required int32 ret = 1;//0:成功  非0：兑换码错误
+	required int64 charID = 2;  //角色ID
+	optional MS_MailInfo.MSSimDBSendMail mail = 3;
+	optional string code = 4;//兑换码
+}
+
+//兑换奖品 C2GM 简单消息ID：10441  游戏客户端->GM 快捷消息：15
+message Admin_GiftCode
+{
+	required string code = 1;//兑换码,客户端只需填此字段
+	optional int64 charid = 2;//高32位serverID 低32位角色ID 由服务器填写
+	optional string name = 3;//角色名，由服务器填写
+}
+
+//兑换结果 GM2C 简单消息ID：10440 客户端接收
+message Admin_ExchangeGiftRet
+{
+	required int32 ret = 1;//0:成功  -93,兑换码错误  -94兑换码过期
+	optional int64 charID = 2;  //角色ID
+	optional string code = 3;//兑换码
+	optional int32 serverID = 4;
+}
+
+// 兑换结果 MS2WS 简单消息ID：10439  WS2GM 简单消息ID：12019
+message Admin_ExchangeGiftInfo
+{
+	optional MS_MailInfo.MSSimDBSendMail mail = 1;
+	optional int32 ret = 2; // 返回值
+	optional int64 charID = 3; // 角色ID
+}
+
+
+

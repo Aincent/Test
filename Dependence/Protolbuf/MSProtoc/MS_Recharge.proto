@@ -1,0 +1,30 @@
+package MS_Recharge;
+
+//orderID（订单号）
+//type（充值类型）
+//payname（平台名）传平台ID..（写一个平台ID对应平台Name的配置）
+//openID（平台账号ID）
+//money(现实金额)
+//gold（元宝）
+//charID(角色ID)
+
+//messageid:10506
+message Admin_Recharge
+{
+	required string orderID = 1;
+	required int32 type = 2;
+	required int32 payname = 3;
+	required string openID = 4;
+	required int64 money = 5;
+	required int32 gold = 6;
+	required int64 charID = 7;
+	optional int32 isFirstRecharge = 8;//是否首冲0:否  1：是
+	optional string source = 9;//渠道来源
+}
+
+//messageid:10506的返回
+message Admin_RetRecharge
+{
+	required int32 ret = 1;
+	optional Admin_Recharge rechargeInfo = 2;
+}

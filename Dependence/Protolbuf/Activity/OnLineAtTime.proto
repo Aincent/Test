@@ -1,0 +1,24 @@
+package OnLineAtTimeInfo;
+
+//准点信息
+message AtTimeInfo
+{
+	required int32 hour = 1;//几点
+	required int32 minute = 2;//几分
+	repeated int64 itemIDs = 3;//奖励的物品ID
+	repeated int32 itemNums = 4;//对应的奖励物品的数量
+}
+
+//消息号：13300（快捷消息：17）
+message ReqOnLineAtTimeInfo
+{
+}
+
+//消息号：13300的回复
+message RetOnLineAtTimeInfo
+{
+	required int32 ret = 1;
+	optional int64 beginTime = 2;//开始时间
+	optional int64 endTime = 3;//结束时间
+	repeated AtTimeInfo atTimeList = 4;//各准点信息
+}

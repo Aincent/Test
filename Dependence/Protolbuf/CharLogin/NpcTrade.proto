@@ -1,0 +1,66 @@
+import "CharLogin/CharBaseInfo.proto";
+package NpcTrade;
+//-------------------客户与网关通讯协议在此添加------------------------
+
+//从NPC购买物品
+//消息号 7001
+message ClientReqBuyItem
+{
+	required int32 NpcID = 1;					//NPC_ID
+	required int32 itemID = 2;					//购买物品ID
+	required int32 itemNum = 3;					//物品数量
+}
+
+
+//卖东西给NPC
+//消息号 7002
+message ClientReqSellItem
+{
+	required int32 PacketGridID = 1;		   //背包容器格子ID
+	optional int32 BeSureSell = 2;			   //确定是否出售
+}
+
+//卖物品确认
+message GTAckToCSellItem
+{
+	required int32 StatusID = 1;				//状态ID 0成功
+	optional CharLogin.ClientItemInfo itemInfo= 2;
+}
+
+
+
+//从NPC回购物品
+//消息号 7003
+message ClientReqBuyBack
+{
+	required int32 buyBackIndex = 1;			//回购物品列表索引号
+}
+
+
+//---------------------游戏内部通讯协议在此添加----------------------------------
+message GTtoGMReqBuyItem
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 NpcID = 2;					//NPC_ID
+	required int32 itemID = 3;					//购买物品ID
+	required int32 itemNum = 4;					//物品数量
+}
+
+message GTtoGMReqSellItem
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 PacketGridID = 2;		   //背包容器格子ID
+	optional int32 BeSureSell = 3;			   //确定是否出售
+}
+
+message GMAckToGTSellItem
+{
+	required int32 StatusID = 2;				//状态ID
+	required CharLogin.ClientItemInfo itemInfo= 3;
+}
+
+message GTtoGMReqBuyBack
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 buyBackIndex = 2;			//回购物品列表索引号
+}

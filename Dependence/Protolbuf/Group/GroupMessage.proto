@@ -1,0 +1,225 @@
+package GroupMessage;
+
+//---------------全是 快捷 消息  ---------------------------------
+
+//请求建立队伍 消息号8001
+// 创建组队(返回给邀请者)ServerReturn::ServerDoubleInt
+
+//邀请组队
+//消息号 ： 8002  发送 ServerReturn::ServerRetInt //被邀请玩家
+//返回 ServerReturn::ServerRetInt 
+
+
+//玩家是否同意组队邀请 消息号8003  //发送ServerReturn::ServerDoubleInt 队伍ID // 是否同意(同意 0---  拒绝1)
+
+message RetInviteReply				//同意邀请的回复
+{
+	required int32		ret = 1;
+	required int64		dwTeamID = 2;
+	repeated RetPlayerStateToTeam playerInfo = 3;
+}
+
+//广播队友信息给其他队友 消息号 8018
+message RetPlayerStateToTeam
+{
+	required int64			dwPlayerID = 1;		// 玩家ID
+	required int32			dwOutOfRange = 2;
+	required int32			dwHorseID = 3;		//坐骑ID
+	required int32			dwEquipID	= 4;	//主武器ID
+	required int32    eClassEx = 5;		// 职业
+	required int32		  bySex = 6;
+	required int32			nLevel = 7;
+	required int32			isCaptain = 8;		//是否为队长
+	required string		sPlayerName = 9;	//玩家姓名
+	required int32 		dwPlayerPower = 10;	//玩家战力
+	required int32			costume		= 11;	//衣服模型
+	required int32 		mapid    	= 12;   //所在地图ID
+	optional int32			fashionID = 13; // 时装ID
+	optional int32 			viplv  = 14; //vip等级
+}
+
+
+//踢出队友 消息号：8004  ServerReturn::ServerRetInt 被踢玩家
+//返回  ServerReturn::ServerRetInt 结果
+
+		//更换队长 消息号：8005  ServerReturn::ServerRetInt  队长ID
+	//返回 ServerReturn::ServerRetInt
+
+//申请入队  消息号 8006  ServerReturn::ServerRetInt 队伍ID
+//返回 ServerReturn::ServerRetInt 结果
+
+	//队长回复申请者 消息号 8011  ServerReturn::ServerDoubleInt 申请者ID // 是否同意(同意 0---  拒绝1)
+	// 回复队长 ServerReturn::ServerRetInt
+
+//请求附近队伍ID 消息号8007
+//返回  RetGetTeamID	
+message RetGetTeamID		
+{
+	required int32 			ret    	= 1;   
+	repeated TeamInfo teamInfo = 2;
+}
+
+message TeamInfo
+{
+	required int64	dwTeamID		 = 1;
+	optional string sLeaderName = 2;		//队长名字
+	optional int32 dwTeamLevel = 3;			//队伍平均等级
+	optional int32 dwTeamPower = 4;			//队伍战斗力
+	optional int32 dwTeamMembers = 5;		//队伍人数
+	repeated MemberInfo groupMember = 6;
+}
+
+message RetGetTeamMemberInfo		//返回具体 队伍成员的 信息 
+{
+	required int32 			ret    	= 1;   
+	repeated MemberInfo teamInfo = 2;
+}
+message MemberInfo
+{
+	required int64 charID = 1;
+	required string name = 2;
+	optional int32 fight = 3;
+	required int32 profession = 4;
+	required int32 lv = 5;
+	required int32 viplv = 6;
+}
+
+
+//请求附近玩家 消息号8008
+//返回 RetGetNearbyPlayerInfo
+message RetGetNearbyPlayerInfo		
+{
+	required int32 			ret    	= 1; 
+	repeated NearbyPlayerInfo playerInfos = 2;
+}
+
+message NearbyPlayerInfo
+{
+	required int64			dwPlayerID = 1;		// 玩家ID
+	required string		sPlayerName = 2;	//玩家姓名
+	required int32			nLevel = 3;  //等级
+	required int32    eClassEx = 4;		// 职业
+	required int32    powerNum = 5;		// 战力
+	required int32			bHasTeam = 6;		//是否有队伍
+	required int32 	viplv = 7;	//vip等级
+}
+
+//离开队伍 消息号：8009   
+//返回  ServerReturn::ServerRetInt 结果 
+
+
+//查看队伍信息 消息号 8012   ServerReturn::ServerRetInt 队伍 ID
+//返回  RetLookforTeamInfo
+message RetLookforTeamInfo
+{
+	required int32  ret = 1;		//错误码
+	repeated RetPlayerStateToTeam playerInfo = 2;
+}
+
+//模糊查询 在线 玩家   8027  ServerReturn::ServerRetChar 要查的 字符 
+//返回 RetGetNearbyPlayerInfo 
+
+
+//申请更新队伍信息 消息号 8013
+//返回 RetLookforTeamInfo
+
+
+//同步队员位置信息
+//消息：8023 
+//返回   ToClientSysMemberMap
+message ToClientSysMemberMap
+{
+	required int32 ret = 1; 		//返回码
+	repeated int32 	mapid = 2;   //所在地图ID
+	repeated int64 charid = 3; 		//角色ID
+}
+
+//------------------------------------------------------------------------------
+
+//变更队长广播给其他队友 消息号 8017
+message RetChangeLeader			//
+{
+	required int64		dwLeaderID = 1;
+	required int64		dwNewLeaderID = 2;			// 队长ID
+}
+
+message RetInviteToMember		// 邀请组队(返回给被邀请者) 消息号：8019
+{
+	required int64		dwTeamMemID = 1;	// 队伍ID
+	required string		sLeaderName = 2;	// 队长名字
+}
+
+
+//踢出队友广播给其他队友 消息号8016
+message RetKickMember
+{
+	required int64		dwDestPlayerID = 1;
+}
+
+
+
+	
+
+//离开队伍广播给其他队友 消息号8015
+message RetLeaveTeam			//包括主动离开和掉线
+{
+	required int64		dwPlayerID = 1;
+	optional int64		dwLeaderID = 2;			// 队长ID
+}
+
+
+message ToLeaderAcquire			//申请消息发给队长  消息号 8010
+{
+	required int64		dstPlayerID = 1;
+	required string		acquireName = 2;	// 申请者名字
+}
+
+
+
+message RetAcquireToTeam		//回复申请者 消息号 8020
+{
+	required int32      dwErrorCode = 1;		//
+	required int32		dwTeamID = 2;
+	required int32		teamSign =3;
+	repeated RetPlayerStateToTeam playerInfo = 4;
+}
+
+
+
+//------------------------------------副本组队--------------------------------
+
+message SimBroadcastInstanceCreate			//队长创建副本，发给队员提示消息 消息号8021
+{
+	required int32 		teamSign = 1; 		//队伍标识
+}
+
+message ReqInstanceMemberApply				//是否愿意进入副本 消息号8022
+{
+	required int32 		isAgree = 1; 		//队员是否同意
+	required int32 		instanceId = 2; 		//副本静态ID
+}
+
+message RetInstanceMemberApply
+{
+	required int32      dwErrorCode = 1;		//错误码
+}
+
+//玩家创建队伍时，在世界频道和队伍频道都发出带超链接的文本消息
+//消息：8014 (快捷消息id ：14)
+message ToClientGroupChat
+{
+	required int32 type = 1; //0 为队伍频道 1 为世界频道
+	optional string name = 2; //创建者名称
+	optional int32 instanceId = 3; 		//副本静态ID
+	optional int64 guid = 4; //队伍id
+}
+
+//点击玩家头像请求数据,发送结构体ServerRetInt,协议ID:13150,大类型ID:17
+
+//点击玩家头像返回,协议ID:13150
+message ClickPlayerHead
+{
+	optional int32 groupID = 1;  //队伍ID
+}
+
+//被邀请方回应时通知邀请方结果,协议ID:13151,结构体ServerRetIntChar

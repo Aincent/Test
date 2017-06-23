@@ -1,0 +1,203 @@
+import "MSProtoc/MS_Mail.proto";
+
+package PlayerInfo;
+
+//MessageID 获取角色信息ID10404  角色所在的 排行榜10406
+message WantPlayerInfo
+{
+	optional int64 charid = 1;	//要查询的 角色ID
+	optional string charname = 2; //要查询的名称
+}
+
+message AdminWantPlayerInfo
+{
+	required int32 ret = 1; 
+	optional Admin_BaseInfo baseInfo = 2;  //基础信息
+	optional Admin_BattleInfo battleInfo = 3;
+	optional Admin_DanLuInfo danluInfo = 4;
+	optional Admin_MagicWeapon magicInfo = 5;
+	optional Admin_HorseInfo horseInfo = 6;
+	optional int32 fight = 7;  //战斗力
+}
+
+message Admin_BaseInfo
+{
+	required int64 charid = 1;
+	required string charname = 2;
+	required int64 exp = 3;
+	required int32 level = 4;
+	required int32 money = 5;
+	required int32 golden = 6;
+	required int32 bindgolden = 7;
+	required int64 deadtime = 8; //����ʱ��
+	required bool sex = 9;
+	required int32 profession = 10;
+	required int32 xpos = 11;
+	required int32 ypos = 12;
+	required int32 horse = 13; //坐骑信息
+	required int64 mapid = 14;
+	required int32 country = 15;
+	required int32 charhead = 16;
+	required int32 facontribution = 17; //�
+	required int32 expration=18; //多倍经验ﹱ
+	required int32 faction = 19; //����
+	required int32 fajob = 20; // ����ְλ
+	required int64 mate = 21;
+	required int32 countryjob = 22; //��ְ
+	required int32 battlecontri = 23;
+	required int32 armyjob = 24; //��ְ
+	optional int32 countrycontri = 25; // 势力贡献
+	optional int32 titleid = 26; //称号id
+	required int32 accounttype = 27;
+	required string openid = 28;
+	required int32 serverid = 29;
+	required int32 sinvalue = 30; //罪恶值
+	required int32 acupoint = 31; //当前的经脉穴位
+	required int32 settings = 32; //玩家系统设置
+	required int64 havetodo = 33; //每日必做
+	required int32 havetodoaward =34;	//每日必做活跃度奖励领取标记
+	required int32 activites = 35;	//每日活动完成标记
+	required int32 activitesaward = 36;	//每日活动奖品领取标记
+	required int64 offlineTime = 37; //玩家下线时间
+	required int32 onlineReward = 38; //玩家在线奖励标记
+	required int64 onlineTime = 39; //玩家在线时长
+	required int32 levelReward = 40; //玩家等级奖励标记
+	required int32 prestige = 41; //成就值
+	required int32 challegeid = 42; //挑战副本ID
+	required int32 historyReward = 43;
+	required int32 viplv	= 44;		//vip等级
+	required int32 continueanswer = 45;	//连续答对题目
+	required int32 rightanswer = 46;	//答对的题目
+	required int32 addupgolde = 47;	//累计充值
+	optional string clanname = 48; //帮派名字
+	optional int32 ranking = 49;  //竞技排名
+	optional int32 awardranking = 50; //竞技获奖排名
+	optional int64 totalOnlineTime = 52;  //总在线时长
+	optional int32 antiAddictionState = 53;  //防沉迷状态：0:未身份证认证。1：身份已认证但未成年。2：已认证且成年
+	optional int64 antiAddictionOnLineTime = 54; //防沉迷:累积在线时间
+}
+
+message Admin_BattleInfo
+{
+	required int32 hp = 1;
+	required int32 hpmax = 2;
+	required int32 mp = 3;
+	required int32 mpmax = 4;
+	required int32 force = 5; //����
+	required int32 forcemax = 6;
+	required int32 strength = 7; //力量
+	required int32 cleverpower = 8;//灵力
+	optional int32 cleverair = 9;//灵气
+	required int32 physicalpower = 10;//体质
+	required int32 patience = 11;//耐力
+	required int32 agility = 12; //敏捷
+	required int32 pkcount = 13; //pk值
+	optional int32 power = 14;// 体力
+	optional int32 powermax = 15; //最大体力
+	required int32 phyattack = 16; //���?��
+	required int32 phyattackmax = 17;
+	required int32 phydefence = 18; //���
+	required int32 magicattack = 19; //��������
+	required int32 magicattackmax = 20;
+	required int32 magicdefence = 21;
+	required int32 hitrate = 22;//����
+	required int32 avoidrate = 23; //����
+	required int32 baselucky = 24;
+	required int32 crackdownrate = 25; //����
+	required int32 baserte = 26;//抗暴
+	required int32 movespeed = 27; //�ƶ��ٶ�
+}
+
+message Admin_DanLuInfo
+{
+	optional int32 danluId = 1; //练炉ID
+	optional int32 exp = 2;  //经验
+}
+
+message Admin_MagicWeapon
+{
+	optional int32 id = 1[default = 0]; //神兵id
+	optional int32 exp = 2; //经验
+	repeated int32 skillid = 3; //被动技能
+	optional int64 advancetime=4;//上一次升阶的时间
+}
+
+message Admin_HorseInfo
+{
+	required int32 id = 1; //坐骑id
+	required int32 mid = 2; //模型id
+	optional int32 exp = 3; //经验
+	optional bool isauto = 4; //是否有自动放养过
+}
+
+message Admin_RankingInfo
+{
+	required int32 ret = 1; //返回码
+	optional bool onlineFlag = 2;  //是否在线
+	repeated int32 rankArry = 3;   //排名数组
+}
+
+//messageID 10420
+message Admin_OutPutLinePlayerInfo
+{
+	required int32 ret = 1; //返回码
+	optional int64 charid = 2;
+	optional string name = 3;
+	optional bool accountState = 4; //是否没封号
+	optional bool talkingState = 5; //是否可以说话
+}
+
+//messageID 10448 根据玩家openID获取该帐号下所有的角色部分信息
+message Admin_ReqRoleInfoByOpenID
+{
+	required string openID = 1;//
+}
+
+message Admin_RoleInfoByOpenID
+{
+	required int64 charID = 1;//角色ID
+	required string charName = 2;//角色名
+	optional int32 lv = 3;//角色等级
+	optional int32 serverID = 4;//服组ID
+	optional int64 createTime = 5; //創角時間(Timestamp格式)
+	optional int32 sex = 6; //性别
+	optional int64 lastlogin = 7; //最后登陆时间
+	optional int64 loginlong = 8; //在线时长
+	optional int32 group = 9; //阵营或帮派
+	optional int32 occupation  = 10; //职业
+	optional int32 isvalid = 11; //角色状态（玩家该角色是否被封禁 0/1）, 
+	optional int64 exp = 12; //经验值
+	optional string openid = 13; //玩家平台账号ID 
+}
+//10448的返回
+message Admin_RetRoleInfoByOpenID
+{
+	required int32 ret = 1;
+	repeated Admin_RoleInfoByOpenID roleInfoList = 2;//角色信息列表
+}
+
+//messageID 10516 根据玩家openID和qzoneID获取该帐号下的角色部分信息
+message Admin_ReqRoleInfoByOpenIDQzoneID
+{
+	required string openID = 1;//
+	required int32 qzoneID = 2;//创建角色时所在的服区ID
+}
+//10516的返回跟10448一样
+
+//messageID 10518 web2ms 获取玩家容器信息
+message Admin_ReqContainerInfo
+{
+	required int64 charID = 1;
+	required int32 type = 2;
+}
+
+//messageID 10518的返回   获取玩家容器信息
+message Admin_RetContainerInfo
+{
+	required int32 ret = 1;
+	required int32 type = 2;
+	repeated MS_MailInfo.ClientItemInfo items = 3;
+}
+
+//messageID 10519 ms2db 获取玩家容器信息 Admin_ReqContainerInfo
+//messageID 10519 ms2db 获取玩家容器信息的返回  Admin_RetContainerInfo

@@ -1,0 +1,17 @@
+package CreateCharator;
+
+message NewCharator
+{
+	required string openID = 1;
+	required string name = 2;
+	required int32 head = 3;
+	optional string openKey = 4;
+	optional string pf = 5;
+	optional string pfKey = 6;
+	optional string seqid = 7;
+	optional int32 serverId = 8;
+	optional int64 timestamp = 9; //时间戳
+	optional string source = 10;
+	optional int32 clientType = 11;
+	optional int32 isAdult = 12;
+}

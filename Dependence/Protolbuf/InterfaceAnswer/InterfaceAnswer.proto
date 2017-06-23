@@ -1,0 +1,106 @@
+
+package InterfaceAnswer;
+
+//各阶段数据,协议ID为12702
+message AnswerData
+{
+	optional int32 stage         		   = 1;			//当前阶段,1为倒计时，答题未开始时，2为出题等待倒计时，3为出题，4为结果，5为奖励
+	optional TitleData title		  	   = 2; 		//当前题目
+	optional ResultData result   		   = 3;			//答案
+	optional RewardData reward  		   = 4;   	    //奖励数据
+}
+
+//打开面板取所有数据，协议ID为 12701
+message GetAllAnswerData
+{
+	optional int32 stage		  = 1; 	//当前阶段
+	optional int32 timeCounts     = 2;	//翻倍剩余次数
+	optional int32 ExcludeTCounts = 3;  //排除错误次数
+	optional TitleData title	  = 4; 	//当前题目
+	optional int32 countDownTime  = 5; 	//当前倒计时
+	optional ResultData result	  = 6; 	//答案
+	optional RewardData reward    = 7; 	//奖励数据
+	optional int32 error		  = 8;  //错误码
+}
+
+//选择答案，协议ID为12703。客户端发送ServerReturn::ServerRetInt
+
+//排除一个错误答案，协议ID为12704，客户端发送ServerReturn::ServerRetInt
+message ExcludeOneWrongData
+{
+	optional int32 index = 1; 	//错语索引
+	optional int32 type  = 2;	//1为翻倍，2为排除一个错误选项
+	optional int32 error = 3; 	//错误码
+}
+
+//领取奖励，协议ID为12705。客户端发送ServerReturn::ServerRetInt
+
+//当前题目
+message TitleData
+{
+	optional int32 id = 1;				//题目ID
+	optional int32 currentCounts = 2;	//当前第几题
+}
+
+message ResultData
+{
+	optional int32 index 	     	 = 1;	//答案索引
+	optional int32 rightCounts   	 = 2;	//答对人数
+	optional int32 wrongCounts   	 = 3;	//答错人数
+	optional int32 score			 = 4;	//当前分数
+	optional int32 straightCounts 	 = 5;   //连胜次数
+	optional int32 selfRanking		 = 6;	//自己的排名
+	optional int32 selfRightCounts   = 7;	//自己答对题数
+	repeated RankingData rankingList = 8;	//排名
+}
+
+//奖励数据
+message RewardData
+{
+	optional int32 ranking = 1; 	//排名奖励
+	optional int32 answer  = 2; 	//题数奖励
+}
+
+//排名数据
+message RankingData
+{
+	optional int32 vipLevel     = 1;     //vip等级
+	optional string name	    = 2;     //名字
+	optional int32 score        = 3;	 //积分
+}
+
+message SendBuckleAtt
+{
+	optional int64 playerID = 1;
+	optional int32 attID    = 2;
+	optional int32 value    = 3;
+}
+
+message ReturnBuckleAtt
+{
+	optional int32 error = 1;
+}
+
+message AnswerGiveItem
+{
+	optional int64 playerID = 1;
+	repeated int32 ID 		= 2;
+}
+
+message AnswerActivity
+{
+	optional int64 playerID = 1;
+}
+
+// WS 同步到GM 答题状态 12708
+message WS2GMAnswerState
+{
+	required bool flag = 1; // true open, false close
+}
+
+// WS 同步到GM的player 答题状态  12709
+message WS2GMPlayerAnswerState
+{
+	required int64 charID = 1;
+	required bool flag = 2;
+}

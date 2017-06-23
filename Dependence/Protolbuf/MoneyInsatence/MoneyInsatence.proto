@@ -1,0 +1,143 @@
+package MoneyInstancePackage;
+
+//请求购买物品增强修罗塔属性
+//消息id: 12800  快捷消息: 17
+message ReqBuyItem
+{
+	required int32 id=1;	//索引或id
+}
+//返回购买结果	
+message AckBuyItem
+{
+	required int32 ret=1;	//返回0表示成功
+}
+
+//请求使用技能
+//消息id: 12801  快捷消息: 17
+//空消息
+
+//返回请求使用技能
+message AckUseSkill
+{
+	required int32 ret=1; //0表示成功
+}
+
+//使用元宝购买属性
+//消息id:12802 快捷消息: 17
+//空消息
+
+//返回使用元宝购买属性
+message AckBuyAttr
+{	
+	required int32 ret=1;//0表示成功
+}
+
+//请求领取铜钱奖励
+//消息id:12803 快捷消息: 17
+message AckFitchMoney
+{
+	required int32 ret=1;//0表示成功
+}
+
+//请求铜钱副本排行榜
+//消息id:12804 快捷消息: 17
+//空消息
+
+//返回铜钱副本排行榜
+message AckMoneyInstanceRank
+{
+	required int32 maxCount = 1;	//最大次数
+	optional int32 leftCount = 2;	//剩余次数
+	optional int32 maxbuyCount = 3; //本日最大购买进入次数
+	optional int32 buyCount = 4;	//本日购买进入次数
+	repeated RankData ranklist = 5; //排行列表
+}
+
+message RankData
+{
+	required int64 id = 1;		//角色Id
+	optional bytes name = 2;	//角色名
+	optional int64 money = 3;   //铜钱
+}
+
+//服务器通知怪物即将刷新
+//消息号:12805
+message FlushNotice
+{
+	required int32 type=1;  //通知类型 1:怪物 2:boss 3:结束倒计时
+	optional int32 time=2;  //倒计时时间
+	optional int32 queue=3; //波次，只针对刷怪（有必要就发）
+}
+
+//服务器通知怪物波次刷新(包含怪物等级及基础战斗属性)
+//消息号：12806
+message FlushMonster
+{
+	required int32 queue=1; 		//第几波 
+	repeated MonsterAttr mons=2;	//怪物列表
+}
+
+message MonsterAttr
+{
+	required int32 id=1;	//怪物id
+	optional int32 key=2;	//怪物key
+	optional int32 level=3; //怪物等级
+	optional int32 hp = 4;  //最大血量
+}
+
+//服务器通知修罗塔属性改变
+//消息号：12807 
+message TowerAttrAlter
+{
+	repeated TowerAttr attr =1; //属性列表
+}
+
+message TowerAttr
+{
+	required int32 id=1;		//属性类型 目前枚举 1:等级 2:技能冷却时间 3:塔的攻击 4：塔的防御 5:最大cd 6:防御符次数 7：强化符次数 8：冷却符次数
+	optional int32 value = 2;	//属性值
+}
+
+//服务器通知玩家副本属性改变
+//消息号：12808 
+message DuplicateAttrAlter
+{
+	repeated DuplicateAttr attrlist=1;	//属性列表 1:当前副本收益铜钱数 2:积分 3:暂时没有用  4:副本剩余时间 5:当前倍率
+}
+
+message DuplicateAttr
+{
+	required int32 id=1;	//属性id
+	optional int64 value=2; //属性值
+}
+
+//请求退出副本
+//消息号: 12809  快捷消息: 17
+//空消息
+
+//服务器通知副本结算结束
+//消息号：12810
+//空消息
+
+
+//以下协议服务器专用
+//逻辑服通知世界服副本结束时的战绩
+//消息号：12812
+message MoneyInstanceResult
+{
+	required int64 id = 1;		//id
+	optional bytes name = 2;	//名字
+	optional int64 money = 3;	//铜钱
+}
+
+//逻辑服请求世界服排行榜信息
+//消息号: 12813
+message ReqRank
+{
+	required int64 charid = 1;
+}
+message AckRank
+{
+	repeated RankData ranklist = 1; //排行列表
+}
+

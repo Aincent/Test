@@ -1,0 +1,192 @@
+
+package EquipSmith;
+
+message ReqGMAddDelStone
+{
+	required int64 charid = 1;
+	optional AddDelStone stone = 2;
+}
+
+
+//镶嵌和拆除    返回 ServerInt的返回马
+//协议号：5501
+message AddDelStone
+{
+	required bool type = 1; // false 为镶嵌   true 为摘除
+	optional ItemPos equip = 2; //装备位置
+	optional int32 stonepos = 3; //镶嵌    摘除时为宝石id
+}
+
+message ReqGMStoneCreate
+{
+	required int64 charid = 1;
+	optional StoneCreate stone = 2;
+}
+
+// 请求镶嵌列表宝石信息
+// 协议号：5509
+message ReqInlayStoneInfo
+{
+}
+
+message RetInlayStoneInfo
+{
+	repeated InlayStoneInfo inlayStoneInfo = 1;
+}
+
+message InlayStoneInfo
+{
+	required int32 pos = 1; // 
+	repeated int32 stonePos = 2; // 宝石在镶嵌孔的位置
+	repeated int32 stoneID = 3; // 宝石ID
+}
+
+//宝石合成     返回 ServerInt的返回马
+//协议号：5503
+message StoneCreate
+{
+	required int32 stoneid = 1;			//宝石ID
+	required int32 count = 2;			//宝石数量
+	required bool flag = 3;				//是否绑定
+}
+
+//格子里面的物品数量描述
+message SectorItemCount
+{
+	required int32 pos = 1;
+	optional int32 count = 2;
+}
+
+//物品位置描述
+message ItemPos
+{
+	required int32 container=1;       //容器类型
+	required int32 pos=2;             //格子号
+}
+//洗练请求 ----客户与网关协议：协议号：3028---- 
+message ClientReqRefineEquip
+{
+	required int32 container = 1;				//容器的编码
+	required int32 equipid  = 2;				//装备的位置ID
+	repeated int32 topLvPos = 3; // 顶极位置
+	optional bool isMustTopLv = 4; // 是否必定刷顶极
+	optional bool isAutoBuy = 5; // 是否自动购买
+}
+//洗练请求 
+message GTtoGMRefineEquip
+{
+	required int64 charid = 1;					//角色ID
+	required int32 container = 2;				//容器的编码
+	required int32 equipid  = 3;				//装备的位置ID
+	repeated int32 topLvPos = 4; // 顶极位置
+	optional bool isMustTopLv = 5; // 是否必定刷顶极
+	optional bool isAutoBuy = 6; // 是否自动购买
+}
+//返回洗练属性
+message ReturnNewAttr
+{
+	required int32 status = 1;                  //是否洗练成功
+	required int32 container = 2;				//容器的编码
+	required int32 equipid =3;					//装备的位置ID
+	repeated RefineAttr attrInfo = 4; // 属性信息
+}
+//确认洗练
+message ClintReqAffirmRefine
+{
+	required int32 container = 1;				//容器的编码
+	required int32 equipid = 2;					//装备的位置ID
+	repeated uint32 lockPos = 3; // 锁定位置
+	optional bool isAutoBuy = 4; // 是否自动购买
+
+}
+//确认洗练
+message GTtoGMAffirmRefine
+{
+	required int64 charid = 1;					//角色ID	
+	required int32 container = 2;				//容器的编码
+	required int32 equipid = 3;					//装备的位置ID
+	repeated uint32 lockPos = 4; // 锁定位置
+	optional bool isAutoBuy = 5; // 是否自动购买	
+}
+//返回洗练属性替换状态
+message ReturnAffirmRefine
+{
+	required int32 status = 1;					//洗练属性是否替换成功
+	required int32 container = 2;				//容器的编码
+	required int32 equipid =3;					//装备的位置ID
+}
+
+//强化请求 ----客户与网关协议：协议号：5505---- 
+message ClientReqStrengthEquip
+{
+	required int32 container     = 1;				   //容器的编码
+	required int32 equippos      = 2;				    //装备的位置
+	required bool bmeterial    = 3;				    //是否使用紫水晶
+	required bool bGolden	   = 4;					//是否不足元宝代替
+	optional int32 oneKeyStrenght = 5; // 是否一键强化 非0是一键强化
+}
+
+//强化请求 
+message GTReqGMStrengthEquip
+{
+	required int64 charid                       = 1;				//角色ID
+	required ClientReqStrengthEquip equip       = 2;				//装备的位置
+}
+
+//装备升级请求 ----------客户端与网关协议：协议号：17 - 5507 --------------
+message ClientReqUpgradeEquip
+{
+	required int32 container		= 1;				//容器的编码
+	required int32 equippos			= 2;				//装备的位置
+	required bool bGolden			= 3;				//是否不足元宝代替
+	optional bool isProtect			= 4; 				// 是否使用保护符
+}
+
+//装备继承请求 -----------客户端与网关协议：协议号：17 - 5508 ---------------
+message ClientReqSucceedEquip
+{
+	required int32 containerf		= 1;				//容器的编码
+	required int32 posf				= 2;				//装备的位置
+	required int32 containers		= 3;				//材料装备的容器编码
+	required int32 poss				= 4;				//材料装备的位置
+	required bool bGolden			= 5;				//是否不足元宝代替
+	required bool isRefine			= 6;				//是否继承洗练熟悉
+	optional bool isProtect			= 7; 				// 是否使用保护符
+}
+
+message RefineAttr
+{
+	required int32 attrType = 1; // 属性类型
+	required int32 attrValue =2; // 属性值
+	required int32 attrLevel = 3; // 属性等级
+	optional int32 attrPos = 4; // 属性位置
+}
+
+// 材料合成 客户端  协议号: 17 5510 
+message ClientReqMeterialSyn
+{
+	required int32 destMeterialID = 1; // 目标材料ID
+	required int32 count = 2; // 目标材料数量
+}
+
+// 返回给客户端
+message RetMeterialSyn
+{
+	required int32 err = 1; // 错误码
+	optional int32 destMeterialID = 2; // 目标材料ID 
+	optional int32 count = 3; // 成功的数量
+}
+
+// 客户端请求 镶嵌 快速升级宝石 协议号:17 5511
+message ClientReqUpgradeStone
+{
+	required int32 stoneID = 1; // 当前宝石ID
+	required int32 stonePos = 2; // 宝石在镶嵌上的位置
+	optional int32 equipPos = 3; // 装备位置
+}
+
+// 返回给客户端
+message RetUpgradeStone
+{
+	required int32 err = 1; // 错误码
+}

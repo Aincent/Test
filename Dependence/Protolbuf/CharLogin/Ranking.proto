@@ -1,0 +1,95 @@
+
+package RankingInfo;
+
+//-----客户端请求协议------
+//请求排行榜信息6501
+message ReqRankingInfo
+{
+	required int32 type = 1;		//排行榜类型
+	required int32 index = 2;		//页数索引
+}
+
+//请求自己的排行榜信息6502
+message ReqMeRankingInfo
+{
+	required int32 type = 1;		//排行榜类型
+}
+
+//返回协议
+//排行榜信息
+message RankingInfo
+{
+	required int32 indexCount = 1;	//总页数
+	required int32 index = 2;		//当前页数
+	required int32 type = 3;		//排行榜类型
+	repeated RankingItem item = 4;	//排名信息
+}
+
+//排行榜信息子项
+message RankingItem
+{
+	required int64 charid = 1;		//角色id 
+	required int32	num = 2;		//排名
+	required string name = 3;		//角色名、帮会名
+	required int32 value = 4;		//等级、战斗力、坐骑等级、帮会等级、成就
+	required int32 ProFlo = 5;		//职业、繁荣度
+	required int32 country = 6;		//阵营
+	required int32 sex = 7;			//性别
+	required int32 vip = 8;			//vip
+	required int32 lv = 9;			//等级
+	optional int32 glory = 10;		//荣誉称号
+	optional string clanname = 11; //帮派名字
+}
+
+//自己的排行信息
+message MeRankingInfo
+{
+	required int32 type = 1;		//排行榜类型
+	required int32	num = 2;		//排名
+	required int32 value = 3;		//等级、战斗力、坐骑等级、帮会等级、成就
+	required int32 ProFlo = 4;		//职业、繁荣度
+	optional int32 glory = 5;		//荣誉称号
+}
+
+//内部协议
+//请求排行榜信息
+message GTtoWSRankingInfo
+{
+	required int64 charid = 1;		//角色id
+	required int32 type = 2;		//排行榜类型
+	required int32 index = 3;		//页数索引
+}
+//请求自己的排行信息
+message GTtoWSMeRankingInfo
+{
+	required int64 charid = 1;		//角色id
+	required int32 type = 2;		//排行榜类型
+}
+//排名信息
+message SRankingInfo
+{
+	repeated SmallRankingItem Ranking = 1;	//排名
+}
+//排名子项
+message SRankingItem
+{
+	required int64 charid = 1;	//角色ID
+	required string name = 2;	//角色名
+	required int32 Lv = 3;		//等级
+	required int64 Ex = 4;		//经验
+	required int32 Profession = 5;	//职业
+	required int32 CombatPower = 6;	//战斗力
+	required int32 Achievement = 7;	//成就
+	required int32 HoLv = 8;		//等级
+	required int64 HoEx = 9;		//经验
+}
+//排行榜信息子项
+message SmallRankingItem
+{
+	required int64 charid = 1;		//角色id
+	required string name = 2;		//角色名、帮会名
+	required int32 value = 3;		//等级、战斗力、坐骑等级、帮会等级、成就
+	required int32 ProFlo = 4;		//职业、繁荣度
+	optional int32 glory = 5;		//荣誉称号
+}
+

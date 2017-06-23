@@ -1,0 +1,47 @@
+package HeroPackage;
+
+//请求英雄副本信息
+//消息号：8604	快捷id: 17
+//空消息
+
+//返回英雄副本信息
+message AckHeroInfo
+{
+	required int32 layer = 1; 	//当前打到关卡层
+	repeated int32 fitchs = 2;	//已经领取宝箱额外奖励的层
+	repeated AttrItem attrs = 3;//当前总的属性
+}
+
+message AttrItem
+{
+	required int32 id = 1;		//属性id
+	optional int32 value = 2;	//属性值
+}
+
+//请求领取宝箱额外奖励
+//消息号：8605	快捷id: 17
+message ReqFitchPrize
+{
+	required int32 layer = 1; //关卡的层数
+}
+
+//返回领取结果
+message AckFitchPrize
+{
+	required int32 layer = 1;  //关卡的层数
+	optional int32 result = 2; //0表示成功，其它表示错误码
+}
+
+//进入副本后服务器推送开始战斗倒计时时间及结束时间
+//消息号：8606
+//消息体:ServerReturn::ServerDoubleRetInt; retf表示倒计时秒；rets表示副本结束时间点(毫秒)
+//message ServerDoubleRetInt
+//{
+//	required int32 retf = 1;
+//	optional int64 rets = 2;
+//}
+
+
+//服务器推送胜利失败结果
+//消息号：8607
+//消息体：ServerReturn::ServerRetBool  //true成功；false失败

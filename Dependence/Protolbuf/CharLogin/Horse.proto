@@ -1,0 +1,75 @@
+import "CharLogin/PlayerInfo.proto";
+
+package HorseInfo;
+
+//上，下坐骑     回复为ServerInt的返回马
+//还有广播消息：5007    也是serverint
+//消息号：5003
+message ControlHorse
+{
+	required int32 id = 1; //模型id（大于0为上坐骑       0为下坐骑）
+	optional int32 type = 2;  //操作类型  0为正常操作  1为直接切换坐骑
+}
+
+message ToGMControlHorse
+{
+	required int64 charid = 1;
+	optional ControlHorse horse = 2;
+}
+
+//消息号:5005
+message HorseAdvance
+{
+	optional int32 type	    = 1;	//1表示普通进阶,2表示自动进阶
+	optional bool isAutoBuy = 2;	//是否自动购买
+	optional int32 id		= 3;	//要升到的ID
+}
+
+message HorseAddExp
+{
+	required int32 type = 1;
+	optional int32 addNum = 2;  //自动放养的次数
+}
+
+message HorseCritStatistics
+{
+	optional int32 type   = 1;  //爆击类型,1表示大爆击,2表示小爆击,3表示普通
+	optional int32 counts = 2;  //统计次数
+	optional int32 exp	  = 3;
+}
+
+//物品列表
+message HorseItemList
+{
+	optional int32 itemID = 1;
+	optional int32 counts = 2;
+}
+
+//自动升阶返回
+message AddExpReturn
+{
+	required int32 ret 							= 1;  //返回码
+	optional bool iscrack 						= 2;  //是否爆击
+	optional int32 exp 							= 3;  //经验
+	optional int32 id 							= 4;  //信的坐骑id
+	optional int32 type 						= 5;  //操作类型
+	repeated HorseCritStatistics statisticsList = 6;  //统计列表
+	optional int32 allExp 						= 7;  //自动放养总经验值
+	repeated HorseItemList itemList 			= 8;  //物品
+	optional int32 golden						= 9;  //元宝
+	optional int32 money						= 10;  //钱
+	optional int32 stopError 					= 12; //停止错误码
+}
+
+message ToGMAddHorse
+{
+	required int64 charid = 1;
+	optional HorseAddExp horse = 2;
+}
+
+message ToGTGetHorse
+{
+	required int64 charid = 1;
+	optional PlayerInfo.HorseInfo horse = 2;
+}
+//购买皮肤  消息号：5010    回复为ServerInt的返回马

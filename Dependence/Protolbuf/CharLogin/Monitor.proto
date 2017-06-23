@@ -1,0 +1,16 @@
+import "CharLogin/PlayerInfo.proto";
+
+package Monitor;
+
+//保存挂机信息
+//消息好：4001
+message SaveMonitor
+{
+	optional PlayerInfo.MonitorInfo info = 1;
+}
+
+message ToGMSaveMonitor
+{
+	required int64 charid = 1;
+	optional SaveMonitor monitor = 2;
+}

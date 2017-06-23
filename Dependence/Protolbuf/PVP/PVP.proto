@@ -1,0 +1,259 @@
+package PvPPackage;
+
+//客户端请求斗战重楼活动副本id
+//消息号：12720 （快捷消息：25）
+//空消息
+
+//返回斗战重楼活动副本
+message AckReqPVPMapID
+{
+	required int64 id=1; //斗战重楼活动副本id
+}
+
+//客户端请求采集火种
+//消息号：12721 （快捷消息：17）
+message ReqGather
+{
+	required int32 key=1; //火种的key ID
+}
+
+//服务器返回客户端能否采集
+message AckGather
+{
+	required int32 ret=1;	//能否采集 0:表示可以,其它不可以
+}
+
+
+//服务器推送玩家采集成功(只通知采集的那个人)
+//消息号：12722 （客户端接受快捷消息：14)
+message GaterResult
+{
+	required int32 result=1; //采集结果 0表示成功；其它错误码(包含打断或失败)
+}
+
+
+//玩家请求查看斗战重楼击杀排行榜数据
+//消息号: 12723 （快捷消息：25）
+//空消息:
+
+//服务器返回斗战重楼击杀排行榜数据
+message AckKillData
+{
+	repeated KillData list=1; //击杀排行榜数据
+}
+
+message KillData
+{
+	required bytes name=1;		//玩家名称
+	optional int32 level=2; 	//等级
+	optional int32 power=3; 	//战力
+	optional int32 viplevel=4;	//vip等级
+	optional int32 kills = 5;	//杀人数
+	optional int64 charid = 6; //角色id
+}
+
+//活动结束时服务器推送奖励信息
+//消息号：12724 （客户端接受快捷消息：14)
+message PVPPrize
+{
+	optional int32 integral = 1; //积分
+	optional int32 integralSort = 2; //积分排名
+}
+
+//请求领取斗战重楼奖励
+//消息号: 12725  (快捷消息:25)
+//空消息:
+
+//服务器返回领奖结果
+message AckFitchPrize
+{
+	required int32 ret=1; //0表示成功;其它失败
+}
+
+//玩家进入副本时，服务器推送本层数据
+//消息号：12726 (客户端接受快捷消息:14)
+message PlayerPvPData
+{
+	repeated pvpData info=1;	//玩家当前楼层信息
+}
+
+//玩家本层数据
+message pvpData
+{
+	required int32 id=1;		//属性枚举id
+	optional int32 value=2;		//属性值
+}
+
+//属性id对应的枚举值及意义
+//1:当前层次
+//2:当前层击杀次数
+//3:当前层被击杀次数
+//4:采集次数
+//5:累计击杀次数
+//6:击杀排名
+//7:获得经验
+//8:副本剩余时间
+
+//服务器推送boss伤害排名数据
+//消息号: 12727 (客户端接受快捷消息:14)
+message PvPBossDamagData
+{
+	repeated BossDamageData info=1; 	//伤害排名信息
+	optional int32 sort=2;				//自己的排名
+	optional int32 damage=3;			//自己的伤害值
+}
+
+message  BossDamageData
+{
+	required bytes name=1; 			//玩家名
+	optional int32 viplevel=2;		//vip等级
+	optional int32 damage=3;		//伤害值
+	optional int64 charid=4;		//角色id
+}
+
+//服务器推送boss血条数据
+//消息号：12728 
+message BossHP
+{
+	required int32 hp=1;	//当前血条值
+}
+
+//服务器推送积分排名数据
+//消息号：12730
+message IntegralData
+{
+	repeated PvPIntegralData info = 1;  //积分排名信息
+	optional int32 sort=2;				//自己的排名
+	optional int32 integral=3;			//自己的伤害值
+}
+
+message PvPIntegralData
+{
+	required bytes name=1; 			//玩家名
+	optional int32 integral=2;		//积分值
+	optional int32 integralSort=3;	//积分排名
+	optional int64 charid=4;		//角色id
+}
+
+//服务器推送boss死亡排名数据
+//消息号：12731
+message BossDeadData
+{
+	repeated PvPBossDeadData info = 1; 	//伤害排名信息
+	optional PvPBossDeadData lastAttact = 2; //最后一击
+	optional int32 sort=3;				//自己的排名
+	optional int32 damage=4;			//自己的伤害值
+}
+
+message PvPBossDeadData
+{
+	required bytes name=1; 			//玩家名
+	optional int32 viplevel=2;		//vip等级
+	optional int32 damage=3;		//伤害值
+	optional int64 charid=4;		//角色id
+	optional int32 sex = 5;			//性别
+	optional int32 pro = 6;			//职业	
+	optional int32 lv = 7; 			//等级
+}
+
+
+//以下为服务器专用
+
+//世界服通知逻辑服所有得副本信息
+//消息号：12735
+message PVPMapInfos
+{
+	repeated PVPMap info=1;	//
+}
+
+message PVPMap
+{
+	required int32 layer=1;	//副本层次
+	optional int64 id=2;	//副本id
+}
+
+//逻辑服通知世界服玩家战斗信息(层数、击杀总数、获得经验总数)
+message PlayerPVPDataList
+{
+	repeated PlayerPVPData list=1;//玩家信息列表
+}
+
+message PlayerPVPData
+{
+	required int64 charid=1;		//角色id
+	optional int32 layer=2;			//所处的层次
+	optional int32 totalkill=3;		//总的杀人数
+	optional int32 totalexp=4;		//总的经验
+	optional bytes name=5;
+	optional int32 level=6;
+	optional int32 power=7;
+	optional int32 viplevel=8;
+	optional int32 killsort=9;
+	optional int32 integral = 10;
+}
+
+//进入副本请求世界服玩家的击杀排行 击杀总数 总经验
+//消息号：12737
+message ReqPlayerPVPData
+{
+	required int64 charid=1;	//id
+	optional int32 layer=2;		//层数
+}
+
+message AckPlayerPVPData
+{
+	required PlayerPVPData info=1;
+}
+
+//逻辑服通知世界服boss死亡，活动结束
+// 消息号：12738
+message GstoWsBossDead
+{
+	required int64 charid=1; //谁杀死的
+	repeated BossDamageDataEX list=2;
+}
+
+message  BossDamageDataEX
+{
+	required int64 charid=1;
+	optional bytes name=2; 			//玩家名
+	optional int32 viplevel=3;		//vip等级
+	optional int32 damage=4;		//伤害值
+}
+
+//世界服请求逻辑服boss伤害排名数据
+// 消息号：12739
+message ReqDamageRank
+{
+	required int64 sence=1; 
+}
+
+//返回伤害排行
+message AckWstoGsDamageRank
+{
+	repeated BossDamageDataEX list=1;
+}
+
+//世界服通知逻辑服活动结束
+// 消息号：12740
+
+//世界服通知逻辑服添加物品
+//消息号： 12741 
+message WstoGsAddItem
+{
+	required int64 charid=1;
+	repeated ItemData list=2;
+}
+
+message ItemData
+{
+	required int32 id=1;	//物品id
+	optional int32 num=2;	//物品数量
+	optional int32 bind=3;	//绑定方式
+}
+
+// WS通知GM 斗战重楼活动状态
+message WSToGMPVPState
+{
+	required bool state = 1; // true open, false close
+}

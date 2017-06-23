@@ -1,0 +1,28 @@
+package Meridians;
+
+//经脉系统
+//客户端请求打通经脉     -----协议号:8601---------
+message OpenMeridians
+{
+	required int32 acupoint = 1; //穴位
+	optional bool isGolden  = 2; // 是否使用元宝
+	optional int32 count    = 3; // 次数
+}
+
+//请求打通经脉回复客户端 
+message RetOpenMeridians
+{
+	required int32 errNum = 1; // 错误码
+	optional int32 newAcupoint = 2; // 穴位
+	optional int32 flag = 3;    // 按位取
+	optional int32 type = 4;	//1表示一次中穴,2普通自动冲穴,3表示高级自动冲穴
+}
+
+
+//同屏广播 -----协议号:8502---------
+message AskOpenMeridians
+{
+	required string charname = 1; //角色名
+	required int32 acupoint = 2; //穴位
+	required int32 addexp = 3; //增加的经验值
+}

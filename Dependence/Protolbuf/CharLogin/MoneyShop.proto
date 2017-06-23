@@ -1,0 +1,23 @@
+
+package MoneyShopInfo;
+
+//请求 钱庄信息  消息ID为18 ServerMessage::ClientSingleMessage中的 ID 为10010  
+message AckMoneyShopInfo
+{
+	required int32 ret = 1; //返回码
+	optional int32 freeNum = 2; //免费次数
+	optional int32 costNum = 3; //兑换次数
+}
+
+
+//请求 钱庄信息  消息ID为18 ServerMessage::ClientSingleMessage中的 ID 为10011  
+//contet内容为  ClientExchangeMoney  type 1为免费   2兑换
+
+message AckExchangeMoney
+{
+	required int32 ret = 1; //返回码
+	optional int32 money = 2;  //获得的钱
+	optional int32 freeNum = 3; //免费次数
+	optional int32 costNum = 4; //兑换次数 
+	optional int32 critValue = 5; //暴击值
+}

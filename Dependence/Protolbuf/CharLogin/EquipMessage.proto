@@ -1,0 +1,37 @@
+import "CharLogin/CharBaseInfo.proto";
+package Equip;
+
+//-------------------客户与网关通讯协议在此添加------------------------
+
+//穿脱装备 协议号  3030
+message ClientReqWearEquip
+{
+	required int32 type = 1;   //1表示穿 2表示脱
+	required int32 pos = 2;   //物品所在容器位置
+	required int32 goodsid = 3; //物品ID
+}
+
+//请求装备丢弃   协议号 3032
+message ClientReqRecoverEquip
+{
+	required int32 pos=1;             //格子号
+}
+
+//------------------------------------------------------------------------------
+
+//---------------------游戏内部通讯协议在此添加----------------------------------
+
+message GTReqGMWearEquip
+{
+	required int64 charid = 1;
+	required int32 type = 2;   //1表示穿 2表示脱
+	required int32 pos = 3;   //物品所在容器位置
+	required int32 goodsid = 4; //物品ID
+}
+
+//请求装备丢弃  
+message GTReqCMRecoverEquip
+{
+	required int64 charid=1;
+	required int32 pos=2;             //格子号
+}//---------------------游戏内部通讯协议在此添加----------------------------------

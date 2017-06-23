@@ -1,0 +1,23 @@
+
+package MS_SychProto;
+
+
+//通知 禁/解言
+message SychManagerThig
+{
+	required string name = 1;
+	optional SychManagerData data= 2;
+}
+
+message SychManagerData
+{
+	required int64 nextTime = 1;
+	required string sayText = 2;
+	required int32 type = 3;  
+}
+
+message SychGMThig
+{
+	required int64  charid = 1;
+	optional SychManagerData data= 2;
+}

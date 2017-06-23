@@ -1,0 +1,188 @@
+package GirlWarMessageInfo;
+
+
+
+//请求战姬信息
+//消息Id：11001   （快捷消息 17）
+message FromClientGirlWarInfo
+{
+
+}
+
+message ToClientGirlWarInfo
+{
+	repeated int32 ret = 1;	//0 为已拥有，1为未拥有， -1 没找到
+	repeated int32 id = 2;  //战姬ID
+	repeated ToClentNotHaveGirlWar need = 3;//战姬的开启需求
+	repeated int32 lv = 4;	//等级
+	repeated int32 hp = 5; //生命
+	repeated int32 starrank = 6; //星阶
+	repeated int32 Quality = 7; //品质
+	repeated double deadtime = 8; //死亡时间
+	repeated double exp = 9; //经验
+	repeated ToClentEquip equip = 10; //装备
+	repeated int32 skill1 = 11;
+	repeated int32 skill2 = 12;
+	repeated int32 skill3 = 13;
+}
+
+//战姬达成条件
+message ToClentNotHaveGirlWar
+{
+	repeated int32 type = 1;	//条件类型
+	repeated int32 ref = 2;		//达成数量
+}
+
+message ToClentEquip
+{
+	repeated int32 index = 1;	//位置
+	repeated int32 id = 2;		//id
+}
+
+//请求升级
+//消息id：11002 (快捷消息  17)
+message FromClentUplv
+{
+	required int32 id = 1;	//战姬ID
+	optional int32 type = 2;//升级类型 0:普通升级， 1：一键升级
+	optional bool isbuy = 3; //自动购买
+}
+
+message ToClentUplv
+{
+	required int32 ret = 1; //错误码
+	optional int32 id = 2; //战姬ID
+	optional double exp = 3; //经验
+	optional int32 lv = 4;//等级
+}
+
+//请求出战或休战
+//消息id：11003 (快捷消息  17)
+message FromClentFight
+{
+	required int32 ret = 1;	//0 为出战，1为休战
+	optional int32 id = 2; //战姬ID
+}
+
+//返回出战或休战结果
+//返回复活结果
+message ToClentFight
+{
+	required int32 ret = 1;	//状态码
+	optional int32 id = 2; //战姬ID
+	optional int32 type = 3; //0 为出战，1为休战
+}
+
+//请求复活
+//消息id：11006 (快捷消息  17)
+message FromClentRevive
+{
+	required int32 id = 1; //战姬ID
+}
+
+//激活战姬
+//消息Id：11007   （快捷消息 14）
+message ToClientActivate
+{
+	required int32 id = 1; //战姬ID
+}
+
+// 更改战姬UI高亮状态 11010 15
+message ClientModifyUIState
+{
+	
+}
+
+//请求战姬加成
+//消息Id：11011   （快捷消息 17）
+message GirlWarEquip
+{
+	required int32 id = 1; //战姬ID
+	optional int32 equipid = 2; //物品id
+	optional int32 index = 3; //位置
+}
+
+message RetGirlWarEquip
+{
+	required int32 ret = 1;	//状态码
+	optional int32 id = 2; //战姬ID
+	optional ToClentEquip equip = 3; //位置
+}
+
+//请求战姬一键加成
+//消息Id：11012   （快捷消息 17）
+message GirlWarOneKeyEquip
+{
+	required int32 id = 1; //战姬ID
+}
+
+message RetGirlWarOneKeyEquip
+{
+	required int32 ret = 1;	//状态码
+	optional int32 id = 2; //战姬ID
+	optional ToClentEquip equip = 3; //位置
+}
+
+
+//请求战姬进阶
+//消息Id：11013   （快捷消息 17）
+message GirlWarUpQuality
+{
+	required int32 id = 1; //战姬ID
+}
+
+message RetGirlWarUpQuality
+{
+	required int32 ret = 1;	//状态码
+	optional int32 id = 2; //战姬ID
+	optional int32 skill1 = 3;
+	optional int32 skill2 = 4;
+	optional int32 skill3 = 5;
+	optional int32 quality = 6;
+}
+
+
+//请求战姬技能升级
+//消息Id：11014   （快捷消息 17）
+message GirlWarUpSkill
+{
+	required int32 id = 1; //战姬ID
+	optional int32 skillid = 2; //技能ID
+	optional int32 index = 3;//位置
+}
+
+message RetGirlWarUpSkill
+{
+	required int32 ret = 1;	//状态码
+	optional int32 id = 2; //战姬ID
+	optional int32 skillid = 3;
+	optional int32 index = 4;//位置
+}
+
+// 请求升星
+//消息Id：11015 （快捷消息 17）
+message FromClientUpStar
+{
+	required int32 id = 1; //战姬ID
+}
+
+message ToClientUpStar
+{
+	required int32 ret = 1; //错误码
+	optional int32 id = 2; //战姬ID
+	optional int32 starrank = 3; //星阶
+}
+
+//请求获得战姬
+//消息Id：11016 （快捷消息 17）
+message FromClientGetGirlWar
+{
+	required int32 id = 1;//战姬ID
+}
+
+message ToClientGetGirlWar
+{
+	required int32 ret = 1; //错误码
+	optional int32 id = 2; //战姬ID
+}
+

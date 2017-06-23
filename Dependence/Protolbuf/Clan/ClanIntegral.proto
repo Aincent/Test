@@ -1,0 +1,180 @@
+package ClanPackage;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//13，14为gameserver通过gateserver转发到client的中继简单消息id（客户端只需要接受14的消息id）
+//15，16为client通过gateserver转发到gameserver的中继简单消息id（客户端只需要发送15的消息id）
+//17，18为client通过gateserver转发到gameserver的中间请求消息id（客户端只需要发送17的消息id）
+//22，14为worldserver通过gateserver转发到client的中继简单消息id（客户端只需要接受14的消息id）
+// 23，24为client通过gateserver转发到worldserver的中继简单消息id（客户端只需要发送23的消息id）
+//25，26为client通过gateserver转发到worldserver的中继请求消息id（客户端只需要发送25的消息id）
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//积分战信息
+//消息id ：10376（快捷消息id ：25）
+//message IntegralInfo
+
+message RetIntegralInfo
+{
+	required int32 status = 1; //当前状态 1 报名  2 战时  3 排名
+	optional int32 integral = 2; //积分
+	optional int32 power = 3; // 战力
+	optional int32 win = 4; //赢的次数
+	optional int32 lose = 5; //输的次数
+	optional bytes clanname = 6; //对战帮派的名字
+	optional int64 onlyid = 7; //副本ID
+	optional bool besingup = 8; //是否已经报名   true 已报名  false 没有报名
+	repeated RntegralRanking info = 9; //本赛季最终排名
+}
+
+//本赛季最终排名
+message RntegralRanking
+{
+	optional bytes clanname = 1; //帮派的名字
+	optional int32 integral = 2; //积分
+}
+
+
+//积分战报名
+//消息id ：10377（快捷消息id ：25）
+//message SingUpIntegral
+
+message RetSingUpIntegral
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional RetIntegralInfo info = 2; //积分战信息
+}
+
+//积分战补报
+//消息id ：10378（快捷消息id ：25）
+//message ReSingUpIntegral
+
+message RetReSingUpIntegral
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional RetIntegralInfo info = 2; //积分战信息
+}
+
+
+//查看对方帮派信息
+//消息id ：10379（快捷消息id ：25）
+//message AttClanInfo
+
+message  RetAttClanInfo
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional bytes clanname = 2; //帮派的名字
+	optional int32 clanlv = 3; //帮派等级
+	optional int32 pepolenum = 4; //人数
+	optional int32 integral = 5; //积分
+}
+
+
+//通知在线成员参战
+//消息id ：10380（快捷消息id ：25）
+//message NoticeWar
+
+message RetNoticeWar
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+}
+
+
+//查看击杀排名
+//消息id ：10381（快捷消息id ：17）
+//message KillRankingInfo
+
+message RetKillRankingInfo
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional KillRanking myself = 2;
+	optional KillRanking other = 3;
+}
+
+message KillRanking
+{
+	optional int32 boss = 1; //杀boss数量
+	optional int32 total = 2; //总杀人数
+	repeated SingleKillRanking info = 3;
+}
+
+message SingleKillRanking
+{
+	optional bytes name = 1; //名字
+	optional int32 kill = 2; //击杀数量
+	optional int32 die = 3; //死亡次数
+}
+
+//副本面板信息
+//消息id ：10382（快捷消息id ：14）
+message SingleKill
+{
+	optional int32 totalboss = 1; //总杀boss数量
+	optional int32 total = 2; //总杀人数
+	optional int32 othertotalboss = 3; //总杀boss数量
+	optional int32 othertotal = 4; //总杀人数
+	optional int32 kill = 5; //击杀数量
+	optional int32 die = 6; //死亡次数
+	optional int32 boss = 7; //击杀boss数量
+	optional int32 ranking = 8; // 击杀排名
+}
+
+//副本奖励信息
+//消息id ：10383（快捷消息id ：14）
+message IntegralReward
+{
+	required int32 IsSuccess = 1; //是否胜利
+	optional int32 clanIntegral = 2; //帮派积分
+	optional int32 clanmoney = 3; //帮派金钱
+	optional int32 kill = 4; //单杀数
+	repeated RewardInfo	items	= 5;		//个人奖励物品
+	repeated RewardInfo	singkillitems	= 6;		//单杀奖励物品
+	repeated RewardInfo	mvpitems	= 7;		//mvp奖励物品
+	repeated RewardInfo	killitems	= 8;		//连杀奖励物品
+}
+
+//帮派胜利奖励信息
+//消息id ：10384（快捷消息id ：14）
+message IntegralWinReward
+{
+	repeated RewardInfo	items	= 5;		//个人奖励物品
+}
+
+message RewardInfo
+{
+	required int32 itemid = 1;
+	optional int32 itemnum = 2;
+}
+
+//补报扣元宝
+//消息id: 10385
+message SysReSingUp
+{
+	required int64 charid	= 1;
+	optional int32 golden = 2;
+	optional int32 ret = 3;
+}
+
+//通知副本Id
+//消息id: 10386 (快捷消息id ：14)
+message SysIntegralOnlyId
+{
+	required int64 onlyid = 1;
+}
+
+//通知世界服副本结果
+//消息id: 10387
+message SysIntegralToWorld
+{
+	optional SysIntegral integralf = 1;
+	optional SysIntegral integrals = 2;
+}
+
+message SysIntegral
+{
+	required int32 clanId = 1; //帮派id
+	optional int32 clanIntegral = 2; //帮派积分
+	optional int32 clanmoney = 3; //帮派金钱
+	optional int32 IsSuccess = 4; //是否胜利
+	repeated int64 charidList = 5; //在副本中的玩家
+}

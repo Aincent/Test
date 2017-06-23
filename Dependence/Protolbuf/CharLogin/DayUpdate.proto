@@ -1,0 +1,25 @@
+
+package DayUpdate;
+
+//同步模块每日信息更新
+//消息号：12353
+message DayInfoUpdate
+{
+	repeated int32 info = 1;  //更新的模块枚举数组
+}
+//模块更新对应的枚举值
+//enum eDayInfoUpade
+//{
+//	eDayInfoUpade_Instance=1,	 //副本
+//	eDayInfoUpade_TREASON_KING=2,//剿灭反王
+//	eDayInfoUpade_PROTECT_KING=3,//守护秦王
+//	eDayInfoUpade_ESCORT=4,		 //皇岗
+//	eDayInfoUpade_LuckTable=5,	 //转盘
+//	eDayInfoUpade_MoneyShop=6,	 //钱庄
+//	eDayInfoUpade_Complete=7,	 //竞技场次数
+//	eDayInfoUpade_CampShop=8,	 //阵营商店物品
+//	eDayInfoUpade_YellowVip=9,	 //黄钻领奖
+//};
+
+
+

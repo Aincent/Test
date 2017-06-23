@@ -1,0 +1,143 @@
+package Pay58PlayInfo;
+
+//请求支付信息
+//const int MSG_REQ_C2MS_58PLAYASKPAY = 13001; //请求支付信息
+//const int MSG_REQ_MS2WS_58PLAYASKPAY = 13002; //请求支付信息
+
+message From58PlayReqAskPayInfo
+{
+	required string openid = 1;
+	required uint32 serverid = 2;
+	required string orderid = 3;
+	required uint32 money = 4;
+	required uint64 timestamp = 5;
+	required string sig = 6;
+}
+
+message To58PlayReqAskPayInfo
+{
+	required int32 ret = 1;
+}
+
+//const int MSG_REQ_WS2GM_SYS58PLAYPAYINFO = 13003; //同步58Play支付信息
+message Sys58PlayPayInfo
+{
+	required int64 charid = 1;
+	required string openid = 2;
+	required string orderid = 3;
+	required uint32 money = 4;
+	required uint64 timestamp = 5;
+	required string sig = 6;
+	required int32 ret = 7;
+	required int32 flag = 8;
+}
+
+//const int MSG_REQ_C2WS_58PLAY_INVITEFRIEND = 13004; //邀请好友 消息类型：25
+//message InviteFriend58Play
+//{
+//	required string openid = 1;
+//	required string fuid = 2;
+//	required uint32 serverid = 3;
+//	required string request_ids = 4;
+//	required string id_array = 5;
+//	required uint64 timestamp = 6;
+//	required string sig = 7;
+//}
+
+message InviteFriend58Play
+{
+	required uint32 num = 1;
+}
+
+message RetInviteFriend58Play
+{
+	required int32 ret = 1;
+}
+
+//const int MSG_REQ_C2MS_58PLAY_FBLIKE = 13005; //点赞
+message FbLikeFeed
+{
+	required string openid = 1;
+	required uint32 serverid = 2;
+	required string sig = 3;
+}
+
+message RetFbLikeFeed
+{
+	required int32 ret = 1;
+}
+
+//const int MSG_REQ_C2WS_58PLAY_FBINFO = 13006;  //请求点赞面板信息  消息类型：25
+//const int MSG_SIM_WS2C_58PLAY_FBINFO = 13007; //同步FB信息  消息类型：14
+
+
+message FBReward
+{
+	required int32  fblike = 1 ; 
+	optional int32 nday = 2;
+	repeated RewardList rlist = 3;
+}
+
+message RewardList
+{
+	required int32 index = 1;
+	optional int32 statue = 2;
+}
+
+//const int MSG_REQ_C2WS_58PLAY_GETREWARD = 13008; //领取奖励  消息类型：25
+message GetReward
+{
+	required int32 index = 1;
+	optional int32 type = 2;
+}
+
+message RetReward
+{
+	required int32 ret = 1;
+	required int32 index = 2;
+	optional int32 type = 3;
+}
+
+//const int MSG_REQ_WS2GM_58PLAY_SYSREWARD = 13009; //同步奖励信息 
+message SysFBReward
+{
+	required int64 charid = 1;
+	required int32 index = 2;
+	optional int32 type = 3;
+	repeated int32 itemId = 4;//奖励的物品（有可能奖励多个物品，包括金钱，声望，元宝等等）
+	repeated int32 itemNum = 5;//奖励的数量
+}
+
+message RetSysFBReward
+{
+	required int32 index = 1;
+	optional int32 type = 2;
+	required int32 ret = 3; //返回码
+}
+
+
+//const int MSG_REQ_C2WS_58PLAY_FBLIKE = 13010; //请求支付信息    消息类型：25
+//message ASkFBLike
+message RetFBLike
+{
+	required int32 ret = 1;
+	optional string openid = 2;
+	optional uint32 serverid = 3;
+	optional string sig = 4;
+}
+
+
+//save db info
+message FBRewardInfo
+{
+	required int32  fblike = 1 ; 
+	optional int64 ntime = 2;
+	repeated RewardListInfo rlist = 3;
+}
+
+message RewardListInfo
+{
+	optional int32 invit = 1;
+	optional int32 status = 2;
+	optional int32 index = 3;
+}

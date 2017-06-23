@@ -1,0 +1,23 @@
+package MonitorMap;
+
+message mapInfo
+{
+	repeated mapItem item  = 1;				//地图信息
+	required int32 count = 2;				//总人数
+}
+message mapItem
+{
+	required int32 mapid = 1;				//地图ID
+	required int32 num = 2;					//该地图人数
+}
+
+message mapPlayerInfo
+{
+	repeated mapPlayerItem item = 1;		//地图里面玩家
+}
+message mapPlayerItem
+{
+	required string ip = 1;					//IP
+	required int32 id = 2;					//ID
+	required int32 state = 3;				//状态
+}

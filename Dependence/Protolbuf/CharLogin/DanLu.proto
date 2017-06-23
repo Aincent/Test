@@ -1,0 +1,71 @@
+
+package DanLuInfo;
+
+message DanluStatistics
+{
+	optional int32 multiple = 1;  //1表示大爆击,2表示小爆击,3表示普通
+	optional int32 counts   = 2;  //次数
+	optional int32 exp		= 3;  //经验
+}
+
+//物品列表
+message DanLuItemList
+{
+	optional int32 itemID = 1;
+	optional int32 counts = 2;
+}
+
+//升阶返回
+message AckPlayerDanLuInfo
+{
+	required int32 ret 						= 1;
+	optional int32 id 						= 2;
+	optional int32 exp 						= 3;
+	optional int32 point 					= 4;
+	repeated SmeltItem item 				= 5; 	// 未领取物品的物品ID
+	repeated DanluStatistics statisticsList = 6;	//爆击统计
+	optional int32 addAllExp 			    = 7; 	//增加的所有经验
+	repeated DanLuItemList itemList			= 8;	//物品列表
+	optional int32 golden					= 9;	//元宝
+	optional int32 money					= 10;	//钱
+	optional int32 stopError				= 12;	//停止错误码
+	optional int32 type	    				= 13;	//1表示普通进阶,2表示自动进阶
+	
+}
+
+//丹炉升阶,协议ID:10003
+message ClientDanLuAddExp
+{
+	optional int32 type	    = 1;	//1表示普通进阶,2表示自动进阶
+	optional bool isAutoBuy = 2;	//是否自动购买
+	optional int32 id		= 3;	//要升到的ID
+}
+
+//请求炉练出物品
+message ClientDanLuEquip
+{
+	repeated int32 goodID = 1; // goodsID 被应用为 pos 位置
+	repeated int32 num = 2;
+}
+
+message RetClientDanLuEquip
+{
+	required int32 ret 						= 1;
+	optional int32 point 					= 2;
+	repeated SmeltItem item 				= 3; 	// 未领取物品的物品ID
+	repeated DanLuItemList itemList			= 4;	//返还物品列表
+}
+
+message SmeltItem
+{
+	required int32 itemID = 1; // ID为0 表示已经领取过了
+	optional int32 itemNum = 2; 
+	optional int32 itemPos = 3;
+}
+
+message RetDanluEquip
+{
+	required int32 ret = 1; //状态
+	optional int64 goods = 2; //领取的物品
+	optional int32 number= 3; //可以领取的次数
+}

@@ -1,0 +1,48 @@
+package GodTreepro;
+
+//请求神树信息,协议ID:13315,发送结构体ServerRetInt,协议大类型为25
+//请求神树信息返回,协议ID:13315,结构体:GodTreeData
+message OneItem
+{
+	optional int32 id     = 1;	//物品ID
+	optional int32 counts = 2;  //已收集个数
+}
+
+message GodTreeData
+{
+	repeated OneItem items = 1;	 //所有物品收集信息
+	optional int32 curExp  = 2;  //神树当前经验
+	optional int32 level   = 3;  //神树当前等级
+}
+
+//提交物品,协议ID:13317,发送结构体ServerRetInt,协议大类型为25
+//提交物品返回,协议ID:13317,结构体为:SubmitItemReturn
+message SubmitItemReturn
+{
+	optional int32 error 	  = 1;  //错误码
+	optional GodTreeData data = 2;	//玩家提交数据
+}
+
+//神树升级,协议ID:13316,发送结构体ServerRetInt,值为等级
+
+message CollectData
+{
+	optional int32 itemID = 1;
+	optional int32 counts = 2;
+}
+
+//数据库数据
+message GodTreeDBData
+{
+	repeated CollectData collect = 1;
+	optional int32 exp			 = 2;	
+}
+
+message GmBuckleItem
+{
+	repeated OneItem items  = 1;
+	optional int32 level    = 2;
+	optional int32 error    = 3;
+}
+
+//洒落通知,协议ID:13321,结构体ServerRetInt

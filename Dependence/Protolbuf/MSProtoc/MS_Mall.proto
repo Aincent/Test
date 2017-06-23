@@ -1,0 +1,129 @@
+package MS_Mall;
+
+//限时物品
+message LimitGood
+{
+	required int64 itemId = 1;//物品ID
+	optional int32 limit = 2;//限购多少
+	optional int32 bindType = 3;//绑定类型 	0,不绑定 1,得到后绑定 2,使用(装备)绑定
+	optional int32 formerPrice = 4;//原价
+	optional int32 currentPrice = 5;//现价
+	optional int32 moneyType = 6;//货币类型
+}
+
+/////////////////////////////////////////////////////////与网页的交互///////////////////////////////////////////////
+
+//限时商品增删改查
+//messageid:6809
+//网页端发送给管理服
+message Admin_ReqMallOp
+{
+	required int32 op = 1;//操作类型 1增 2删除 3改 4查
+	
+	optional int64 beginTime = 2;//开始时间(当op等于1或3的时候需填写，不填写则游戏服务器使用上一次设置的时间)
+	optional int64 endTime = 3;//结束时间(当op等于1或3的时候需填写，不填写则游戏服务器使用上一次设置的时间)
+	
+	repeated LimitGood itemList = 4;//操作的对象（当op等于1或2以及3的时候需填写）
+	
+	optional int32 beginIndex = 5;//从哪个序号开始取LimitGood(当op等于4的时候需填写)
+	optional int32 count = 6;//从beginIndex开始向后面取多少条LimitGood数据(当op等于4的时候需填写)
+}
+
+//messageid:6809的返回
+message Admin_RetMallOp
+{
+	required int32 ret = 1;
+	
+	optional int32 op = 2;//操作类型 1增 2删除 3改 4查
+	
+	optional int64 beginTime = 3;//开始时间
+	optional int64 endTime = 4;//结束时间
+	
+	repeated LimitGood itemList = 5;
+	
+	optional int32 totalNumber = 6;//总共有几条
+}
+
+/////////////////////////////////////////////////////////与客户端的交互///////////////////////////////////////////////
+
+message PlayerMallInfo
+{
+	required int32 haveBuyCount = 1;//已经购买了多少
+	required LimitGood itemInfo = 2;//该物品的基本信息
+}
+
+//客户端请求协议号，请求商城限时物品信息:6811  请求回复   C2WS 快捷消息：25
+message ReqMallInfo
+{
+	required int32 beginIndex = 1;//从第几个开始要
+	required int32 count = 2;//从beginIndex开始往后要count个
+}
+
+//6811的返回
+message RetMallInfo
+{
+	required int32 ret = 1;
+	optional int64 beginTime = 2;//开始时间
+	optional int64 endTime = 3;//结束时间
+	repeated PlayerMallInfo itemList = 4;//玩家的限时物品信息
+	optional int32 totalCount = 5;//总数 
+}
+
+//请求购买商品--6812-- 请求回复   C2WS 快捷消息：25
+message ReqBuyLimitGoods
+{
+	required int64 itemId = 1;//购买物品的ID
+	required int32 count =2;//数量
+	required int32 buyType = 3; //类型
+	optional int32 currentPrice = 4;//价格（服务器用，客户端不需填写）
+	optional int32 bindType = 5;//绑定状态（服务器用，客户端不需填写）
+	optional int64 charID = 6;//玩家ID（服务器用，客户端不需填写）
+	optional int32 moneyType = 7;//货币类型（服务器用，客户端不需填写）
+}
+
+message RetBuyLimitGoods
+{
+	required int32 ret = 1;
+	optional int64 itemId = 2;//购买物品的ID
+	optional int32 count =3;//玩家当前的已购买数量
+	optional int64 charID = 4;//玩家ID（服务器用，客户端不需读取）
+	optional int32 buyType = 5; //类型
+}
+
+//客户端请求协议号，请求商城限时物品信息:6814  请求回复   C2WS 快捷消息：25
+message ReqMallInfoByType
+{
+	required int32 buytype = 1;
+} 
+
+message RetMallInfoByType
+{
+	required int32 ret = 1;
+	repeated MallPlayerLimit limitList = 2;//玩家购买信息
+	required int32 buytype = 3;
+}
+
+///////////////////////////////////////////////服务器内部交互////////////////////////////////////////////////////
+//请求购买物品的验证 6813 WS2GM
+//发送 ReqBuyLimitGoods
+//返回 RetBuyLimitGoods
+
+//存入数据库所需要的结构
+//活动信息
+message MallLimitInfo
+{
+	required int64 beginTime = 1;//开始时间
+	required int64 endTime = 2;//结束时间
+	repeated LimitGood itemList = 3;//物品信息
+}
+
+message MallPlayerLimit
+{
+	required int64 itemID = 1;//物品ID
+	required int32 buyCount = 2;//购买数量
+}
+
+message MallPlayerLimitInfo
+{
+	repeated MallPlayerLimit limitList = 2;//玩家购买信息
+}

@@ -1,0 +1,53 @@
+package CountryOverlord;
+
+//客户端请求陈营霸主争夺战活动副本id
+//消息号：12320 （快捷消息：25）
+//空消息
+
+//返回阵陈营霸主争夺战活动副本
+message AckReqCountryOverlordMapID
+{
+	required int64 id=1; //阵营霸主争夺战活动副本id
+}
+
+
+
+//客户端请求陈营霸主争夺战参与资格排行
+//消息号：12321 （快捷消息：25）
+message ReqCountryParticipationQualification
+{
+	required int32 country	= 1;	//阵营id
+}
+
+//返回请求陈营霸主争夺战参与资格排行
+message AckCountryParticipationQualification
+{
+	required int32 country	= 1;	//阵营id
+	repeated ParticipationQualification pqinfo = 2; //榜单
+}
+
+message ParticipationQualification
+{
+	required int32 rank = 1; //排名
+	optional string charname = 2;	//队员名称 
+	optional int32 lv = 3; //等级
+	optional int32 contribute = 4; //累计贡献
+	optional int32 job = 5; //官职
+}
+
+
+//推送客户端阵营霸主争夺战排行
+//消息号：12322 （客户端接收快捷消息：14）
+message OverlordWarData
+{
+	repeated WarData data	= 1;
+}
+
+message WarData
+{
+	optional string charname = 1;	//队员名称 
+	optional int32 killer = 2; //杀人数
+	optional int32 integral = 3; //积分
+	optional string clanname = 4;	//帮派名称 ra
+	optional int32 country	= 5;	//阵营id
+}

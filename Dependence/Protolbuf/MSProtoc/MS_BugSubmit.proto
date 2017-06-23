@@ -1,0 +1,101 @@
+package MS_BugSubmit;
+
+//messageid:10510（快捷消息id ：17）发送反馈
+message Admin_C2GMBugSubmit
+{
+	required int32 type = 1;    //类型0：提交BUG 1：物品相关 2：投诉 3：其它
+	required string title = 2;  //游戏账号
+	required string text = 3;   //正文
+	optional string qq = 4;     //手机号码
+}
+
+//messageid:10510的返回
+//ServerReturn::ServerRetInt
+
+//---------------------------以下与前端无关-----------------------------------------
+//messageid:10511 发送反馈到DB
+message Admin_GM2DBBugSubmit
+{
+	required int64 charID = 1;   //玩家ID
+	required int32 state = 2;    //状态：0未读 1：已读 2：已处理 3：已关闭
+	required int32 type = 3;     //类型0：提交BUG 1：投诉 2：游戏建议 3：其它
+	required string title = 4;   //标题
+	required string text = 5;    //正文
+	optional string qq = 6;      //QQ联系方式
+}
+
+//messageid:10511的返回
+//ServerReturn::ServerRetInt
+
+//---------------------------以下与网页后台的交互-----------------------------------------
+message Admin_DBBugSubmitBaseInfo
+{
+	required int64 bugID = 1;    //反馈ID
+	required int64 charID = 2;   //玩家ID
+	required int32 state = 3;    //状态：0未读 1：已读 2：已处理 3：已关闭
+	required int32 type = 4;     //类型0：提交BUG 1：投诉 2：游戏建议 3：其它
+	required string title = 5;   //标题
+	required int64 time = 6;     //反馈时间
+}
+
+message Admin_DBBugSubmit
+{
+	required int64 bugID = 1;    //反馈ID
+	required int64 charID = 2;   //玩家ID
+	required int32 state = 3;    //状态：0未读 1：已读 2：已处理 3：已关闭
+	required int32 type = 4;     //类型0：提交BUG 1：投诉 2：游戏建议 3：其它
+	required string title = 5;   //标题
+	required string text = 6;    //正文
+	required int64 time = 7;     //反馈时间
+	optional string qq = 8;      //QQ联系方式
+	optional string result = 9;  //网站后台处理结果
+}
+
+//messageid:10512 Web2MS 请求基本信息列表
+message Admin_ReqBugSubmitList
+{
+	required int32 type = 1;	// 0未读 1：已读 2：已处理 3：已关闭 4：全部
+	required int32 start = 2;  //从第几个开始要
+	required int32 count = 3;  //要多少个
+	optional int64 beginTime = 4;//需要查询的开始时间
+	optional int64 endTime = 5;//需要查询的结束时间
+}
+
+//messageid:10512的返回
+message Admin_RetBugSubmitList
+{
+	required int32 ret = 1;
+	optional int32 totalCount = 2;//总共有几个
+	repeated Admin_DBBugSubmitBaseInfo baseBugList = 3;
+}
+
+//messageid:10513 MS2DB 请求基本信息列表
+//message Admin_ReqBugSubmitList
+
+//messageid:10513的返回
+//message Admin_RetBugSubmitList
+
+//-------------------------------------操作:修改，查看--------------------------------------------------
+
+//messageid:10514 Web2MS
+message Admin_ReqBugSubmitOp
+{
+	required int32 Op = 1;          // 0:改 1：查
+	required int64 bugID = 2;       //反馈的ID
+	optional int32 type = 3;        //1：已读 2：已处理 3：已关闭
+	optional string result = 4;     //网站后台处理结果
+}
+
+//messageid:10514的返回
+message Admin_RetBugSubmitOp
+{
+	required int32 ret = 1;
+	required int32 Op = 2;                  //WEB的操作
+	optional Admin_DBBugSubmit bugInfo = 3; //详细信息
+}
+
+//messageid:10515 MS2DB
+//message Admin_ReqBugSubmitOp
+
+//messageid:10515的返回
+//message Admin_RetBugSubmitOp

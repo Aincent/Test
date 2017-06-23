@@ -1,0 +1,1086 @@
+import "CharLogin/CharBaseInfo.proto";
+package MapInstanceProto;
+import "Map/SynchPath.proto";
+
+message ReqCreateInstance			//请求建立副本 消息号8501
+{
+	required int32 InstanceId = 1; //副本ID
+	required int32 InstanceType = 2; //副本类型
+}
+
+message RetCreateInstance			// 建立副本回复
+{
+	required int32		dwErrorCode = 1;
+	optional int64		NewInstanceId = 2;			//创建的副本ID
+}
+
+message ReqInstanceQuit				//副本退出  消息号8502
+{
+	required int64 InstanceId = 1; //创建的副本ID
+}
+
+message RetInstanceQuit			//副本退出返回
+{
+	required int32 MapID = 1; //进入副本前的地图ID
+}
+
+message SimInstanceUpdate			//副本信息更新消息  消息号8503
+{
+	repeated int32	remainMonsterID = 1;		//剩余怪ID
+	repeated int32  remainMonsterNum = 2;			//剩余怪数量
+	optional double remaintime = 3; 			//剩余时间
+}
+
+message SimInstanceEnd				//副本结束  消息号8504
+{
+	required int32      mapid = 1;
+	optional int32		IsSuccess = 2;
+	optional SimInstanceAward Awards = 3;
+}
+
+message SimInstanceAward			//副本结束奖励
+{
+	optional int32		rewardStar = 1;		//获得星级
+	optional int32		elapsedTime	= 2;	//消耗时间
+	optional int32		barrierPoints = 3;	//关卡积分
+	optional int32		personalPower = 4;	
+	optional int32		groupPower	= 5;	//队伍战力
+	optional int32		awardMoney	= 6;
+	optional int32		awardExp	= 7;
+	optional int32		awardInfuriate	= 8;
+	repeated CharLogin.ClientItemInfo	items	= 9;		//奖励物品
+}
+
+message ReqInstanceSweep			//请求扫荡副本   消息号8505
+{
+	required int32 InstanceId = 1; //副本ID
+}
+
+message RetInstanceSweep			//扫荡副本回复
+{
+	required int32		dwErrorCode = 1;
+	required int32		dwRemainTime = 2;	//剩余时间
+	required int32      InstanceId = 3;  //副本ID
+}
+
+message ReqInstanceSweepSpeedUp		//扫荡加速   消息号8506
+{
+	required int32 InstanceId = 1; //副本ID
+	optional int32 moneytype  = 2; //使用的金钱：0为绑定元宝，1为元宝
+}
+
+message RetInstanceSweepSpeedUp		//扫荡加速回复
+{
+	required int32		dwErrorCode = 1;
+	required int32      InstanceId = 2;  //副本ID
+}
+
+message OpenInstanceSweep		//打开扫荡面板 消息号
+{
+	
+}
+
+
+message SimInstanceSweepEnd			//扫荡结束推送消息		消息号8507
+{	
+}
+
+message ReqInstanceReset		//重置某副本		消息号8508
+{
+	required int32 InstanceId = 1; //副本ID
+}
+
+message RetInstanceReset		//重置某副本返回
+{
+	required int32 dwErrorCode = 1; //
+	required int32 InstanceId = 2;
+}
+
+message ReqResetAllInstances		//重置所有副本		消息号8509
+{
+	repeated int32 InstanceIdList = 1;
+}
+
+message RetResetAllInstances		//重置所有副本返回
+{
+	required int32 dwErrorCode = 1; //
+	repeated int32 InstanceIdList = 2;
+}
+
+message ReqWSCreateInstance			//请求世界服创建副本
+{
+	required int32 InstanceId = 1; //副本ID
+	required int32 InstanceType = 2; //副本类型
+	required int32 localId = 3; //本地ID
+	required int32 romateId = 4; //远程ID
+	required int64 charid = 5;	//角色ID
+}
+
+message ReqDeleteInstance
+{
+	required int64 InstanceId = 1; //副本ID
+}
+
+message ReqGroupInstanceReady	//组队副本请求准备 消息号8511
+{
+}
+
+message RetGroupInstanceReady		//广播队员准备 消息号 8529
+{
+	required int32 ret = 1; //返回码
+	repeated int64 MemberID = 2;
+	repeated int32 IsReady = 3;		//1为做好了准备，0没有做好准备
+}
+
+message ReqGroupEnterInstance		//组队副本进入副本	消息号8512
+{
+	required int64 InstanceID = 1;	//
+}
+
+message RetGroupEnterInstance		//广播副本ID给队友
+{
+	required int32 ret = 1; //返回码
+	optional int64 InstanceID = 2;	//
+}
+
+message ReqMemberFlop				//队员的翻牌信息 消息号 8513
+{
+	required int32	FlopID = 1;		//翻牌号码，从1开始。0表示没有翻
+}
+
+message GMToClientMemberFlop
+{
+	required int32	ret = 1;		//返回码
+}
+
+message RetMemberFlop		//广播队员翻牌信息 消息号 8530
+{
+	required int32 FlopID = 1;		//已翻牌标识
+	required int32 ItemID = 2;		//已翻牌的ID
+	required string FlopName = 3;	//翻牌者姓名
+	optional int32 ItemNum = 4;     //物品数量
+	optional int32 BindType = 5; 	//绑定类型
+}
+
+message ReqGetInstanceAward				//领取奖励消息 消息号 8515
+{
+	required int64	instanceID = 1;		//副本ID
+}
+
+//消息号 8515返回用serverint 0标识成功
+
+message ReqEnterInstance				//是否可以进入副本 消息号 8516
+{
+	required int64	instanceID = 1;		//副本ID
+}
+//消息号 8516返回用serverint 0标识成功
+
+message ToGTGetInstanceTeamID		//请求副本队伍ID 消息号8517
+{
+}
+
+message RetGetInstanceTeamID		//返回副本队伍ID
+{
+	repeated InstanceTeamInfo teamInfo = 1;
+}
+
+message InstanceTeamInfo
+{
+	required int32	dwTeamID		 = 1;
+	optional int32	dwInstanceID		 = 2;
+	optional int32 dwTeamPower = 3;			//队伍战斗力
+	optional int32 dwTeamMembers = 4;		//队伍人数
+	optional string dwLeaderName = 5;       //队长名字
+}
+
+message ToClientLeaveInstance			//通知玩家离开副本 消息号8531
+{
+}
+										
+//----------------------GM TO GT---------------------------------------
+
+message ToGTAwardInfo
+{
+	required int64 charid = 1;
+	optional SimInstanceEnd awardInfo = 2;
+}
+
+
+
+
+////////////////////////////////////////////new instance//////////////////////////////
+
+//新建立副本
+//消息号：8532（快捷消息：17）
+message ClientReqCreateInstance
+{
+	required int32 InstanceId = 1; //副本ID
+	required int32 InstanceType = 2; //副本类型
+	optional int32 paramf = 3;//带过来的参数，如果是竞技副本，代表挑战的排名
+}
+
+//创建副本回复
+//RetCreateInstance
+
+
+
+//gm请求ws创建副本
+message GMReqWSCreateInstance			//请求世界服创建副本
+{
+	required int32 InstanceId = 1; //副本ID
+	optional int32 InstanceType = 2; //副本类型
+	optional int64 charid = 3;	//角色ID
+	optional int32 paramf = 4; //竞技场的副本，这里存储名次
+}
+
+//gm请求ws创建副本返回
+message AckToGMCreateInstance
+{
+	required int32 ret = 1;//返回码
+	optional int64 instanceid = 2; //副本id
+}
+
+
+
+//client请求World
+//消息号：8535（快捷消息：25）
+//client打开竞技场时请求竞技场信息
+message ClientReqWorldArenaInfo
+{
+}
+
+//client请求World
+//消息号：8536（快捷消息：25）
+//client 请求战报
+message ClientReqWarReport
+{
+	optional int32 page = 1; //请求页
+}
+
+
+//client请求World返回
+//消息号：8535（快捷消息：25）
+//client打开竞技场server返回的竞技场信息
+message ReqToWorldGetArenaInfo
+{
+	repeated OtherPlayerArenaInfo otherinfo = 5; //竞技场信息
+}
+
+message OtherPlayerArenaInfo
+{
+	required int64 charid = 1;  //角色ID
+	optional string charname = 2;
+	optional int32 Ranking = 3; //竞技场名次
+	optional int32 profession = 4;
+	optional int32 fight =5; //战斗力
+	optional bool sex = 6;
+	optional int32 viplv = 7; //vip等级
+	optional int32 lv = 8; //等级
+}
+
+
+//client请求World返回
+//消息号：8536（快捷消息：25）
+//server 返回战报
+message ReqToWordGetWarReport
+{
+	optional bool IsEnd = 1;  //是否请求完毕
+	repeated WarReport report = 2; //战报
+}
+
+
+
+//client请求Game返回
+//消息号：8537快捷消息：17）
+//client打开竞技场server返回的竞技场信息 
+message ReqToGameGetArenaInfo
+{
+	optional int32 challengeTimes = 1; // 可挑战次数
+	optional int32 alreadyRefresh = 2; // 已经刷新次数
+	optional int32 alreadyAddChall = 3; // 已经操作增加挑战的次数
+	optional int32 Ranking = 4; //竞技场名次
+	optional int32 historyRank = 5; //历史排名
+	optional ArenaHistoryReward historyReward = 6; //领取历史奖励
+}
+
+message ArenaHistoryReward
+{
+	repeated int32 reward = 1; // 可领取历史数据
+	repeated int32 havaReward = 2; //是否领取 1 为未领取  0为已领取
+	
+}
+
+//client请求Game返回
+//消息号8541（快捷消息：17）
+//Game返回Client领取排名奖励结果
+message ReqArenaHistoryReward
+{
+	required int32 id = 1;
+}
+
+message RspArenaHistoryReward
+{
+	required int32 ret = 1;
+	optional int32 id = 2;
+}
+
+
+
+
+//World推送client
+//消息号：8538（快捷消息：14）
+//服务器端主动推送战报
+message WarReport
+{
+	optional string charname = 1;
+	optional int32 ranking = 2;
+	optional bool iswin = 3;
+	optional bool ischallenger = 4;
+	optional int64 times = 5;
+}
+
+//client请求Game取消竞技场冷脚时间
+//消息号：8539（快捷消息：17）
+message CancelAreanCDTime
+{
+
+}
+
+//Game返回client取消竞技场冷脚时间结果
+//消息号：8539（快捷消息：17）
+message ReturnCancelAreanCDTime
+{
+	optional int32 ret = 1;
+}
+
+//增加挑战次数
+//消息号：8540（快捷消息：17）
+message AddChallengeTimes
+{
+	required int32 times = 1;
+}
+
+//Game返回client增加挑战次数结果
+//消息号：8540（快捷消息：17）
+message ReturnAddChallengeTimes
+{
+	optional int32 ret = 1;
+	optional int32 count = 2; // 可挑战次数
+	optional int32 alreadyAddChall = 3; // 已经操作增加挑战的次数
+}
+
+//client请求Game领取排名奖励
+//消息号：8541（快捷消息：17
+message ClientReqAreanReward
+{
+
+}
+
+//告诉client竞技场已经结束
+//消息号：8543 （快捷消息：14）
+message GMToClientCompeteOver
+{
+	required bool issuccess = 1; //是否胜利 ，true为胜利
+	optional int32 exp = 2; //奖励的经验
+	optional int32 credit = 3; // 奖励的声望
+}
+
+//同步排名奖励结果到 
+message SysRankingReward
+{
+	required int64 ret = 1;
+	optional int32 retf = 2;
+	optional int32 rets = 3;
+	optional int32 Ranking = 4; //竞技场名次
+	optional int32 historyRank = 5; //历史排名
+	optional ArenaHistoryReward historyReward = 6; //领取历史奖励
+}
+
+//client请求World排行名字
+//消息号：8546（快捷消息：25）
+message ClientRegRankingName
+{
+}
+
+//client请求World返回
+//消息号：8546（快捷消息：25）
+//server 返回排行名字
+message WSToClientRankingName
+{
+	repeated string charname = 1;
+	repeated int32 viplv = 2;
+}
+
+
+
+
+
+
+//client请求副本信息
+//消息号：8547（快捷消息：17）
+message ClientReqGroupInfo
+{
+}
+
+//服务器GM返回副本信息
+message GMToClentGroupInfo
+{
+	repeated GroupInfo info = 1;
+}
+
+message GroupInfo
+{
+	required int32 mapid = 1;	//副本地图id
+	optional int32 num = 2;	//已进次数
+}
+
+//client请求副本所有队伍信息
+//消息号：8548（快捷消息：25）
+message ClientReqAllTeamInfo
+{
+	required int32 mapid = 1;	//副本地图id
+}
+
+//服务器WS返回副本所有队伍信息
+message WSToClentAllTeamInfo
+{
+	required int32 mapid = 1;	//副本地图id
+	optional int32 page = 2; 	//页数
+	repeated AllTeamInfo allteaminfo = 3; //副本所有队伍信息
+}
+
+message AllTeamInfo
+{
+	required int64 teamid = 1;	//队伍id
+	optional string charname = 2;	//队长名称
+	optional int32 num = 3;		//队伍成员数量
+	optional int32 fight = 4;	//战力需求
+	optional bool code = 5;		//true 为需要密码， false 为不需要密码
+	optional int32 vip = 6;     //VIP
+	optional int32 sex = 7;     //性别
+	optional int32 job = 8; 	//职业
+}
+
+//client请求加入副本队伍
+//消息号：8549（快捷消息：25）
+message ClientReqJoinTeam
+{
+	required int64 teamid = 1;	//队伍id
+	optional string password = 2;	//密码
+	optional int32 mapid = 3;	//副本地图id
+}
+
+//服务器返回加入副本队伍信息
+message WSToClentReqJoinTeam
+{
+	required int32 ret = 1; 	//返回码
+	optional int32 mapid = 2;	//副本地图id
+	optional int64 teamid = 3;	//队伍id
+	optional int32 fight = 4;  //战力需求
+	optional bool flag = 5;	//是否满员自动开启
+	repeated TeammemberInfo memberifno = 6;	//队员信息
+}
+
+
+message TeammemberInfo
+{
+	optional int64 charid	= 1;	//队员id
+	optional string charname = 2;	//队员名称
+	optional int32 fight = 3;  //战力
+	optional bool captain = 4; //true 为队长， false 为队员
+	optional bool ready = 5;	//true 为已准备， false 为未准备
+	optional int32 job = 6; 	//职业
+	optional bool sex = 7;		//性别
+	optional int32 vip = 8;		//vip
+//	optional bool online = 6;	//true 为在线， false 为离线
+}
+
+
+//client请求加入副本队伍
+//消息号：8550（快捷消息：25）
+message ClientReqQuickJoinTeam
+{
+	required int32 mapid = 1;	//副本地图id
+}
+
+//服务器返回加入副本队伍信息
+//message WSToClentReqJoinTeam
+
+
+//client请求创建副本队伍
+//消息号：8551（快捷消息：25）
+message ClientReqCreateTeam
+{
+	required int32 mapid = 1;	//副本地图id
+	optional int32 fight = 2;  //战力需求
+	optional string password = 3;	//密码
+	optional bool flag = 4;	//是否满员自动开启
+}
+
+//服务器返回创建副本队伍
+message WSToClentReqCreateTeam
+{
+	required int32 ret = 1; 	//返回码
+	optional int32 mapid = 2;	//副本地图id
+	optional int64 teamid = 3;	//队伍id
+	optional bool flag = 4;	//是否满员自动开启
+	optional bool code = 5;		//true 为需要密码， false 为不需要密码
+	optional int32 fight = 6;  //战力需求
+}
+
+//服务器推送玩家加入队伍信息
+//消息号：8552（快捷消息：14）
+//message TeammemberInfo
+
+
+//clinet请求服务器准备
+//消息号：8553（快捷消息：25）
+message ClientReqTeamReady
+{
+	required int32 mapid = 1;	//副本地图id
+}
+
+//clinet返回服务器准备
+message WSToClientReqTeamReady
+{
+	required int32 ret = 1; 	//返回码
+}
+
+//服务器通知客户端已准备
+//消息号：8554（快捷消息：14）
+message WSToClientSimReady
+{
+	required int64 charid	= 1;	//队员id
+}
+
+//client请求寻找队友
+//消息号：8555（快捷消息：23)
+message ClientSimFindTeamMember
+{
+	required int32 mapid = 1;	//副本地图id
+}
+
+
+//WS推送玩家寻找队友信息
+//消息号：8556（快捷消息：14）
+message WSToClientFindTeamMember
+{
+	required int64 teamid = 1;	//队伍id
+	optional int32 mapid = 2;	//副本地图id
+	optional bool code = 3;		//true 为需要密码， false 为不需要密码
+	optional string name = 4;
+}
+
+//client请求踢出队员
+//消息号：8557（快捷消息：25）
+message ClientReqKickMember
+{
+	required int32 mapid = 1;	//副本地图id
+	optional int64 charid	= 2;	//队员id
+}
+
+//WS返回踢出队员信息
+message WSToClientKickMember
+{
+	required int32 ret = 1; 	//返回码
+	optional int64 charid	= 2;	//队员id
+}
+
+//WS通知队员已被队长踢出
+//消息号：8558（快捷消息：14）
+//WS通知队员退出组队
+//消息号：8569（快捷消息：14）
+message WSToClientSimKick
+{
+	optional int64 charid = 1;	//队伍id
+}
+
+//client请求进入副本
+//消息号：8559（快捷消息：25）
+message ClientReqEnterTeamMap
+{
+	required int32 mapid = 1;	//副本地图id
+}
+
+//WS返回请求进入副本信息
+message WSToClientEnterTeamMap
+{
+	required int32 ret = 1; 	//返回码
+	optional int64 instance = 2; //副本id
+}
+
+//WS通知队员进入组队副本
+//消息号：8560（快捷消息：14）
+message WSToClientSimInstance
+{
+	optional int64 instance = 1; //副本id
+}
+
+//GM推送玩家伤害排名
+//消息号：8561（快捷消息：14）
+message GMToClientSimHarmRank
+{
+	repeated HarmRank harminfo = 1;	//伤害排名信息
+}
+
+message HarmRank
+{
+	required int64 charid	= 1;	//队员id
+	optional string charname = 2;	//队员名称
+	optional float harm = 3; 	//伤害值
+}
+
+
+//WS同步队员上下线
+//消息号：8562（快捷消息：14）
+message WSToClientSimOnline
+{
+	required int64 charid	= 1;	//队员id
+	optional bool online  = 2;	//true 为上线， false 为下线
+}
+
+//client请求退出副本队伍
+//消息号：8563（快捷消息：25）
+message ClientReqExitTeam
+{
+	required int32 mapid = 1;	//副本地图id
+}
+
+//WS返回退出队员信息
+message WSToClientExitTeam
+{
+	required int32 ret = 1; 	//返回码
+}
+
+//WS通知队员已退出
+//消息号：8564（快捷消息：14）
+message WSToClientSimExitTeam
+{
+	required int64 charid = 1;	//队伍id
+	optional int64 captain = 2;		//队长id
+}
+
+//GM通知WS组队副本结束
+//消息号：8565
+message GMToWSDelTeam
+{
+	required int64 teamid = 1;	//队伍id
+}
+
+//VIP副本抽奖
+//消息号：8566（快捷消息：17）
+//message ReqMemberFlop
+
+//GM返回Client抽奖结果
+message GMToClientLottery
+{
+	required int32 ret = 1;		//返回码
+	optional int32 FlopID = 2;		//已翻牌标识
+	optional int32 ItemID = 3;		//已翻牌的ID
+	optional int32 ItemNum = 4;     //物品数量
+	optional int32 BindType = 5; 	//绑定类型
+}
+
+//消息号：8575（快捷消息：14）
+message SimSweepInstanceAward			//副本扫荡结束奖励
+{
+	required int32 		mapid = 1;
+	required int32		elapsedTime	= 2;	//消耗时间
+	required int32		awardMoney	= 3;
+	required int32		awardExp	= 4;
+	required int32		awardInfuriate	= 5;
+	repeated CharLogin.ClientItemInfo	items	= 6;		//奖励物品
+}
+
+//消息号：8576
+message SysInstanceRanking
+{
+ required int32 		mapid = 1;
+ optional int32		elapsedTime	= 2;	//消耗时间
+ optional int32		type	= 3;	//类型
+ optional int64     charId  = 4;
+}
+
+//client 请求副本排名
+//消息号：8577（快捷消息：25）
+message AckInstanceRanking
+{
+	required int32 	mapid = 1;
+}
+
+message RetInstanceRanking
+{
+	required int32  ret = 1;
+	optional int32	elapsedTime	= 2;	//消耗时间
+	optional string charname = 3;
+	optional int32 mapid = 4;
+}
+
+//client 请求挑战副本排名
+//消息号：8578（快捷消息：17）
+message GetInstanceRanking
+{
+	required int32 	mapid = 1;
+}
+
+message ReturnInstanceRanking
+{
+	required int32 mapid = 1;
+	optional int32	elapsedTime	= 2;	//消耗时间
+}
+
+//client 请求组队副本活动信息
+//消息号：8580（快捷消息：17）
+//message ReqGroupInstance
+
+message GroupInstance
+{
+	repeated InstanceGroupList groupList = 1;//组队副本信息
+}
+
+message InstanceGroupList
+{
+	required int32 mapId = 1;
+	optional int32 num = 2;//剩余的次数
+	optional int32 buynum = 3; //购买次数
+}
+
+//client 请求组队副本活动信息
+//消息号：8581（快捷消息：17）
+message ReqCostByGroupInstance
+{
+	required int32 mapId = 1;
+}
+
+message RetCostByGroupInstance
+{
+	required int32 ret = 1;
+	optional int32 mapId = 2;
+	optional int32 num = 3;//剩余的次数
+	optional int32 buynum = 4; //购买次数
+}
+
+// client 请求刷新竞技场排名  12951（快捷消息：17）
+message ReqArenaRefresh
+{
+}
+
+// 返回 刷新竞技场排名
+message RetArenaRefresh
+{
+	required int32 err = 1; // 错误码
+	required int32 alreadyRefresh = 2; // 已经刷新次数
+	repeated OtherPlayerArenaInfo otherInfo = 3; // 
+}
+
+// GM To WS 请求获取竞技场挑战玩家 12952
+message ReqWSArenaChallPlayer
+{
+	repeated int32 rankings = 1;
+}
+message RetWSArenaChallPlayer
+{
+	repeated OtherPlayerArenaInfo playerInfo = 1; // 可挑战玩家
+}
+
+// GM To WS 请求获取竞技场可挑战的玩家的排名 12953
+
+message ReqWSArenaChallRank
+{
+	repeated int32 rankings = 1;
+} 
+
+// 返回 一键扫荡数据  8571
+message GMToClientSweepAllInstance
+{
+	required int32	ret = 1;		//返回码
+	repeated SimSweepInstanceAward ssia = 2; 
+}
+
+
+//精英副本
+//消息号：8583（快捷消息：17）
+message EliteInstance
+{
+	optional int32 num = 1; //已经完成的次数
+	optional int32 reset = 2; //重置的次数
+	repeated InstanceEliteList list = 3;
+}
+
+message InstanceEliteList
+{
+	required int32 mapId = 1; //副本ID
+	optional int32 pass = 2; //0表示未通关，1表示通关
+}
+
+//恶梦副本
+//消息号：8584（快捷消息：17）
+message CauchemarInstance
+{
+	optional int32 num = 1; //已经完成的次数
+	optional int32 reset = 2; //重置的次数
+	repeated InstanceCauchemarList list = 3;
+}
+
+message InstanceCauchemarList
+{
+	required int32 mapId = 1; //副本ID
+	optional int32 pass = 2; //0表示未通关，1表示通关
+}
+
+//client请求激请列表
+//消息号：8585（快捷消息：25）
+message ReqInviteMemberList
+{
+	required int32 mapId = 1; //副本ID
+	optional int32 ntype = 2; // 1： 同地图 2： 帮派 3： 好友
+}
+
+message RetInviteMemberList
+{
+	required int32 ntype = 1;
+	repeated InviteMemberList memberlist = 2; //激请列表
+}
+
+message InviteMemberList
+{
+	required int64 charId = 1; //角色ID
+	optional string name = 2; //角色名字
+	optional int32 lv = 3; //角色等级
+	optional int32 fight = 4; //角色战力
+}
+
+//client请求邀请具体好友
+//消息号：8586（快捷消息：25）
+message ReqInviteMember
+{
+	required int64 charId = 1; //角色ID
+	optional int32 mapId = 2; //副本ID
+}
+
+message RetInviteMember
+{
+	required int32 ret = 1; //错误码
+	optional int64 charId = 2; //角色ID
+}
+
+//service通知好友被邀请
+//消息号：8587（快捷消息：14）
+message RetInvitedMember
+{
+	required int64 teamid = 1;	//队伍id
+	optional int32 mapid = 2;	//副本地图id
+	optional string name = 3; 	//邀请人名字
+}
+
+//请求挑战副本信息
+//消息号：8590  快捷消息：17
+//空消息
+
+//服务器返回挑战副本信息
+message AckChallengeInfo
+{
+	required int32 layer = 1; 		//当前关卡
+	optional int32 maxlayer = 2;	//最高纪录关卡
+	optional bool issweep = 3;		//是否在扫荡中
+	optional int32 sweeptime = 4;	//扫荡剩余时间
+	optional int32 totaltime = 5;   //总的扫荡时间
+	optional int32 reset = 6;		//重置的次数
+}
+
+//请求查询某层的排行信息
+//消息号：8591 快捷消息：25
+message ReqLayerRank
+{
+	required int32 layer = 1; //层数
+}
+
+//服务器返回某层的排行信息
+message AckLayerRank
+{
+	required int32 layer = 1;		//当前层
+	optional bytes firstname = 2;	//首位通关名字
+	optional int32 firstlevel = 3;	//首通等级
+	optional int32 firstfight = 4;	//首通战力
+	optional bytes lastname = 5;	//最新通关玩家名
+	optional int32 lastlevel = 6;	//最新通关等级
+	optional int32 lastfight = 7;	//最新通关战力
+	optional bytes famousname = 8;	//极限通关玩家
+	optional int32 famouslevel = 9;	//极限通关等级
+	optional int32 famousfight = 10;//极限通关战力
+}
+
+//请求开始扫荡
+//消息号：8592  快捷消息：17
+//空消息
+
+//服务器返回开始扫荡结果
+message AckSweep
+{
+	required int32 code = 1;		 //0表示成功 其他表示错误码
+	optional int32 elapsedTime = 2;  //剩余扫荡时间
+}
+
+//请求结束扫荡
+//消息号:8593	快捷消息：17
+//空消息
+
+//服务器返回结束扫荡结果
+message ACkEndSweep
+{
+	required int32 code = 1;				//0表示成功，其它表示错误码
+	optional int32 startlayer = 2;			//开始层
+	optional int32 endlayer = 3;			//结束层
+	repeated PrizeItem prize = 4;			//奖励物品
+}
+
+//服务器主动推送挑战副本扫荡完成
+//消息号：8595
+//消息体:ACkEndSweep
+
+//请求兑换物品
+//消息号：8594 快捷消息：17
+message	ReqExchange
+{
+	required int32 id = 1;	//兑换的物品id
+	optional int32 num = 2;	//兑换的数量
+}
+
+//服务器返回兑换成功或失败
+message AckExchange
+{
+	required int32 id = 1; 		//兑换的物品id
+	optional int32 code = 2;	//返回的结果，0表示成功；其它为错误码
+}
+
+//奖励物品信息
+message PrizeItem
+{
+	required int32 id = 1;	//物品id
+	optional int32 num = 2; //物品数量
+}
+
+//玩家通关挑战副本信息
+//消息号 ：8596
+message PassChallenge
+{
+	required int64 charid = 1;
+	optional bytes name = 2;
+	optional int32 layer = 3;
+	optional int32 fight = 4;
+	optional int32 level = 5;
+	optional int32 vip = 6;
+}
+
+//玩家采集宝箱
+//消息号8597  快捷消息：17
+message GatherBox
+{
+	required int32 key = 1; //宝箱key
+}
+
+message AckGatherBox
+{
+	required int32 key = 1;			//宝箱key
+	optional int32 code = 2;		//错误码 0表示成功;其它表示错误原因
+	repeated PrizeItem items = 3;	//得到的物品
+}
+
+//进阶副本
+//消息号：8598（快捷消息：17）
+message AdvancedInstance
+{
+	repeated InstanceAdvancedList list = 1;
+}
+
+message InstanceAdvancedList
+{
+	required int32 mapId = 1; //副本ID
+	optional int32 pass = 2; //0表示未通关，1表示通关
+	optional int32 num = 3; //已经完成的次数
+	optional int32 time = 4; //扫荡进行的时间
+	optional int32 reset = 5; //重置的次数
+}
+	
+
+//////////////组队副本///////////////////////////
+//clinet请求服务器取消准备
+//消息号：8599（快捷消息：25）
+message ClientReqTeamChanceReady
+{
+	required int32 mapid = 1;	//副本地图id
+}
+
+//clinet返回服务器取消准备
+message WSToClientReqTeamChanceReady
+{
+	required int32 ret = 1; 	//返回码
+}
+
+//服务器通知客户端取消准备
+//消息号：8600（快捷消息：14）
+message WSToClientSimChanceReady
+{
+	required int64 charid	= 1;	//队员id
+}
+
+//普通副本
+//消息号：8589（快捷消息：17）
+message CommonInstanceInfo
+{
+	optional int32 num = 1; //已经完成的次数
+	optional int32 reset = 2; //重置的次数
+	repeated CommonInstanceInfoList info = 3;
+}
+
+message CommonInstanceInfoList
+{
+	required int32 mapId = 1; //副本ID
+	optional int32 pass = 2; //0表示未通关，1表示通关
+}
+	
+//VIP副本
+//消息号：8510（快捷消息：17）	
+message VipInstance
+{
+	repeated VipInstanceList info = 1;
+}
+	
+message VipInstanceList
+{
+	required int32 mapId = 1;
+	optional int32 pass = 2;
+	optional int32 num = 3;
+	optional int64 time = 4;
+}
+
+//经验副本
+//消息号：8751（快捷消息：17）
+message ExpInstanceInfo
+{
+	optional int32 num = 1; //已经完成的次数
+	optional int32 reset = 2; //重置的次数
+	repeated ExpInstanceInfoList info = 3;
+}
+
+message ExpInstanceInfoList
+{
+	required int32 mapId = 1; //副本ID
+	optional int32 pass = 2; //0表示未通关，1表示通关
+}
+
+
+//铜钱副本
+//消息号：8752（快捷消息：17）
+message MoneyInstanceInfo
+{
+	optional int32 num = 1; //已经完成的次数
+	optional int32 reset = 2; //重置的次数
+	repeated MoneyInstanceInfoList info = 3;
+}
+
+message MoneyInstanceInfoList
+{
+	required int32 mapId = 1; //副本ID
+	optional int32 pass = 2; //0表示未通关，1表示通关
+}

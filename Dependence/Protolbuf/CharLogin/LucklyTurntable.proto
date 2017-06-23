@@ -1,0 +1,56 @@
+package LucklyTurntable;
+
+//请求 转盘信息  消息ID为18 ServerMessage::ClientSingleMessage中的 ID 为10015  
+//恢复  AckLucklyTurntable
+message AckLucklyTurntable
+{
+	required int32 ret        = 1;
+	optional double enterTm   = 2; //进入  时间
+	repeated int32 reawIDList = 3; //显示奖励ID
+	optional int32 freeNum 	  = 4;  //当前 免费次数  
+	repeated int32 itemID     = 5; //物品ID
+	repeated int32 num        = 6;  //作用 叠加数    可能有 元宝
+}
+
+//请求 刷新 转盘可得 奖励信息  消息ID为18 ServerMessage::ClientSingleMessage中的 ID 为10016 
+//  领取 得到的奖励 消息ID为18 ServerMessage::ClientSingleMessage中的 ID 为10018
+//恢复  AckRefulshOrGetLucklyTurntable
+message AckRefulshOrGetLucklyTurntable
+{
+	required int32 ret = 1; 
+	optional int32 enterTm = 2; //进入  时间
+	repeated int32 reawIDList = 3; 
+}
+
+
+//  领取 得到的奖励 消息ID为18 ServerMessage::ClientSingleMessage中的 ID 为10018
+//恢复  AckGetLucklyTurntable
+message AckGetLucklyTurntable
+{
+	required int32 ret = 1;
+	optional int32 notAdd =2; //已经领的个数 
+}
+
+
+//请求 转盘 转盘可得 奖励信息  消息ID为18 ServerMessage::ClientSingleMessage中的 ID 为10017
+//恢复  AckRollLucklyTurntable
+
+message ClientRollLucklyTurntable
+{
+	required int32 num = 1;
+}
+
+message AckRollLucklyTurntable
+{
+	required int32 ret = 1;
+	repeated int32 itemID = 2; //物品ID
+	repeated int32 num = 3;  //作用 叠加数    可能有 元宝
+}
+
+
+
+
+
+
+
+

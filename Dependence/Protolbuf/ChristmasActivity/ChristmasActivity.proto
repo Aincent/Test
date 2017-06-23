@@ -1,0 +1,77 @@
+package ChristmasActivity;
+
+//获取砸蛋信息,协议ID:13052,大类型ID:17,结构体为ServerRetInt
+
+//获取砸蛋信息返回,协议ID:13052
+message BreakEggMsg
+{
+	optional int64 reflushTime = 1;		//刷新时间
+	optional int32 breakInfo   = 2;		//蛋是否砸信息,对应的bit,0表示没有砸,1表示砸过 
+	optional int64 endTime	   = 3;		//活动结束时间
+}
+
+
+//刷新砸蛋,协议ID:13055,大类型ID:17,发送结构体ServerRetInt,返回结构体ServerRetInt(值为错误码)
+
+
+//砸蛋,协议ID:13056,大类型ID:17,发送结构体ServerRetInt(值从0开始,-1表示全砸)
+message OneItemData
+{
+	optional int32 itemID   = 1;
+	optional int32 bindType = 2;
+	optional int32 num		= 3;
+}
+
+//砸蛋返回,协议ID:13056
+message BreakEggReturn
+{
+	optional int32 error 		  = 1;
+	optional int32 index 		  = 2;
+	repeated OneItemData itemList = 3;
+}
+
+
+//圣诞节登录情况,协议ID:13053,大类型ID:17,结构体为ServerRetInt (值为错误码)
+
+//圣诞节登录情况返回,协议ID:13053
+message ChristmasLoginMsg
+{
+	optional int32 loginDay   = 1;		//登录天数
+	optional int32 rewardInfo = 2;		//奖励领取信息
+	optional int64 endTime	  = 3;		//活动结束时间
+}
+
+//登录领取奖励,协议ID:13057,大类型ID:17,结构体为ServerRetInt(值从0开始),返回结构体ServerRetInt(值为错误码)
+
+//限购信息,协议ID:13054,大类型ID:17,结构体为ServerRetInt(值为错误码)
+
+//单个限购数据
+message SingleLimitData
+{
+	optional int32 id	  = 1;	//限购ID,对应表中的ID
+	optional int32 counts = 2;  //已购买的个数
+}
+
+//限购信息返回,协议ID:13054
+message ChristmasLimitBuyInfo
+{
+	optional int64 reflushTime        = 1;	     //刷新时间
+	repeated SingleLimitData dataList = 2;		 //限购物品信息 	
+	optional int64 endTime	   		  = 3; 		 //活动结束时间
+}
+
+
+//限购刷新,协议ID:13058,大类型ID:17,结构体ServerRetInt
+
+//限购刷新返回,协议ID:13058
+message LimitBuyReturn
+{
+	optional int32 error 			  = 1;
+	repeated SingleLimitData dataList = 2;		 //限购物品信息 
+}
+
+
+//购买限购物品,协议ID:13059,大类型ID:17,结构体ServerRetInt(值为表中的ID),返回结构体ServerRetInt(值为错误码)
+
+
+//兑换物品,协议ID:13060,大类型ID:17,结构体ServerRetInt(值为表中的ID),返回结构体ServerRetInt(值为错误码)

@@ -1,0 +1,143 @@
+package CharBattle;
+
+//key为单体技能时的目标唯一id    xpos ypos是范围技能时的坐标点
+//玩家请求攻击
+//消息号： 1055
+message ClientReqAttack
+{
+	required int32 skillid = 1;
+	optional uint32 key = 2;
+	optional int32 xpos = 3;
+	optional int32 ypos = 4;
+}
+
+//客户端请求升级技能
+//消息号：1063
+message ClientReqUpgradeSkill
+{
+	required int32 skillid = 1;
+	optional int32 type    = 2; //0表示正常升级,1表示升到最大级 
+}
+
+message TOGMReqUpgradeSkill
+{
+	required int64 charid = 1;
+	required int32 skillid = 2;
+}
+
+message GateReqAttack
+{
+	required int64 charid = 1;
+	required ClientReqAttack req = 2;
+}
+
+//广播给玩家打击动作
+//消息号： 1053
+message SynClientAttack
+{
+	required int32 skillid = 1;
+	required int32 begin = 2;
+	optional int32 target = 3;
+	optional int32 xpos = 4;
+	optional int32 ypos = 5;
+}
+
+//告诉客户端buff的添加和删除
+//消息号：1066
+message BuffOperate
+{
+	required uint32 onlyID = 1;
+	required int32 id = 2;
+	required int32 targetid = 3; //buff获得者
+	required bool type = 4; //true为加buff，false为移出buff
+	optional int32 time = 5;
+}
+
+message ToGTBuffOperate
+{
+	required int64 charid = 1;
+	required BuffOperate buf = 2;
+}
+
+message SynToGateAttack
+{
+	required int64 charid = 1;
+	required SynClientAttack content = 2;
+}
+
+message SynchObjAttackToGT
+{
+	required int64 charid = 1;
+	required ObjectState state = 2;
+}
+
+message AttackAttChange
+{
+	repeated int32 type = 1;
+	repeated int64 value = 2;
+	repeated int32 state = 3;
+}
+
+//广播玩家的属性和状态的改变
+//消息号:
+message ObjectState
+{
+	required int32 key = 1;
+	optional AttackAttChange attr = 3;
+}
+
+//客户点请求玩家复活
+//消息号：1093
+message ClientReqRevival
+{
+	required int32 type = 1;
+}
+
+message GateReqRevival
+{
+	required int64	charid = 1;
+	required int32 	type = 2;
+}
+
+message RevivalData
+{
+	optional int64 mapid = 1;
+	optional int32 xpos = 2;
+	optional int32 ypos = 3;
+	required int32 key = 4;
+	required int32 hp = 5;
+	required int32 mp = 6;
+	optional int32 pkType = 7;
+	optional bool consumeflag = 8; //是否提示消耗复活丹标识(只有存在该字段并且为true时才提示)
+}
+message ToGTRevival
+{
+	required int64	charid = 1;
+	required RevivalData  req = 2;
+}
+
+//协议号 1097
+message ChangePkType
+{
+	required int32 type = 1; //1表示和平模式，2表示全体模式，3表示善恶模式，4表示联盟模式
+}
+
+//请求采集 消息号 9101
+message ReqGather
+{
+	required int32 monsterid = 1;
+}
+
+message RetGather
+{
+	required int32 dwerror = 1;		//错误码
+}
+
+//服务器推送玩家死亡信息
+//消息号：6030  
+message DeadInfo
+{
+	required int32 type = 1;	//被玩家还是怪物杀死:0表示玩家;1表示怪物
+	optional int64 id   = 2;	//玩家或怪物id
+	optional bytes name = 3;	//玩家名字
+}

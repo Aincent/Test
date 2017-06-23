@@ -1,0 +1,126 @@
+package EscortProto;
+
+message RqGetQuality					//��ȡ�ʸ�Ʒ�� ��Ϣ�� 9501
+{
+	required int32 quality = 1;		//����Ʒ��
+}
+
+message RtGetQuality					//��ȡ�ʸ�Ʒ�ʷ���
+{
+	required int32 error = 1;
+	required int32 quality = 2;		//����Ʒ��
+}
+
+message RqFreshTreature				//ˢ�»ʸ� ��Ϣ�� 9502
+{
+	required int32 escortId = 1;	//������·id
+}
+
+message RtFreshTreature				//ˢ�·���
+{
+	required int32 quality = 1;
+	required int32 error = 2;
+	required int32 freshtimes = 3;		//ˢ�´���
+}
+
+message RqStartEscort				//��ʼ���� ��Ϣ�� 9503
+{
+}
+
+message RtStartEscort				//��ʼ���ͷ���
+{
+	required int32 error = 1;
+	optional int32 quality = 2;		//����Ʒ��
+	optional int32 line = 3;		//��·
+	optional int32 money = 4;
+	optional int32 exp = 5;
+}
+
+//立即完成
+//消息id：9504
+message RqImediaComplete			//������� ��Ϣ�� 9504
+{
+}
+//回复消息用EscortResult
+//message RtImediaComplete			//������ɷ���
+//{
+//	required int32 error = 1;
+//}
+
+message RqSpeedUp					//���ͼ��� ��Ϣ�� 9505
+{
+}
+
+message RtSpeedUp					//���ͼ��ٷ���
+{
+	required int32 error = 1;
+}
+
+message RqAbandon					//����  ��Ϣ�� 9506
+{
+}
+
+message RtAbandon					//�����
+{
+}
+
+message RqGetPrize					//��ȡ����  ��Ϣ�� 9507
+{
+}
+
+message RtGetPrize					//��ȡ�����
+{
+}
+
+message RqOpenEscort					//�����ڽ���  ��Ϣ�� 9508
+{	
+}
+
+//打开护送皇纲界面返回
+message RtOpenEscort
+{
+	required int32 freshtimes = 1;		//刷新次数
+	required int32 dotimes = 2;			//护送的次数
+	required int32 quality = 3;			//正在护送的或者能护送的皇纲等级
+}
+
+//客户端新上线，同步上次的镖车信息
+//消息id：9510
+message EscortStateInfo
+{
+	required int32 line = 1;					//线路id
+	optional int32 quality = 2;				//品质
+	optional int32 robTimes = 3;				//被劫次数
+	optional int32 time = 4;				//剩余时间
+	optional int32 mapid = 5;				//目前所在的地图id
+	optional int32 xpos = 6;
+	optional int32 ypos = 7;
+	optional int32 speedtime = 8; //加速倒计时
+	optional int32 money = 9;
+	optional int32 exp = 10;
+}
+
+//message RobEscortInfo					 //������Ϣ  ��Ϣ�� 9511
+//{
+//	required int32		robType = 1;	 // 0��������Ϣ��1�Ǳ�����Ϣ
+//	required string 	Name = 2;		 //
+//	optional int32 		line = 3;		 //��·
+//	optional int32 		quality = 4;	 //����Ʒ��
+//}
+
+
+//押镖结果(4种情况都会用到，护送成功，护送失败，皇纲被劫，劫皇纲成功)
+//消息id：9512（快捷消息 14）
+message EscortResult
+{
+	required int32 res = 1; // 返回码      0 表示成功（护送成功和劫皇纲成功）        117护送失败           239被劫
+	optional int32 exp = 2; // 获得或者丢失的经验（护送成功和劫皇纲成功获得经验，被劫丢失的经验）
+	optional int32 money = 3; //获得或者丢失的金钱（护送成功和劫皇纲成功获得金钱，被劫丢失的金钱）
+	optional bytes name = 4; //名字（被劫者或者劫皇纲者）
+}
+
+// WS通知GM双倍押镖活动状态 9531
+message WSToGMDoubleEscort
+{
+	required bool flag = 1; // true open, false close 
+}

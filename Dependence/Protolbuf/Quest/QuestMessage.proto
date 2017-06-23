@@ -1,0 +1,114 @@
+package QuestProto;
+
+//支线任务描述结构
+message ClientBranchTask
+{
+	repeated int32 questid = 1;		//任务id
+	repeated int32 fvalue = 2;		//已完成的任务目标
+	repeated int32 svalue = 3;		//需要完成的任务目标
+	repeated int32 state = 4;		//1：未领取2：已接未完成3：完成4：失败
+}
+
+message UpdateMainTask				//更新主线任务 消息号 1110
+{	
+	required int32 questid = 1;		//任务id
+	required int32 fvalue = 2;		//已完成的任务目标
+	required int32 svalue = 3;		//需要完成的任务目标
+	required int32 state = 4;		//1：未领取2：已接未完成3：完成4：失败
+	optional ClientBranchTask branch = 5; //支线任务
+}
+
+message UpdateDailyTask				//更新日常任务 消息号 1111
+{
+	required int32 questid = 1;		//任务id
+	required int32 fvalue = 2;		//已完成的任务目标
+	required int32 svalue = 3;		//需要完成的任务目标
+	required int32 state = 4;		//1：未领取2：已接未完成3：完成4：失败
+	required int32 numstar = 5;		//数量星级
+	required int32 rewardstar = 6;	//奖励星级
+	required int32 times = 7;		//完成环数
+}
+
+message UpdateClanTask				//更新帮派任务 消息号 1112
+{
+	required int32 questid = 1;		//任务id
+	required int32 fvalue = 2;		//已完成的任务目标
+	required int32 svalue = 3;		//需要完成的任务目标
+	required int32 state = 4;		//1：未领取2：已接未完成3：完成4：失败
+	required int32 numstar = 5;		//数量星级
+	required int32 rewardstar = 6;	//奖励星级
+	required int32 times = 7;		//完成环数
+}
+
+message UpdateCampTask				//更新帮派任务 消息号 1205
+{
+	required int32 questid = 1;		//任务id
+	required int32 fvalue = 2;		//已完成的任务目标
+	required int32 svalue = 3;		//需要完成的任务目标
+	required int32 state = 4;		//1：未领取2：已接未完成3：完成4：失败
+	required int32 numstar = 5;		//数量星级
+	required int32 rewardstar = 6;	//奖励星级
+	required int32 times = 7;		//完成环数
+}
+
+message ReqSubmitTask				//提交任务 消息号 1047
+{
+	required int32 questid = 1;
+}
+
+message ToSubmitTask
+{
+	required int32	questid = 1;
+	required int32 error = 2;
+}
+
+message ReqFreshStar			//刷星 1为日常 2为帮派 消息号：1113
+{
+	required int32 taskid = 1;  //任务id
+	required int32 freshtype = 2;// 0：全部 1：数量 2：奖励
+	
+}
+
+message ToFreshStar
+{
+	required int32 error = 1;
+	required int32 freshtype = 2;// 0：全部 1：数量 2：奖励
+}
+
+message ReqOneKeyComplete		//一键完成20环 1为日常 2为帮派	消息号：1114
+{
+	required int32 taskid = 1;  //任务id
+}
+
+message ToOneKeyComplete
+{
+	required int32 error = 1;
+}
+
+//立刻完成任务协议ID 12905,大类型为17,结构体为ServerRetInt,结构体值为任务ID,服务器返回ServerRetInt,值为错误码
+
+message WeekQuestItem
+{
+	optional int32 itemID 	= 1;
+	optional int32 counts 	= 2;
+	optional int32 bindType = 3;
+}
+
+//周任务信息,协议ID:13310
+message WeekQuest
+{
+	optional int32 questID      		= 1; 		//任务ID
+	optional int32 fvalue 				= 2;		//已完成的任务目标
+	optional int32 svalue 				= 3;		//需要完成的任务目标
+	optional int32 state  				= 4;		//1：未领取2：已接未完成3：完成4：失败
+	optional int32 times        		= 5; 		//环数
+	repeated WeekQuestItem rewardIDs    = 6; 		//奖励ID列表
+	repeated WeekQuestItem endrewardIDs = 7; 		//周任务结束奖励ID列表
+}
+
+
+//周任务刷新,协议id:13311,大类型为17,服务器返回ServerRetInt,值为错误码
+
+
+
+

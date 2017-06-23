@@ -1,0 +1,154 @@
+package RedEnvelopeProto;
+
+message GetEnvelopeInfo
+{
+	required int64 charID = 1;//谁领取的ID
+	required double getTime = 2;//领取时间
+	required string getName = 3;//谁领取的姓名
+	required int32 getBindGolden = 4;//领取的绑定元宝数量
+	optional string senderName = 5;//发送者的姓名
+}
+
+message GetEnvelopeInfoList
+{
+	repeated GetEnvelopeInfo infoList = 1;
+}
+
+message Envelope
+{
+	required string sendName = 1;//红包发送人
+	required double sendTime = 2;//派送时间
+	required int32 state = 3;//红包状态 0不在线  1 在线
+	required int32 envelopeID = 4;//红包ID
+}
+
+//-----------------------------------------------------------------------------------------------------------------
+//获取红包列表     消息ID：12100  请求回复   C2WS 快捷消息：25
+message ReqEnvelopeList
+{
+	required int32 begin = 1;//按页请求开始位置,从0开始
+	required int32 end = 2;//按页请求结束位置
+}
+
+//12100的返回
+message RetEnvelopeList
+{
+	required int32 ret = 1;//0:成功
+	optional int32 totalCount = 2;//总共有几个红包，用于客户端分页
+	repeated Envelope envelopeList = 3;//红包内容
+}
+
+//-----------------------------------------------------------------------------------------------------------------
+//获取红包 消息ID：12101 请求回复   C2GM 快捷消息：17
+message ReqGetEnvelope
+{
+	required int32 op = 1;//领取方式 0：领取单个 1：一键领取
+	optional int32 envelopeID = 2;//领取单个的时候必须填写
+	optional int64 charID = 3;//玩家ID，由服务器填写
+	optional int32 canGetCount = 4;//可获取多少个红包，由服务器填写，且op==1的时候填写
+	optional int32 isOnLine = 5;//红包是否在线，由客户端填写，0离线，1在线，且op==0的时候填写
+}
+
+//12101的返回
+message RetGetEnvelope
+{
+	required int32 ret = 1;//0成功
+	repeated int32 envelopIdList = 2;//被领取的红包ID
+	optional int64 charID = 3;//玩家ID，用于WS发往GM的时候根据ID获取玩家对象
+	optional int32 getBindGolden = 4;//获得的元宝，用于WS发往GM的时候GM向客户端同步元宝
+}
+
+//-----------------------------------------------------------------------------------------------------------------
+//派发红包 c2gm messageid:12103 请求回复   C2GM 快捷消息：17
+message ReqSendEnvelope
+{
+	required int32 count = 1;//派发多少个红包,大于1个默认是全部派发
+	optional int64 charID = 2;//玩家ID，由服务器填写
+	optional string name = 3;//玩家姓名，由服务器填写
+	optional int32 country = 4;//阵营，由服务器填写
+}
+
+//12103的回复 ServerReturn::ServerRetInt
+message RetSendEnvelope
+{
+	required int32 ret = 1;
+	optional int64 charID = 2;//服务器间使用，客户端不用理会
+	optional int32 count = 3;//派发了几个
+}
+
+//-----------------------------------------------------------------------------------------------------------------
+//获取红包领取记录     消息ID：12105  请求回复   C2WS 快捷消息：25
+message ReqGetEnvelopeRecord
+{
+	required int32 begin = 1;//按页请求开始位置
+	required int32 end = 2;//按页请求结束位置
+}
+
+//12105的返回
+message RetGetEnvelopeRecord
+{
+	required int32 ret = 1;//0成功
+	optional int32 totalCount = 2;//总记录数
+	repeated GetEnvelopeInfo infoList = 3;//记录
+	optional int32 getCount = 4;//派利当前可领次数，领取过返利后将被清零
+	optional int32 accumulateCount = 5;//领红包累积可奖励次数,领取过后剩余100的余数
+}
+
+//-----------------------------------------------------------------------------------------------------------------
+//获取返利   消息ID：12106  请求回复   C2WS 快捷消息：25
+message ReqGetEnvelopeReward
+{
+	required int32 op = 1;//0:领取派利 1：领红包累积奖励
+}
+
+//12106的返回 
+message RetGetEnvelopeReward
+{
+	required int32 ret = 1;
+	optional int32 op = 2;//返回给客户端的op，如果获取成功，客户端发什么op就返回什么op
+}
+
+//--------------------------------------------------------------------------------------------------------------------
+//12107 Req WS2GM 世界服告诉逻辑服领取礼包
+message ReqGMGetEnvelopeReward
+{
+	required int32 op = 1;// 0领取返利 1领取累积返利 2领取绑定元宝
+	required int64 charID = 2;
+	required int32 num = 3;//数量，op为2时为绑定元宝数，0和1时候表示礼包个数
+}
+//12107的返回
+message RetGMGetEnvelopeReward
+{
+	required int32 ret = 1;//0成功    （有背包不足的情况）
+	required int64 charID = 2;
+	optional ReqGMGetEnvelopeReward getInfo = 3;//用于领取物品成功后的操作
+}
+//----------------------------------------------------------------------
+//12108 请求玩家的某个或某几个属性 c2gm messageid:12108 请求回复   C2GM 快捷消息：17
+//协议结构 ServerReturn::ServerRetInt32Array
+//12108的返回 CharBase::CharAttChange
+
+
+// WS 发送到所有GM 增加红包数量  12110
+message WSToAllGMAddEnvelope
+{
+	required int32 country = 1; // 阵营
+	required int32 count = 2; // 增加或减少的红包数量
+	required bool flag = 3; // true 为add  false为del
+	repeated int64 charID = 4; // 
+}
+
+// WS 发送到GM 增加红包数量  12111
+message WSToGMPlayerAddEnvelope
+{
+	required int64 charID = 1;
+	required int32 country = 2; // 阵营
+	required int32 count = 3; // 增加的数量
+}
+
+// WS 通知GM的红包发送者红包被领 
+message WSToEnvSenderByGet
+{
+	required int64 charID = 1; 
+	required int32 count = 2;
+}

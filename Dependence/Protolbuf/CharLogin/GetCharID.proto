@@ -1,0 +1,25 @@
+package CharLogin;
+
+message GetCharID
+{
+	required string openID = 1;
+	optional int32 headid = 2 [default=1];
+	optional string openKey = 3;
+	optional string pf = 4;
+	optional string pfKey = 5;
+	optional string seqid = 6; //(sig)
+	optional int32 isAdult = 7;
+	optional int32 payname = 8;
+	optional int32 serverId = 9;
+	optional int32 clientType = 10 [default=1];//1.网页端  2.微端
+	optional int64 timestamp = 11; //时间戳
+	optional string source = 12;
+}
+
+// DB To LS
+message RetGetCharID
+{
+	required int32 isRole = 1;
+	required int32 err = 2;
+	optional int32 clientType = 3 [default = 1]; // 1 网页端 2 微端
+}

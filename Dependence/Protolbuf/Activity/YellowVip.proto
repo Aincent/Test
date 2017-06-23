@@ -1,0 +1,105 @@
+package YellowVipInfo;
+
+//消息号：10750（快捷消息：17）
+//message ReqClentYellowVipInfo
+
+message ToClentYellowVipInfo
+{
+	required int32 ret = 1;		//返回码
+	optional int32 is_yellow_vip = 2; //是否为黄钻用户（0：不是； 1：是）
+	optional int32 is_yellow_year_vip = 3; //是否为年费黄钻用户（0：不是； 1：是）
+	optional int32 yellow_vip_level = 4;	//黄钻等级。
+	optional int32 is_yellow_high_vip = 5; //是否为豪华版黄钻用户（0：不是； 1：是）。
+	optional NovicePacks novicepacks = 6; //新手礼包
+	repeated GrowPacks growpacks = 7; //成长礼包
+	repeated DailyPacks dailypacks = 8; //每日礼包
+	optional YearVipPacks yearvippacks = 9; //年费黄钻
+	optional GirlWarPacks girlwarpacks = 10; //战姬专属
+}
+
+message NovicePacks
+{
+	optional int32 state = 1; //新手礼包(0:未达成，1:没有领取，2:已领取)
+	repeated int32 itemId = 2;//奖励的物品
+	repeated int32 itemNum = 3;//奖励的数量
+}
+
+message GrowPacks
+{
+	optional int32 state = 1; //领取状态(0:未达成，1:没有领取，2:已领取)
+	repeated int32 itemId = 2;//奖励的物品（有可能奖励多个物品，包括金钱，声望，元宝等等）
+	repeated int32 itemNum = 3;//奖励的数量
+	optional int32 value = 4; //目标
+}
+
+message DailyPacks
+{
+	optional int32 state = 1; //领取状态(0:未达成，1:没有领取，2:已领取)
+	repeated int32 itemId = 2;//奖励的物品（有可能奖励多个物品，包括金钱，声望，元宝等等）
+	repeated int32 itemNum = 3;//奖励的数量
+	optional int32 value = 4; //目标
+}
+
+message YearVipPacks
+{
+	optional int32 state = 1; //年费黄钻额外奖励(0:未达成，1:没有领取，2:已领取)
+	repeated int32 itemId = 2;//奖励的物品
+	repeated int32 itemNum = 3;//奖励的数量
+}
+
+message GirlWarPacks
+{
+	optional int32 state = 1; //领取状态(0:未达成，1:没有领取，2:已领取)
+	optional int32 id = 2;//战姬ID
+}
+
+//消息号：10751（快捷消息：17）
+//message ReqNovicePacks
+
+message ToClentNovicePacks
+{
+	required int32 ret = 1;		//返回码
+}
+
+
+//消息号：10752（快捷消息：17）
+message ReqGrowPacks
+{
+	required int32 value = 1; //目标
+}
+
+message ToClentReqGrowPacks
+{
+	required int32 ret = 1;		//返回码
+	optional int32 value = 2; //目标
+}
+
+
+//消息号：10753（快捷消息：17）
+message ReqDailyPacks
+{
+	required int32 value = 1; //目标
+}
+
+
+message ToClentReqDailyPacks
+{
+	required int32 ret = 1;		//返回码
+	optional int32 value = 2; //目标
+}
+
+//消息号：10754（快捷消息：17）
+//message ReqYearVipPacks
+
+message ToClentYearVipPacks
+{
+	required int32 ret = 1;		//返回码
+}
+
+//消息号：10755（快捷消息：17）
+////message ReqGirlWarPacks
+
+message ToClentGirlWarPacks
+{
+	required int32 ret = 1;		//返回码
+}

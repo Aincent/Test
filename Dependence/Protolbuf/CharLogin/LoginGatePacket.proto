@@ -1,0 +1,9 @@
+package ClientLogin;
+
+message LoginGateInfo
+{
+	required int64 charID = 1;
+	optional string IP = 2;
+	optional int32 port = 3;
+	optional int32 gateID = 4;
+}

@@ -1,0 +1,15 @@
+package CreateCharator;
+
+message DBCreateCharator
+{
+	required string openID = 1;
+	required string name = 2;
+	required int32 head = 3;
+	required int64 mapid = 4;
+	optional string openKey = 5;
+	optional string pf = 6;
+	optional string pfKey = 7;
+	optional int32 serverId = 8;
+	optional int32 clientType = 9; // 客户端类型
+	optional string source = 10;
+}

@@ -1,0 +1,93 @@
+package BranchPlayerInfo;
+
+//MessageID10425   //返回BranchOnlineCount
+
+message BranchOnlineCount
+{
+	required int32 ret = 1;
+	repeated OnlineCountInfo onlineCount = 2;
+}
+
+message OnlineCountInfo
+{
+	required int32 brachID = 1; //分线
+	required int32 count = 2;  //人数
+}
+
+//MessageId 10427 //返回AckBranchPlayerInfo
+message Admin_BranchPlayerInfo
+{
+	required int32 brachID = 1; //分线
+	required int32 beginNum = 2;  
+	required int32 endNum = 3;
+}
+	
+message AckBranchPlayerInfo
+{
+	required int32 ret = 1;
+	repeated BranchPlayerInfo branchinfo =	2;
+}
+
+ message BranchPlayerInfo
+ {
+ 	required int64 id = 1;
+ 	required string name = 2;
+ 	required string ip = 3;  //登录 IP
+ 	required int32 lv = 4;
+ 	optional int32 onlineTime = 5;  //今天在线 时长
+ 	optional int32 money = 6;
+	optional int32 golden = 7;
+	optional int32 bindgolden = 8;
+	optional int32 vip = 9;
+	optional int32 profession = 10;
+	optional int64 roleCanTalk = 11;  //禁言时间结束时间点(0表示未禁言)
+	optional int64 roleCanLogin = 12;  //禁封能够登录时间(0表示未封>0表示下一次能够登录时间)
+	optional bytes createRoleTime = 13;  //创建 角色 时间 
+	optional int64 lastLoginTime = 14;  //最后 一次 登录 时间
+	optional string openID = 15;//帐号ID
+	optional int32 sex = 16;//性别
+	optional int32 playerAddUpGold = 17;//累积冲值
+ }
+ 
+ //消息ID :10432 获取 以列表 形式的  玩家 信息 
+ //发送  WEB_ReqListPlayerInfo  回复WEB_AckListPlayerInfo
+ 
+ message WEB_ReqListPlayerInfo
+ {
+ 	required int32 reqType = 1;  //以什么 方式 请求 列表 玩家 信息   目前  0代表 最近 玩家   1代表按等级从高到底查询  2表示按玩家姓名模糊查询 3.根据ID查询 4.根据openID查询
+ 	required int32 beginNum = 2;  //从1开始
+ 	required int32 endNum = 3; //结束 
+ 	optional string name = 4;//模糊查询，姓名            reqType等于4时表示openID
+ 	optional int64 id = 5;//根据ID查询
+ }
+ 
+message WEB_AckListPlayerInfo
+ {
+ 	required int32 ret = 1;
+ 	optional int32 sumCount = 2; //数据库中 含有 角色 总数
+	repeated BranchPlayerInfo branchinfo =	3;
+ }
+ 
+//Web发送给管理服 消息ID :10603 获取 各等级的玩家人数
+ //发送  ReqPlayerLvCount 回复RetPlayerLvCount
+
+message ReqPlayerLvCount
+{
+	required int32 lvBegin = 1;//从多少级开始查询
+	required int32 lvEnd = 2;//查询到多少级结束
+}
+
+message RetPlayerLvCount
+{
+	required int32 ret = 1;//错误码
+	optional int32 lvBegin = 2;//从多少级开始查询
+	optional int32 lvEnd = 3;//查询到多少级结束
+	repeated int32 lvCountList = 4;//对应从lvBegin到lvEnd的各等级人数
+	optional int32 totalCount = 5;//总人数
+}
+ 
+ 
+ 
+ 
+ 
+ 

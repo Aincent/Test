@@ -1,0 +1,357 @@
+import "CharLogin/PlayerInfo.proto";
+
+package CharLogin;
+
+message POneTalentSkill
+{
+	optional int32 talentID  = 1;
+	repeated int32 skillList = 2;
+}
+
+message skillInfoPro
+{
+	optional int32 currentTalentID   = 1;
+	repeated POneTalentSkill talents = 2;
+}
+
+message CharBaseInfo
+{
+	required int64 charid = 1;
+	required int32 key = 2;
+	required string name = 3;
+	required int32 level = 4;
+	required int32 hp = 5;
+	required int32 hpmax = 6;
+	required int32 mp = 7;
+	required int32 mpmax = 8;
+	required int64 mapid = 9;
+	required int32 xpos = 10;
+	required int32 ypos = 11;
+	required int64 exp = 12;
+	required int32 country = 13;
+	required int32 faction = 14;
+	required int32 sex = 15;
+	required int32 profession = 16;
+	required int32 force = 17; //����
+	required int32 forcemax = 18;
+	required int32 movespeed = 19;
+	optional EquipQuickInfo nowequip= 20;
+	optional skillInfoPro skillinfo = 21;
+	repeated CharCDTime cd = 22;
+	optional PlayerInfo.MonitorInfo mt = 23; //挂机信息
+	optional uint32 horse = 24; //坐骑
+	optional int32 sinvalue = 25; //罪恶值
+	optional int32 acupoint = 26; //经脉值
+	optional PlayerInfo.SettingInfo settings = 27; //系统设置
+	optional double loginTime = 28; //玩家登录时间
+	optional int32 fightPower = 29; //战斗力
+	optional int32 titleId = 30; //称号ID
+	optional int32	viplv  = 31; //VIP等级
+	optional int32	addupgold  = 32; //累计充值
+	optional int64 isininstance = 33;	//是否处于副本之中
+	optional int32 job = 34; //帮派职位
+	optional string clanname = 35; //帮派名字
+	optional int32 AntiAddictionState = 36;//防沉迷状态，0：未认证。1:认证但未成年。2：认证且成年
+	optional int32 AntiAddictionOnLineTime = 37;//，绑定了同一个身份证的帐号防沉迷累积在线时间总和
+	optional int32 pkType = 38; //地图PK类型
+	optional double totalOnlineTime = 39;  //总在线时长
+	optional int32 clanicon = 40;  //帮派图标
+	optional int32 money = 41;//金钱
+	optional int32 gold = 42;//元宝
+	optional int32 bgold = 43;//綁定元宝
+	optional int32 fashionID = 44; // 时装ID
+	optional int32 rechargeState = 45;	//连续充值状态 （0为已经过期，1为活动正在进行）
+	optional int64 coupleID = 46; //夫妻ID
+	optional int32 countryjob = 47; //陈营官职
+	optional int32 contrycontribute = 48;//陈营总贡献度（非当前拥有的）
+	optional int32 envelopeCount = 49;//阵营红包数量
+	optional int32 credit = 50;//声望
+	optional int32 is_yellow_vip = 51; //是否为黄钻用户（0：不是； 1：是）
+	optional int32 is_yellow_year_vip = 52; //是否为年费黄钻用户（0：不是； 1：是）
+	optional int32 yellow_vip_level = 53;	//黄钻等级。
+	optional int32 is_yellow_high_vip = 54; //是否为豪华版黄钻用户（0：不是； 1：是）。
+	optional int32 vipCardLv = 55;//vip体验卡等级
+	optional int64 vipCardTime = 56;//剩下的VIP体验时间
+	optional string coupleName = 57; //夫妻名字
+	optional int32 guide = 58;	//1级副本指引标识（0表示需要指引;1表示已经指引完成）
+	optional int64 challengemoney = 59;//挑战副本兑换货币
+}
+
+message CharCDTime
+{
+	required int32 type = 1; //cd频道
+	required int32 time = 2; //余下的时间，毫秒
+}
+
+message CharQuestInfo
+{
+	repeated PlayerInfo.ActiveQuest active = 1; //所有激活的任务
+	repeated PlayerInfo.DailyQuest daily = 2;	//日常任务信息
+	repeated PlayerInfo.ClanQuest clan = 3;		//帮派任务信息
+}
+
+message CharQuestToGT
+{
+	required int64 charid = 1;
+	optional CharQuestInfo active = 2; //所有激活的任务
+}
+
+//回复客户端可接任务列表
+//消息号 ： 1061
+message AckToClientAcceptable
+{
+	repeated int32 questid = 1;
+}
+
+message AcceptableQuestToGT
+{
+	required int64 id = 1;
+	optional AckToClientAcceptable questid = 2;
+}
+
+//通知客户端容器信息
+//消息号： 3001
+message ClientContainerInfo
+{
+	required int32 type = 1;
+	optional PackageInfo pack = 2;
+	optional StoreHouseInfo storehouse = 3;
+	//optional EquipQuickInfo equip = 4;
+	optional int32 pno = 4; //包序号
+}
+
+message ToGTContainerInfo
+{
+	required int64 charid = 1;
+	required ClientContainerInfo info = 2;
+}
+
+//装备和快捷
+message EquipQuickInfo
+{
+	repeated ClientItemInfo equip = 1;//装备栏
+	repeated PlayerInfo.QuickContainer quick = 2; //快捷栏
+}
+
+//背包信息
+message PackageInfo
+{
+	repeated ClientItemInfo pack = 1;
+	optional int32 size = 2; //数量
+	optional double dtime = 3; //开启下一个格子时间点
+}
+
+//仓库信息
+message StoreHouseInfo
+{
+	repeated ClientItemInfo storehouse = 1;
+	optional int32 size = 2; //数量
+	optional double dtime = 3; //开启下一个格子时间点
+}
+
+message ClientItemInfo
+{
+	required int32 id = 1;//物品id
+	optional uint32 flag = 2;//强化等级(  高16位为綁定方式       8 - 15位为强化等级     低0 -7位为个数)
+	repeated uint32 newattr = 3;//洗练属性(高18位为属性类型      低14位为属性值)
+	repeated int32 stoneid = 4; //镶嵌宝石（未镶嵌为0）
+	optional uint32 time = 5;//间隔时间(cd时间)
+	optional uint32 num = 6; //数量
+	repeated int32 inlayPos = 7; // 镶嵌孔位置
+	repeated uint32 refineAttrLv = 8; // 洗练属性等级
+}
+
+message CharEquip
+{
+	required int32 idweapon = 1;
+	required int32 idcloth = 2;
+}
+
+
+//游戏服发往是世界服的部分玩家数据
+message WBaseInfo
+{
+	required int64 charid       = 1;            //角色ID
+	optional int64 mapid        = 2;            //角色地图ID
+	optional int64 localtype    = 3;            //
+	optional string name        = 4;            //角色名称
+	optional int32 lv 			= 5; 			//角色等级
+	optional int32 profession 	= 6; 			//角色职业
+	optional int32 hatred 	    = 7; 			//角色仇恨值
+	optional int32 settings		= 8;			//系统设置
+	optional int32 country = 10; //势力
+	optional int64 nextTalkTime = 12;
+	optional int32 score = 13;//夸服战积分
+	optional int64 offlinetime = 14; //下线时间
+	optional int64 teamid = 15;	//组队副本ID
+	optional int32 fightPower = 16; //战斗力
+	optional bool sex = 17; //性别
+	optional int32 countryjob = 19; //陈营官职
+	optional int32 contribute = 20; //陈营当前的贡献度
+	optional int32 fitchPrize = 21; //是否领取每日官职礼包
+	optional int32 vipLevel   = 22; //vip等级
+	optional int32 magicWeapon = 23; //神兵阶级
+	optional int32 horseid = 24; //坐骑
+	optional string openid = 25;
+	optional string openkey = 26;
+	optional string pf = 27;
+	optional string pfkey = 28;
+	optional int32 addupGolden = 29;//累积充值
+	optional int32 challengeArenaNum = 30; // 挑战竞技场次数 
+	optional int32 golden = 31;//当前拥有的元宝
+	optional int32 accountType = 32;//帐号类型
+	optional string source = 33;//来源渠道
+}
+
+//定时同步到世界服的玩家数据
+message SynchToWorldInfo
+{
+	required int64 charid       = 1;            //角色ID
+	optional int32 fight = 2; //战斗力
+	optional int32 isYesterdayReward = 3;//昨天的城池奖励领取情况，玩家追回后需同步
+	optional int32 m_VipLevel = 4;		 //vip等级
+}
+
+message SyncMap
+{
+	required int64 charid       = 1;            //角色ID
+	optional int64 mapid        = 2;            //角色地图ID
+}
+
+//协议号 6020
+message ReqSeePlayerInfo
+{
+	required int64 charid = 1; //要查看的玩家的角色ID
+}
+
+//查看其他角色信息
+message SeePlayerInfo
+{
+	required int64 charid = 1;
+	required string charname = 2;
+	required int32 profession = 3;
+	required int32 sex = 4;
+	required int32 hp = 5;
+	required int32 hpmax = 6;
+	required int32 mp = 7;
+	required int32 mpmax = 8;
+	required int32 strength = 9; //力量
+	required int32 cleverpower = 10;//灵力
+	optional int32 cleverair = 11;//灵气
+	required int32 physicalpower = 12;//体质
+	required int32 patience = 13;//耐力
+	required int32 agility = 14; //敏捷
+	optional int32 power = 15;// 体力
+	required int32 phyattack = 16; 
+	required int32 phyattackmax = 17;
+	required int32 phydefence = 18; 
+	required int32 magicattack = 19;
+	required int32 magicattackmax = 20;
+	required int32 magicdefence = 21;
+	required int32 hitrate = 22;
+	required int32 avoidrate = 23; 
+	required int32 baselucky = 24;
+	required int32 crackdownrate = 25;
+	required int32 baserte = 26;//抗暴
+	repeated PlayerInfo.ItemInfo equip = 27;
+	required int32 fight = 28; //战斗力
+	required int32 powermax = 29; //最大体力值
+	required int64 exp = 30; //当前经验值
+	required int32 lv = 31; //等级
+	required int32 magicequipid = 32; //神兵ID
+	required string guildname = 33; //帮派名字
+	required int32 guildjob = 34; //帮派职位
+	required int32 titleid = 35; //称号ID
+	required int32 pkcount = 36; //pk值
+	required int32 viplv = 37; //vip等级
+}
+
+//查看夸服战排行榜的其他角色信息
+message BeyondPlayerInfo
+{
+	required int64 charid = 1;
+	optional string charname = 2;
+	optional int32 profession = 3;
+	optional int32 sex = 4;
+	optional int32 hp = 5;
+	optional int32 hpmax = 6;
+	optional int32 mp = 7;
+	optional int32 mpmax = 8;
+	optional int32 strength = 9; //力量
+	optional int32 cleverpower = 10;//灵力
+	optional int32 cleverair = 11;//灵气
+	optional int32 physicalpower = 12;//体质
+	optional int32 patience = 13;//耐力
+	optional int32 agility = 14; //敏捷
+	optional int32 power = 15;// 体力
+	optional int32 phyattack = 16;
+	optional int32 phyattackmax = 17;
+	optional int32 phydefence = 18;
+	optional int32 magicattack = 19;
+	optional int32 magicattackmax = 20;
+	optional int32 magicdefence = 21;
+	optional int32 hitrate = 22;
+	optional int32 avoidrate = 23;
+	optional int32 baselucky = 24;
+	optional int32 crackdownrate = 25;
+	optional int32 baserte = 26;//抗暴
+	repeated PlayerInfo.ItemInfo equip = 27;
+	optional int32 fight = 28; //战斗力
+	optional int32 powermax = 29; //最大体力值
+	optional int64 exp = 30; //当前经验值
+	optional int32 lv = 31; //等级
+	optional int32 magicequipid = 32; //神兵ID
+	optional string guildname = 33; //帮派名字
+	optional int32 guildjob = 34; //帮派职位
+	optional int32 titleid = 35; //称号ID
+	optional int32 pkcount = 36; //pk值
+	optional int32 viplv = 37; //vip等级
+}
+
+//取玩家信息时从世界服取数据
+message GMGetWSAckData
+{
+	optional int32 clanID    		= 1;								//帮派ID
+	optional int32 clanLevel 		= 2; 								//帮派等级
+	optional string clanName 		= 3;								//帮派名字
+	optional int32 fajob	 		= 4;								//帮派职位
+	optional int32 clanicon	 		= 5;								//帮派图标
+	optional int32 facontribution   = 6;								//帮贡
+	optional int64 teamid 			= 7;								//组队副本队伍ID
+	repeated int32 title	 		= 8;							    //排行榜
+	optional int64 marryotherid		= 9;								//结婚对方ID
+	optional bytes marryothername	= 10;								//结婚对方名字
+	optional int64 marryTime		= 11;								//结婚时间
+	optional int32 reqClanNum = 12; // 请求加入帮派人数
+	optional int32 envelopeCnt = 13; // 红包数量
+	optional int32 canGetDistReward = 14; // 派发红包能领取的奖励
+	optional int32 canGetDrawEnveReward = 15; // 领取红包能领取的奖励
+	optional bool isAnswerBegin = 16; // 是否开始答题活动
+	optional bool isProtectKingDouble = 17; // 是否开始双倍守护秦王活动
+	optional bool isPvpFightWarBegin = 18; // 是否开始斗战重楼活动
+	optional bool isEscortDoubleBegin = 19; // 是否开始护送皇纲活动
+	optional bool isClanWarBegin = 20; // 是否霸业战开始
+	repeated int32 worldBossOpenID = 21; // 世界boss已开启的副本ID/地图ID
+	optional ActivityStateList list = 22; // 新服活动状态
+}
+
+//请求从世界服取数据
+message GMGetWSRequestData
+{  
+	optional WBaseInfo info	 = 1; 
+}
+
+message ActivityStateList
+{
+	repeated ActivityState states = 1;
+}
+// 新服活动状态
+message ActivityState
+{
+	optional int32 type = 1; // 活动类型
+	optional bool flag = 2; // true 为开启   false 关闭
+	optional int32 num = 3; // 
+}
+
+
+

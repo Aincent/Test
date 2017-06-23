@@ -1,0 +1,45 @@
+/*package WorshipMsgProto;
+
+// 请求膜拜 11600 快捷消息
+//message ReqWorship
+{	required int64 selfID = 1; // 自己的ID
+	optional int32 worshipTimes = 2; // 膜拜次数
+	optional int64 worCharBySelf = 3; // 被膜拜的角色ID
+}
+
+// 返回膜拜
+message RetWorship
+{
+	required int32 error = 1; // 错误码
+	optional int32 worshipAmount = 2; // 被膜拜总数
+	optional int32 surplusWorCnt = 3; // 剩余膜拜次数
+}
+
+// DB返回WS膜拜
+message RetWorshipToGM
+{
+	required int64 selfID = 1; // 自己的ID
+	optional int32 error = 2; // 错误码
+	optional int64 worCharBySelf = 3; // 被膜拜的角色ID
+	optional int32 worshipAmount = 4; // 被膜拜总数
+
+}
+
+// 膜拜信息
+message ClientWorshipInfo
+{
+	optional int32 worAmount = 1;
+	repeated int64 dayYetWorOfChar = 2; // 当天膜拜过的玩家
+}
+
+// 检查是否膜拜 WS TO GM
+message ReqCheckWorship
+{
+	required ReqWorship checkInfo = 1; // 膜拜信息
+}
+
+message RetCheckWorship
+{
+	required int32 error = 1; // 错误码
+	optional ReqWorship worshipInfo = 2; // 膜拜信息
+}*/

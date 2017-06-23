@@ -1,0 +1,104 @@
+import "CharBase/CharAttribute.proto";
+
+package MeditationProto;
+
+//请求和取消打坐 
+//消息号：9601 消息类型：17
+message ReqMeditation				
+{
+	required int32 type = 1;		//0表示请求打坐，1表示取消打坐
+}
+
+message RetMeditation
+{
+	required int32 error = 1;		//错误码 0表示成功,其它表示错误
+	optional int32 girlwarkey = 2;  //自己的战姬key
+	optional bool flag = 3;			//开始(true)还是取消(false)打坐
+}
+
+//服务器广播通知单修信息
+//消息号：9603
+message SingleMeditation
+{
+	required int32 charkey = 1;		//角色key
+	optional int32 girlwarkey = 2;	//战姬key
+	optional bool flag = 3;			//开始(true)或结束(false)打坐
+}
+
+
+//通知玩家打坐的经验和真气	
+//消息号：9602
+message simMeditationInfo			
+{
+	required int32 exp = 1;			//经验
+	optional int32 zhenqi = 2;		//真气
+	optional int32 intimate = 3;	//亲密度
+	optional int32 rate = 4;		//修炼加成(可能由服务器下发)
+}
+
+//邀请双修 
+//消息号：9604 消息类型：17
+message ReqInvitMeditation
+{
+	required int64 targetid = 1; //邀请双修的目标角色id
+}
+
+//返回邀请双修
+message AckInvitMeditation
+{
+	required int32 code = 1;	//错误码 0表示成功
+	optional int64 targetid = 2;//邀请对象id
+}
+
+//服务器通知玩家收到邀请双修信息
+//消息号：9605
+message SendInvitInfo
+{
+	required int64 charid = 1; 		//邀请玩家id
+	optional int32 viplevel = 2;	//邀请玩家vip等级
+	optional bytes charname = 3;	//邀请玩家名称	
+}
+
+
+//玩家同意或拒绝双修
+//消息号：9606 消息类型：17
+message ReqReplyMeditation
+{
+	required bool flag = 1; 	//同意(true)或拒绝(false)
+	optional int64 charid = 2;	//
+}
+
+message AckReplyMeditation
+{
+	required int32 code = 1;
+}
+
+//玩家请求双修变单修
+//消息号：9607  消息类型：17
+
+//服务器返回玩家请求双修变单修结果
+message AckReqChangeMeditation
+{
+	required int32 code = 1; 				//错误码 0表示成功	
+}
+
+//服务器广播九宫格内有玩家双修了
+//消息号：9608
+message BroadcastMeditation
+{
+	required int32 charkey    = 1;			//玩家1的key
+	optional int32 girlwarkey = 2;			//玩家1的战姬key
+	optional int32 targetkey = 3;			//玩家2的Key
+	optional int32 targetgirlwarkey = 4;	//玩家2的战姬key
+}
+
+//服务器通知双修关系改变了
+//消息号：9612
+message NexusChange
+{
+	required int64 targetid = 1;   //目标id
+	optional int32 type = 2;	   //对应修炼配置关系类型
+}
+
+
+

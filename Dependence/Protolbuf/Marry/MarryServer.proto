@@ -1,0 +1,18 @@
+package MarryServer;
+
+//成功结婚，世界服通知逻辑服
+message MarrySuccess
+{
+	optional int64 otherPlayerID = 1;		//对方角色ID
+	optional bytes otherName     = 2;		//对方名字
+	optional int64 selfPlayerID  = 3;		//自己ID
+}
+
+//请求世界服换图
+message MarryChangeMap
+{
+	optional int64 mapID	 = 1; 		//场景ID
+	optional int32 xPos		 = 2;		//y坐标
+	optional int32 yPos		 = 3;		//y坐标
+	optional int32 error     = 4;		//错误码
+}

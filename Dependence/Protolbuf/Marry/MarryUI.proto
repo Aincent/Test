@@ -1,0 +1,181 @@
+package MarryUI;
+
+//未结婚打开结婚界面,发送ServerRetInt结构体,该结构体为空,协议ID:12744,大类型ID:23
+
+//结婚界面一个好友信息
+message MarryFriendInfo
+{
+	optional int64 playerID   = 1;   //角色ID
+	optional int32 level	  = 2;   //玩家等级
+	optional int32 fighting   = 3;   //战斗力
+	optional bool  isOnline   = 4;   //是否在线
+	optional bytes name		  = 5;   //角色名
+	optional int32 profession = 6;   //职业
+	optional int32 sex		  = 7;	 //性别
+	optional int32 cohesion   = 8;	 //亲密度
+}
+
+//未结婚，打开结婚界面返回信息,协议ID:12744
+message ReturnOpenNotMarryUI
+{
+	repeated MarryFriendInfo friendInfoList = 1;		//好友列表
+}
+
+
+//已结婚打开结婚界面,发送ServerRetInt结构体,该结构体为空,协议ID:12745,大类型ID:23
+
+//结婚后对方信息
+message MarryOtherInfo
+{
+	optional int32 profession    = 1;   //职业
+	optional int32 level         = 2;   //玩家等级
+	optional int64 offlineTime   = 3;   //离线时间
+	optional bytes name		     = 4;   //角色名
+	optional int32 sex			 = 5;	//性别
+}
+
+//已结婚，打开结婚界面返回信息,协议ID:12745
+message ReturnOpenHaveMarryUI
+{
+	optional int32 receiveInfo  	      = 1;		//领取奖励信息
+	optional int64 marryTime	 		  = 2;		//结婚时间
+	optional int64 proposeID			  = 3;		//求婚方ID
+	optional MarryOtherInfo otherInfo     = 4;		//对方信息
+}
+
+
+//请求结婚,发送ServerRetInt结构体,值为被求婚方PlayerID,协议ID:12746,大类型ID:23
+
+//请求结婚返回结构体:返回ServerRetInt结构体,值为错误码,协议ID:12746
+
+
+//通知对方有人向自己求婚,协议ID:12757
+message NoticeRequestMarry
+{
+	optional int64 playerID  = 1;	//求婚方角色ID
+	optional bytes name		 = 2;	//求婚方名字
+}
+
+
+//被求婚发送是否同意结婚,协议ID:12759,大类型23
+message ResultRequestMarry
+{
+	optional int64 playerID = 1;	//求婚方ID
+	optional bool  isAgree  = 2;	//是否同意
+}
+
+//被求婚发送是否同意结婚:返回ServerRetInt结构体,值为错误码,协议ID:12759
+
+//通知求婚方求婚结果,ResultRequestMarry,协议ID:12760
+
+
+//送花,协议ID:12747,大类型ID:23
+message GiveFlower
+{
+	optional int64 playerID = 1;		//对方ID
+	optional int32 itemID   = 2;		//物品ID
+}
+
+//送花返回,结构体:ServerThreeInt,协议ID:12747;retf表示玩家ID;rets物品ID;rett错误码;
+
+//对方接收送花,协议ID:12748
+message ReceiveFlower
+{
+	optional int32 vipLevel  = 1;	//送花方VIP等级
+	optional bytes name		 = 2;	//送花方名字
+	optional int32 itemID    = 3;	//物品ID
+	optional int64 playerID  = 4;	//送花方角色ID
+	optional int64 time	     = 5;	//时间
+}
+
+
+//离婚,结构体:ServerRetInt,该结构体为空,协议ID:12750,大类型ID:23
+
+//离婚返回,结构体:ServerRetInt,0为拒绝,1为同意,协议ID:12750
+
+//通知对方离婚信息:ServerRetInt,该结构体为空,协议ID:12758
+
+
+//被离婚方发送是否同意离婚,结构体:ServerRetInt,值为0表示拒绝,1表示同意,协议ID:12761,大类型为23
+
+//被离婚方发送是否同意离婚返回，结构体:ServerRetInt,值为错误码,协议ID:12761
+
+//通知离婚方离婚结果:ServerRetInt,值为0表示拒绝,1表示同意,2离婚请求超时,协议ID:12770
+
+
+//强制离婚,结构体:ServerRetInt,该结构体为空，协议ID:12751,大类型ID:23
+
+//强制离婚返回,结构体:ServerRetInt,值为错误码,协议ID:12751
+
+//强制离婚通知对方,结构体:ServerRetInt,该结构体为空,协议ID:12752
+
+
+//请求婚戒信息,结构体:ServerRetInt,该结构体为空,协议ID:12753,大类型ID:17
+
+//请求婚戒信息返回,协议ID:12753
+message RingInfo
+{
+	optional int32 ID 		  = 1;	//婚戒ID
+	optional int32 currentExp = 2;  //当前经验
+}
+
+
+//婚戒升阶,协议ID:12749,大型ID:15
+message RequestAdvanceMarryRing
+{
+	optional int32 type	    = 1;	//1表示普通进阶,2表示自动进阶
+	optional bool isAutoBuy = 2;	//是否自动购买
+	optional int32 id		= 3;	//要升到的ID
+}
+
+//暴击结构体
+message MarryCritType
+{
+	optional int32 critType = 1;	//暴击类型,1表示大暴击;2表示小暴击,3表示普通
+	optional int32 counts	= 2;	//暴击次数
+	optional int32 exp		= 3;	//经验
+}
+
+//物品列表
+message MarryItemList
+{
+	optional int32 itemID = 1;
+	optional int32 counts = 2;
+}
+
+//婚戒升阶返回,协议ID:12749
+message UpMarryStepReturn
+{
+	optional int32 type 	  		  	  = 1;		//对应升阶发上来的类型
+	optional int32 id   	  		  	  = 2;		//婚戒ID
+	optional int32 currentExp 		  	  = 3;		//当前婚戒经验
+	optional int32 addExp 	  		  	  = 4;		//本次加的经验
+	repeated MarryCritType critTypeList   = 5;		//暴击
+	optional int32 golden				  = 6;		//元宝
+	optional int32 money				  = 7;		//钱
+	repeated MarryItemList itemList		  = 8;		//物品
+	optional int32 error				  = 9;		//是否升阶成功
+	optional int32 stopError			  = 10;		//停止错误码
+}
+
+
+//领取婚龄奖励,发送结构体ServerRetInt,值为奖励ID,协议ID:12756,大类型ID:15
+
+//领取婚龄奖励返回,返回结构体ServerRetInt,值低位为错误码,高位为奖励ID,协议ID:12756
+
+
+//服务器通知结婚另一方信息变更,协议ID:12762
+message UpdateMarryOtherInfo
+{
+	optional int32 type  = 1;   //1表示等级变化;2表示是否在线,大于0表示离线时间,等于0表示上线
+	optional int64 value = 2;	
+}
+
+
+//请求传送到结婚对方身边,发送结构体ServerRetInt,该结构体为空ID:12754,大类型为15
+
+//请求传送到结婚对方身边返回,结构体为ServerRetInt,值为错误码,协议ID:12754
+
+
+
+

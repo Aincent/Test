@@ -1,0 +1,89 @@
+package CharBase;
+
+message CharAttr
+{
+	required int32 strength = 1;    //力量
+	required int32 cleverpower = 2; //灵力
+	required int32 cleverair = 3; //灵气
+	required int32 physicalpower = 4; //体质
+	required int32 patience = 5; //耐力
+	required int32 agility = 6; //敏捷
+	optional int32 lphyattack = 7; //最小物攻
+	required int32 hphyattack = 8; //最大物攻
+	optional int32 lmagattack = 9; //最小法攻
+	optional int32 hmagattack = 10; //最大法攻
+	required int32 phydefence = 11; //物防
+	optional int32 magdefence = 12; //法防
+	required int32 hitrate = 13; //命中
+	required int32 avoidattack = 14; //闪避
+	required int32 crackdown = 15; //爆击
+	optional int32 avoidcrack = 16;//抗暴
+	optional int32 lucky = 17; //幸运值
+	optional int32 fight = 18; //战斗力
+	optional int32 power = 19; //体力
+	optional int32 powermax = 20; //最大体力
+}
+
+message CharAttriToGate
+{
+	required int64 charid = 1;
+	required CharAttr attr = 2;
+}
+
+message AttChangeToGate
+{
+	required int64 charid = 1;
+	required CharAttChange attr = 2;
+}
+
+message AttChangeToWorld
+{
+	required int64 charid = 1;
+	required CharAttChange attr = 2;
+}
+
+//message ToClientBuffInfo
+//{
+//	required int32 id = 1; //buf的id
+//	required int32 time = 2; //buf的持续时间
+//	required uint32 onlyid = 3; //buf的唯一id
+//}
+
+//message FireBuff
+//{
+//	repeated ToClientBuffInfo info = 1;
+//}
+
+
+message CharAttChange
+{
+	repeated int32 type   	  = 1; 
+	repeated int64 value  	  = 2;
+	repeated int64 state  	  = 3;
+}
+
+message SynchObjectAttr
+{
+	required int32 key = 1;
+	optional int32 attkey = 2;//攻击者的key值
+	optional CharAttChange attr = 3;
+}
+
+message SynchObjectAttrToGT
+{
+	required int64 charid = 1;
+	required SynchObjectAttr attr = 2;
+}
+
+message AttChangeToGame
+{
+	required int64 charid = 1;
+	required CharAttChangeToGame attr = 2;
+}
+
+message CharAttChangeToGame
+{
+	repeated int32 type = 1; //��������
+	repeated string svalue = 2;
+	repeated int64 state = 3;
+}

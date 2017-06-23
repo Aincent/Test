@@ -1,0 +1,95 @@
+package SeabeachProto;
+
+//请求海滩副本信息
+//消息号：12830 消息类型：25
+//空消息
+
+//服务器返回海滩副本信息
+message AckSeabeachInfo
+{
+	required int32 code = 1;	//错误码，0表示成功	
+	optional int64 mapid = 2;	//副本id
+}
+
+//跳台请求跳跃
+//消息号：12831 消息类型：17
+message ReqJump
+{
+	required int32 id = 1; //跳台id
+}
+
+//服务器返回跳跃信息
+message AckJump
+{
+	required int32 code = 1;
+}
+
+//服务器广播跳跃
+//消息号：12838
+message JumpInfo
+{
+	required int32 key 	= 1;	//跳水玩家key
+	optional int32 xpos = 2;	//目标位置x
+	optional int32 ypos = 3;	//目标位置y
+}
+
+//请求采集海滩场景中的对象
+//消息号：12832 消息类型：17
+message ReqGather
+{
+	required int32 objkey = 1;	//采集的对象key
+}
+
+//服务器返回是否可以采集
+message AckGather
+{
+	required int32 code = 1;	//错误码:0表示可以采集
+	optional int32 objkey = 2;	//采集的对象key
+}
+
+//服务器广播通知玩家采集成功
+//消息号：12833
+message GatherResult
+{
+	required int32 playerkey = 1;	//玩家key
+	optional int32 objkey = 2;		//采集的对象key
+}
+
+//服务器通知自己采集失败
+//消息号：12837
+message GatherFail
+{
+	required int32 objkey = 1;	//采集的对象key
+	optional int32 code = 2;	//错误码
+}
+
+//玩家请求离开船只、椅子、床
+//消息号：12834 消息类型：17
+//空消息
+
+//服务器返回请求离开
+message AckLeaveObject
+{
+	required int32 code = 1; //错误码，0表示成功
+}
+
+//服务器广播通知玩家离开采集对象（状态还原）
+//消息号：12836
+message PlayerLeaveObject
+{
+	required int32 key = 1;	//玩家key
+}
+
+//进入副本时推送必要的信息(待定)
+
+//服务器推送收益改变(经验、真气)
+//消息号：12835 
+message IncomeChange
+{
+	required int32 exp = 1; 	//获得经验
+	optional int32 force = 2; 	//获得真气
+}
+
+
+
+

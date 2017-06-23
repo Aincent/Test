@@ -1,0 +1,44 @@
+package GameSvrToGate;
+
+message GSAllMap
+{
+	required int32 id = 1;
+	repeated GSMapInfo scene = 2;
+}
+
+message SceneInfo
+{
+	required int64 sceneID = 1;
+}
+
+message CopyInfo
+{
+	required int32 mapid = 1;
+}
+
+message GSMapInfo
+{
+	required int32 maptype = 1;
+	required int32 staticid = 2;
+}
+
+message CreateMapInfo
+{
+	required int64 onlyid = 1;
+	optional int64 charid = 2;
+	optional int32 maptype = 3;
+	optional int32 staticid = 4;
+	optional bytes content = 5;
+}
+
+message CreateMapAck
+{
+	required int64 ret = 1;
+	optional int32 gsid = 2;
+}
+
+message DeleteMap
+{
+	required int32 id = 1;
+	repeated int64 sceneid = 2;
+}

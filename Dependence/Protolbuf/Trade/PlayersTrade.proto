@@ -1,0 +1,23 @@
+package PlayersTrade;
+
+
+message ClientReqCreatePlayersTrade
+{
+	required int32 otherActorID = 1; //otherActorID
+}
+
+//通知客户端开始交易(发给接受请求的玩家)
+//消息号 ： 
+//message BeginTrade
+//{
+//	required int32 statusID = 1; //交易状态值(状态值查看定义)
+//	required int32 TradeID = 2; //交易方的ID
+//}
+
+//message GTReqCreateTrade
+//{
+//	required int64 charid = 1;
+//	required ClientReqCreateTrade request = 2;
+//}
+
+

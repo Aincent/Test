@@ -1,0 +1,25 @@
+package ActivityBoxInfo;
+
+//消息号：12901（快捷消息：17）
+message ReqActivityBox
+{
+	required int32 nkey = 1;
+}
+
+message ToClientActivityBox
+{
+	required int32 ret = 1;
+	optional int32 nkey = 2;
+}
+
+//消息号：12902（快捷消息：14）
+message ToClientActivityBoxTimes
+{
+	required int32 ntimes = 1;
+}
+
+// WS通知GM天降宝箱活动状态
+message WSToGMActivityBox
+{
+	required bool flag = 1; // true open, false close
+}

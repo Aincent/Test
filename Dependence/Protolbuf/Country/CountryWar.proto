@@ -1,0 +1,182 @@
+package CountryWar;
+
+//请求所有五行柱信息（被谁占领或没有占领，保护时间。。。等）
+//消息号：12300（快捷消息：17）
+//空消息
+
+//返回五行柱占领消息
+message AckReqElementInfo
+{
+	repeated ElementInfo item = 1;//五行柱信息
+}
+
+//请求争夺战绩消息(积分贡献排名。。。等等)
+//消息号12301 (快捷消息: 17)
+//空消息
+
+//返回争夺战绩消息
+message AckClientReqWarData
+{
+	required int32 scoresui=1;		//隋营积分
+	optional int32 scoretang=2;		//唐营积分
+	optional int32 contribute=3;	//我的贡献
+	optional int32 sort=4;			//我的排名
+	optional int32 bekilled=5;		//被杀次数
+	repeated taskinfo item=6;		//任务信息
+	optional int32 time=7;			//活动剩余时间秒数
+}
+
+//请求领取争夺活动中的任务奖励
+//消息号：12302 (快捷消息：17)
+message ClientReqFitchTaskReWard
+{
+	required int32 id=1; //任务id
+}
+
+//返回领取任务奖励消息
+message AckFitchTaskReWard
+{
+	required int32 id=1;			//任务id
+	optional int32 success=2;  //0:表示成功；其它表示失败
+}
+
+//请求陈营历史胜负战绩
+//消息号：12303 (快捷消息：17)
+//空消息
+
+//返回陈营历史战绩信息
+message AckReqHistoryRecord
+{
+	required int32 suiwin=1;	//隋营胜场
+	optional int32 suilose=2;	//隋营败场
+	optional int32 tangwin=3;	//唐营胜场
+	optional int32 tanglose=4;	//唐营败场
+}
+
+//请求占领五行柱
+//消息号：12304 (快捷消息:17)
+message ReqOccupyElement
+{
+	required int64 id=1;	//五行柱id
+}
+
+//返回占领五行柱信息
+message AckReqOccupyElement
+{
+	required int64 id=1;			//五行柱id
+	optional int32 success=2;	//能否占领(0:表示可占领;其它表示不可占领)
+}
+
+//客户端请求陈营战活动副本id
+//消息号：12309 （快捷消息：25）
+//空消息
+
+//返回阵营战活动副本
+message AckReqCountryWarMapID
+{
+	required int64 id=1; //阵营战活动副本id
+}
+
+
+//服务器推送客户端陈营战活动结算奖励信息
+//消息号:12305 (客户端接收快捷消息：14)
+message CountryWarPrizeResult
+{
+	required int32 scoresui=1;		//隋营积分
+	optional int32 scoretang=2;	//唐营积分
+	optional int32 contribute=3;	//我的贡献
+	optional int32 sort = 4;		//我的排名
+	repeated PrizeItem item = 5;	//我的物品奖励信息
+}
+
+//服务器推送客户端五行柱的状态信息（谁占领了哪个柱子）
+//消息号：12306 (客户端接收快捷消息：14)
+message ElementStateAlter
+{
+	required int64 id=1; 	//五行柱id
+	optional int32 value=2; //占领的陈营id 
+}
+
+//服务器推送客户端阵营战战绩属性改变
+//消息号：12307 	(客户端接收快捷消息：14)
+message CountryWarAttrAlter
+{
+	required int32 id = 1;	  //属性id	
+	optional int32 value = 2; //属性值
+}
+
+//服务器推送客户端陈营战任务目标更新
+//消息号：12308 （客户端接受快捷消息：14）
+message CountryWarTaskUpdate
+{
+	required int32 id=1; 		//任务id
+	optional int32 count=2;		//完成目标数
+}
+
+//服务器推送客户端五行柱保护时间到了
+//消息号：12311  （客户端接受快捷消息：14）
+message ElementProtectedTimeOut
+{
+	required int64 id=1;	//五行柱keyid
+}
+
+//服务器推送玩家占领五行柱成功(只通知占领的那个人)
+//消息号：12312 （客户端接受快捷消息：14)
+message OccupyElementSuccess
+{
+	required int64 id=1;//五行柱keyid
+}
+
+//物品信息
+message PrizeItem
+{
+	required int32 id=1;  //物品id
+	optional int32 num=2; //物品数量
+}
+
+//五行柱信息
+message ElementInfo
+{
+	required int32 id=1;   //五行柱key
+	optional int32 ower=2; //占领陈营的id（没有占领为0）
+	optional int32 time=3; //剩余保护时间 
+	optional int32 monster=4;//五行柱id
+}
+
+//阵营战任务信息
+message taskinfo
+{
+	required int32 id=1;		//任务id
+	optional int32 count=2; //任务目标完成次数
+	optional int32 flag=3;	//领取奖励状态(0:未领取;1：可领取;2:已领取)
+}
+
+
+//－－－－－－－－－－－－－  服务器内部使用－－－－－－－－－－－－－－－
+//历史战绩
+message HistoryRecord
+{
+	repeated RecordItem item=1;
+}
+
+message RecordItem
+{
+	required int32 id=1;
+	optional int32 win=2;
+	optional int32 lose=3;
+}
+
+//阵营战结果
+message CountryWarResult
+{
+	required int32 win=1;
+	required int32 lose=2;
+}
+
+// WS notice GM country battle open
+message WSToGMCountryBattle
+{
+	required int32 warType = 1; // 阵营战类型
+	required bool flag = 2; // true open false close
+	repeated int64 charID = 3; // 玩家
+}

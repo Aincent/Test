@@ -1,0 +1,8 @@
+package SynchMessage;
+
+message CommonMessage
+{
+	required int64 charid = 1;
+	optional int32 msgid = 2;
+	optional bytes content = 3;
+}

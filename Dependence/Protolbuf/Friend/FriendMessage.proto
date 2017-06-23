@@ -1,0 +1,264 @@
+package Friend;
+
+//客户端请求查找好友     -----协议号:6000---------
+message ClientReqFindFriend
+{
+	required string friendname 	= 1;   			//好友名称
+}
+
+
+//玩家上线推给客户端的好友信息 -----协议号:6001-------------
+message FriendList
+{
+	required int32 ret = 1;
+	repeated FriendInfo friendinfo = 2;   //好友列表
+}
+
+//客户端请求添加好友，仇人，黑名单 ---------协议号:6002----------
+message AddFriend
+{
+	required int32 type   = 1;                 //1表示添加好友,2表示添加仇人,3表示添加黑名单
+	required int64 charid = 2;                 //好友ID
+	optional int32 attack = 3; 				   //0表示不是被击杀添加，1表示是被击杀添加
+}
+
+//添加好友成功返回给客户端信息
+message AskAddFriend
+{
+	required int32 status   = 1;
+	optional FriendInfo friendInfo = 2;
+}
+
+//客户端请求删除好友，仇人，黑名单 ---------协议号:6003----------
+message DeleteFriend
+{
+	required int32 type   = 1;                 //1表示添加好友,2表示添加仇人,3表示添加黑名单
+	required int64 charid = 2;                 //好友ID
+}
+
+//删除好友更新信息
+message UpdateDeleteFriend
+{
+	required int32 status = 1;          //状态码 0表示成功，1表示失败
+	optional int32 type = 2;            //类型
+	optional int64 charid = 3;          //好友ID
+}
+
+
+//好友升级服务端自动推送祝福协议 ---------协议号:6004----------
+message BlessFriend
+{
+	required int64 charid = 1;                 //好友ID
+	required string friendname = 2;            //好友名字
+	required int32 lv = 3;                     //好友等级
+	optional int32 surplusSendCounts = 4;	   //发送剩余次数
+	optional int32 exp = 5;					   //经验值
+}
+
+//请求祝福好友协议 ---------协议号:6005----------
+message ClientReqBlessFriend
+{
+	repeated int64 charid = 1;                 //好友列表ID
+}
+
+//通知被添加的好友 ---------协议号:6006----------
+message FriendInfo
+{
+	required int64 charid 		= 1; 			//好友ID
+	required int32 type         = 2;            //类型好友 1表示好友 2表示仇人 3表示黑名单
+	required string friendname 	= 3; 			//好友名称
+	required int32 lv 			= 4; 			//好友等级
+	optional int32 profession 	= 5; 			//好友职业
+	optional int32 hatred 	    = 6; 			//仇恨值
+	optional int32 online       = 7;            //好友是否在线
+	optional int32 viplv		= 8;			//vip等级
+}
+
+//上下线通知好友 ---------协议号:6007----------
+message SynOnlineFrined
+{
+	required int64 charid = 1;
+	required int32 online = 2; //1表示在线，0表示不在线
+	required int32 type = 3; //类型
+}
+
+message AskBlessFriend
+{
+	required int64 charid = 1;                 	  //好友ID
+	required string friendname = 2;            	  //好友名称
+	required int32 lv = 3;                        //好友等级
+	optional int32 surplusReceiveCounts = 4;	  //剩余被祝福次数
+	optional int32 exp = 5;						  //被祝福时获得的经难
+}
+
+
+
+message GTReqWSOpenFriend
+{
+	required int64 charid = 1;                //角色ID
+}
+
+//客户端请求查找好友
+message GTReqWSFindFriend
+{
+	required int64 charid = 1;                //角色ID
+	required string friendname 	= 2;   			//好友名称
+}
+
+//客户端请求添加好友，仇人，黑名单
+message GTReqWSAddFriend
+{
+	required int64 charid = 1;     //自己的角色ID
+	required int32 type   = 2;                 //1表示添加好友,2表示添加仇人,3表示添加黑名单
+	required int64 otherid = 3;                 //好友角色ID
+	required int32 attack = 4; 
+}
+
+//客户端请求删除好友，仇人，黑名单 
+message GTReqWSDeleteFriend
+{
+	required int64 charid = 1;     //自己的角色ID
+	required int32 type   = 2;                 //1表示添加好友,2表示添加仇人,3表示添加黑名单
+	required int64 otherid = 3;                 //好友ID
+}
+
+
+//上下线通知好友 ---------协议号:6007----------
+message WSTOGTSynOnlineFrined
+{
+	required int64 mycharid = 1;
+	required SynOnlineFrined friend = 2;
+}
+
+
+//世界服通知网关被添加的好友
+message WSTOGTFriendInfo
+{
+	required int64 charid 		= 1; 			//角色ID
+	required FriendInfo friendinfo = 2;         //好友信息
+}
+
+//世界服通知网关祝福好友
+message WSTOGTBlessFriend
+{
+	required int64 charid = 1;                 //玩家角色ID
+	required int64 othercharid = 2;            //升级的角色ID
+	required string friendname = 3;            //好友名字
+	required int32 lv = 4;                     //好友等级
+}
+
+//请求祝福好友协议
+message GTReqWSBlessFriend
+{
+	required int64 mycharid = 1;
+	required ClientReqBlessFriend bressFriend = 2;                 //好友列表ID
+}
+
+message WSTOGTAskBlessFriend
+{
+	required int64 charid = 1;                 //好友ID
+	required AskBlessFriend blessfriend = 2;            //信息
+}
+
+message AddPlayerHarted
+{
+	required int64 myself = 1;
+	required int64 other = 2;
+}
+
+
+//被击杀后回复客户端 协议号 6025
+message AskAttacked
+{
+	required int64 charid = 1; 
+}
+
+//请求推荐好友消息serverint （发0就行）
+//消息id:6026
+//推荐好友回复消息
+message AckReqRecommendFriend
+{
+	repeated int64 charid = 1;	//玩家id
+	repeated string name  = 2;	//玩家名字
+	repeated int32 lv     = 3;	//玩家等级
+}
+
+//推荐好友简单消息
+//消息id:6029
+//message AckReqRecommendFriend
+
+//发送获取经验
+message WSsendGMGainExp
+{
+	repeated int64 playerID = 1;
+	repeated int32 level    = 2;
+}
+
+//客户端请求添加好友，仇人，黑名单,好友为一个列表 ---------协议号:12712----------
+message AddFriendList
+{
+	repeated AddFriend friendList = 1; 
+}
+
+//添加好友成功返回给客户端信息,返回一个列表，对应12712
+message AskAddFriendList
+{
+	optional int32 error				= 1;
+	repeated AskAddFriend askFriendList = 2;
+}
+
+//玩家领取经验葫芦，协议号为：12710,结构体为ServerReturn::ServerRetInt
+
+//玩家请求经验葫芦经验，协议号为：12711,结构体为ServerReturn::ServerRetInt
+
+//玩家请求好友，协议号为：12714,结构体为ServerReturn::ServerRetInt
+message FriendRecommendation
+{
+	repeated int64 playerID   = 1;			//角色ID
+	repeated int32 profession = 2;			//职业
+	repeated int32 gender     = 3;			//性别
+	repeated string name	  = 4;			//名字
+}
+
+//玩家领取祝福，协议号为：12713，客户端发送结构体：ClientReqBlessFriend，服务器返回一个错误码：ServerReturn::ServerRetInt
+
+//客户端发送祝福，服务器提示被祝福玩家，协议号：12715，结构体为Friend::AskBlessFriend
+
+message PlayerReturnInfo
+{
+	optional int64 playerID	    = 1;	//角色ID
+	optional int32 error	    = 2;	//错误码
+}
+//发送祝福和接收祝福的返回信息
+message FriendReturnError
+{
+	optional int32 error  	  			 = 1;	//错误码
+	repeated PlayerReturnInfo playerInfo = 2;
+	optional int32 SurplusCounts 		 = 3;
+}
+
+//玩家请求拒绝或同意添加好友
+//消息id：12716  消息类型: 25 
+message ReqReplyAddFriend
+{
+	required int32 flag = 1;	 //标识：同意0; 拒绝1
+	repeated int64 targetid = 2; //同意拒绝目标角色id
+}
+
+//返回拒绝或同意添加好友
+message AckReqReplyAddFriend
+{
+	required int32 code = 1; 		//返回码
+	optional int32 flag = 2;	    //标识：同意0; 拒绝1
+	repeated int64 targetid = 3; 	//同意拒绝目标角色id
+}
+
+//服务器推送添加好友
+//消息id: 12717 
+message NoticeAddFriend
+{
+	repeated FriendInfo info = 1;	//新添加好友的信息
+}
+
+//服务器推送删除好友
+//消息id：12718  消息内容：UpdateDeleteFriend

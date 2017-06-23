@@ -1,0 +1,94 @@
+
+package Daily;
+//请求日常任务信息协议：6901 请求领取每日必做奖励：6902 
+//请求领取每日活动奖励：6903 每日必做广播：6904 每日活动广播：6905
+//日常信息
+message DailyInfo
+{
+	repeated int32 havetodocount = 1;			//每日必做完成次数
+	repeated bool havetodostate = 2;			//每日必做领取奖励标致
+	repeated bool activitiesfinish = 3;			//每日活动完成标致
+	repeated bool activitiesaward = 4;			//每日活动领取奖励标致
+}
+
+//------------------------------上面是旧的，可以不看---------------------------
+
+//获取闭关修炼信息 快捷消息id:10900
+message C2GMReqDailyPracticeInfo
+{
+}
+
+//返回ServerRet2Int //retf(>1：可领取且为可领取的基础经验值。1：已领取过了.)      rets(修炼时间，最多不超过12小时,（单位：毫秒）)
+
+
+//领取闭关修炼奖励 快捷消息id:10901
+message C2GMReqPracticeReward
+{
+	required int32 type = 1;//领取方式：0，普通领取 1，双倍领取 2，三倍领取
+}
+
+//返回ServerRetInt 0:领取成功
+
+//请求资源追回信息 快捷消息id:10902
+message C2GMReqGetRecoverResourceInfo 
+{
+}
+
+message RecoverResourceItemReward
+{
+	required int32 itemid = 1;
+	required int32 itemcount = 2;
+}
+
+message RecoverResourceReward
+{
+	optional int32 exp = 1;//经验
+	optional int32 money = 2;//铜钱
+	optional int32 force = 3;//真气
+	optional int32 clancontri = 4;//帮贡
+	optional int32 campcontri = 5;//阵营
+	repeated RecoverResourceItemReward item = 6;//奖励物品
+}
+
+message RecoverResourceInfo
+{
+	required int32 id = 1;
+	required RecoverResourceReward reward = 2;
+	//剩余几次没做,比如副本等根据玩家的主线任务开放,
+	//没有固定的最多能打次数,客户端没法算元宝追回需要的元宝
+	required int32 restcount = 3;
+}
+
+//资源追回信息返回
+message RecoverResourceInfoList
+{
+	required int32 isHaveRecover = 1;
+	repeated RecoverResourceInfo infolist = 2;
+	optional int32 golden = 3; //消耗元宝
+}
+
+//请求资源追回 快捷消息id:10903
+message C2GMReqRecoverResource
+{
+	required int32 op = 1;//操作方式：0:铜钱 1：元宝 2：一键 3：至尊
+	optional int32 id = 2;//活动ID，当操作方式是0和1时需传入
+}
+
+//返回ServerDounbleInt 0:追回成功
+
+//请求每日必做 快捷消息id:10905 
+message C2GMReqDailyInfo
+{
+}
+
+message DailyToDoInfo
+{
+	required int32 id = 1;
+	required int32 count = 2;
+}
+
+//返回
+message DailyToDoInfoList
+{
+	repeated DailyToDoInfo infolist = 1;
+}

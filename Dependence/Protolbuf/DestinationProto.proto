@@ -1,0 +1,38 @@
+import "ServerReturn3Int.proto";
+import "ServerReturnInt.proto";
+
+package DestinationProto;
+
+message ReqLookForDestinationType			//�鿴�������͵���ϷĿ�� ��Ϣ��10800
+{
+	required int32	type = 1;
+}
+
+message RetLookForDestinationType
+{
+	repeated ServerReturn.ServerThreeInt DestinationInfo = 1;	//1:id 2:��ť״̬(0:δ���1:���δ��ȡ2:����ȡ) 3�����
+}
+
+message ReqGetPrestigePrize			//��ȡ��ϷĿ�꽱�� ��Ϣ��10801
+{
+	required int32 destinationID = 1;
+}
+
+//��ȡ�ɾͷ���
+//ServerThreeInt 1:������
+
+message SimDestinationComplete			//������ϷĿ�����   ��Ϣ��10802
+{
+	required int32 completeID = 1;		//��ɵ���ϷĿ��ID
+	required int32 completeType = 2;    //��ɵ����� 0��ϷĿ�� 1�ƺ�
+}
+
+//快捷消息17：10803 获取可领取奖励的目标id
+message ReqGetHaveRewardDestination
+{
+}
+//返回：
+message RetGetHaveRewardDestination
+{
+	repeated int32 destinationId = 1;//获取可领取奖励的目标id
+}

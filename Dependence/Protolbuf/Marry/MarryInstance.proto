@@ -1,0 +1,132 @@
+package MarryInstanceInfo;
+
+//呼唤伴侣
+//消息：12771(快捷消息id 23)
+message vocativepartner 
+{
+
+}
+
+//通知呼唤伴侣
+//消息：12772(快捷消息id ：14)
+message TellAnothervocativepartner
+{
+	required int64 charid = 1;
+}
+
+//准备挑战
+//消息：12773(快捷消息id ：25)
+message ReadyChallenge
+{
+	required int32 mapid = 1; //副本地图ID 
+}
+
+message RetReadyChallenge
+{
+	required int32 ret = 1; //返回ma
+	optional int32 coutdowntime = 2; //倒计时
+}
+
+//通知对方准备
+//消息：12774(快捷消息id ：14)
+message TellAnotherReadyChallenge
+{
+	required int64 charid = 1;
+	optional int32 coutdowntime = 2; //倒计时
+}
+
+//停止挑战
+//消息：12775(快捷消息id ：25)
+message StopChallenge
+{
+	
+}
+
+message RetStopChallenge
+{
+	required int32 ret = 1; //返回ma
+}
+
+//通知停止挑战
+//消息：12776(快捷消息id ：14)
+message TellAnotherStopChallenge
+{
+	required int32 ret = 1; //返回ma
+	optional int64 charid = 2;
+}
+
+//通知副本ID
+//消息：12777(快捷消息id ：14)
+message SysMarryInstance
+{
+	required int64 id = 1;
+}
+
+//通知副本ID
+//消息：12779(快捷消息id ：14)
+message StartChallenge
+{
+	optional int32 coutdowntime = 1; //倒计时
+}
+
+//请求跳点跳转地图
+//消息：12780(快捷消息id ：17)
+message AskJumpPoint
+{
+	required int32 id = 1;
+}
+
+message RetAskJumpPoint
+{
+	required int32 ret = 1; //返回ma
+	optional int32 id = 2;
+}
+
+//通知另一个玩家跳转地图
+//消息：12781(快捷消息id ：14)
+message GMForceClientJumpMap
+{
+	required int64 charid = 1;
+	optional int32 id = 2;
+}
+
+//请求跳点下落地图
+//消息：12782(快捷消息id ：17)
+message AskDownPoint
+{
+	required int32 id = 1;
+}
+
+message RetAskDownPoint
+{
+	required int32 ret = 1; //返回ma
+	optional int32 id = 2;
+}
+
+//通知另一个玩家下落地图
+//消息：12783(快捷消息id ：14)
+message GMForceClientDownMap
+{
+	required int64 charid = 1;
+	optional int64 mapid = 2;
+	optional int32 xpos = 3;
+	optional int32 ypos = 4;
+}
+
+//请求支援
+//消息：12784(快捷消息id ：17)
+message AskSupportOther
+{
+	
+}
+
+message RetAskSupportOther
+{
+	required int32 ret = 1; //返回ma
+}
+
+message GMToWSDelMarryCarbon
+{
+	required int64 charidf = 1;
+	required int64 charids = 2;
+}

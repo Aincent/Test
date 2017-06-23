@@ -1,0 +1,78 @@
+package SystemNoticeProto;
+
+message SystemNotice
+{
+	optional int32 id = 1;//����ID
+	optional int32 showType = 2;//��ʾ���ͣ�5;���� 7:ϵͳ 8������� 9:客户端启动或刷新的时候需要显示的公告
+	optional int64 beginTime = 3;//��ʼ����ʱ��
+	optional int64 endTime = 4;//�������ʱ��
+	optional int32 intervalTime = 5;//���ٷ��ӷ��͹���һ��
+	optional string content = 6;//����
+	optional string url = 7;//����
+	optional int32 state = 8;//0:�ر� 1������
+	optional string title = 9;//标题
+}
+
+message SystemNoticeOp		//1.��ҳ��MS����ϵͳ������� ��Ϣ��10430��2.MSת����WS ��ϢID��10431
+{
+	required int32 op = 1;//������1������ 2��ɾ�� 3���޸� 4���鿴
+	repeated SystemNotice noticeList = 2;//��Ҫ������ϵͳ����
+	optional int32 startNumber = 3;//起始数据,用于op=4时请求
+	optional int32 endNumber = 4;//结束数据,用于op=4时的请求
+	optional int32 totalNumber = 5;//总共有几条,用于op=4时的返回
+}
+
+message ClientNoticeUIHL
+{ // 后端没用到 但是应前端要求 先保留 以后与前端协商是否删除
+	repeated UIHighLight list = 1;
+}
+
+message UIHighLight
+{ // 后端没用到 但是应前端要求 先保留 以后与前端协商是否删除
+	required int32 type = 1;
+	required int32 value = 2;
+}
+
+// UI 高亮用这个结构 10203
+message ToClientUIHL
+{
+	repeated UIHL list = 1; 
+}
+
+message UIHL // UI High Light
+{
+	optional int32 bigType = 1;   
+	repeated int32 smallType = 2;
+	repeated int32 value = 3; 
+}
+
+//与客户端的交互 
+message ClientNotice
+{
+	required string title = 1;//标题
+	optional string content = 2;//内容
+}
+//消息ID：12700 客户端到世界服的快捷消息
+message ToClientNotice
+{
+	repeated ClientNotice noticeList = 1;
+}
+
+
+// 通知前端竞技场被挑战
+message ToClientNoticeArena
+{
+	optional int64 time = 1; // 时间
+	optional string name = 2; // 名字
+	optional int32 flag = 3; // 成功与否 0为否 1为成功
+	optional int32 ranking = 4; // 名次
+}
+
+// 通知
+message HintClientTaskPanel
+{
+	repeated int32 bigType = 1;   
+	repeated int32 smallType = 2;
+	repeated int32 fValue = 3;  
+	repeated int32 sValue = 4; 
+}

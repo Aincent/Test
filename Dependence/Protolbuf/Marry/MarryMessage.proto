@@ -1,0 +1,219 @@
+package MarryMessInfo;
+
+//请求求婚信息
+//消息号：11300（快捷消息：25）
+message ClientReqPropose
+{
+	required int64 charId = 1; //角色ID
+	optional string declaration = 2; //爱情宣言
+}
+
+//WS回复求婚信息
+message WSToClientPropose
+{
+	required int32 ret = 1; //返回码
+}
+
+//请求求婚信息
+//消息号：11301（快捷消息：14）
+message WSToClientNoteProposed
+{
+	required int64 charId = 1; //角色ID
+	optional string declaration = 2; //爱情宣言
+	optional string charname = 3; 	//角色名称
+}
+
+//回复求婚信息
+//消息号：11302（快捷消息：25）
+message ClientSimProposedAnswer
+{
+	required int64 charId = 1; //角色ID
+	optional bool willing = 2; //true为愿意，false 为不愿意
+}
+
+//WS回复求婚状态
+message WSToClientProposedAnswer
+{
+	required int32 ret = 1;
+	optional bool willing = 2; //true为愿意，false 为不愿意
+}
+
+//通知求婚结果
+//消息号：11303（快捷消息：14）
+message WSToClientProposedResult
+{
+	required int64 charId = 1; //角色ID
+	optional bool willing = 2; //true为愿意，false 为不愿意
+	optional string charname = 3; 	//角色名称
+}
+
+
+//请求求婚结果状态
+//消息号：11304（快捷消息：25）
+//messge ClientReqMarryInfo
+
+//WS返回client结婚信息
+message WSToClientMarryInfo
+{
+	required int32 state = 1; //状态 0:缔结良缘 1:爱情宣言 2:喜宴预约 3:喜贴发放 4:喜宴举办
+}
+
+
+//请求婚宴预定
+//消息号：11305（快捷消息：25）
+message ClientReqOrderWedding
+{
+	required int32 id = 1; //戒指ID
+	optional int32 timeid = 2; //时间ID
+}
+
+//WS返回婚宴预定信息
+message WSToClientOrderWedding
+{
+	required int32 ret = 1; //返回码
+	optional WSToClientInvitationSend invited = 2; //婚礼ID
+}
+
+//请求喜贴发放信息
+//消息号：11306（快捷消息：25）
+//message ClientReqInvitationIssuedInfo
+
+message  WSToClientInvitationIssuedInfo
+{
+	required int32 id = 1; //戒指ID
+	optional int32 timeid = 2; //时间ID
+	optional int32 num = 3; //激请宾客数
+	repeated InvitationIssued invited  = 4; //已邀请好友名单
+}
+
+message InvitationIssued
+{
+	required int64 charId = 1;
+	optional int32 per = 2;
+	optional string name = 3;
+}
+
+//请求发放喜贴
+//消息号：11307（快捷消息：25）
+message ClientReqInvitationIssued
+{
+	repeated int64 invited  = 1; //邀请好友名单
+	optional string name = 2; //好友名称
+}
+
+//返回发放喜贴
+message WSToClientInvitationIssued
+{
+	required int32 ret = 1; //返回码
+	repeated InvitationIssued invited  = 2; //邀请好友名单
+}
+
+//请求删除喜贴
+//消息号：11308（快捷消息：25）
+message ClientReqDeleteInvitation
+{
+	repeated int64 invited  = 1; //邀请好友名单
+}
+
+//返回删除喜贴
+message WSToClientDeleteInvitation
+{
+	required int32 ret = 1; //返回码
+	repeated int64 invited  = 2; //邀请好友名单
+}
+
+//服务器推送喜贴
+//消息号：11309（快捷消息：14）
+message WSToClientInvitationSend
+{
+	required int64 marryid = 1; //婚礼ID
+	optional int32 timeid = 2; //时间ID
+	optional int32 fpre = 3; //职业
+	optional int32 wpre = 4; //职业
+	optional int64 num = 5; //id
+	optional int64 instance = 6;//副本ID
+	optional string fname = 7; 	//角色名称
+	optional string wname = 8; 	//角色名称
+	optional int32 ringId = 9; //戒指Id
+	optional int64 beginTime = 10;
+	optional int64 endTime = 11;
+}
+
+//WS推送婚宴副本号
+//消息号：11310（快捷消息：14）
+message WSToClientMarryInstance
+{
+	required int64 marryid = 1; //婚礼ID
+	optional int64 instance = 2; 	//副本ID
+}
+
+//请求庆祝婚礼方式
+//消息号：11311（快捷消息：17）
+message ClientReqCelebration
+{
+	required int32 type = 1;
+}
+
+//返回庆祝婚礼方式
+message WSToClientCelebration
+{
+	required int32 ret = 1; //返回码
+}
+
+//推送庆祝婚礼方式
+//消息号：11314（快捷消息：14）
+message GMToClientCelebration
+{	
+	required int32 type = 1; //0:烟花 1:放灯 2:祝酒 3:流星 4:祝福 5:鲜花 6:红包
+}
+
+//WS通知客户端预定信息
+//消息号：11315（快捷消息：14）
+//message WSToClientOrderWeddingInfo
+
+//请求庆祝婚礼方式
+//消息号：11316（快捷消息：17）
+//message ClientReqCeleTimes
+
+message GMToClientCeleTimes
+{
+	required int32 state = 1; //状态
+	optional int32 reType = 2; //准备某特效//0:烟花 1:放灯 2:祝酒 3:流星 4:祝福 5:鲜花 6:红包
+	optional double cd = 3;
+	optional int32 firs= 4;
+	optional int32 light = 5;
+	optional int32 wine = 6;
+	optional int32 star = 7;
+	optional double time = 8;
+}
+
+//推着对方准备信息
+//消息号：11317（快捷消息：14）
+//message GMToClientCelebration
+
+
+//通知宾客删除邀请
+//消息号：11318（快捷消息：14）
+message WSToClientDeleteInvite
+{
+	required int64 marryid = 1; //婚礼ID
+}
+
+
+//通知宾客婚礼结束
+//消息号：11319（快捷消息：14）
+message WSToClientWddingOver
+{
+	required int64 marryid = 1; //婚礼ID
+}
+
+
+message MarryInstance
+{
+	required int64 retf = 1;
+	optional int64 rets = 2;
+	optional int64 fChaid = 3;
+	optional int64 WChaid = 4;
+	repeated int64 rett = 5;
+}
+

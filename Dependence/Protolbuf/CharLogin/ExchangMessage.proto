@@ -1,0 +1,120 @@
+import "CharLogin/CharBaseInfo.proto";
+package Exchang;
+//-------------------客户与网关通讯协议在此添加------------------------
+//----------------------------------------------------------------------------
+// 消息结构
+//----------------------------------------------------------------------------
+message ClientReqExchange										// 玩家请求交换物品 消息号7501
+{
+	required int32 dwTraderID = 1;								//目标玩家
+}
+
+message GTAckSrcExchange										// 消息号7501返回 返回玩家交易状态
+{
+	required int32 dwTraderID = 1;								//目标玩家
+	required int32 dwErrorCode = 2;								//错误码
+}
+
+message GTAckReqExchange										//  服务器转发给目标玩家 简单消息号7506
+{
+	required int64 dwCharID = 1;									//消息发起者ID
+}
+
+message TraderReqRet											// 目标玩家交易请求反馈 消息号 7502
+{
+	required int32	dwSrcID = 1;								//发起交易玩家
+	required int32	status = 2;									//是否同意 1拒绝; 0同意;
+}
+
+message GTAckOtherClientReqExchange								//消息号 7502返回 交易请求反馈 
+{
+	required int32 dwCharID = 1;								// 用于开始交易，打开窗口
+	required int32 dwErrorCode = 2;								// 
+}
+
+message GTAckToApplicant										//消息号 7508返回 交易请求反馈 
+{
+	required int32 dwCharID = 1;								// 用于给申请者开始交易，打开窗口
+	required int32 dwErrorCode = 2;								// 
+}
+
+message ClientReqCancelExchang									//客户端请求取消交易 消息号 7503
+{
+	required int32 dwPlayerID = 1;								//交易玩家ID
+}
+
+message GTAckCancelExchang										//消息号 7503返回 服务端取消交易返回 
+{
+	required int32 dwPlayerID = 1;								//交易玩家ID
+}
+
+message ClientReqLock											//客户端请求锁定 消息号 7504
+{
+	required int32 dwPlayerID = 1;
+	repeated int32 dwPacketPos = 2;								//背包位置
+	required int32 dwMoney = 3;									//
+}
+
+message GTAckSrcReqLock											// 消息号 7504返回 服务端锁定返回
+{
+	required int32 dwErrorCode = 1;								// 锁定错误码
+}
+
+message GTAckReqLock											//  返回 服务端锁定返回给交易方的消息 简单消息号 7507
+{
+	required int32 dwTraderID = 1;
+	repeated CharLogin.ClientItemInfo propList = 2;
+	required int32 dwMoney = 3;
+}
+
+message ClientReqVerifyExchang									//客户端请求确认交易  消息号 7505
+{
+	required int32 dwPlayerID = 1;
+}
+
+message GTAckExchangComplete									// 消息号 7505返回 服务端返回交易完成 
+{
+	required int32 dwFailedPlayerKey = 1;						// 导致失败者ID
+	required int32 dwErrorCode = 2;
+}
+
+//---------------------游戏内部通讯协议在此添加----------------------------------
+message GTtoGMReqExchange
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 dwTraderID = 2;				//交易请求者ID
+}
+
+message GTtoGMTraderReqRet
+{
+	required int64 charid = 1;          		//角色ID
+	required int32	dwSrcID = 2;					//发起交易玩家
+	required int32	status = 3;						//是否同意0拒绝1同意
+}
+
+message GTtoGMCancelExchang
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 dwPlayerID = 2;					//取消交易玩家ID
+}
+
+message GTtoGMReqReqLock
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 dwPlayerID = 2;
+	repeated int32 dwPacketPos = 3;					//背包位置
+	required int32 dwMoney = 4;						//
+}
+
+message GMToGTLockToOther
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 dwTraderID = 2;
+	repeated CharLogin.ClientItemInfo propList = 3;
+	required int32 dwMoney = 4;
+}
+message GTtoGMVerifyExchang
+{
+	required int64 charid = 1;          		//角色ID
+	required int32 dwPlayerID = 2;
+}

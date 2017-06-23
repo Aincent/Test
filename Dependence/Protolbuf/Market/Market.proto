@@ -1,0 +1,175 @@
+
+package MarketMessInfo;
+
+//client请求市场信息
+//消息号：11200（快捷消息：25）
+message ClientReqMarketInfo
+{
+	required int32 page = 1; //页数
+	optional int32 quality = 2;	//品质
+	optional int32 lv = 3;	//等级
+	optional int32 coin = 4; //1 为金币，2为铜钱
+	optional int32 type = 5; //物品类型
+	optional int32 littletype = 6;//物品小类
+	optional string keyworld = 7; //关键字 
+}
+
+//WS返回client市场信息
+message WSToClientMarketInfo
+{
+	required int32 ret = 1; //返回码
+	optional int32 totalpage	= 2; //总页数
+	repeated MarketInfo markerinfo = 3;	//市场信息
+}
+
+message ClientItemInfo
+{
+	required int32 id = 1;//物品id
+	optional uint32 flag = 2;//强化等级(  高16位为綁定方式       8 - 15位为强化等级     低0 -7位为个数)
+	repeated uint32 newattr = 3;//洗练属性(高18位为属性类型      低14位为属性值)
+	repeated int32 stoneid = 4; //镶嵌宝石（未镶嵌为0）
+	optional uint32 time = 5;//间隔时间(cd时间)
+	optional uint32 num = 6; //数量
+	repeated int32 inlayPos = 7; // 镶嵌孔位置
+	repeated uint32 refineAttrLv = 8; // 洗练属性等级
+}
+
+//市场信息
+message MarketInfo
+{
+	required int64 id = 1; //市场序列ID
+	optional int64 charid = 2; //玩家ID
+	optional int32 itemid = 3; //物品ID
+	optional int32 num	= 4; //物品数量
+	optional int32 price = 5; //物品总价格
+	optional int32 coin = 6; //1 为元宝，2为铜钱
+	optional string charname = 7; //玩家名称
+	optional ClientItemInfo itemInfo = 8; //物品
+}
+
+//client请求市场购物
+//消息号：11201（快捷消息：25）
+message ClientReqMarketShopping
+{
+	required int64 id = 1; //市场序列ID
+}
+
+//WS返回client市场购物信息
+message WSToClientShopping
+{
+	required int32 ret = 1; //返回码
+}
+
+//client请求店铺信息
+//消息号：11202（快捷消息：25）
+//message ClientReqShopInfo
+
+message WSToClientShopInfo
+{
+	repeated ShopInfo shopinfo = 1;	//市场信息
+}
+
+//店铺信息
+message ShopInfo
+{
+	required int64 id = 1; //店铺序列ID
+	optional int32 itemid = 2; //物品ID
+	optional int32 num	= 3; //物品数量
+	optional int32 price = 4; //物品总价格
+	optional int32 coin = 5; //1 为元宝，2为铜钱
+	optional ClientItemInfo itemInfo = 6; //物品
+}
+
+//client请求店铺物品下架
+//消息号：11203（快捷消息：25）
+message ClientReqUnderCarriage
+{
+	required int64 id = 1; //店铺序列ID
+}
+
+//WS返回client店铺物品下架
+message WSToClientUnderCarriage
+{
+	required int32 ret = 1; //返回码
+}
+
+//client请求店铺物品上架
+//消息号：11204（快捷消息：25）
+message ClientReqUpCarriage
+{
+	required int32 itemid = 1; //物品ID
+	optional int32 coin = 2; //1 为元宝，2为铜钱
+	optional int32 num	= 3; //物品数量
+	optional int32 price = 4; //物品总价格
+}
+
+//WS返回client店铺物品上架
+message WSToClientUpCarriage
+{
+	required int32 ret = 1; //返回码
+}
+
+//client请求店铺物品收益
+//消息号：11205（快捷消息：25）
+//message ClientReqEarnings
+
+//WS返回client店铺物品收益
+message WSToClientEarnings
+{
+	repeated Earnings earnings = 1; //店铺物品收益
+}
+
+//店铺物品收益
+message Earnings
+{
+	required int32 itemid = 1; //物品ID
+	optional int32 coin = 2; //1 为金币，2为铜钱
+	optional int32 num	= 3; //物品数量
+	optional int32 earningsprice = 4; //物品价格
+	optional int32 blocks = 5; //手续费
+	optional int64 time = 6; //购卖时间
+	optional string charname = 7; //买家名称
+}
+
+
+message WSReqGameMarketInfo
+{
+	optional int64 charid = 1; //玩家ID
+	optional int32 itemid = 2; //物品ID
+	optional int32 num	= 3; //物品数量
+	optional int32 price = 4; //物品总价格
+	optional int32 coin = 5; //1 为元宝，2为铜钱
+}
+
+message GMRetGameMarketInfo
+{
+	required int32 ret = 1;
+	required int32 itemid = 2; //物品ID
+	optional int32 num	= 3; //物品数量
+	optional int32 price = 4; //物品总价格
+	optional int32 coin = 5; //1 为元宝，2为铜钱
+	optional ClientItemInfo itemInfo = 6; //物品
+}
+
+
+message EarningsInfo
+{
+	required int64 charId = 1;
+	optional int32 rets = 2;
+	optional int32 rett = 3;
+	optional int32 retfo = 4;
+	optional ClientItemInfo itemInfo = 5; //物品
+}
+
+// 市场UI状态 11209 15
+message ClientMarketUIState
+{
+	
+}
+
+// WS通知GM出售者UI状态 
+message WSToGMSellerUIState
+{
+	required int64 charID = 1;
+
+}

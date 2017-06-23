@@ -1,0 +1,25 @@
+package VitalityProto;
+
+//活跃度信息 协议号 17--11200 活跃度信息同步 协议号 11202 领取奖励协议号：17--11201 用int32带id
+//活跃度信息 协议号 17--11200
+message ProtoVitalityInfo
+{
+	repeated ProtoVitalityItem item = 1;	//活跃度信息子项
+	repeated bool award	= 2;				//是否领取奖励
+	optional int32 score = 3;				//总活跃度积分
+	optional int64 time = 4;				//初始化时间
+}
+
+message ProtoVitalityItem
+{
+	required int32	id = 1;					//id
+	required int32	count = 2;				//完成数量
+}
+
+//活跃度信息同步 协议号 11202
+message ProtoVitalitySim
+{
+	required int32	id = 1;					//id
+	required int32	count = 2;				//完成数量
+	required int32 score = 3;				//总活跃度
+}

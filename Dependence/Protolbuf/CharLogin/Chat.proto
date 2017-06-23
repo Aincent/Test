@@ -1,0 +1,62 @@
+import "CharLogin/CharBaseInfo.proto";
+
+package ChatInfo;
+
+//客户端发言协议
+//聊天信息 6601 简单消息
+message StartChatInfo
+{
+	required int32 channel = 1;					//频道
+	required string str = 2;					//聊天内容 
+	repeated CharLogin.ClientItemInfo item = 3;	//物品信息
+	required string name = 4;					//聊天对象
+	optional int32 param = 5;					//聊天参数(如：如果是喇叭频道的话，用于表示喇叭类型)
+}
+//跑马灯协议 6700
+message Marquee
+{
+	required int32 type = 1; 			//0：锻造 1：道具 ：2通过NPC进入的活动 3：用过按钮进入的活动
+	required string name  = 2; 			//名字（玩家名字，活动名字）
+	required string target = 3;			//对象（道具ID,怪物名字，NPC名字，按钮名字）
+	required string param = 4;			//特殊（等级，道具名字）
+}
+//聊天广播
+//聊天信息	6606 简单消息
+message EndChatInfo
+{
+	required int32 channel = 1;					//频道	
+	required string str = 2;					//聊天内容 
+	repeated CharLogin.ClientItemInfo item = 3;		//物品信息
+	required int64 startCharid = 4;				//发言人ID
+	required string startName = 5;				//发言人名称
+	optional int64 endCharid = 6;				//接收人ID
+	optional string endName = 7;				//接收人名称
+	optional int32 viplv = 8; 					//vip等级
+	optional int32 param = 9;					//聊天参数(如：如果是喇叭频道的话，用于表示喇叭类型)
+}
+//服务端内部协议
+message ServerMarquee
+{
+	required int64 charid = 1;					//玩家ID
+	required Marquee marquee = 2;				//跑马灯信息
+}
+message ServerChatInfo
+{
+	required int32 channel = 1;		//频道
+	required string str = 2;		//聊天内容 
+	repeated CharLogin.ClientItemInfo item = 3;	//物品信息
+	required int64 startCharid = 4;				//发言人ID
+	required string name = 5;				//聊天对象
+}
+
+message SEndChatInfo
+{
+	required int64 charid = 1;				//接收聊天消息玩家ID
+	required EndChatInfo info = 2 ;			//聊天信息
+}
+//游戏服协议
+message GMChatInfo
+{
+	required int64 charid = 1;				//发言玩家
+	required ServerChatInfo info = 2 ;			//聊天信息
+}

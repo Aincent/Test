@@ -1,0 +1,214 @@
+package ServerBattle;
+
+//请求夸服竞技信息
+//消息号：10850 （快捷消息id ：17）
+//随意发什么
+
+//回复夸服竞技信息
+message AckBeyondBattle
+{
+	required int32 score = 1; //积分
+	optional int32 count = 2; //今日参与次数
+	optional int32 reward = 3; //领奖次数
+	optional int32 single = 4; //单人跨服战次数  高16位为总次数  低16位为当前挑战次数
+	optional int32 group = 5; //组队跨服战次数 高16位为总次数  低16位为当前挑战次数
+	optional int64 cdtime = 6; //cd时间
+}
+
+//请求夸服派行
+//消息号：10851 （快捷消息id ：25）
+message ClientReqBeyondRank
+{
+	required int32 page = 1; //按页请求（从1开始）
+}
+
+//回复排行信息
+message AckBeyondRank
+{
+	repeated BattleRankInfo binfo = 1; //排行信息
+	optional RankPlayerInfo pinfo = 2; //玩家的模型数据
+	optional int32 myselfrank = 3; //自己的排行
+	optional int32 page = 4; //总页码
+}
+
+message BattleRankInfo
+{
+	required int32 rank = 1; //排行
+	optional int64 charid = 2; //角色id
+	optional string name = 3; //名字
+	optional int32 profession = 4; //职业
+	optional int32 score = 5; //积分
+	optional int32 viplv = 6; //vip等级
+}
+
+//玩家的基本信息
+message RankPlayerInfo
+{
+	optional int32 suitrnt = 1; //套装
+	optional int32 mainEquip = 2; //装备主武器
+	optional int32 costume = 3; //装备服装
+	optional int32 fight =4; //战斗力
+	optional bool sex = 5;//性别
+	optional int32 magicid = 6; //神兵
+}
+
+//请求夸服排行的玩家信息
+//消息号：10852（快捷消息id ：25）
+message ClientReqBeyondPlayerInfo
+{
+	required int64 charid = 1; //角色id
+}
+
+//回复夸服排行的玩家信息
+//CharLogin.BeyondPlayerInfo
+
+
+//匹配对手
+//消息号：10853
+message MatchPlayerType
+{
+	required int32 type = 1; //1人夸服发1，3人夸服发3
+	optional int64 charid = 2;
+}
+
+//通知客户端匹配对手返回
+//消息号：10857（快捷消息id：14）
+message MatchPlayerReturn
+{
+	required int32 ret = 1; //返回码
+	optional int64 mapid = 2; //副本id
+}
+
+//取消匹配
+//消息号：10858(快捷消息id ：23)
+//随意发什么，最好发个int的0
+
+//通知客户端pk结果
+//消息号：10860（快捷消息id：14）
+message BeyondBattleResult
+{
+	required int32 ret = 1;//1赢了，0输了,2为平了
+	repeated BattlePlayerResult res = 2;
+}
+
+message BattlePlayerResult
+{
+	required int64 charid = 1;
+	optional string name = 2;
+	optional int64 attack = 3; //伤害输出
+	optional int32 nowscore = 4; //当前积分
+	optional int32 score = 5; //获得或者失去的积分
+}
+
+//请求领奖
+//消息号：10862 （快捷消息id ：17）
+//随意发
+
+//返回领奖结果
+message AckGetBeyondReward
+{
+	required int32 ret = 1; //返回码
+}
+
+//广播给所有管理夸服战地图的gm，有玩家匹配
+message BroadPlayerMatch
+{
+	required int64 charid = 1;
+	optional int32 lv = 2;
+	optional int32 fight = 3;
+	optional int32 score = 4;
+	optional int32 type = 5;
+}
+
+//广播给所有ws，玩家已经匹配到了
+message ToWSMatchedPlayer
+{
+	required int64 charid = 1; //玩家自己
+	optional int32 target = 2; //匹配到的玩家组id
+	optional int32 id = 3; //匹配到的玩家服id
+	optional int32 myself = 4; //自己的组id
+}
+
+//广播给所有管理夸服战地图的gm，玩家已经被匹配到了，删除匹配信息
+message BroadPlayerIsMatched
+{
+	required int64 charid = 1;
+}
+
+//广播给所有管理夸服战地图的gm，玩家已经已经匹配
+message BroadPlayerCancelMatch
+{
+	required int64 charid = 1;
+}
+
+//同步到世界服，pk的结果
+message BroadCastPKResult
+{
+	required int64 charid = 1;//角色id
+	optional int32 score = 2;//现在的积分
+	optional string charname = 3;
+	optional int32 profession = 4;
+	optional BeyondPlayerInfo info = 5;
+}
+
+message BeyondPlayerInfo
+{
+	optional int32 sex = 1;
+	optional int32 hp = 2;
+	optional int32 hpmax = 3;
+	optional int32 mp = 4;
+	optional int32 mpmax = 5;
+	optional int32 strength = 6; //力量
+	optional int32 cleverpower = 7;//灵力
+	optional int32 cleverair = 8;//灵气
+	optional int32 physicalpower = 9;//体质
+	optional int32 patience = 10;//耐力
+	optional int32 agility = 11; //敏捷
+	optional int32 power = 12;// 体力
+	optional int32 phyattack = 13;
+	optional int32 phyattackmax = 14;
+	optional int32 phydefence = 15;
+	optional int32 magicattack = 16;
+	optional int32 magicattackmax = 17;
+	optional int32 magicdefence = 18;
+	optional int32 hitrate = 19;
+	optional int32 avoidrate = 20;
+	optional int32 baselucky = 21;
+	optional int32 crackdownrate = 22;
+	optional int32 baserte = 23;//抗暴
+	repeated ItemInfo equip = 24;
+	optional int32 fight = 25; //战斗力
+	optional int32 powermax = 26; //最大体力值
+	optional int64 exp = 27; //当前经验值
+	optional int32 lv = 28; //等级
+	optional int32 magicequipid = 29; //神兵ID
+	optional string guildname = 30; //帮派名字
+	optional int32 guildjob = 31; //帮派职位
+	optional int32 titleid = 32; //称号ID
+	optional int32 pkcount = 33; //pk值
+	optional int32 viplv = 34; //vip等级
+	optional int32 country = 35; //阵营
+}
+
+message ItemInfo
+{
+	required int32 id = 1;//物品id
+	optional uint32 flag = 2;//强化等级（  高16位为綁定方式       8 - 15位为强化等级     低0 -7位为个数）
+	repeated uint32 newattr = 3;//洗练属性（高18位为属性类型      低14位为属性值）
+	repeated int32 stoneid = 4; //镶嵌宝石（未镶嵌为0）
+	optional int64 endtime = 5; //结束时间
+	optional int32 num = 6;//数量
+	repeated int32 inlayPos = 7; // 镶嵌孔位置
+	repeated uint32 refineAttrLv = 8; // 洗练属性条等级
+}
+
+//消息号：10863（快捷消息id ：17）
+message ClientMatchPlayerType
+{
+	required int32 type = 1; //1人夸服发1，3人夸服发3
+}
+
+message ToClientMatchPlayerType
+{
+	required int32 ret = 1; //返回码
+}

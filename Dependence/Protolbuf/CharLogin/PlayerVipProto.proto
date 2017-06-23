@@ -1,0 +1,32 @@
+package PlayerVipProto;
+
+message ReqGetVipGift				//领取VIP奖励 消息号：9650
+{
+	required int32 giftID = 1;		//vip等级ID
+}
+
+message RetGetVipGift
+{
+	required int32	error = 1;		//0表示成功领取
+	optional int32	giftInfo = 2;	//领取的状态
+	repeated int32  list = 3;		//奖励的物品ID
+}
+
+message ReqGotGiftInfo					//领取奖励状态 消息号：9651
+{	
+}
+
+message RetGotGiftInfo
+{
+	required int32 giftInfo = 1;
+}
+
+//请求充值协议：17--9662  领取将领协议：17--9663 通用 ServerResultInt
+message	ToClientRechargeInfo
+{
+	optional int64 startTime = 1;				//连续充值活动结束时间
+	optional int64 endTime = 2;				//连续充值活动结束时间
+	optional int32 day = 3;					//连续充值天数
+	optional int32 maxDay = 4;				//连续充值最多天数
+	repeated int64 item = 5;				//奖励状态（0为不可领取 1 为可领取 2为已经领取）
+}

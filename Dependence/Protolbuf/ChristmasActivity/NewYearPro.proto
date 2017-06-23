@@ -1,0 +1,35 @@
+package NewYearPro;
+
+//获取限购数据,协议ID:13200,大类型为25,发送结构体ServerRetInt(不需要值)
+
+//一个限购物品数据
+message OneLimitData
+{
+	optional int32 id		 	 = 1;		//配表中的ID
+	optional int32 surplusCounts = 2;		//剩余个数
+	optional int32 buyCounts	 = 3;		//已买个数
+}
+
+//限购返回,协议ID:13200
+message LimiDatatPro
+{
+	optional bool horseReceive	= 1; 	//坐骑是否已经验领取	
+	repeated OneLimitData datas	= 2;	//限购数据
+}
+
+
+//购买限购物品,协议ID:13201,大类型为25,发送结构体ServerRetInt(值配表中的ID)
+
+//购买限购物品返回,轩议ID:13201,结构体为ServerRetInt(低位错误码,高位配表ID)
+
+
+//获取登录数据,协议ID:13202,发送结构体ServerRetInt(不需要值),大类型为17
+
+//获取登录数据返回,协议ID:13202,结构体为ServerFourInt(某天是否已领取,节日第几天,连续登录几天,连续登录是否已领取)
+
+
+//领取登录奖励,协议ID:13203,结构体为ServerRetInt(1表示领取当天奖励,2表示领取连续奖励),大类型为17
+
+//领取登录奖励返回,协议ID:13203,结构体为ServerRetInt(低位错误码,高位配表ID) 
+
+//购买坐骑皮肤,协议ID:13204,结构体为ServerRetInt(不需要值),大类型为25,返回结构体ServerRetInt(低位错误码,高位为皮肤ID)

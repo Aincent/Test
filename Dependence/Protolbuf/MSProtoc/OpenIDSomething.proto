@@ -1,0 +1,46 @@
+package MS_OpenIDSomething;
+
+//获取 被封帐号信息   由于 可能很多 所以 采用 分段 取数据  messagID 10410
+//获取 处于 禁言状态 messagID 10414  //最多一次不要超过50
+//返回 InLockTimeRole  
+message Admin_GetAllLockOpenID 
+{
+	optional string charName = 1;
+	optional int64 charID = 2;
+	optional int32 beginCount = 3;  //开始 
+	optional int32 endCount = 4;    //结束
+}
+
+message InLockTimeRole
+{
+	required int32 ret  = 1;
+	repeated string charName = 2;
+	repeated int64 charID = 3;
+	repeated string reasonString = 4;
+	optional int32 sumCount = 5;  //拥有的结果总数
+}
+
+//10412 与 封账号 类似
+//MessageID 10408 解 禁说话  //返回serverInt
+message Admin_TalkThing   //解禁言操作
+{
+	required int64 charID	 = 1;  //角色ID
+	required int32 type = 3;   //操作类型  1封  2解
+	optional string reasonString = 4; //操作理由 
+	optional int32 dotm = 5;
+}
+
+//禁止与解封 C2MS消息ID：10502
+message Aimin_Forbidden//返回serverInt
+{
+	required int64 charID	 = 1;  //角色ID
+	required int32 type = 2;//类型：1，防沉迷类
+	required int32 op = 3;//操作类型，根据type而来，type=1:1解除，2防沉迷状态
+}
+
+
+
+
+
+
+

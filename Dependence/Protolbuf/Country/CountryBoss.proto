@@ -1,0 +1,122 @@
+package CountryBossPackage;
+
+//WS推送阵营boss副本号
+//消息号：12200（快捷消息：25）
+message ClientReqCountryInstance
+{
+	required int32 type = 1; //副本类型
+}
+
+message WSToClientCountryInstance
+{
+	required int32 ret = 1;
+	optional int64 instance = 2; //副本id
+}
+
+//GM推送阵营boss阵营积分
+//消息号：12201（快捷消息：14）
+message CountryIntegral
+{
+	required int32 Sui = 1;//隋积分
+	optional int32 Tang = 2;//唐积分
+	optional int32 enemy = 3;//击杀敌奖
+	optional int32 boss = 4; //击杀boss
+	optional int32 cor = 5; //myself贡献
+	optional int32 total = 6; //第几波
+	optional int32 exp = 7; //累计获得经验
+	optional int32 country = 8; //阵营ID
+	optional int64 time = 9;//下一波刷怪时间
+	repeated CountryBossHp bossHp = 10;
+}
+
+message CountryBossHp
+{
+	required int32 id	= 1;	//id
+	optional int32 hp = 2;      //hp百分比
+}
+
+//GM推送玩家伤害排名
+//消息号：12202（快捷消息：14）
+message CountryBossHarmRank
+{
+	required int32 id	= 1;	//id
+	repeated CountryHarmRank harminfo = 2;	//伤害排名信息
+	repeated BossRank bossinfo = 3;	//boss伤害排名
+}
+
+message CountryHarmRank
+{
+	required int64 charid	= 1;	//队员id
+	optional string charname = 2;	//队员名称
+	optional float harm = 3; 	//伤害值
+	optional int32 country = 4; //阵营id
+}
+
+message BossRank
+{
+	required int32 country	= 1;	//阵营id
+	optional float harm = 2; 	//伤害值
+}
+
+//GM推送玩家BOSS伤害排名结算
+//消息号：12203（快捷消息：14）
+message BossHarmSettle
+{
+	required int32 id = 1;
+	optional int32 total = 2; //当前第几波
+	optional int32 curRank = 3; //当前名次
+	optional bool endCut = 4; //true为最后一击
+	optional int32 country = 5; //阵营ID
+	optional string name = 6; //最后一击名字
+	repeated BossHarmItem item = 7;//随机奖励
+	optional CountryBossEndKill endKill = 8;
+	optional CountryBossRankHurt rankHurt = 9;
+} 
+
+message BossHarmItem
+{
+	required int32 id = 1; //物品ID
+	optional int32 num = 2; //数量
+}
+
+
+//服务器推送副本开始提前通知时间
+//消息号：12204（快捷消息：14）
+message WSToClientInstanceBStart
+{
+	required int32 type = 1; //副本类型
+	optional int64 ontime = 2; //到点时间
+}
+
+//GM推送玩家战场结算
+//消息号：12205（快捷消息：14）
+message CountryBossReward
+{
+	required int32 country	= 1;	//阵营id
+	optional bool flag = 2; //true 为胜利
+	optional int32 Sui = 3;//隋积分
+	optional int32 Tang = 4;//唐积分
+	optional int32 cor = 5; //myself贡献
+}
+
+message CountryBossWin
+{
+	required int32 country	= 1;	//阵营id
+	optional int32 money = 2;
+	repeated int32 itemid = 3;
+	repeated int32 num = 4;
+}
+
+message CountryBossEndKill
+{
+	required int32 exp = 1;
+	optional int32 credit = 2;
+	optional int32 con = 3;
+}
+
+message CountryBossRankHurt
+{
+	required int32 exp = 1;
+	optional int32 credit = 2;
+	optional int32 con = 3;
+}

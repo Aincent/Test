@@ -1,0 +1,287 @@
+package ActivitiesProto;
+//--------------------------------和网页后端的交互--------------------------------
+message ActivitiesOp		//消息ID：12400 web2ms
+{
+	required int32 op = 1;//操作类型 1增 2删除 3改 4查
+	required int32 type = 2;//查询type -1为全部
+	repeated Activity activityList = 3;//操作的对象
+	optional int32 totalNumber = 4;//总共有几条,用于op=4时的返回
+}
+
+message Activity
+{
+	required int32 type = 1;//类型
+	optional int32 status = 2;//状态 0:关闭 1:开启 
+	optional bytes content = 3; //具体内容
+}
+
+//首充结构
+message FirstRecharge
+{
+	required string activityName = 1;//活动名称
+	optional int64 beginTime = 2;//开始时间
+	optional int64 endTime = 3;//结束时间
+	optional int64 rewardTime = 4; //领奖时间
+	optional int32 status = 5;//状态 0:关闭 1:开启 
+	optional string des = 6;//描述
+	required int32 rate = 7;//返还比例
+}
+
+//冲榜活动结构
+message RankingInfo
+{
+	optional int32 index = 1;//排序索引
+	optional int32 value = 2;//目标
+	optional string des = 3;//描述
+	repeated int32 item_id = 4;//物品ID
+	repeated int32 item_num = 5;//物品数量
+}
+
+message RankingTypes
+{
+	required int32 tinyType = 1;//小类型
+	optional string des = 2;//描述
+	repeated RankingInfo info = 3;//数据
+}
+
+message Ranking
+{
+	required string activityName = 1;//活动名称
+	optional int64 beginTime = 2;//开始时间
+	optional int64 endTime = 3;//结束时间
+	optional int64 rewardTime = 4; //领奖时间
+	optional int32 status = 5;//状态 0:关闭 1:开启 
+	repeated RankingTypes data = 6;//实际榜单数据
+}
+
+//元宝投资
+message InvistInfo{
+	optional int32 index = 1;//排序索引
+	optional int32 value = 2;//目标
+	optional string des = 3;//描述
+	optional int32 golden = 4; //元宝返还
+	optional int32 bgolden = 5; //绑定元宝返还
+}
+message Invist
+{
+	optional string des = 1;//描述
+	optional int32 maxGolden = 2;//最大投资
+	repeated InvistInfo info = 3;//数据
+	optional int64 beginTime = 4;//开始时间
+	optional int64 endTime = 5;//结束时间
+	optional int64 rewardTime = 6; //领奖时间
+	optional int32 status = 7;//状态 0:关闭 1:开启 
+	optional string activityname = 8; //活动名称
+}
+
+//通用结构---用于没有全局目标多个排序奖励并且奖励为道具的情况
+message GeneralTypes
+{
+	optional int32 index = 1;//排序索引
+	optional string des = 2;//描述
+	optional int32 value = 3;//目标
+	repeated int32 item_id = 4;//道具ID
+	repeated int32 item_num = 5;//道具数量
+}
+
+message General
+{
+	required string activityName = 1;//活动名称
+	optional int64 beginTime = 2;//开始时间
+	optional int64 endTime = 3;//结束时间
+	optional int64 rewardTime = 4; //领奖时间
+	optional int32 status = 5;//状态 0:关闭 1:开启 
+	optional string des = 6;//描述
+	repeated GeneralTypes data = 7;//实际数据
+}
+
+//接力充值
+message RelayRechargeInfo
+{
+	optional int32 index = 1; //序号
+	repeated int32 itemId = 2;//奖励的物品（有可能奖励多个物品，包括金钱，声望，元宝等等）
+	repeated int32 itemNum = 3;//奖励的数量
+	optional int32 rechargegolden = 4; //充值金额
+	optional int32 rechargepeople = 5; //充值人数
+}
+
+message RelayRecharge
+{
+	required string activityName = 1;//活动名称
+	optional int64 beginTime = 2;//开始时间
+	optional int64 endTime = 3;//结束时间
+	optional int64 rewardTime = 4; //领奖时间
+	optional int32 status = 5;//状态 0:关闭 1:开启
+	optional string des = 6;//描述
+	repeated RelayRechargeInfo data = 7;
+}
+
+message Compensate
+{
+	required string activityName = 1;//活动名称
+	optional int64 beginTime = 2;//开始时间
+	optional int64 endTime = 3;//结束时间
+	optional int64 AnnounceTime = 4; //写公告时间
+	optional int32 status = 5;//状态 0:关闭 1:开启
+	optional string des = 6;//描述
+	repeated int32 itemId = 7;//奖励的物品（有可能奖励多个物品，包括金钱，声望，元宝等等）
+	repeated int32 itemNum = 8;//奖励的数量
+}
+
+// 活动的UI高亮状态
+message ToGMActivityState
+{
+	repeated int64 charID = 1;
+	repeated ActivityStateList list = 2;
+}
+message ActivityStateList
+{
+	repeated ActivityState states = 1;
+}
+message ActivityState
+{
+	optional int32 type = 1; // 活动类型
+	optional bool flag = 2; // true 为开启   false 关闭
+	optional int32 num = 3; // 
+}
+
+
+//message Activity
+//{
+//	optional int32 id = 1;//活动ID也可以理解成类型
+//	optional int32 state = 2;//开启状态：0关闭 1：开启 3: 活动结束后的一天
+//	optional int32 startType = 3;//时间类型：0按时间 1按每天
+//	optional int64 beginTime = 4;//开始时间
+//	optional int64 endTime = 5;//结束时间
+//	repeated ActivityPlus activityPlus = 6;
+//}
+
+//message ActivityPlus
+//{
+//	required int32 tinyType = 1;//小类型
+//	repeated int32 desType = 2;//需要达到的目标的类型(一个活动能领取奖励可能需要达成多个条件)
+//	repeated int32 value = 3;//目标类型：desType对应的需达到的值
+//	repeated int32 itemId = 4;//奖励的物品（有可能奖励多个物品，包括金钱，声望，元宝等等）
+//	repeated int32 itemNum = 5;//奖励的数量
+//	repeated int32 specialRewardType = 6;//特殊的奖励算法（一个活动也可能有多个特殊算法），0：按投入的元宝比例来算返还元宝 1：按投入的元宝来算返还绑定元宝
+//	repeated int32 specialRewardValue = 7; //对应的值，当specialRewardType＝0时表示百分比(单位100)，比如specialRewardValue＝10时表示10％
+//	optional string activityExplain = 8;//活动说明
+//	optional int32 rewardFlag = 9;//领取情况:0:未达到条件 1：达到未领取  2：已领取
+//	optional int32 rechargeValue = 10;//已充值(某些活动需要，比如接力充值)
+//	optional int32 rechargeCount = 11;//充值次数(某些活动需要，比如接力充值)
+//}
+
+//message ActivitiesOp		//消息ID：12400 web2ms
+//{
+//	required int32 op = 1;//操作类型 1增  2删除 3改 4查
+//	repeated Activity activityList = 2;//操作的对象
+//	optional int32 startNumber = 3;//起始数据,用于op=4时请求
+//	optional int32 endNumber = 4;//结束数据,用于op=4时的请求
+//	optional int32 totalNumber = 5;//总共有几条,用于op=4时的返回
+//}
+
+//--------------------------------------------以下是和客户端的交互-------------------------------------
+
+//玩家的多个活动领取情况和冲值情况(可用于数据库存储)
+//message ActivityRewardInfoList
+//{
+//	repeated ActivityRewardInfo rewardList = 1;
+//}
+
+//玩家的单个活动领取情况和冲值情况
+//message ActivityRewardInfo
+//{
+//	required int32 activityID = 1;//活动ID
+//	optional int32 activityType = 2;//活动类型
+//	optional int32 rechargeGolden = 3;//冲值情况
+//	repeated int32 rewardFlag = 4;//领取情况（一个活动可能可领取多个奖励），0:未达到条件 1：达到未领取  2：已领取
+//	optional int64 rechargeTime = 5;//充值时间(比如元宝投资中的元宝七日返利必须记录时间)
+//}
+
+//----------------------------------------------------------------------------------------------
+
+//请求当前已开启的活动  c2ws 快捷消息25  消息ID：12405 请求回复
+//message ReqActiveActivities
+//{
+//}
+
+//message RetActiveActivities
+//{
+//	required int32 ret = 1;//返回码
+//	repeated int32 activetyIdList = 2;//当前已开启的活动ID列表
+//}
+
+//----------------------------------------------------------------------------------------------
+
+//玩家请求活动信息包括玩家的领取和完成信息 c2ws 快捷消息：25  消息ID：12402 请求回复
+//message ReqAcivityInfo
+//{
+//	required int32 activityId = 1;//活动ID
+//}
+
+//message RetAcivityInfo
+//{
+//	required int32 ret = 1;//返回码
+//	optional Activity activity = 2;//活动以及领取和充值情况
+	//optional ActivityRewardInfoList reward = 3;//此活动玩家的领取和冲值情况
+//}
+
+//-----------------------------------------------------------------------------------------------
+//玩家请求获取奖励  c2ws 快捷消息：25  消息ID：12403 请求回复
+//message ReqGetActivityReward
+//{
+//	required int32 activityId = 1;//活动ID
+//	required int32 activityType = 2;//活动类型
+//	required int32 rewardFlag = 3;//领此活动的第几个奖励，下标从0开始，比如累积冲值，此字段填0表示领取累积充值1000的奖励
+//}
+
+//message RetGetActivityReward
+//{
+//	required int32 ret = 1;//返回码
+//}
+
+//----------------------------------------------------------------------------------------------
+//玩家请求投资 c2ws 快捷消息：25  消息ID：12404 请求回复
+
+//message ReqActivityInvest
+//{
+//	required int32 activityId = 1;//活动ID
+//	required int32 activityType = 2;//活动类型
+//	required int32 golden = 3;
+//}
+
+//message RetGetActivityInvest
+//{
+//	required int32 ret = 1;//返回码
+//}
+
+//message SysActivityReward
+//{
+//	required int64 charid = 1;
+//	optional ReqGetActivityReward activityReward = 2;//活动ID
+//	repeated int32 itemid = 3;
+//	repeated int32 num = 4;
+//}
+
+//message RetSysActivityReward
+//{
+//	required int32 ret = 1;
+//	optional ReqGetActivityReward activityReward = 2;//活动ID
+//}
+
+//message AskActivityInestCost
+//{
+//	required int64 charid = 1;
+//	optional int32 activityId = 2;//活动ID
+//	optional int32 activityType = 3;//活动类型
+//	optional int32 golden = 4;
+//}
+
+//message RetActivityInestCost
+//{
+//	required int32 ret = 1;//返回码
+//	optional int32 activityId = 2;//活动ID
+//	optional int32 activityType = 3;//活动类型
+//	optional int32 golden = 4;
+//}
+

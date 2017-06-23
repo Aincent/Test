@@ -1,0 +1,42 @@
+package ChristmasDB;
+
+message BreakEggDB
+{
+	optional int64 reflushTime = 1;
+	optional int32 breakInfo   = 2;
+}
+
+message ChristmasLoginDB
+{
+	optional int32 loginDay   = 1;
+	optional int32 rewardInfo = 2;
+}
+
+message SingleLimitDB
+{
+	optional int32 id 	  = 1;
+	optional int32 counts = 2;
+}
+
+message LimitDataAll
+{
+	optional int64 reflushTime 		 = 1;
+	repeated SingleLimitDB limitList = 2;
+}
+
+message NewYearPro
+{
+	optional int32 loginday     = 1;
+	optional int32 loginreward  = 2;
+	optional int32 horsereceive = 3;
+	optional int32 contiReceive = 4;
+	optional int64 initTime		= 5;
+}
+
+message ChristmasAllData
+{
+	optional BreakEggDB breakEggData    = 1;
+	optional ChristmasLoginDB loginData = 2;
+	optional LimitDataAll limitData     = 3;
+	optional NewYearPro newyeardata 	= 4;
+}

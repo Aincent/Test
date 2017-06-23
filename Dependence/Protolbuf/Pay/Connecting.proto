@@ -1,0 +1,33 @@
+package ConnectingInfo;
+
+//请求支付信息
+//const int MSG_REQ_C2MS_CONNECTINGASKPAY = 13013; //请求联运支付信息
+//const int MSG_REQ_MS2WS_CONNECTINGASKPAY = 13014; //请求联运支付信息
+
+message FromConnectingReqAskPayInfo
+{
+	required string openid = 1;
+	required uint32 serverid = 2;
+	required string orderid = 3;
+	required uint32 money = 4;
+	required uint64 timestamp = 5;
+	required string sig = 6;
+}
+
+message ToConnectingReqAskPayInfo
+{
+	required int32 ret = 1;
+}
+
+//const int MSG_REQ_WS2GM_SYSCONNECTINGINFO = 13015; //同步联运支付信息
+message SysConnectingPayInfo
+{
+	required int64 charid = 1;
+	required string openid = 2;
+	required string orderid = 3;
+	required uint32 money = 4;
+	required uint64 timestamp = 5;
+	required string sig = 6;
+	required int32 ret = 7;
+	required int32 flag = 8;
+}

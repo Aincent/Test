@@ -1,0 +1,51 @@
+package BaseShopInfo;
+
+//玩家请求商店购物
+//消息号：7051（快捷消息：17）
+message ClientReqBuyItem
+{
+	required int32 type = 1; 	//商店类型
+	required int32 id = 2; 		//购买商品
+	required int32 num = 3; 	//购买数量
+}
+
+message AckBuyItem
+{
+	required int32 ret = 1;
+	optional int32 id = 2; 		//购买商品
+	optional int32 num = 3; 	//购买数量
+	optional int32 type = 4;    //商店类型
+	
+}
+
+//玩家请求神秘商店数据
+//消息号：7052（快捷消息：17）
+//message ClientReqMysterInfo;
+message AckMysterInfo
+{
+	repeated int32 id = 1; //神秘商品序号列表
+}
+
+
+//玩家请求刷新神秘商店数据
+//消息号：7053（快捷消息：17）
+//message ClientReqFlushMysterInfo
+message AckFlushMysterInfo
+{
+	required int32 ret = 1;
+	repeated int32 id = 2; //神秘商品序号列表
+}
+
+//玩家请求商店信息
+//消息号：7054（快捷消息：17）
+message ClientReqBaseShopInfo
+{
+	required int32 type = 1; 	//商店类型
+}
+
+message AckBaseShopInfo
+{
+	required int32 type = 1; 	//商店类型
+	repeated int32 id = 2; 		//商品
+	repeated int32 num = 3; 	//购买数量
+}

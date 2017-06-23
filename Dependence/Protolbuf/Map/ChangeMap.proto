@@ -1,0 +1,24 @@
+package ChangeMap;
+
+message ChangeMapInfo
+{
+	optional int64 mapid = 1;
+	optional int32 pos = 2;
+	required int64 charid = 3;
+	optional string ip = 4;
+	optional int32 port = 5;
+	optional int32 gateid = 6;
+	optional int32 key = 7;
+	optional int32 pkType = 8;
+}
+
+//强制客户端切换场景
+//消息id ：１１０８（经由快捷消息　　１４）
+message GMForceClientChangeMap
+{
+	optional int64 mapid = 1;
+	optional int32 xpos = 2;
+	optional int32 ypos = 3;
+	optional int32 key = 4;
+	optional int32 pkType = 5;
+}

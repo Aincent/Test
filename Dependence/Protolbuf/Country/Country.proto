@@ -1,0 +1,341 @@
+package CountryPackage;
+
+//---------------------------陈营信息--------------------------
+//客户端查看各陈营的基本信息（选择陈营时）
+//消息号：12000（快捷消息id ：25）
+//客户端发空消息
+
+message CountryBaseNums
+{
+	required int32 countryID = 1;	//陈营id
+	optional int32 nums = 2;		//陈营人数
+}
+
+//服务器返回客户端各陈营的基本信息（选择陈营时）
+message AckCountryBaseNums
+{
+	repeated CountryBaseNums item = 1;
+	optional int32 recommendCtry = 2; // 推荐阵营 阵营ID
+}
+
+
+//客户端请求加入陈营
+//消息号：12002（快捷消息id ：25）
+message ClientReqJionCountry
+{
+	required int32 countryID = 1;//陈营id
+}
+
+//服务器返回加入陈营请求  
+message AckClientReqJionCountry
+{
+	required int32 success = 1;	//0表示成功,其它未定
+	optional int32 countryID = 2; //加入的陈营id
+	optional int32 getAwardErr = 3; // 获取推荐奖励错误码
+}
+
+//客户端请求本陈营信息
+//消息号:12001  (快捷消息: 25)
+//客户端发空包
+
+//返回客户端陈营信息
+message CountryInfo
+{
+	required int32 CountryID = 1;			//陈营id
+	optional int32 Level = 2;				//陈营等级
+	optional int64 Money = 3;				//陈营金钱
+	optional bytes leaderName = 4;	   //霸主名称
+   optional bytes CounsellorName = 5;  //军师名称
+	optional bytes notice = 6; 		   //陈营公告
+	optional int32 count	 = 7;				//总共人数
+}
+
+//客户端请求陈营仓库信息
+//消息号: 12013    (快捷消息: 25)
+//客户端发空消息包
+
+//返回请求陈营仓库信息
+message AckClientCountryStore
+{
+	repeated CountryItem prop = 1;	//仓库物品
+	optional int64 money = 2; 			//仓库金钱
+	optional int32 contribute = 3;   //当前拥有贡献度
+}
+
+
+//客户端请求成员列表
+//消息号: 12007   (快捷消息: 25)
+message ClientReqMemList
+{
+	required int32 page = 1;	//页数
+}
+
+//返回某页成员列表
+message AckClientReqMemList
+{
+	repeated CountryMemInfo mems = 1;
+}
+
+//陈营成员数据
+message CountryMemInfo
+{
+	required int64 id		 = 1;			//id
+	optional bytes name   = 2;			//名字
+	optional int32 level  = 3;			//等级
+   optional int32 profession = 4;	//职业
+	optional int32 contribute = 5;	//贡献度
+	optional int32 power      = 6;	//战力
+	optional int32 job		  = 7; 	//官职
+	optional int32 vip		  = 8; 	//vip等级
+	optional bool  onLine	  = 9;	//是否在线
+}
+
+//陈营仓库单个物品
+message CountryItem
+{
+	required int32 index  = 1; //格子索引（０开始）
+	optional int32 propID = 2; //道具id
+	optional int32 count  = 3; //数量
+}
+
+message CountryItemList
+{
+	repeated CountryItem propinfo = 1;
+}
+
+
+//客户端请求升级陈营 
+//消息id: 12004 快捷消息id:25
+//只需发空消息
+
+//升级陈营返回
+message AckClientReqLiveUpCountry
+{
+	required int32 success = 1;	//0表示成功,其它未定
+	optional int32 level  = 2;	//当前陈营等级
+	optional int64 money  = 3; //当前陈营金钱
+	repeated CountryItem item = 4; //当前陈营仓库物品
+}
+
+//客户端请求转换陈营
+//消息号:12003     (快捷消息:25)
+message ClientReqChangeCountry
+{
+	required int32 destID = 1;//目标陈营id
+}
+
+//返回客户端转换陈营结果
+message AckClientChangeCountry
+{
+	required int32 success = 1;//0表示成功,其它未定
+	optional CountryInfo newCountryInfo = 2;//新陈营的信息
+}
+
+//客户端请求捐献物品
+//消息号：12005（快捷消息：17）
+message ClientReqContribute
+{
+	required int32 id  = 1;	//物品id
+	optional int32 num = 2;	//物品数量
+}
+
+//返回捐献信息
+message AckClientReqContribute
+{
+	required int32  success = 1;		//0表示成功,其它未定
+	optional int64 money = 2;			//当前陈营金钱
+	repeated CountryItem item = 3; 	//当前陈营仓库物品
+	optional int32 contribute = 4;   //当前拥有贡献度
+}
+
+
+//客户端请求修改陈营公告
+//消息号:12006    (快捷消息:25)
+message ClientReqModifyNotice
+{
+	required bytes noticeMessage = 1;//新公告
+}
+
+//返回修改陈营公告信息
+message AckClientModifyNotice
+{
+	required int32	success = 1;		//0表示成功,其它未定
+	optional bytes noticeMesage = 2; //新公告
+}
+
+//----------------------------------陈营官职-----------------------------------
+//客户端请求上周陈营官职列表
+//消息号：12008  （快捷消息: 25）
+message ClientReqLastWeekJobRank
+{
+	 required int32 countryID = 1;	//陈营id
+}
+
+//返回请求官职信息
+message AckClientReqLastWeekJobRank
+{
+	required int32 countryID = 1;			//陈营id
+	optional bool limit = 2;				//是否有权限领取奖励
+	optional bool fetch = 3;				//本日是否已经领取官职奖励
+	repeated JobRankMember members = 4; //成员信息
+}
+
+//官职成员信息
+message JobRankMember
+{
+	required int64 id    = 1;		//id
+	optional int32 job   = 2;		//官职
+	optional bytes name  = 3;		//名称
+	optional int32 weapon = 4;		//武器
+	optional int32 cloth  = 5;		//衣服
+	optional int32 shenbing  = 6;	//神兵
+	optional int32 fashion   = 7;	//时装
+	optional int32 sex = 8;			//性别
+	optional int32 profession = 9;//职业
+}
+
+//客户端请求领取每日官职奖励
+//消息号：12010	(快捷消息:17)
+//只需发空消息
+
+//返回官职奖励
+message AckClientReqJobPrize
+{
+	required int32 seccess = 1; //0表示成功,其它未定
+}
+
+
+
+//---------------------------陈营霸主-------------------------------
+//客户端请求周（上周或本周）霸主排行信息
+//消息号: 12009    快捷消息(25)
+message ClientReqKingRank
+{
+	required int32 flag = 1;	//本周为0；上周为1
+}
+
+//返回霸主排行
+message AckClientReqKingRank
+{
+	required int32 flag = 1;		//本周为0; 上周为1
+	repeated KingRankMem mems = 2;//成员信息
+}
+
+//霸主排行成员信息
+message KingRankMem
+{
+	required int64 id = 1;				//id
+	optional int32 job = 2;				//官职
+	optional bytes name   = 3;			//名称
+	optional int32 level  = 4;			//等级
+	optional int32 contribute = 5;	//贡献度		
+}
+
+//-------------------------------陈营商店-------------------------------
+//客户端请求陈营商店信息
+//消息号：12011    （快捷消息：17）
+//客户端发空消息
+
+//服务器返回商店信息
+message AckClientReqShopInfo
+{
+	repeated CountryShopItem itemlist = 1;
+	optional int32 contribute = 2;
+}
+
+//陈营商店物品信息
+message CountryShopItem
+{
+	required int32 id 	= 1; //物品id
+	optional int32 count = 2; //当日已经购买数量
+}
+
+//客户端请求购买陈营商店物品
+//消息号：12012     （快捷消息：17）
+message ClientReqBuyShopItem
+{
+	required int32 id 	= 1;	//购买物品id
+	optional int32 count = 2;	//购买物品数量
+}
+
+//服务器返回购买信息
+message AckClientReqBuyShopItem
+{
+	required int32 success = 1;	//是否成功
+	optional int32 id = 2;		//物品id
+	optional int32 count = 3;	//今日已经购买的数量
+	optional int32 contribute = 4;//剩余贡献度
+}
+
+
+//------------------以下为服务器内部使用协议-------------------------------
+//gs请求ws捐献
+message GSReqWSContribute
+{
+	required int64 char  = 1;	//角色id	
+	optional int32 contry = 2; //陈营id
+	optional int32 id  = 3;	//物品id
+	optional int32 num = 4;	//物品数量
+	optional int64 money = 5;//金钱
+	optional int32 contribute = 6;//贡献度
+}
+
+//ws通知gs陈营升级了
+message WSNoticeGSCountryLiveUp
+{
+	required int32 country = 1;
+	optional int32 level = 2; 
+}
+
+//ws通知gs陈营基本信息
+message WStoGsCountryInfo
+{
+	repeated CountryGrade country = 1;
+}
+
+message CountryGrade
+{
+	required int32 country = 1;
+	optional int32  level  = 2;
+}
+
+//数据库存贮玩家商店属性结构
+message DBShopInfoList
+{
+	required int64 time = 1;
+	repeated DBShopItem item = 2;
+}
+
+message DBShopItem
+{
+	required int32 id = 1;
+	optional int32 nums = 2; 
+}
+
+//世界服通知逻辑服周更新
+message WeekUpdate
+{
+	repeated WeekJobs list = 1; //新官职列表
+}
+
+message WeekJobs
+{
+	required int64 id  = 1;
+	optional int32 job = 2;
+}
+
+message WStoGSAttrChange
+{
+	required int64 charid = 1;
+	optional int32 attrid = 2;
+	optional int32 value = 3;
+	
+}
+
+// WS notice GM country battle open
+message WSToGMCountryBattle
+{
+	required int32 warType = 1; // 阵营战类型
+	required bool flag = 2; // true open false close
+	repeated int64 charID = 3; // 玩家
+}

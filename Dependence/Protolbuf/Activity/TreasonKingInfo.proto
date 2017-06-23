@@ -1,0 +1,45 @@
+package TreasonKingInfo;
+
+//获取反王通关信息
+//消息号：10700（快捷消息：17）
+message ToClentTreasonInfo
+{
+	required int32 ret = 1;		//返回码
+	optional int32 level = 2;   // 层次
+	optional int32 enter = 3;   // 进入次数
+	optional int32 reward = 4;   // 奖励信息
+	optional int32 passMaxLevel = 5; // 最高通关层数
+	optional int32 reset = 6; //剩余重置次数
+	repeated int32 TreasonKingBestTime = 7;   //最佳挑战时间
+}
+
+//进行挖宝操作
+//消息号：10701（快捷消息：17）
+message FromClientDrop
+{
+	required int32 bossid = 1;		//boss ID
+}
+
+//进行挖宝操作
+//消息号：10701（快捷消息：17）
+message ToClientDrop
+{
+	required int32 ret = 1;		//返回码
+	optional int32 reward = 2;   //物品ID
+	optional int32 num = 3;   // 数量
+}
+
+//领取奖励
+//消息号：10702（快捷消息：17）
+message GetTreasonKingReward
+{
+	required int32 level = 1;		//层次
+}
+
+//领取奖励
+//消息号：10702（快捷消息：17）
+message ToClientTreasonKingReward
+{
+	required int32 ret = 1;		//返回码
+	optional int32 level = 2;		//层次
+}

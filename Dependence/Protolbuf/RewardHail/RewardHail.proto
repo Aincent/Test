@@ -1,0 +1,77 @@
+package RewardHail;
+
+//奖励大厅
+//客户端请求签到     -----协议号:8622---------
+message SignIn
+{
+	required int32 day = 1; //当月的第几天
+}
+
+//8622回复 ServerDoubleInt 第一个字段表示错误码 第二个字段表示月累计次数
+
+//客户端请求领取奖励信息通用接口 -----协议号:8623---------
+message GetReward
+{
+	required int32 type = 1; //类型
+	repeated int32 list = 2; //列表
+}
+
+message ToClientGetReward
+{
+	required int32 res = 1;
+	required int32 type = 2;
+	repeated int32 list = 3;
+}
+
+
+//客户端打开签到面板 -----协议号:8624---------
+message OpenSignIn
+{
+}
+
+//返回客户端签到信息
+message ClientSignInInfo
+{
+	required int32 SignIn = 1; //32位比特标识签到的信息
+	required int32 Reward = 2; //领取奖励信息
+	optional int32 restAddSignCount = 3;//补签次数
+}
+
+//客户端请求玩家在线奖励信息 发送空包过来 -----协议号:8625---------
+
+//返回客户端在线奖励信息
+message ClientOlineRewardInfo
+{
+	required int32 rewardInfo = 1; //32位比特标识玩家是否领取奖励
+	required int32 time = 2; //玩家在线时长
+}
+
+//客户端请求领取奖励 -----协议号:8626---------
+message GetOnlineReward
+{
+	repeated int32 IdList = 1; //从第1开始
+}
+
+//返回ServerInt
+
+//客户端请求等级奖励信息 发送空包过来-----协议号:8627---------
+
+//返回给客户端
+message OpenLevelReward
+{
+	required int32 levelReward = 1;
+}
+
+//客户端请求累积登录奖励信息 发送空包过来-----协议号:8628---------
+message OpenToalLoginAndFirstChargeRewardInfo
+{
+	optional int32 totalcount = 1; //玩家累积天数
+	optional int32 rewardInfo = 2; //32位比特标识玩家是否领取奖励
+}
+
+//同步客户端显示隐藏图标 一次性奖励信息 ----协议号:8629 -------
+message ClientOnceReward
+{
+	optional int32 firstChargeReward = 1; // 是否完成首充
+	optional int32 microReward = 2; // 是否完成微端
+}

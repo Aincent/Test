@@ -1,0 +1,15 @@
+package CDTimePro;
+
+//单个CD
+message CDTimeData
+{
+	optional int32 channelType  = 1;
+	optional int32 time		   = 2;
+}
+
+
+//CD改变同步到客户端,协议ID:12904
+message CDTimeList
+{
+	repeated CDTimeData dataList = 1;
+}

@@ -1,0 +1,250 @@
+package ClanPackage;
+
+//请求报名帮派霸业战
+//消息：10328(快捷消息id ：25)
+//空消息
+
+//返回报名结果
+//返回结构ServerResultInt，0表示报名成功，其他表示错误码
+
+
+//查看报名信息(是否已经报名)
+//消息：10329（快捷消息id ：25）
+//空消息
+
+//返回查看报名信息
+//返回结构ServerDoubleUint32(包含2个int32,第一个值表示报名信息，第二个值表示战场开启信息)，1表示已经报名，已开启
+
+//查看对战列表信息
+//消息：10330 （快捷消息id ：25）
+message ReqBatterInfo
+{
+	required int32 flag = 1;	//0表示本周第一场; 1表示本周第二场
+}
+
+message AckBatterInfo
+{
+	required int32 flag = 1;			//第一场还是第二场标识
+	repeated BatterInfo info = 2;		//对战信息
+}
+
+message BatterInfo
+{
+	required int32 firstclanid = 1;		//第一个帮派id
+	optional int32 secondclanid = 2;	//第二个帮派id
+	optional int32 firstclanscore = 3;	//第一个帮派积分
+	optional int32 secondclanscore = 4;	//第二个帮派积分
+	optional int32 winid = 5;			//胜利的帮派id
+	optional bytes firstname = 6;		//第一个帮派的名字
+	optional bytes secondname = 7;		//第二个帮派的名字
+	optional int32 finish = 8;			//是否已经打过了的
+}
+
+//请求帮派战副本id
+//消息：10331(快捷消息id ：25)
+//空消息
+
+//返回帮派战副本id
+message AckBatterMap
+{
+	required int32 ret = 1; 	// 0表示可以进入，其他代表错误码
+	optional int64 mapid = 2;	//	副本id	
+}
+
+//请求占领旗子
+//消息：10332 （快捷消息id: 17）
+message ReqOccupyFlag
+{
+	required int32 key = 1;	//旗子的key
+}
+
+message AckOccupyFlag
+{
+	required int32 key = 1;	//旗子key
+	optional int32 ret = 2;	//0表示能占领，其他表示错误码
+}
+
+//进入副本，推送战场基本数据
+//消息号：10333
+message BaseBatterInfo
+{
+	required int32 selfflag = 1;		//本方所属id（红方或蓝方）
+	optional int32 targetflag = 2;		//对方所属id（红方或蓝方）
+	optional int64 time = 3;			//剩余时间
+	optional bytes targetclanname = 4;	//对方帮派名称
+	repeated FlagInfo info = 5;			//所有旗子的信息
+	optional int32 redscore = 6;		//红方的积分
+	optional int32 bluescore = 7;		//蓝方的积分
+}
+
+//旗子信息
+message FlagInfo
+{
+	required int32 key = 1;   	//旗子key
+	optional int32 id = 2;		//旗子id
+	optional int32 ower = 3; 	//占领方id（红方或蓝方）（没有占领为0）
+	optional int32 time = 4; 	//剩余保护时间 
+}
+
+//服务器推送战场积分数据属性改变
+//消息号：10334
+message ScoreChange
+{
+	required int32 owner = 1;	//所属方（红方或蓝方）的id
+	optional int32 score = 2;	//当前积分
+}
+
+//服务器广播通知某个玩家占领了旗子
+//消息号：10335
+message FlagStateChange 
+{
+	required int32 playerkey = 1;	//占领的玩家key
+	optional int32 flagkey   = 2;	//旗子key
+	optional int32 owner     = 3;	//所属(红方还是蓝方)
+	optional bytes clanname  = 4;	//占领玩家的帮派名
+	optional bytes playername = 5;	//玩家名
+}
+
+//服务器推送旗子的保护时间到了
+//消息号：10336
+message FlagProtectedTimeOut
+{
+	required int32 key = 1;	//旗子keyid
+}
+
+//服务器推送胜利失败结果
+//消息号：10337
+message ClanBattleResult
+{
+	required int32 result = 1; //0失败，1胜利 
+}
+
+//服务器推送采集占领旗子失败
+//消息号：10338
+message OccupyFail
+{
+	required int32 ret = 1;	//正常情况下失败返回值为0，在某种特殊情况下要提示原因的话就返回提示码
+}
+
+
+//----------------------服务器内部使用-------------------------
+
+//逻辑服通知世界服对战结果
+//消息号：10340
+//使用BatterInfo结构
+
+//逻辑服向世界服请求某个帮派的名称
+//消息号：10341
+message ReqGS2WSGetFactionName 
+{
+	required int32 id = 1; //帮派id
+}
+
+message AckGS2WSGetFactionName 
+{
+	required int32 id = 1;		//id
+	optional bytes name = 2;	//名字
+}
+
+//同步帮派战结果
+//消息：10334(普通消息 （快捷消息id ：14）)
+//message ClanBattleResult
+//{
+//	required bool issuccess = 1; //是否赢了，true赢
+//	optional int32 clancon = 2; //帮贡
+//	optional int32 exp = 3; //经验
+//	repeated int32 items = 4;//奖励的物品ID
+//	repeated int32 num = 5;//对应的奖励的物品的数量
+//}
+
+//帮派战场战斗结束之后 送结果给世界服
+// 
+//message ClanBattleResultToWS
+//{
+//	required int32 id = 1; //城池id
+//	optional bool iswin = 2; //是否赢了
+//}
+
+//ws请求gameserver是否可以进入副本
+//消息：10336
+//message AckCreateClanInstance
+//{
+//	required int64 charid = 1; //角色id
+//	optional int64 only = 2; //副本id
+//	optional int32 clan = 3; //帮派id
+//	optional int32 fight = 4; //战斗力
+//}
+
+//gameserver返回ws是否可以进入副本
+//消息：10336
+//message ReturnCreateClanInstance
+//{
+//	required int64 charid = 1; //角色id
+//	optional int32 ret = 2; //状态码
+//}
+
+//ws通知gameserver切换副本
+//消息：10337
+//message AddClanMemberIn
+//{
+//	required int64 charid = 1; //角色id
+//	optional int64 only = 2; //副本id
+//	optional bool type = 3;  //0  防守方，1 进攻方
+//}
+
+//gm通知客户端被挤下战场了
+//消息号：10338 (普通消息 （快捷消息id ：14）)
+//message ToClientKickOutBattle
+//{
+//	required int32 id = 1;//发的是0(代表被人挤下战场的)       1为帮派解散了，被移出战场的
+//}
+
+//ws通知gameserver帮派解散
+//消息号：10342
+message ToGameClanDelete
+{
+	required int64 cid = 1; //帮派id
+	optional int64 only = 2; //副本id
+}
+
+
+//请求帮派战场当前人数
+//消息：10343(快捷消息id ：25)
+//message ClientReqEnterNum
+//{
+//	required int32 id = 1; //城池id
+//}
+
+//返回帮派战场当前人数
+//message ToClientReqEnterNum
+//{
+//	required int32 ret = 1; //返回ma
+//	optional int32 self = 2; //本帮人数
+//	optional int32 other = 3; //敌帮人数
+//}
+
+//帮派频道每隔3分钟发送一次
+//消息：10344 (快捷消息id ：14)
+//message ToClientClanChat
+//{
+//	required string cityname = 1; //城池名称
+//	optional string clanname = 2; //帮派名称
+//}
+
+//帮派战场中，打开m图发送所有玩家的坐标
+//消息号：10345 (快捷消息id ：17)
+message ClientReqMMapPlayer
+{
+	repeated int32 key = 1; //玩家的key值
+	repeated bool ismyself = 2;//true为本帮派的，false为对方
+	repeated int32 xpos = 3;
+	repeated int32 ypos = 4;
+}
+
+
+// 通知GM帮派战开始
+// 消息:10354 (快捷消息id:14)
+//message ToGMClanWarBegin
+//{
+//	required int32 state = 1; // 0 结束 1 开始
+//}

@@ -1,0 +1,25 @@
+package FestivalActivePackage;
+
+//服务器通知客户端活动开始结束
+//消息号:12351  (客户端接收快捷消息：14)
+message FestivalActiveStartEnd
+{
+	required int32 id=1;		//活动id
+	optional int32 flag=2;		//0:表示开始;1表示结束
+	optional int64 begintime=3;	//开始时间
+	optional int64 endtime=4;	//结束时间
+}
+
+//客户端请求节日活动兑换奖励
+//消息号：12352   (快捷消息id：17)
+message ReqFestivalPrize
+{
+	required int32 id = 1;//兑换的奖励id
+}
+
+//返回客户端请求节日活动兑换奖励
+message AckFestivalPrize
+{
+	required int32 id = 1;     //兑换的奖励id
+	optional int32 result = 2; //0表示成功；1表示包裹空间不足;2表示不在活动期内
+}

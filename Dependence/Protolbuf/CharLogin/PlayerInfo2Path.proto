@@ -1,0 +1,11 @@
+package CharLogin;
+
+message CharInfoToPath
+{
+	required int64 charid = 1;
+	required int64 mapid = 2;
+	required int32 xpos = 3;
+	required int32 ypos = 4;
+	required int32 gtid = 5; //gateserverid
+	required int32 movespeed = 6; //ÒÆ¶¯ËÙ¶È
+}

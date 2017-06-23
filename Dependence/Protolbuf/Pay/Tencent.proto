@@ -1,0 +1,92 @@
+package TencentInfo;
+
+//请求支付信息
+//消息号：12500 (快捷消息id ：25)
+message ClientReqAskPayInfo
+{
+	required int32 itemId = 1 ; //物品ID
+	required int32 num = 2; //数量
+}
+
+message GSToClientAskPayInfo
+{
+	required int32 ret = 1 ; //返回码
+	required string url_params = 2; //购买物品的url参数
+}
+
+//请求支付信息
+//const int MSG_REQ_C2MS_CALLBACKINFO = 12501; //回调参数信息
+//const int MSG_REQ_MS2WS_CALLBACKINFO = 12502; //回调参数信息
+message CallBackInfo
+{
+	required string params = 1;
+}
+
+message ToTencentCallBackInfo
+{
+	required string ret = 1;
+	required string msg = 2;
+}
+
+message SysPayInfo
+{
+	required int64 charId = 1;
+	required int32 itemId = 2 ; //物品ID
+	required int32 num = 3; //数量
+	optional int32 realMoney = 4; // 真实RMB
+}
+
+//消息号：12504（快捷消息：23）
+message ClientToGameTencentmarket
+{
+	required string app_user_source = 1;
+	required string app_contract_id = 2;
+	required string app_custom = 3;
+}
+
+//const int MSG_REQ_C2MS_MARKETCALLBACKINFO = 12505; //集市回调信息
+//const int MSG_REQ_MS2WS_MARKETCALLBACKINFO = 12506; //集市回调信息
+message MaketCallBackInfo
+{
+	required string cmd = 1;
+	required string openid = 2;
+	required string appid = 3;
+	required string pf = 4;
+	required string ts = 5;
+	required string version = 6;
+	required string contractid = 7;
+	required string step = 8;
+	required string payitem = 9;
+	required string billno = 10;
+	required string providetype = 11;
+	required string sig = 12;
+}
+
+message ToTencentMaketCallBackInfo
+{
+	required string ret = 1;
+	required string msg = 2;
+	required string zoneid = 3;
+}
+
+message SysMarketInfo
+{
+	required int64 charId = 1;
+	required int32 itemId = 2 ; //物品ID
+	required int32 num = 3; //数量
+}
+
+message MarketTaskInfo
+{
+	required string openid = 1;
+	repeated TaskInfo taskinfo = 2;
+}
+
+message TaskInfo
+{
+	required string taskId = 1;
+	optional bool step1 = 2;
+	optional bool step2 = 3;
+	optional bool step3 = 4;
+	optional bool step4 = 5;
+}

@@ -1,0 +1,53 @@
+package Pay360PlayInfo;
+
+//const int MSG_REQ_C2MS_360PLAYASKPAY = 13101; //请求支付信息
+//const int MSG_REQ_MS2WS_360PLAYASKPAY = 13102; //请求支付信息
+message From360PlayReqAskPayInfo
+{
+	required string uid = 1;
+	optional int64 roleid= 2;
+	optional string rolename = 3;
+	optional string platform = 4;
+	optional string gkey = 5;
+	optional int32 skey = 6;
+	optional string orderid  = 7; 
+	optional int32 coins  = 8;
+	optional int32 moneys = 9;
+	optional int64 time = 10;
+	optional string sign = 11;
+}
+
+message To360PlayReqAskPayInfo
+{
+	required int32 ret = 1;
+	optional string uid = 2;
+	optional int64 roleid= 3;
+	optional string rolename = 4;
+	optional string platform = 5;
+	optional string gkey = 6;
+	optional int32 skey = 7;
+	optional string orderid  = 8; 
+	optional int32 coins  = 9;
+	optional int32 moneys = 10;
+	optional int64 time = 11;
+	optional string sign = 12;
+}
+
+//const int MSG_REQ_WS2GM_SYS58PLAYPAYINFO = 13103; //同步360Play支付信息
+message Sys360PlayPayInfo
+{
+	required int64 charid = 1;
+	optional string uid = 2;
+	optional int64 roleid= 3;
+	optional string rolename = 4;
+	optional string platform = 5;
+	optional string gkey = 6;
+	optional int32 skey = 7;
+	optional string orderid  = 8; 
+	optional int32 coins  = 9;
+	optional int32 moneys = 10;
+	optional int64 time = 11;
+	optional string sign = 12;
+	optional int32 ret = 13;
+	optional int32 flag = 14;
+}

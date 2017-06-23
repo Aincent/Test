@@ -1,0 +1,69 @@
+package ActivityKing;
+
+//请求守护秦王活动信息
+//消息id:10650 (快捷消息  17)
+//随意发
+
+//回复守护秦王信息
+message AckClientKingInfo
+{
+	required int32 node = 1; //之前通关的关数
+	optional int32 relush = 2; //重置的次数(剩余的次数)
+	optional int32 time = 3; //扫荡倒计时
+	optional uint32 reward = 4; //是否领了奖励(位标识是否令奖励，01011 ，表示1，2，4奖励没有领取)
+	optional int32 maxnode = 5; //以往通关到的最大关数
+}
+
+//请求重置
+//消息id:10651 (快捷消息  17)
+//随意发
+
+//回复重置结果
+message AckClientRelush
+{
+	required int32 ret = 1;//返回马
+}
+
+//请求扫荡
+//消息id：10652 (快捷消息  17)
+//随意发
+
+//回复扫荡
+message AckClientFinish
+{
+	required int32 ret = 1;//返回马
+	optional int32 time = 2; //倒计时
+}
+
+//请求获取奖励
+//消息id：10653 (快捷消息  17)
+message ClientReqGetReward
+{
+	required int32 node = 1; //领取多少关的奖励
+	
+}
+
+//回复领取奖励
+message AckGetReward
+{
+	required int32 ret = 1; //返回码
+	optional int32 node = 2; //领取多少关的奖励
+}
+
+//获取闯关奖励
+//消息id:10654 (快捷消息  15)
+//随意发
+
+
+//同步给客户端闯关的结果(同步后，下一波就开始了)
+//消息id：10655 （快捷消息 14）
+message ToClientProtectResult
+{
+	required bool ret = 1; //输赢    ，true 赢了，  false 输了
+}
+
+// WS通知GM双倍守护秦王活动开启 10656
+message WSToGMDoubleProtectKing
+{
+	required bool flag = 1; // true open, false close
+}

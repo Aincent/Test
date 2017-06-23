@@ -1,0 +1,83 @@
+package MS_MailInfo;
+
+//特殊物品类：金钱，元宝，绑定元宝等等， itemID表示物品ID，num表示数额
+message SpecialItem
+{
+	required int32 itemID = 1;
+	required int32 num = 2;
+}
+
+//特殊邮件物品列表
+message SpecialMailItemList
+{
+	repeated SpecialItem itemList = 1;
+}
+
+message ClientItemInfo
+{
+	required int32 id = 1;//物品id
+	optional int32 flag = 2;//强化等级(  高16位为綁定方式       8 - 15位为强化等级     低0 -7位为个数)
+	repeated int32 newattr = 3;//洗练属性(高18位为属性类型      低14位为属性值)
+	repeated int32 stoneid = 4; //镶嵌宝石（未镶嵌为0）
+	optional int32 time = 5;//间隔时间(cd时间)
+	optional int32 num = 6; //数量
+	repeated int32 inlayPos = 7; // 镶嵌孔位置
+	repeated int32 refineAttrLv = 8; // 洗练属性等级
+}
+
+//管理服发送邮件 协议 MessageID -- 10402
+message MSSimDBSendMail
+{
+	required string sendname = 1;				//发送者名称
+	repeated string endname = 2;				//接受者名称
+	optional string theme = 3;					//标题
+	optional string substance = 4;				//内容
+	repeated ClientItemInfo goods = 5;		//物品
+	optional SpecialMailItemList itemList = 6;//金钱，元宝，绑定元宝等等
+	required int32 type = 7;//发放方式 0：通过名字 1：通过charID 2:通过openID
+	repeated int64 endCharIDList = 8;//charID
+	repeated string openIDList = 9;//帐号ID
+}
+
+message MailBaseInfo
+{
+	required int64 mailID = 1;//邮件ID
+	optional string theme = 2;//标题
+	optional int64 sendTime = 3;//发送时间
+	optional int32 opened = 4;//是否已读
+}
+
+//管理服发送邮件 协议 MessageID -- 10444
+message MSReqMailList
+{
+	required int64 charID = 1;//玩家ID
+	required int32 type = 2;//需要的邮件类型，0：全部 (不包括已删除)   1：已读     2：未读     3：已删除
+ 	required int32 begin = 3;
+ 	required int32 end = 4;
+ 	required int64 beginTime = 5;//起始时间（毫秒）
+ 	required int64 endTime = 6;//结束时间
+}
+
+//10444的返回
+message MSRetMailList
+{
+	required int32 ret = 1;//查询正确则返回MSReqMailList中的type
+	repeated MailBaseInfo mailList = 2;
+	optional int32 count = 3;//type类型的邮件数量
+}
+
+//管理服发送邮件详情 协议 MessageID -- 10446
+message MSReqMailInfo
+{
+		required int64 mailID = 1;
+		required int32 type = 2;//0：未删除   1：已删除的
+}
+
+//10446的返回    
+message MSRetMailInfo
+{
+	required int32 ret = 1;//成功则返回MSReqMailInfo的type
+	optional MSSimDBSendMail mail = 2 ;//邮件信息
+}
+
+

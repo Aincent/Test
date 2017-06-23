@@ -1,0 +1,219 @@
+package StatisticInfo;
+
+//message StatisticTotalInfo
+//{
+	//repeated UseStatisticData infolist = 1;
+//}
+
+//message UseStatisticData						//��Ϣ�� 1107
+//{
+//	required int32 maintype = 1;			//������
+//	required int32 minortype = 2;			//�����߼�����
+//	optional int64 charid	= 3;
+//	required int32 behaviorlen = 4;				//�洢���
+//	required bytes behaviordata = 5;				//�洢���
+//	required int32 savetype = 6;			//�洢����
+//	repeated string openid = 7;             // openID
+//	optional int64 objectid = 8;    //起作用的对象ID
+//}
+
+//ServerDoubleUint32  saveType = 1
+
+//ServerRetInt saveType = 2
+
+//saveType = 3
+//message StatisticSaveTypeVector
+//{
+//	repeated int32 vec = 1;
+//	required int32 size = 2;
+//}
+
+//saveType = 4
+//message StatisticSaveTypeIntToString
+//{
+//	required int64 data1 = 1;
+//	required string data2 = 2;
+//	optional string source = 3;//渠道来源 
+//}
+
+//ServerDoubleUint32Array  saveType = 5
+
+//saveType = 6
+//message StatisticSaveTypeDW64AndVec
+//{
+//	required int64 data1 = 1;
+//	repeated int64 data2 = 2;
+//}
+
+//7
+//message StatisticSaveTypeVecByIntToString
+//{
+//	repeated StatisticSaveTypeIntToString vecData = 1;
+//}
+
+//消耗物品
+//message CostItemInfo
+//{
+	//物品ID
+//	required int64 itemID = 1;
+	//消耗
+//	required int32 costNum = 2;
+	//之前
+//	optional int32 beforeNum = 3;
+	//之后
+//	optional int32 afterNum = 4;
+//}
+
+//获得物品
+//message GotItemInfo
+//{
+	//物品ID
+//	required int64 itemID = 1;
+	//数量
+//	required int32 num = 2;
+//}
+
+//消耗和获取信息：1商城购买  2七日礼包  3反王挖宝 4闭关修炼离线奖励  5购买皮肤 6科举消耗 7官印兑换 8购买背包格子 9运镖花费元宝立即完成 10重置所有副本事件
+//11 领取VIP奖励 12转盘事件 13宝石镶嵌 14 摘除  15洗练事件 16丢弃物品事件 17卖出物品事件 18邮件获取物品 19任务奖励获得 20清除罪恶值消耗 21阵营商店购买
+//22 成就商店购买 23帮派商店购买
+//message CostAndGotInfo
+//{
+//	repeated CostItemInfo costList = 1;
+//	repeated GotItemInfo gotList = 2;
+//}
+
+//升级，强化，等模块：1副本重置,beforeID为副本ID，afterID忽略  2反王进入层数西消耗 3 	打通经脉 4神兵进阶 5 坐骑进阶 6装备强化 7宝石合成事件
+//8 装备升级  9 装备继承 10运营活动奖励（beforeID为活动ID  afterID为活动小类型）11运营活动投资（beforeID为活动ID  afterID为活动小类型） 12领取奖励大厅奖励(beforeID为活动类型)
+//message IDAndCostAndGotInfo
+//{
+//	required int64 beforeID = 1;
+//	optional int64 afterID = 2;
+//	optional CostAndGotInfo costAndGotList = 3;
+//}
+
+//message ClientItemInfo
+//{
+//	required int32 id = 1;//物品id
+//	optional int32 flag = 2;//强化等级(  高16位为綁定方式       8 - 15位为强化等级     低0 -7位为个数)
+//	repeated int32 newattr = 3;//洗练属性(高18位为属性类型      低14位为属性值)
+	//repeated int32 stoneid = 4; //镶嵌宝石（未镶嵌为0）
+	//optional int32 time = 5;//间隔时间(cd时间)
+	//optional int32 num = 6; //数量
+	//repeated int32 inlayPos = 7; // 镶嵌孔位置
+//	repeated int32 refineAttrLv = 4; // 洗练属性等级
+//}
+
+//继承
+//message SucceedStrengthInfo
+//{
+//	required int64 beforeID = 1;
+//	required ClientItemInfo afterItem = 2;
+//	optional CostAndGotInfo costAndGotList = 3;
+//}
+
+//充值
+//message RechargeInfo
+//{
+//	required int64 time = 1;//充值时间点
+//	required int32 golden = 2;//获取元宝数量
+//	required int32 currentGolden = 3;//获取后剩余元宝数
+//	required int32 vipExp = 4;//VIP等级经验提升数值
+//	optional string source = 5;//渠道来源，目前台湾日志需要（58playe）
+//}
+
+//充值流程日志
+//message RechargeProcess
+//{
+	//订单号
+//	required string orderID = 1;
+	//流程阶段
+//	required int32 process = 2;
+	//时间
+//	required int64 time = 3;
+	//这一步是否成功
+//	optional bool isSuccess = 4 [default = true];
+//}
+
+//结婚关系和亲密度相关
+//message Relation
+//{
+	//发起请求人ID
+//	required int64 requestID = 1;
+	//发起请求人名字
+//	required string requestName = 2;
+	//回应人ID
+//	required int64 ackID = 3;
+	//回应人名字
+//	required string ackName = 4;
+	//结婚的时候表示关系，提升亲密度的时候表示增加的亲密度 
+//	required int32 value = 5;
+//}
+
+message BehaviorOtherData
+{
+	optional bytes data = 1;
+	optional int32 len = 2;
+	optional int32 handleType = 3;
+}
+
+message BehaviorOtherList
+{
+	repeated BehaviorOtherData list = 1;
+}
+message PlayerBehavior
+{
+	required int32 mainType = 1;
+	required int32 minorType = 2;
+	optional int64 charID = 3;
+	optional BehaviorOtherList othData = 4;
+	optional int64 beforeMoney = 5;
+	optional int64 afterMoney = 6;
+	optional int64 beforeGolden = 7;
+	optional int64 afterGolden = 8;
+	optional int64 beforeForce = 9;
+	optional int64 afterForce = 10;
+	optional int64 beforeBindGolden = 11;
+	optional int64 afterBindGolden = 12;
+	optional int64 time = 13;
+
+	
+}
+
+message BehaviorMonitor
+{
+	repeated PlayerBehavior list = 1;
+}
+
+
+
+message GlobalOtherData
+{
+	optional bytes data = 1;
+	optional int32 len = 2;
+}
+message GlobalOtherList
+{
+	repeated GlobalOtherData list = 1;
+}
+
+message GlobalStatist
+{
+	required int32 mainType = 1;
+	required int32 minorType = 2;
+	optional int32 saveType = 3;
+	optional GlobalOtherList othData = 4;
+}
+
+message GlobalMonitor
+{
+	repeated GlobalStatist list = 1;
+}
+
+message StatisticData
+{
+	optional BehaviorMonitor behavior = 1;
+	optional GlobalMonitor global = 2; 
+}
+
+
+

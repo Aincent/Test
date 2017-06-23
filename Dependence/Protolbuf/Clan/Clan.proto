@@ -1,0 +1,728 @@
+package ClanPackage;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//13，14为gameserver通过gateserver转发到client的中继简单消息id（客户端只需要接受14的消息id）
+//15，16为client通过gateserver转发到gameserver的中继简单消息id（客户端只需要发送15的消息id）
+//17，18为client通过gateserver转发到gameserver的中间请求消息id（客户端只需要发送17的消息id）
+//22，14为worldserver通过gateserver转发到client的中继简单消息id（客户端只需要接受14的消息id）
+// 23，24为client通过gateserver转发到worldserver的中继简单消息id（客户端只需要发送23的消息id）
+//25，26为client通过gateserver转发到worldserver的中继请求消息id（客户端只需要发送25的消息id）
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////
+//角色基本属性里面添加玩家的帮派id，帮派名字，职位
+//
+//////////////////////////////////////
+
+
+//请求创建帮派
+//消息id ：10300（快捷消息id ：25）
+message ClientReqCreateClan
+{
+	required int32 id = 1; //兵符图标id（０开始）
+	optional string name = 2; //帮派名字
+	optional bool type = 3; //货币类型（０为铜币，１为金币）
+}
+
+//请求gameserver此玩家扣除金钱
+message WorldReqTakeOff
+{
+	required int64 id = 1;
+	optional bool type = 2;
+}
+
+//创建帮派返回
+message AckCreateClan
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional AckClanBase info = 2;//帮派信息
+}
+
+//请求帮派信息
+//消息好：10301（快捷消息id ：25）
+//包体不发就行了
+
+//返回帮派信息
+message AckClanBase
+{
+	required uint32 id = 1; 		//帮派id ,0为没有帮派
+	optional int32 lv = 2; 			//帮派等级
+	optional string title = 3; 		//公告
+	optional int64 money = 4;		//仓库铜钱
+	optional int64 golden = 5;		//仓库金钱
+	optional double titletime = 6;	//修改公告时间（从１９７０年１月１日到现在的毫秒）
+	optional double createtime = 7;	//帮派创建时间
+	optional int32 factioncon = 8;	//个人帮贡
+	optional string clanname = 9;	//帮派名字
+	optional string bossname = 10;	//帮主名字
+	optional int32 icon = 11; 		//帮派图标id
+	optional int32 members = 12;	//当前成员数量
+	optional bool autoflag = 13;	//自动同意加入帮派标志(０为不同意，１为自动同意入帮)
+}
+
+//请求所有的帮派列表
+//消息号：10302（快捷消息id ：25）
+message ClientReqClanList
+{
+	required int32 page = 1; //页（按照页请求　从０开始）
+}
+
+//返回帮派列表的信息
+message AckClanList
+{
+	repeated ClanList list = 1;
+	optional int32 size = 2; //帮派总数
+}
+
+message ClanList
+{
+	required uint32 id = 1; //帮派id
+	optional int32 rank = 2; //名次
+	optional string name = 3;//帮派名称
+	optional int32 count = 4; //成员数量
+	optional int32 lv = 5; //帮派等级
+	optional int32 fight = 6; //战斗力总和
+	optional int32 country = 7;//势力
+	optional bool apply = 8; //是否申请
+}
+
+//请求帮派成员
+//消息号：１０３０３（快捷消息id ：25）
+message ClientReqMemberList
+{
+	required bool type = 1; //０为显示所有　　　１为屏蔽离线
+	optional int32 page = 2; //页（按照页请求　从０开始）
+}
+
+//返回帮派成员信息
+message AckMemberList
+{
+	repeated MemberInfo info = 1;
+	optional int32 count = 2; //总人数 (在非０页不返回，只有第一次才会发)
+	optional int32 fight = 3; //总战斗力 (在非０页不返回，只有第一次才会发)
+	optional bool isend = 4; //是否结束了（没值和0不结束，1为结束）
+}
+
+message MemberInfo
+{
+	required int64 charid = 1; //角色id
+	optional string name = 2; //角色名字
+	optional int32 profession = 3; //职业
+	optional int32 contri = 4; //贡献毒
+	optional int32 fight = 5; //战斗力
+	optional int32 job = 6; //职位
+	optional int32 lv = 7; //等级
+	optional int32 vip = 8; //vip等级
+	optional bool isonline = 9; //是否在线
+}
+
+//请求查看帮派列表,协议ID:12903,快捷消息ID为:25
+message ReqSeeMemberList
+{
+	optional bool type    = 1; //０为显示所有　　　１为屏蔽离线
+	optional int32 page   = 2; //页（按照页请求　从０开始）
+	optional int32 clanID = 3; //帮派ID
+}
+
+//查看帮派列表返回
+message AckSeeMemberList
+{
+	optional AckMemberList info = 1;
+	optional bytes clanName	    = 2; //帮派名字
+	optional int32 clanlevel	= 3; //帮派等级
+}
+
+//请求帮派事件
+//消息号：１０３０４（快捷消息id ：25）
+message ClientReqClanEvent
+{
+	required int32 page = 1; //页（按照页请求　从０开始）
+}
+
+//返回帮派事件
+message AckClanEvent
+{
+	repeated int32 type = 1;//(0为结束了)
+	repeated bytes content = 2;//(内容包括以下事件)
+}
+
+///////////////////////////////////////////事件////////////////////////////////////////////////////////////////
+//加入帮派事件
+message JoinClan
+{
+	required double time = 1; //加入时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+}
+
+//离开帮派事件
+message LeaveClan
+{
+	required double time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+}
+
+//成员被杀
+message ClanMemberKilled
+{
+	required double time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+	optional int32 mapid = 3; //地图id
+	optional string killer = 4; //杀人者的名字（zhisuan人，不算怪物）
+}
+
+message SynchClanEventToWS
+{
+	required int64 charid = 1; //角色id
+	required double time = 2; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string killer = 3; //杀人者的名字（zhisuan人，不算怪物）
+}
+
+//捐献
+message MemberContri
+{
+	required double time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+	optional int32 golden = 3; //元宝数
+	optional int32 money = 4; //金钱数
+	optional int32 contri = 5; //帮贡点
+}
+
+//职位变更
+message JobChange
+{
+	required double time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string bname = 2; //发起任职者名字
+	optional string ename = 3; //被任职者名字
+	optional int32 job = 4; //职位
+}
+
+//帮派升级
+message ClanUpdate
+{
+	required double time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //帮助名字
+	optional int32 lv = 3; //等级
+	optional int32 count = 4; //增加的人数目
+}
+
+///////////////////////////////////////////事件////////////////////////////////////////////////////////////////
+//城池易主事件
+message ClanCitryHold
+{
+	required double time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional int32 cityid = 2; //城池id
+	optional string clan = 3; //帮派名字
+}
+
+///////////////////////////////////////////事件////////////////////////////////////////////////////////////////
+//帮派竞价返还
+message ClanPaidEvent
+{
+	required double time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional int32 id = 2; //城池id
+	optional int32 money = 3; //竞价铜钱
+}
+
+//请求入帮申请列表
+//消息号：10305（快捷消息id ：25）
+message ClientReqClanRequestList
+{
+	required int32 page = 1; //页（按照页请求　从０开始）
+}
+
+//返回入帮申请表
+message AckClanRequestList
+{
+	repeated ClanRequestList list = 2;
+	optional bool isend = 3; //是否结束了（没值和0不结束，1为结束）
+}
+
+message ClanRequestList
+{
+	required int64 charid = 1; 	//角色id
+	optional string name = 2; 	//角色名字
+	optional int32 lv = 3; 		//等级
+	optional int32 profession = 4;//职业
+	optional int32 fight = 5;	//战斗力
+	optional int32 vip = 6;		//vip等级
+	optional int32 sex = 7;		//性别
+}
+
+//请求帮派贡献列表
+//消息号：1030６（快捷消息id ：25）
+message ClientReqClanContriList
+{
+	required int32 page = 1; //页（按照页请求　从０开始）
+}
+
+//返回帮派贡献列表
+message AckClanContriList
+{
+	repeated ClanContriList list = 1;
+	optional bool isend = 2; //是否结束了（没值和0不结束，1为结束）
+}
+
+message ClanContriList
+{
+	required int64 charid = 1; //角色id
+	optional string name = 2; //角色名字
+	optional int32 lv = 3; //等级
+	optional int32 money = 4; //金钱
+	optional int32 golden = 5; //金币
+	optional int32 contri = 6; //帮贡
+	optional int32 contrimax = 7; //帮贡最大
+	optional int32 viplv = 8; //vip等级
+}
+
+//请求加入帮派
+//消息号：10307（快捷消息id ：25）
+message ClientReqJoinClan
+{
+	required uint32 id = 1; //帮派id
+}
+
+//加入帮派返回
+message AckJoinClan
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional int32 clanID = 2; //帮派ID
+	optional AckClanBase info = 3;//帮派信息
+}
+
+//修改帮派公告
+//消息号：10308(普通消息 （快捷消息id ：23）)
+message ClientAlterTitle
+{
+	required string title = 1; //修改后的公告
+}
+
+//请求捐献
+//消息号：10309（快捷消息id ：25）
+message ClientReqContri
+{
+	required int32 money = 1;//金钱
+	required int32 golden = 2; //金币
+}
+
+//返回捐献
+message AckContri
+{
+	required int32 ret = 1; //返回马
+	optional int32 contri = 2; //帮贡更新
+	optional int32 money = 3;//金钱
+	optional int32 golden = 4; //金币
+}
+
+//清求升级兵符
+//消息号：10310（快捷消息id ：25）
+//包体不发就行了
+
+//返回升级兵符
+message AckUpdateLv
+{
+	required int32 ret = 1;//返回马
+	optional int32 lv = 2; //升级后的等级
+}
+
+//更换兵符
+//消息号：10311   (快捷消息id ：25)
+message ClientChangeIcon
+{
+	required int32 icon = 1; //icon的序号（0开始）
+}
+
+//返回更换兵符消息
+message AckClientChangeIcon
+{
+	required int32 success = 1;//0为成功,其它表示失败
+	optional int32 icon = 2;	//新的兵符id
+}
+
+
+//请求任职
+//消息号：10312（快捷消息id ：25）
+message ClientReqGiveJob
+{
+	required int64 charid = 1; //被任职者
+	optional int32 job = 2; //职位
+}
+
+//返回任职
+message AckGiveJob
+{
+	required int32 ret = 1; //返回值
+	optional int32 job = 2; //职位
+	optional int64 charid = 3; //被任职者
+}
+
+//请求禅让
+//消息号：10313（快捷消息id ：25）
+message ClientReqOutJob
+{
+	required int64 charid = 1; //新帮主
+}
+
+//返回禅让
+message AckOutJob
+{
+	required int32 ret = 1; //返回马
+	optional int64 charid = 2; //新帮助
+}
+
+//请求开除
+//消息号：10314（快捷消息id ：25）
+message ClientReqKickMember
+{
+	required int64 charid = 1; //开除的帮众
+}
+
+//返回开除结果
+message AckKickMember
+{
+	required int32 ret = 1; //返回石马
+	optional int64 charid = 2;
+}
+
+//退出帮派／解散帮派
+//消息号：10315(普通消息 （快捷消息id ：23）)
+//包体不发就行了
+
+//修改入帮申请
+//消息号：10316(普通消息 （快捷消息id ：23）)
+message ClientChangeJoinFlag
+{
+	required bool flag = 1; //（0为取消，  1为够选）
+}
+
+//请求入帮申请操作
+//消息号：10317（快捷消息id ：25）
+message ClientReqJoinControl
+{
+	required bool type = 1; //0为拒绝，1为同意
+	optional int64 charid = 2; //具体的人
+}
+
+//返回入帮申请操作结果
+message AckJoinControl
+{
+	required int32 ret = 1; //返回码
+	optional int64 charid = 2;
+	optional bool type = 3; //0为拒绝，1为同意
+}
+
+//邀请加入帮派
+//消息号：10318（快捷消息id ：25）
+message ClientReqAskJoin
+{
+	required int64 charid = 1; //被邀请者的角色id
+}
+
+//返回邀请加入帮派
+message AckAskJoin
+{
+	required int32 ret = 1; //返回马
+}
+
+//被邀请入帮
+//消息号：10319(普通消息 （快捷消息id ：14）)
+message AskClientJoin
+{
+	required uint32 id = 1; //邀请者所在的帮派
+	optional string name = 2; //邀请者的名字
+	optional string clanname = 3; //帮派的名字
+}
+
+//被邀请者拒绝或者同意操作
+//消息号：10320（快捷消息id ：25）
+message ClientReqRefuseOrJoin
+{
+	required bool type = 1; //0为拒绝，1为同意
+	optional uint32 id = 2; //帮派id
+}
+
+//返回操作结果
+message AckRefuseOrJoin
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional AckClanBase info = 2;//帮派信息
+}
+
+//增加属性
+message SynchAttrToGM
+{
+	required int64 charid = 1;
+	optional int32 blv = 2;
+	optional int32 elv = 3;
+	optional uint32 id = 4;
+	optional string name = 5;
+	optional int32 job = 6;
+	optional int32 type = 7 [default = 0];
+	optional int32 clanicon = 8;
+	optional int32 clanContribution = 9;  //帮派 贡献
+}
+
+//帮派捐献扣钱
+//消息号：10325
+message WorldReqGiveCost
+{
+	required int64 charid = 1;
+	optional uint32 money = 2;
+	optional uint32 golden = 3;
+}
+
+message AckGiveCost
+{
+	required int64 charid = 1;
+	optional int32 ret = 2;
+	optional uint32 money = 3;
+	optional uint32 golden = 4;
+}
+
+//帮派名字改变
+//消息id：10326 （快捷消息id ：14）
+message ClanNameChange
+{
+	required string name = 1;
+	optional int32 key = 2;
+}
+
+//帮派商品剩余数量
+//消息id：10348 （快捷消息id ：25）
+
+//帮派商品剩余数量返回
+message ClanLimit
+{
+	repeated ClanGoods clanGoods = 1; //帮派商品剩余列表
+}
+
+
+//帮贡兑换物品
+//消息id：10349 （快捷消息id ：17）
+message ClanGoods
+{
+	required int32 itemid = 1; //物品ID
+	optional int32 limit = 2; //物品数量
+}
+
+//帮贡兑换物品返回clinet
+message ClanShop
+{
+	required int32 ret 			 = 1; //帮贡兑换返回码 ０为成功，其他为错误ma
+	optional int32 ID  			 = 2; //帮派商店ID
+	optional int32 surplusCounts = 3; //商店中该ID对应物品剩余个数
+}
+
+message SaveClanLimit
+{
+	repeated ClanGoods clanGoods = 1; //帮派商品剩余列表
+	optional int64 time = 2; //更新时间
+}
+
+//帮派技能保存
+message SaveClanSkill
+{
+	repeated SClanSkill sclanSkill = 1; //帮派技能
+}
+
+
+message SClanSkill
+{
+	required int32 skillid = 1; //帮派技能ID
+	optional int32 curexp = 2; //当前技能经验
+	optional int32 type = 3;  //技能类型
+}
+
+//帮派技能
+message ClanSkill
+{
+	required int32 skillid = 1; //帮派技能ID
+	optional int32 curexp = 2; //当前技能经验
+}
+
+//请求升级帮派技能
+//消息号：10351（快捷消息id ：25）
+message ClientReqSkillUpdate
+{
+	required int32 type = 1; //技能类型
+}
+
+//返回升级信息
+message WSToClentSkillUpdate
+{
+	required int32 ret = 1; //返回码 ０为成功，其他为错误ma
+	optional int32 skillid = 2; //帮派技能ID
+	optional int32 curexp = 3;  //当前技能经验
+	optional int32 contri = 4; //帮贡更新
+}
+
+//服务器通知客户端技能升级成功
+//消息号：10352（快捷消息：14）
+message WSToClientSimSkillUpdate
+{
+	optional int32 skillid = 1; //帮派技能ID
+	optional int32 curexp = 2;  //当前技能经验
+}
+
+//技能buff增删
+message WSToGameADBuff
+{
+	required int64 charid = 1;
+	optional bool flag = 2;	//true 为添加 , false 为删除
+	repeated int32 skillid = 3; //帮派技能ID
+	
+}
+
+//发送帮派等级
+message WSToGameClanLevel
+{
+	required int64 charid 	 = 1;
+	optional int32 clanLevel = 2; //等级
+}
+
+// 同步玩家申请加入
+message SynchWillJoinToGM
+{
+	repeated int64 charID = 1;
+	optional bool flag = 2; // true 有请求加入操作 false 已操作了请求加入操作
+}
+
+// 客户端请求服务端 获取所在帮派所有福利信息
+// 消息号：10356 （快捷消息：25） 空包体
+// 返回获取所在帮派所有福利信息
+message ShowClanWelfare
+{
+	repeated ClanWelfare welfares = 1; // 
+	optional uint32 historyContri = 2; // 玩家历史帮贡
+	optional uint64 joinTime = 3; // 玩家加入时间
+}
+
+// 帮派福利信息
+message ClanWelfare
+{
+	required uint64 welfareID = 1; // 唯一ID
+	optional string name = 2; // 礼包发送者
+	optional int32 welfareInfoID = 3; // 福利信息ID 对应表的ID
+	optional int32 limitLv = 4; // 限制等级
+	optional int32 limitDay = 5; // 限制天数
+	optional int32 limitContri = 6; // 限制帮贡
+	optional int32 num = 7; // 剩余数量
+	optional int32 isTake = 8; // 是否领取
+}
+
+// 客户端请求服务端 发送帮派福利
+// 消息号：10357（快捷消息：25）
+message SendClanWelfare
+{
+	required int32 welfareInfoID = 1; // 对应表的ID
+	optional int32 lv = 2; // 等级限制
+	optional int32 day = 3; // 入帮天数限制
+	optional int32 contri = 4; // 历史帮贡限制
+	optional int32 num = 5; // 发送个数
+}
+// 返回消息给客户端 发送ServerResultInt 
+
+
+// 客户端请求服务端 领取帮派福利
+// 消息号：10360（快捷消息：25）
+message TakeClanWelfare
+{
+	required uint64 welfareID = 1; // 唯一ID
+}
+
+message RetTakeClanWelfare
+{
+	required int32 err = 1; // 错误码
+	optional ClanWelfare welfare = 2; // 礼包信息
+}
+
+//消息号：10365（快捷消息：25）
+//请求返回帮派驻地
+message ClientReqBackClanMap
+{
+
+}
+
+//返回请求帮派驻地消息
+message AckReqBackClanMap
+{
+	required int32 ret=1;		//返回的结果，0表示可以返回;其它代表错误码
+	optional int64 mapid = 2;	//帮派副本id
+}
+
+//消息号：10366（快捷消息：17）
+//请求个人的帮派技能信息
+//空消息
+
+//返回个人帮派技能
+message AckClanSkills
+{
+	repeated int32 id = 1;	//技能id列表
+}
+
+//消息号：10367（快捷消息：17）
+//请求升级帮派技能
+message ReqUpGrageClanSkill
+{
+	required int32 id = 1;	//技能id
+}
+
+//返回技能升级结果
+message AckUpGradeClanSkill
+{
+	required int32 ret = 1; 		//错误码
+	optional int32 oldskill = 2;	//原来的技能
+	optional int32 newskill = 3; 	//新的技能id
+}
+
+//世界服通知逻辑服强盗活动开启或结束
+//消息号：10368
+message Ws2GsRobberActive
+{
+	required bool flag = 1;			//true开启；false结束
+	repeated ClanMapInfo info = 2;	//
+}
+
+message ClanMapInfo 
+{
+	required int32 clanid = 1;	//帮派id
+	optional int64 mapid = 2;	//帮派地图id
+	optional bool win = 3;		//上场是否胜利
+	optional int32 param = 4;	//上场参数
+	optional int32 conwin = 5;	//连胜
+	optional int32 confail = 6;	//连败
+}
+
+//世界服通知逻辑服销毁帮派场景
+//消息号: 10369
+message Ws2GsDestroyClanMap
+{
+	required int32 clanid = 1;
+	optional int64 mapid = 2;
+}
+
+//逻辑服通知世界服强盗活动结果
+//消息号：10370
+message RobberResult
+{
+	required int32 clanid = 1;
+	optional bool win = 2;		//胜利
+	optional int32 param = 3;	//上场参数
+	optional int32 conwin = 4;	//连胜
+	optional int32 confail = 5;	//连败
+	optional int32 money = 6;	//帮派资金
+}
+
+//请求取消加入帮派
+//消息号：10389（快捷消息id ：25）
+message ClientReqChanceJoinClan
+{
+	required uint32 id = 1; //帮派id
+}
+
+//加入帮派返回
+message AckChanceJoinClan
+{
+	required int32 ret = 1; //返回值，０为成功，其他为错误ma
+	optional int32 clanID = 2; //帮派ID
+}
+

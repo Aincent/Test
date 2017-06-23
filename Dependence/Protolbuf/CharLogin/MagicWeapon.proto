@@ -1,0 +1,75 @@
+package MagicWeapon;
+
+message PassiveTempSkill
+{
+	optional int32 index   = 1;	//索引
+	optional int32 skillid = 2;  //技能ID
+}
+
+//发送给玩家的神兵信息 ，如果没有获得，id小于或等于0, 并且beginTime字段有值(简单消息 )
+//消息号：9701
+message ClientMagicWeapon
+{
+	required int32 id = 1;						//神兵id
+	optional int32 exp = 2; 					//经验
+	repeated int32 skillid = 3; 				//被动技能
+	optional int64 advancetime=4;				//上一次升阶的时间
+	optional int32 beginTime = 5; 				//开启的时间的倒计时（毫秒）
+	optional int32 tempID = 6;  				//临时ID
+	repeated PassiveTempSkill passiveSkillList = 7; //临时刷新技能
+}
+
+//神兵倍数统计
+message MagicStatistics
+{
+	optional int32 multiple	= 1;
+	optional int32 counts	= 2;
+}
+
+//请求进阶玩家的神兵,消息号：9702,结构体为
+message RequestAdvanceMagic
+{
+	optional int32 type	    = 1;	//1表示普通进阶,2表示自动进阶
+	optional bool isAutoBuy = 2;	//是否自动购买
+	optional int32 id		= 3;	//要升到的ID
+}
+
+//物品列表
+message MagicItemList
+{
+	optional int32 itemID = 1;
+	optional int32 counts = 2;
+}
+
+//请求进阶玩家的神兵返回结构如下
+message RetAdvanceMagic
+{
+	required int32 id 					= 1;    //神兵ID
+	optional int32 exp 					= 2;	//当前经验
+	repeated int32 skillidList 			= 3; 	//被动技能列表
+	repeated MagicStatistics multipList = 4; 	//倍数统计
+	optional int32 addAllExp 			= 5;    //增加的所有经验
+	repeated MagicItemList itemList		= 6;	//物品列表
+	optional int32 golden				= 7;	//元宝
+	optional int32 money				= 8;	//钱
+	optional int32 error				= 9;	//是否升阶成功
+	optional int32 stopError			= 10;	//停止错误码
+	optional int32 type	    			= 11;	//1表示普通进阶,2表示自动进阶
+}
+
+//请求刷新神兵的技能
+//消息号：9703
+//请求和返回都是ServerInt 结构，   0－7位请求发送要替换的序号（0开始），8－15位为是否自动购买道具，返回的是刷新后的技能
+
+
+//替换神兵的技能
+//消息号： 9704
+//请求 为ServerInt 结构 ，  发送0就行
+
+
+
+//广播玩家获得神兵，或者换神兵
+//消息号：9705
+//为ServerDoubleInt   retf 为神兵id   rets为角色key
+
+

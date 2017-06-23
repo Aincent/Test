@@ -1,0 +1,130 @@
+package MS_ClanInfo;
+
+// 查询所有帮派的基本信息 或 一些帮派的基本信息
+message ReqClanInfo
+{
+	required int32 begin = 1; // 从1开始 从第几个帮派开始
+	required int32 end = 2;
+	required int32 queryCondition = 3; // 查询条件 -1代表所有帮派基本信息 1代表模糊查询 当为1  name才会有用到
+	optional string name = 4; // 帮派名字
+}
+
+// 返回查询结果
+message RetClanInfo
+{
+	repeated ClanBaseInfo infoList = 1;
+	required int32 isEnd = 2; // 0表示还没结束 非0 反之
+	optional int32 totalClanNum = 3; // 查询帮派全部数量
+}
+
+
+// 查询某个帮派的详细信息
+message ReqSomeClanInfo
+{
+	required int32 clanID 			= 1;
+	required string clanName 		= 2; 
+	required int32 queryCondition	= 3; // 通过 ID(0)或者名字(1) 
+	optional int32 memberBegin 		= 4; // 从第几个成员开始
+	optional int32 memberEnd 		= 5; // 
+	optional bool isOff 			= 6; // 是否只要离线成员数据  
+}
+
+// 返回查询某个帮派详细信息
+message RetSomeClanInfo
+{
+	required ClanDetailInfo detailInfo = 1;
+}
+
+message ClanDetailInfo 
+{
+	required ClanBaseInfo baseInfo = 1;
+	repeated string memberName = 2;
+	required int32 isEnd = 3; // 0表示还没结束 非0反之
+	repeated string histroyBoos = 4; // 历任帮主
+}
+
+message ClanBaseInfo
+{
+	required int32 ID = 1; // ID
+	required int32 Lv = 2; // 帮派等级
+	required int32 memberNum = 3; // 成员数量
+	required int64 createTime = 4; // 帮派创建时间
+	required string name = 5; // 帮派名
+	required string bossName = 6; // 帮主名字
+}
+
+//加入帮派事件
+message JoinClan
+{
+	required int64 time = 1; //加入时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+}
+
+//离开帮派事件
+message LeaveClan
+{
+	required int64 time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+}
+
+//成员被杀
+message ClanMemberKilled
+{
+	required int64 time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+	optional int32 mapid = 3; //地图id
+	optional string killer = 4; //杀人者的名字（zhisuan人，不算怪物）
+}
+
+message SynchClanEventToWS
+{
+	required int64 charid = 1; //角色id
+	required double time = 2; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string killer = 3; //杀人者的名字（zhisuan人，不算怪物）
+}
+
+//捐献
+message MemberContri
+{
+	required int64 time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //玩家名字
+	optional int32 golden = 3; //元宝数
+	optional int32 money = 4; //金钱数
+	optional int32 contri = 5; //帮贡点
+}
+
+//职位变更
+message JobChange
+{
+	required int64 time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string bname = 2; //发起任职者名字
+	optional string ename = 3; //被任职者名字
+	optional int32 job = 4; //职位
+}
+
+//帮派升级
+message ClanUpdate
+{
+	required int64 time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional string name = 2; //帮助名字
+	optional int32 lv = 3; //等级
+	optional int32 count = 4; //增加的人数目
+}
+
+///////////////////////////////////////////事件////////////////////////////////////////////////////////////////
+//城池易主事件
+message ClanCitryHold
+{
+	required int64 time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional int32 cityid = 2; //城池id
+	optional string clan = 3; //帮派名字
+}
+
+///////////////////////////////////////////事件////////////////////////////////////////////////////////////////
+//帮派竞价返还
+message ClanPaidEvent
+{
+	required int64 time = 1; //离开时间（从１９７０年１月１日到现在的毫秒）
+	optional int32 id = 2; //城池id
+	optional int32 money = 3; //竞价铜钱
+}

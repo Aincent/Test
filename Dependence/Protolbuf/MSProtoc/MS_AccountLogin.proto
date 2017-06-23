@@ -1,0 +1,17 @@
+package MS_AccountLogin;
+
+//MessageID  10422
+message AccountLogin
+{
+	required string openString = 1;
+}
+
+message RetLogin
+{
+	required int32 ret = 1;
+	optional string openString = 2;
+	optional string IP = 3;
+	optional int32 port = 4;
+	optional bool isRole = 5;
+	optional string version = 6; 
+}

@@ -1,0 +1,280 @@
+package PlayerSynch;
+
+message PathToAllPlayer
+{
+	required int64 charid = 1; //��Ҫͬ���Ľ�ɫid
+	repeated CharPos pos = 2; //������Ϣ
+}
+
+message MonsterPathToPlayer
+{
+	required int32 key = 1; //����Ψһid
+	required int32 movespeed = 2; //�ƶ��ٶ�
+	required int32 state = 3; // �����ʱ״̬
+	repeated CharPos pos = 4; //������Ϣ
+	optional int32 targetkey = 5; //目标key
+}
+
+message SynchMonsterPath
+{
+	required int64 charid = 1;
+	required MonsterPathToPlayer path = 2;
+}
+
+message SynchBaseToGate
+{
+	required int64 charid = 1;
+	required SynchPlayerBase info = 2;
+}
+
+message SynchSkill
+{
+	optional int32 skillID 	 	= 1;		//技能ID
+	optional int32 objectKey    = 2;		//对象key
+	optional int32 posX	   	 	= 3;		//X坐标
+	optional int32 posY	     	= 4;		//Y坐标
+	optional int32 surplusTime  = 5;		//技能剩余时间
+}
+
+message EquipData
+{
+	optional int32 id = 1;	//装备id
+	optional int32 strenggrade = 2;		//强化等级
+}
+
+message SynchPlayerBase
+{
+	required int64 charid = 1; //��Ҫͬ���Ľ�ɫid
+	required int32 key = 2; //��ɫ�ڷ��ϵ�Ψһid
+	required string name = 3; // ͬ�����������
+	required int32 hp = 4; // ��ǰѪ��
+	required int32 hpmax = 5; //���Ѫ��
+	required int32 mp = 6; //��ǰ��
+	required int32 mpmax = 7; //�����
+	required int32 xpos = 8;//x���
+	required int32 ypos = 9;//y���
+	required int32 profession = 10; //ְҵ
+	required int32 movespeed = 11; //�ƶ��ٶ�
+	required int32 state = 12; //���״̬
+	required int32 country = 13; //��ɫ��Ӫ
+	repeated CharPos pos = 14; //������Ϣ
+	required bool sex = 15; //性别
+	repeated SynchBuffChar buf = 16; //buff
+	optional int32 horse = 17; // 坐骑
+	optional int32 lv = 18; //等级
+	required int32 titleid = 19; //称号
+	required int32 fightpower = 20; //战斗力
+	optional EquipData equip = 21; //武器	
+	optional int32 magicweapon = 22; //神兵ID
+	required int32 costume = 23;	//服装
+	optional string clanname = 24; //帮派名字
+	optional uint32 clanid = 25; //帮派id
+	optional uint32 viplv = 26; //vip等级
+	optional uint32 clanjob = 27; //帮派职位
+	optional int32 clanicon = 28;  //帮派图标
+	optional int32 sinvalue = 29;//罪恶值
+	optional int32 fashionID = 30; // 时装ID
+	optional SynchSkill skillData = 31;	//技能
+	optional MeditationInfo meditation = 32; //打坐信息	
+	optional int32 distortion = 33;	//变身的怪物id(只有在变身状态下才会存在该值)
+}
+
+//打坐双修信息
+message MeditationInfo
+{
+	required int32 targetkey = 1;		//双修的目标key
+	optional int32 xpos = 2;			//双修的目标玩家x坐标	
+	optional int32 ypos = 3;			//双修的目标玩家y坐标
+	optional int32 targetgirlwarkey = 4;//双修的目标战姬key
+	optional int32 selfgirlwarkey = 5;	//自己的战姬key
+}
+
+message SynchMonsterToGate
+{
+	required int64 charid = 1;
+	required SynchMonsterBase info = 2;
+}
+
+message SynchMonsterBase
+{
+	required int32 id = 1; //����id
+	required int32 key = 2; //�����ڷ��ϵ�Ψһid
+	required int32 hp = 3; //����Ѫ��
+	required int32 mp = 4; //������
+	required int32 xpos = 5;//x���
+	required int32 ypos = 6;//y���
+	required int32 country = 7; //��Ӫ
+	optional int32 hpmax = 8;
+	optional int32 mpmax = 9;
+	repeated SynchBuffChar buf = 10; //buff
+	optional string name = 11;
+	required int32 movespeed = 12; //�ƶ��ٶ�
+	required int32 state = 13; // �����ʱ״̬
+	repeated CharPos pos = 14; //������Ϣ
+}
+
+//竞技场怪物的信息
+//消息号：1109 （快捷消 ：14）
+message SynchCompeteMonster
+{
+	required int32 id = 1; //怪物id
+	required int32 key = 2; //唯一id
+	required string name = 3; //名字
+	required int32 hp = 4; //当前血量
+	required int32 hpmax = 5;
+	required int32 mp = 6; //当前蓝两
+	required int32 mpmax = 7;
+	required int32 xpos = 8;//x坐标
+	required int32 ypos = 9;//y坐标
+	required int32 profession = 10; //职业
+	required int32 movespeed = 11; //移动速度
+	required int32 country = 12; //阵营
+	required bool sex = 13; //性别
+	repeated SynchBuffChar buf = 14; //buff
+	optional int32 lv = 15; //等级
+	required int32 titleid = 16; //称号
+	required EquipData equip = 17; //武器
+	optional int32 magicweapon = 18; //神兵ID
+	required int32 costume = 19;	//护甲
+	optional string clanname = 20; //帮派名字
+	optional uint32 viplv = 21; //vip等级
+	optional int32 fashion = 22; //时装
+	optional int32 horseid = 23; //坐骑
+	optional int32 clanJob = 24;//帮派职位
+}
+
+message SynchBuffChar
+{
+	required int32 id = 1;
+	required uint32 onlyid = 2;
+}
+
+message PathToGate
+{
+	required int64 mycharid = 1; //����Ľ�ɫid
+	required PathToAllPlayer path = 2;
+}
+
+message SynchInfoToPath
+{
+	required int64 charid = 1;
+	required SynchInfo info = 2;
+}
+
+message SynchInfo
+{
+	required int32 type = 1;  //ͬ����ݵ�����
+	repeated CharPos pos = 2; //������Ϣ
+}
+
+message CharPosRet
+{
+	required int32 type = 2;
+	required int32 isvalid = 3;
+	optional CharPos pos = 4;
+}
+
+message CharPos
+{
+	required int32 xpos = 1;
+	required int32 ypos = 2;
+}
+
+//怪物请求寻路
+message ReqFindPath
+{
+	repeated int64 mapid = 1;
+	repeated MapMonsterPos monster = 2;
+}
+
+message MapMonsterPos
+{
+	repeated SingleFindPos monster = 1;
+}
+
+//单个怪物的寻路起始－终点
+message SingleFindPos
+{
+	required int32 key = 1;
+	optional uint64 pos = 2;
+	optional int32 distance = 3;//距离终点多远（用于远程攻击怪物）
+}
+
+//回复怪物寻路
+message AckPathPosition
+{
+	repeated int64 mapid = 1;
+	repeated MapMonsterPath path = 2;
+}
+
+message MapMonsterPath
+{
+	repeated SingleMonsterPath path = 1;
+}
+
+//单条怪物路径点
+message SingleMonsterPath
+{
+	required int32 key = 1;
+	repeated int32 pos = 2;
+}
+
+message ReqInstanceMonsterPos			//消息号 8518
+{
+}
+
+message RetInstanceMonsterPos
+{
+	repeated InstanceMonsterPosInfo posInfo = 1;
+}
+
+message InstanceMonsterPosInfo
+{
+	required int32 monID = 1;	//怪物key
+	required int32 monKey = 2;	//怪物key
+	required int32 monXYpos = 3;	//怪物XY坐标(出生点)
+}
+
+
+//消息Id：11000   （快捷消息 14）
+message GirlWarPathToPlayer
+{
+	required int32 key = 1; 
+	repeated CharPos pos = 2;
+}
+
+//消息Id：11004   （快捷消息 14）
+message SynchGirlWar
+{
+	required int32 id = 1;				//战姬ID
+	optional int32 key = 2;				//战姬key
+	optional int32 ownerkey = 3; 		//玩家key
+	optional int32 lv = 4;				//等级
+	optional int32 hp = 5;				//血量
+	optional int32 hpmax = 6;			//最大血量
+	optional int32 xpos = 7;			//x坐标
+	optional int32 ypos = 8;			//y坐标
+	optional int32 targetplayerkey = 9;	//主人的双修目标key
+	optional int32 targetgirlkey = 10;	//主人的双修目标战姬key
+}
+
+//ServerReturn::ServerRetInt 同步战姬离开协议： 消息Id：11005   （快捷消息 14）
+
+message RemotePlayerEquip
+{
+	optional int32 type = 1;		//装备类型,武器3、衣服5
+	optional int32 id = 2;  		//装备ID
+	optional int32 strengGrade = 3;	//强化等级
+}
+
+//玩家换装,消息ID:13312
+message AlterPlayerEquip
+{
+	optional int64 playerid	= 1;			//玩家ID
+	repeated RemotePlayerEquip equips = 2;	//变更的装备
+}
+
+
+
+
+

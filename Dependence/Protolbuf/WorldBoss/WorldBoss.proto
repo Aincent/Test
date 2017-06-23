@@ -1,0 +1,22 @@
+package WorldBoss;
+
+//请求世界BOSS信息 ------ 协议号 8701 -------
+message WorldBossInfoList
+{
+	repeated SingleWorldBossInfo boosInfoList = 1;
+
+}
+
+message SingleWorldBossInfo
+{
+	optional int32 bossKey	   = 1;			//boss key
+	optional bool isActive	   = 2;			//是否存活
+	optional int64 bossId 	   = 3;			//boss ID
+	optional int64 reflushTime = 4; 		//还有多久刷新（毫秒）
+	optional int64 playerID    = 5;
+	optional bytes playerName  = 6;
+	optional int32 vipLevel    = 7;
+}
+
+//击杀死BOSS进行通知 ------协议号 8703 --------
+//返回ServerDoubleInt

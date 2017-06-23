@@ -1,0 +1,79 @@
+package FashionMsgProto;
+
+// ----------------------- 与 Client 交互 Begin --------------------
+// 请求时装信息 
+// 消息ID：17 11100
+message ReqFashionInfo
+{
+
+}
+// 返回时装信息 
+message RetFashionInfo
+{
+	repeated FashionInfo show = 1;
+}
+
+// 请求激活时装
+// 消息ID：17 11101 
+message ReqActivateFashion
+{
+	required int32 fashionID = 1; // 时装ID
+}
+// 返回 激活时装 
+message RetActivateFashion
+{
+	required int32 ret = 1; // 返回码
+	optional FashionInfo newFashion = 2; // 新时装信息
+}
+
+// 请求穿戴或卸下时装
+// 消息ID：17 11102
+message ReqWearFashion
+{
+	required int32 flag = 1; // 标志 1为穿戴 0为卸下
+	required int32 fashionID = 2; // 时装ID
+}
+// 返回穿戴或卸下时装
+message RetWearFashion
+{
+	required int32 ret = 1; // 返回码
+	optional FashionInfo fashion = 2; // 
+}
+// 广播穿卸时装 ToClient 14 11104 简单消息
+// ServerReturn::ServerRetInt  高32位是时装ID 低32位是玩家key
+
+// 请求强化时装 17 11103
+message ReqStrengthFashion
+{
+	required int32 fashionID = 1; // 时装ID
+}
+// 返回 强化时装
+message RetStrengthFashion
+{
+	required int32 ret = 1; // 返回码
+	optional FashionInfo fashion = 2; // 
+}
+
+// 请求显示或隐藏时装 17 11105
+message ReqFashionShowState
+{
+	required int32 fashionID = 1;
+	optional int32 showState = 2; // 显示是1  隐藏是2
+}
+// 返回显示或隐藏时装  ServerReturn::ServerRetInt 
+
+// ----------------------- 与 Client 交互  End --------------------
+
+// 时装信息
+message FashionInfo
+{
+	required int32 ID = 1; // 时装ID
+	optional int32 strengthLv = 2; // 强化星级
+	optional int32 status = 3; // 时装状态 1为已穿戴  0为未穿戴
+}
+
+// 时装列表信息
+message FashionShow
+{
+	repeated FashionInfo list = 1;
+}

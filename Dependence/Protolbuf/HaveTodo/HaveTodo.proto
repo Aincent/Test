@@ -1,0 +1,10 @@
+
+package HaveTodo;
+
+message HaveTodoInfo
+{
+}
+
+message HaveTodoItem
+{
+}
