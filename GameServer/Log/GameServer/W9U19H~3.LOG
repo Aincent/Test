@@ -1,0 +1,7 @@
+
+LOGWARNING
+2016-12-23_10:41:43 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:269
+ 	  Message:unknown channel build error [channelid = 87, remoteid=1, remotetype=4, ip=127.0.0.1 , errorno=30]
+LOGWARNING
+2016-12-23_10:41:49 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:458
+ 	  Message:gameserver request worldserver push server id and ack timeout

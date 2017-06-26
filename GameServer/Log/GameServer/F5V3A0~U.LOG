@@ -1,0 +1,13 @@
+
+LOGFATAL
+2016-09-14_10:11:37 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:Handle_Request LINE:75
+ 	  Message:Message:[messageid = 5506 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[21728]
+LOGFATAL
+2016-09-14_10:11:37 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1124
+ 	  Message:fps is slow  skill time[0], message time[21728], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-09-14_10:12:26 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:Handle_Request LINE:75
+ 	  Message:Message:[messageid = 5506 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[33498]
+LOGFATAL
+2016-09-14_10:12:26 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1124
+ 	  Message:fps is slow  skill time[0], message time[33498], createtime[0], scene time[1],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]

@@ -1,0 +1,61 @@
+
+LOGERROR
+2016-12-06_17:00:21 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-06_17:00:21 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-06_17:16:16 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968888] is not exist
+LOGERROR
+2016-12-06_17:19:38 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-12-06_17:19:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679546 skillID:1302
+LOGERROR
+2016-12-06_17:19:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679546 skillID:1702
+LOGERROR
+2016-12-06_17:19:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679546 skillID:1402
+LOGERROR
+2016-12-06_17:19:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679546 skillID:1602
+LOGERROR
+2016-12-06_17:20:13 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-12-06_17:20:31 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679547 skillID:1302
+LOGERROR
+2016-12-06_17:20:31 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679547 skillID:1702
+LOGERROR
+2016-12-06_17:20:31 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679547 skillID:1402
+LOGERROR
+2016-12-06_17:20:31 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679547 skillID:1602
+LOGERROR
+2016-12-06_17:32:33 FILE:../src/Map/SceneManager.cpp FUNC:GetObject LINE:373
+ 	  Message:Get object but find not scene[sceneid=5501873291733]
+LOGERROR
+2016-12-06_17:37:28 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679544 skillID:1106
+LOGERROR
+2016-12-06_17:37:30 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679544 skillID:1302
+LOGERROR
+2016-12-06_17:37:31 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679544 skillID:1702
+LOGERROR
+2016-12-06_17:37:33 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679544 skillID:1402
+LOGERROR
+2016-12-06_17:37:35 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679544 skillID:1602
+LOGERROR
+2016-12-06_18:00:02 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884825673]

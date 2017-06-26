@@ -1,0 +1,130 @@
+
+LOGWARNING
+2016-12-08_19:50:45 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-08_19:50:59 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-08_19:52:23 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-08_19:53:19 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-08_19:56:21 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-08_20:04:25 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-08_20:27:00 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-08_20:27:23 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:35 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:36 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:37 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:37 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:37 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:38 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:40 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:41 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:42 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:45 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:27:46 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:28:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-08_20:29:28 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:29:41 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout
+LOGWARNING
+2016-12-08_20:29:46 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:197
+ 	  Message:gameserver request dbserver get mail goods and ack timeout

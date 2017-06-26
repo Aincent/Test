@@ -1,4 +1,4 @@
-server_config.o: ../server_config.c ../server_config.h \
+server_config.d server_config.o: ../server_config.c ../server_config.h \
  /data/ChatShow/antlib/antlib.h \
  /data/ChatShow/antlib/commandlib/double_list.h \
  /data/ChatShow/antlib/commandlib/sys_header.h \

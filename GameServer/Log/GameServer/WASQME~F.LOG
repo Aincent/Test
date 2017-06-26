@@ -1,0 +1,157 @@
+
+LOGWARNING
+2016-11-24_20:54:41 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-24_20:59:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-24_21:07:40 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-24_21:12:51 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-25_10:06:29 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:11:51 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:12:43 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:14:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:17:14 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:21:11 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:22:29 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:23:33 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:24:25 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:25:03 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:27:43 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:32:06 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:32:43 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:38:00 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:42:25 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:44:30 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:52:48 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:57:10 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_10:58:54 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:00:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:03:12 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:04:52 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:06:21 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:07:34 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:09:50 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:11:00 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:12:53 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:17:10 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_11:26:51 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_15:05:23 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_15:06:59 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_15:12:22 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_15:13:21 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:12:34 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:13:30 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:14:33 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:17:52 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:19:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:20:04 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:22:20 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:30:42 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:32:19 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:33:25 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:35:24 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:35:35 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:36:15 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:36:59 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-25_16:42:12 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack

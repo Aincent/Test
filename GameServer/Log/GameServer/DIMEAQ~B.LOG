@@ -1,0 +1,2134 @@
+
+LOGDEBUG
+2016-12-09_15:06:41 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:42 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-09_15:06:45 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-09_15:06:45 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-09_15:06:45 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968902] container info
+LOGDEBUG
+2016-12-09_15:06:45 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968902] info 
+LOGDEBUG
+2016-12-09_15:06:45 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968902] info 
+LOGDEBUG
+2016-12-09_15:06:46 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-09_15:06:46 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-09_15:06:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-09_15:07:45 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_15:10:03 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_15:10:08 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-09_15:10:08 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-09_15:10:08 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968902] container info
+LOGDEBUG
+2016-12-09_15:10:08 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968902] info 
+LOGDEBUG
+2016-12-09_15:10:08 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968902] info 
+LOGDEBUG
+2016-12-09_15:10:08 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-09_15:10:09 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-09_15:10:33 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-09_15:11:06 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 7
+LOGDEBUG
+2016-12-09_15:11:06 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:08 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 8
+LOGDEBUG
+2016-12-09_15:11:08 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:08 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_15:11:08 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 3
+LOGDEBUG
+2016-12-09_15:11:08 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:09 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 4
+LOGDEBUG
+2016-12-09_15:11:09 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:09 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 2
+LOGDEBUG
+2016-12-09_15:11:09 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:10 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 1
+LOGDEBUG
+2016-12-09_15:11:10 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:10 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 0
+LOGDEBUG
+2016-12-09_15:11:10 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:11 FILE:../src/RewardHail/SignIn.cpp FUNC:SetSignIn LINE:305
+ 	  Message:setSignin 281479271679558 day 5
+LOGDEBUG
+2016-12-09_15:11:11 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_SIGNIN LINE:66
+ 	  Message:signin ack 281479271679558 error 0
+LOGDEBUG
+2016-12-09_15:11:14 FILE:../src/RewardHail/RewardMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_GETREWARD LINE:150
+ 	  Message:client req get reward............
+LOGDEBUG
+2016-12-09_15:14:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-09_15:14:31 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-09_15:14:31 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968928] container info
+LOGDEBUG
+2016-12-09_15:14:31 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968928] info 
+LOGDEBUG
+2016-12-09_15:14:31 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968928] info 
+LOGDEBUG
+2016-12-09_15:14:31 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679584 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_15:14:32 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-09_15:14:32 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-09_15:14:39 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:330
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-12-09_15:14:47 FILE:../src/Chat/ChatMgr.cpp FUNC:Marquee LINE:326
+ 	  Message:gameserver marquee type:38 name:裴博厚 target:3 param: !
+LOGDEBUG
+2016-12-09_15:15:02 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_15:15:03 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_15:15:15 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-09_15:15:15 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-09_15:15:15 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968902] container info
+LOGDEBUG
+2016-12-09_15:15:15 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968902] info 
+LOGDEBUG
+2016-12-09_15:15:15 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968902] info 
+LOGDEBUG
+2016-12-09_15:15:16 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-09_15:15:16 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-09_15:15:25 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-09_15:16:15 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_15:18:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-09_15:18:27 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-09_15:18:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968924] container info
+LOGDEBUG
+2016-12-09_15:18:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968924] info 
+LOGDEBUG
+2016-12-09_15:18:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968924] info 
+LOGDEBUG
+2016-12-09_15:18:27 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10029 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_15:18:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-09_15:18:28 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-09_15:18:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:18:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:18:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 92 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:18:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 60
+LOGDEBUG
+2016-12-09_15:18:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:19:27 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_15:23:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 88 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:23:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:23:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 75 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:23:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 77 ...............m_ypos = 62
+LOGDEBUG
+2016-12-09_15:23:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:23:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 80 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:23:20 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:23:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:23:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:23:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 78 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:23:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:23:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:23:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 83 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:23:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:23:42 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:23:42 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:23:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:23:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:23:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 81 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:23:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 81 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:23:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:23:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:24:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:24:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:24:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:24:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:24:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 78 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:24:20 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:24:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:24:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:24:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:24:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 78 ...............m_ypos = 60
+LOGDEBUG
+2016-12-09_15:24:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 81 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:24:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:24:42 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:24:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:25:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:25:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:25:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:25:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 77 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:25:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:25:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:25:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:25:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 78 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:25:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 81 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:25:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 60
+LOGDEBUG
+2016-12-09_15:25:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 77 ...............m_ypos = 60
+LOGDEBUG
+2016-12-09_15:25:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:25:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:25:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:25:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:25:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:25:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 78 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:25:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:25:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 92 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:25:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:25:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:26:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:26:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:26:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:26:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:26:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:26:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:26:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:26:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 96 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:26:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:26:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:26:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:26:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:26:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:26:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:26:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:26:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:26:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:26:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:26:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:26:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:26:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:26:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:26:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:27:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:27:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:27:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:27:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:27:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:27:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:27:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:27:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:27:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:27:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:27:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:27:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:27:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:27:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:27:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:27:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:27:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:27:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:27:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:27:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:27:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:28:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:28:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:28:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:28:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:28:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:28:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:28:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:28:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:28:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:28:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:28:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:28:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:28:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:28:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:28:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:28:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:28:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:28:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:28:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:28:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:28:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:28:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:29:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:29:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:29:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 100 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:29:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:29:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:29:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:29:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:29:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:29:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:29:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:29:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:29:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:29:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:29:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:29:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:29:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 37
+LOGDEBUG
+2016-12-09_15:29:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:29:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:29:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:29:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 100 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:29:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:29:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:30:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:30:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:30:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:30:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:30:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:30:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:30:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 37
+LOGDEBUG
+2016-12-09_15:30:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:30:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:30:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:30:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:30:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:30:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:30:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:30:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:30:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:30:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:30:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:30:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:30:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:30:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:30:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:31:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 91 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:31:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:31:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:31:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:31:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 52
+LOGDEBUG
+2016-12-09_15:31:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:31:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 83 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:31:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:31:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 74 ...............m_ypos = 60
+LOGDEBUG
+2016-12-09_15:31:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:31:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 60
+LOGDEBUG
+2016-12-09_15:31:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 81 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:31:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 93 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:31:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 96 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:31:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:31:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:31:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:31:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:31:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 100 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:31:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:31:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 92 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:31:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:32:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 100 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:32:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:32:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:32:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:32:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:32:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:32:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:32:20 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:32:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:32:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:32:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:32:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:32:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:32:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:32:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:32:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:32:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:32:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:32:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:32:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:32:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 96 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:32:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:33:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:33:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:33:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:33:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:33:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:33:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:33:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:33:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:33:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:33:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:33:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:33:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:33:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:33:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:33:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:33:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:33:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:33:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:33:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:33:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:33:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:34:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:34:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:34:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:34:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:34:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:34:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:34:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:34:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:34:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:34:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:34:42 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:34:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:34:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:34:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:35:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:35:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:35:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:35:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:35:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 37
+LOGDEBUG
+2016-12-09_15:35:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:35:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:35:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:35:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:35:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:35:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:35:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:35:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:35:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:35:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:35:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:35:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:35:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:35:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:35:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:35:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:35:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:36:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:36:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:36:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:36:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:36:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:36:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:36:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:36:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:36:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:36:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:36:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:36:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 100 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:36:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:36:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 53
+LOGDEBUG
+2016-12-09_15:36:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:36:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:36:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:36:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 85 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:36:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 80 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:36:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 78 ...............m_ypos = 62
+LOGDEBUG
+2016-12-09_15:36:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:37:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 82 ...............m_ypos = 61
+LOGDEBUG
+2016-12-09_15:37:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:37:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 81 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:37:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 79 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:37:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 88 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:37:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 93 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:37:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:37:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 92 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:37:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:37:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:37:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 92 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:37:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:37:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:37:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:37:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:37:42 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:37:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:37:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:37:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:37:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:37:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 96 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:37:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 93 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:38:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:38:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:38:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 113 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:38:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:38:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:38:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:38:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:38:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:38:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:38:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:38:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:38:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:38:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:38:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:38:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:38:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:38:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:38:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 93 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:38:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:38:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:38:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:39:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:39:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:39:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:39:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:39:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:39:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:39:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:39:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:39:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:39:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:39:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:39:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:39:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:39:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:39:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:39:42 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:39:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:39:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:39:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:39:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:39:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:39:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:40:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:40:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:40:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:40:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:40:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:40:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:40:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:40:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:40:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:40:26 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:40:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:40:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:40:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:40:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:40:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:40:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:40:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 37
+LOGDEBUG
+2016-12-09_15:40:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:40:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:40:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:40:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:41:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:41:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:41:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:41:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:41:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:41:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:41:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 58
+LOGDEBUG
+2016-12-09_15:41:20 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:41:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 57
+LOGDEBUG
+2016-12-09_15:41:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:41:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:41:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:41:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:41:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 113 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:41:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:41:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:41:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:41:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:41:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:41:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:41:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:41:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:42:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:42:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:42:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:42:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:42:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:42:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:42:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:42:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:42:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:42:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:42:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:42:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:42:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:42:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:42:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:42:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:42:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:42:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:42:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:42:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:42:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:43:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:43:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:43:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:43:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:43:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:43:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:43:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:43:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:43:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:43:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:43:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:43:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:43:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:43:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:43:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:43:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:43:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:43:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:43:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:43:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:43:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:43:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:44:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:44:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:44:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:44:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:44:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:44:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:44:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:44:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:44:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:44:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:44:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:44:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:44:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:44:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:44:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:44:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:44:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:44:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:44:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 41
+LOGDEBUG
+2016-12-09_15:44:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:44:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:44:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:45:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 49
+LOGDEBUG
+2016-12-09_15:45:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:45:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 99 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:45:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 100 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:45:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 56
+LOGDEBUG
+2016-12-09_15:45:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 93 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:45:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:45:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 96 ...............m_ypos = 55
+LOGDEBUG
+2016-12-09_15:45:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:45:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:45:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:45:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 95 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:45:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 50
+LOGDEBUG
+2016-12-09_15:45:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 54
+LOGDEBUG
+2016-12-09_15:45:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:45:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 104 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:45:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:45:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:45:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:45:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:45:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:45:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 46
+LOGDEBUG
+2016-12-09_15:46:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 47
+LOGDEBUG
+2016-12-09_15:46:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 110 ...............m_ypos = 37
+LOGDEBUG
+2016-12-09_15:46:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:46:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:46:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:46:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:46:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:46:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:46:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:46:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:46:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:46:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 38
+LOGDEBUG
+2016-12-09_15:46:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:46:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:46:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:46:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:46:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:46:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 108 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:46:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 39
+LOGDEBUG
+2016-12-09_15:46:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 44
+LOGDEBUG
+2016-12-09_15:46:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 106 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:46:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:47:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 42
+LOGDEBUG
+2016-12-09_15:47:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:47:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 40
+LOGDEBUG
+2016-12-09_15:47:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 43
+LOGDEBUG
+2016-12-09_15:47:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:47:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 102 ...............m_ypos = 48
+LOGDEBUG
+2016-12-09_15:47:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 45
+LOGDEBUG
+2016-12-09_15:47:21 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 51
+LOGDEBUG
+2016-12-09_15:48:07 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_16:00:00 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-09_16:00:27 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_16:10:18 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10029
+LOGDEBUG
+2016-12-09_16:10:18 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10030 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:10:22 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10030 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:10:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10030
+LOGDEBUG
+2016-12-09_16:10:28 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10031 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:10:28 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10031 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:10:33 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10031
+LOGDEBUG
+2016-12-09_16:10:33 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10032 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:10:33 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10032 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:10:47 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10032
+LOGDEBUG
+2016-12-09_16:10:47 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10033 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:10:47 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10033 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:11:01 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10033
+LOGDEBUG
+2016-12-09_16:11:01 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10034 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,9
+LOGDEBUG
+2016-12-09_16:11:06 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10034 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,9 targeNum,9
+LOGDEBUG
+2016-12-09_16:11:13 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10034
+LOGDEBUG
+2016-12-09_16:11:13 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10035 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:11:13 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10035 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:11:19 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10035
+LOGDEBUG
+2016-12-09_16:11:19 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10036 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,9
+LOGDEBUG
+2016-12-09_16:11:27 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10036 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,9 targeNum,9
+LOGDEBUG
+2016-12-09_16:11:36 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10036
+LOGDEBUG
+2016-12-09_16:11:36 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10037 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-09_16:11:42 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10037 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-09_16:11:49 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10037
+LOGDEBUG
+2016-12-09_16:11:49 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10038 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-09_16:11:52 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10038 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-09_16:11:59 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10038
+LOGDEBUG
+2016-12-09_16:11:59 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10039 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,9
+LOGDEBUG
+2016-12-09_16:12:02 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10039 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,9 targeNum,9
+LOGDEBUG
+2016-12-09_16:12:09 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10039
+LOGDEBUG
+2016-12-09_16:12:09 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10040 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:12:09 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10040 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:12:18 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10040
+LOGDEBUG
+2016-12-09_16:12:18 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10041 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-09_16:12:29 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10041 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-09_16:12:37 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10041
+LOGDEBUG
+2016-12-09_16:12:37 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10042 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:12:37 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10042 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:12:45 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10042
+LOGDEBUG
+2016-12-09_16:12:45 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10043 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:12:45 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10043 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:12:51 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10043
+LOGDEBUG
+2016-12-09_16:12:51 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10044 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-09_16:12:54 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10044 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-09_16:12:59 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10044
+LOGDEBUG
+2016-12-09_16:12:59 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10045 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:12:59 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10045 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:13:08 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10045
+LOGDEBUG
+2016-12-09_16:13:08 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10046 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:13:08 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10046 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:13:17 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10046
+LOGDEBUG
+2016-12-09_16:13:17 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10047 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,11
+LOGDEBUG
+2016-12-09_16:13:26 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10047 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,11 targeNum,11
+LOGDEBUG
+2016-12-09_16:13:32 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10047
+LOGDEBUG
+2016-12-09_16:13:32 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10048 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-09_16:13:39 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10048 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-09_16:13:47 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10048
+LOGDEBUG
+2016-12-09_16:13:47 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10049 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,11
+LOGDEBUG
+2016-12-09_16:13:56 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10049 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,11 targeNum,11
+LOGDEBUG
+2016-12-09_16:14:03 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10049
+LOGDEBUG
+2016-12-09_16:14:03 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10050 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,12
+LOGDEBUG
+2016-12-09_16:14:12 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10050 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,12 targeNum,12
+LOGDEBUG
+2016-12-09_16:14:20 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10050
+LOGDEBUG
+2016-12-09_16:14:20 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10051 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:14:20 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10051 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:14:37 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10051
+LOGDEBUG
+2016-12-09_16:14:37 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10052 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,12
+LOGDEBUG
+2016-12-09_16:14:50 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10052 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,12 targeNum,12
+LOGDEBUG
+2016-12-09_16:14:57 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679580 Submit Task 10052
+LOGDEBUG
+2016-12-09_16:14:57 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10053 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:14:57 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679580 accept Task,10053 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:22:02 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-09_16:22:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-09_16:22:11 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-09_16:22:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968924] container info
+LOGDEBUG
+2016-12-09_16:22:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968924] info 
+LOGDEBUG
+2016-12-09_16:22:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968924] info 
+LOGDEBUG
+2016-12-09_16:22:11 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679580 CanSubmit Task,10053 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-09_16:22:12 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-09_16:22:12 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-09_16:23:11 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8

@@ -1,0 +1,126 @@
+
+LOGFATAL
+2016-12-20_17:47:16 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[0], createtime[0], scene time[4],flush time[0], timer time[5884], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-20_17:47:58 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[0], createtime[0], scene time[0],flush time[0], timer time[25533], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-20_17:49:03 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[1], createtime[0], scene time[6],flush time[0], timer time[14719], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-20_17:50:08 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[1], createtime[0], scene time[9],flush time[0], timer time[28243], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-20_17:50:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:54 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:50:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:51:00 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:51:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:51:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:51:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:51:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:51:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:51:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:53:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:53:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:53:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:53:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:53:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FastChangeMap LINE:2911
+ 	  Message:
+  FastChangeMap 判断坐标错误 MapID[103] xpos[81]---- ypos[57]
+
+LOGFATAL
+2016-12-20_17:53:58 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[7], createtime[0], scene time[4],flush time[0], timer time[127466], path time[0], quick message time[0], date time[0]

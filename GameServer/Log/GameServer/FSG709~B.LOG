@@ -1,0 +1,13 @@
+
+LOGFATAL
+2016-11-09_17:52:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 1012 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[6963]
+LOGFATAL
+2016-11-09_17:52:27 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1125
+ 	  Message:fps is slow  skill time[0], message time[6963], createtime[0], scene time[1],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-09_17:53:49 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[56488]
+LOGFATAL
+2016-11-09_17:53:49 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1125
+ 	  Message:fps is slow  skill time[0], message time[56488], createtime[0], scene time[1],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]

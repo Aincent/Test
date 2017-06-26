@@ -1,0 +1,478 @@
+
+LOGWARNING
+2016-12-09_16:26:23 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_16:38:45 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:39:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:39:23 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:39:38 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:39:38 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:45:03 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:45:04 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:47:57 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:47:57 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_16:51:52 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_16:59:50 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_16:59:50 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:04:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:05:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:05:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:05:46 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:06:59 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:01 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:09 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:17 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:17 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:39 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:07:40 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:08:44 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:09:30 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:09:35 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:09:48 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_17:09:49 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:11:41 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:15:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:16:27 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:16:37 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:16:41 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:16:41 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:16:51 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:16:51 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:16:56 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:17:30 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:17:31 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:17:31 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:20:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:20:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:20:22 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:20:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:20:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:21:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:21:22 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:21:45 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:22:15 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:22:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:22:30 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:24:30 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:24:47 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:25:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:25:18 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:25:54 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:26:50 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:26:56 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:27:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:27:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:27:17 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:27:38 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:27:39 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:28:48 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:29:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:29:55 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:30:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:30:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:31:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:32:00 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:32:01 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:32:07 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:32:35 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:32:41 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:33:18 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:33:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:33:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:35:01 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:35:36 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:36:08 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:36:17 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:36:19 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:36:25 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:36:25 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:37:49 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:38:04 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:39:15 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:39:18 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:39:18 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:39:36 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:39:40 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:40:47 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:41:23 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:41:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:42:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:42:23 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:42:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:42:59 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:44:08 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:44:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:44:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:44:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:44:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:45:44 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:48:39 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:49:18 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:49:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:49:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:52:15 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:52:17 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:52:59 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:54:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:54:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:54:30 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:57:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_17:58:00 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:02:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:05:04 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:05:04 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:05:06 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:05:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:05:15 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:05:19 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:05:58 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:08:10 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:09:51 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:10:33 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:10:33 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:11:41 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:12:49 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:13:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:13:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:14:11 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:14:11 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:14:53 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:16:37 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:17:38 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:20:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:24:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:24:45 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:25:31 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:25:43 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:25:43 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:25:43 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:25:48 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-12-09_18:28:18 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:44:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-09_18:53:52 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack

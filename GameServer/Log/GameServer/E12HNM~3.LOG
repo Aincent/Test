@@ -1,0 +1,82 @@
+
+LOGERROR
+2016-09-22_17:59:14 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-22_17:59:14 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-22_17:59:14 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-22_17:59:14 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-23_14:25:20 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612545 skillID:1602
+LOGERROR
+2016-09-23_14:25:21 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612545 skillID:1601
+LOGERROR
+2016-09-23_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877814402]
+LOGERROR
+2016-09-23_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877879939]
+LOGERROR
+2016-09-23_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877945476]
+LOGERROR
+2016-09-23_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501878011013]
+LOGERROR
+2016-09-23_16:08:05 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-09-23_16:08:49 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612550 skillID:1102
+LOGERROR
+2016-09-23_16:08:49 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612550 skillID:1202
+LOGERROR
+2016-09-23_16:08:49 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612550 skillID:1302
+LOGERROR
+2016-09-23_16:08:49 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612550 skillID:1402
+LOGERROR
+2016-09-23_16:08:49 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612550 skillID:1502
+LOGERROR
+2016-09-23_16:08:49 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612550 skillID:1602
+LOGERROR
+2016-09-23_16:08:49 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612550 skillID:1702
+LOGERROR
+2016-09-23_16:08:50 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612550 skillID:1501
+LOGERROR
+2016-09-23_16:08:50 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612550 skillID:1701
+LOGERROR
+2016-09-23_16:08:50 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612550 skillID:1101
+LOGERROR
+2016-09-23_16:08:50 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612550 skillID:1301
+LOGERROR
+2016-09-23_16:08:50 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612550 skillID:1601
+LOGERROR
+2016-09-23_16:08:50 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612550 skillID:1201
+LOGERROR
+2016-09-23_16:08:50 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:309
+ 	  Message:SetQuickSector playerID:281487861612550 skillID:1401
+LOGERROR
+2016-09-23_18:25:19 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1590
+ 	  Message:save player[0] battle info[60] but null
+LOGERROR
+2016-09-23_18:25:19 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1695
+ 	  Message:get player[charid=12884901890] container info but player is not existed

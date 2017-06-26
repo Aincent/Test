@@ -1,0 +1,1669 @@
+
+LOGWARNING
+2016-11-16_12:05:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_12:06:26 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_12:07:49 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_12:11:56 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_12:14:56 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_12:25:59 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_12:30:19 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_12:50:25 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:35:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:40:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-11-16_14:12:46 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:16:38 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:17:11 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:24:25 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:26:01 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:28:44 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:28:51 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:30:19 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:30:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:32:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:33:43 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:33:52 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:35:00 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:37:31 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:38:23 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:38:38 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:39:22 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-11-16_14:39:35 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:39:36 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:39:53 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:40:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:23 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:32 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:36 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:36 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:36 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:41:36 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:16 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:40 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:40 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:50 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:52 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:42:52 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:12 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:13 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:14 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:20 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:21 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:25 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:26 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:27 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:27 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:27 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:27 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:43:28 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:05 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-11-16_14:44:24 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come

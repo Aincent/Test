@@ -1,0 +1,49 @@
+
+LOGFATAL
+2016-11-23_12:08:55 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[173014]
+LOGFATAL
+2016-11-23_12:08:55 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[173014], createtime[0], scene time[13],flush time[0], timer time[3], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-23_12:12:06 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[123451]
+LOGFATAL
+2016-11-23_12:12:06 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[123451], createtime[0], scene time[14],flush time[0], timer time[3], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-23_12:25:35 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[69458]
+LOGFATAL
+2016-11-23_12:25:35 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[69458], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-23_12:26:37 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[8004]
+LOGFATAL
+2016-11-23_12:26:37 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[8004], createtime[0], scene time[3],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-23_15:15:39 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[5895]
+LOGFATAL
+2016-11-23_15:15:39 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[5895], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-23_15:17:10 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[10453]
+LOGFATAL
+2016-11-23_15:17:10 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[10453], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-23_15:31:40 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[55034]
+LOGFATAL
+2016-11-23_15:31:40 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[55035], createtime[0], scene time[0],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-11-23_16:48:03 FILE:../src/Chat/ChatMgr.cpp FUNC:Handle_Request LINE:168
+ 	  Message:Message:[messageid = 6603 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[174786]
+LOGFATAL
+2016-11-23_16:48:03 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[174786], createtime[0], scene time[3],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]

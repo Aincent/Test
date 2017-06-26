@@ -1,0 +1,13 @@
+
+LOGERROR
+2016-12-20_18:51:02 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-20_18:51:02 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-20_18:52:52 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1573
+ 	  Message:save player[0] battle info[58] but null
+LOGERROR
+2016-12-20_18:52:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1712
+ 	  Message:get player[charid=4294968803] container info but player is not existed

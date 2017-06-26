@@ -1,0 +1,346 @@
+
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/born/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jiankang/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/changan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/mamingguan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/baibiguan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/taiyuancheng/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/huanggong/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiantangxian/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/erxianzhuangwai/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/erxianzhuang/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/wanniangong/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shaohuashan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/hulaoguanwai/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/hulaoguan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhenyinzhan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhenqifuben/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/nuzhanhunbing/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/xujinghuangcheng/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/meiguihaitan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/bangpaijifensai/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/bangpaicheng/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying7/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying8/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng7/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng8/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/yingxiongta/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu7/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu0/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom7/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom8/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom9/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom10/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom11/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom12/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom13/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiaozhanpiaom14/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/chengjianchue/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/duchuangyuwenfu/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/yongduomamingguan/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/yingxiongshilian/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhuyelin/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/suichaodayunhe/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/hulaoguandaying/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/dati/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingjichang/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben7/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben8/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben7/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben8/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang4/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang5/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang6/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang7/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang8/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fanwang9/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shouhuqinwang/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/kuafu/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben1/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben2/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben3/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jiehun/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhenyinBoss/FieldSpring.lua] error
+LOGBASE
+2016-10-17_09:51:22 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss/FieldSpring.lua] error

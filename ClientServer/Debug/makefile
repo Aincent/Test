@@ -34,7 +34,7 @@ ClientServer: $(OBJS) $(USER_OBJS)
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) ClientServer
+	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) ClientServer
 	-@echo ' '
 
 .PHONY: all clean dependents

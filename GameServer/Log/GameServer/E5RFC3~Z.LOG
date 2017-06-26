@@ -1,0 +1,13 @@
+
+LOGERROR
+2016-11-17_19:36:04 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-17_19:36:04 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-17_20:05:52 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-11-17_20:18:05 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:937
+ 	  Message:player synch position but player[gs charid=4294967320] is not exist

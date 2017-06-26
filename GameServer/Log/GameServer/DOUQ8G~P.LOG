@@ -1,0 +1,364 @@
+
+LOGDEBUG
+2016-12-23_10:22:42 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:22:44 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:43:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1098
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-23_10:43:34 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-23_10:43:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1688
+ 	  Message:gameserver request dbserver player[4294968799] container info
+LOGDEBUG
+2016-12-23_10:43:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4078
+ 	  Message:finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:43:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4113
+ 	  Message:player login in game and finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:43:34 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679455 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-23_10:43:34 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-23_10:43:35 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-23_10:43:55 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:433
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-12-23_10:44:08 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:44:32 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-23_10:44:33 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:809
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-12-23_10:44:34 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:44:38 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_ARENAINFO LINE:398
+ 	  Message:gameserver request dbserver ranking player
+LOGDEBUG
+2016-12-23_10:44:38 FILE:../src/Map/GameZone.cpp FUNC:InitMonsterByPlayer LINE:295
+ 	  Message:SKIL ID = 1135
+LOGDEBUG
+2016-12-23_10:44:38 FILE:../src/Map/GameZone.cpp FUNC:InitMonsterByPlayer LINE:295
+ 	  Message:SKIL ID = 1335
+LOGDEBUG
+2016-12-23_10:44:38 FILE:../src/Map/GameZone.cpp FUNC:InitMonsterByPlayer LINE:295
+ 	  Message:SKIL ID = 1735
+LOGDEBUG
+2016-12-23_10:44:38 FILE:../src/Map/GameZone.cpp FUNC:InitMonsterByPlayer LINE:295
+ 	  Message:SKIL ID = 1435
+LOGDEBUG
+2016-12-23_10:44:38 FILE:../src/Map/GameZone.cpp FUNC:InitMonsterByPlayer LINE:295
+ 	  Message:SKIL ID = 1635
+LOGDEBUG
+2016-12-23_10:44:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 36 ...............m_ypos = 31
+LOGDEBUG
+2016-12-23_10:44:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 36 ...............m_ypos = 31
+LOGDEBUG
+2016-12-23_10:44:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 38 ...............m_ypos = 31
+LOGDEBUG
+2016-12-23_10:44:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 34 ...............m_ypos = 31
+LOGDEBUG
+2016-12-23_10:44:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 34 ...............m_ypos = 31
+LOGDEBUG
+2016-12-23_10:44:47 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 10000
+LOGDEBUG
+2016-12-23_10:44:47 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:433
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-12-23_10:45:09 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 211
+LOGDEBUG
+2016-12-23_10:45:12 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:45:18 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_RANKINGREWARD LINE:208
+ 	  Message:request ranking reward from client
+LOGDEBUG
+2016-12-23_10:45:28 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1129
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-23_10:45:33 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:45:40 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:45:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1098
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-23_10:45:46 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-23_10:45:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1688
+ 	  Message:gameserver request dbserver player[4294968799] container info
+LOGDEBUG
+2016-12-23_10:45:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4078
+ 	  Message:finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:45:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4113
+ 	  Message:player login in game and finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:45:46 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679455 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-23_10:45:46 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-23_10:45:47 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-23_10:45:49 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:46:06 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_RANKINGREWARD LINE:208
+ 	  Message:request ranking reward from client
+LOGDEBUG
+2016-12-23_10:46:15 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:46:19 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1129
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-23_10:46:28 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:46:32 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1098
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-23_10:46:32 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-23_10:46:32 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1688
+ 	  Message:gameserver request dbserver player[4294968799] container info
+LOGDEBUG
+2016-12-23_10:46:32 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4078
+ 	  Message:finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:46:32 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4113
+ 	  Message:player login in game and finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:46:32 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679455 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-23_10:46:32 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-23_10:46:33 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-23_10:47:19 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:47:21 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_RANKINGREWARD LINE:208
+ 	  Message:request ranking reward from client
+LOGDEBUG
+2016-12-23_10:47:32 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:48:10 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:48:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1098
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-23_10:48:13 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-23_10:48:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1688
+ 	  Message:gameserver request dbserver player[4294968799] container info
+LOGDEBUG
+2016-12-23_10:48:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4078
+ 	  Message:finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:48:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4113
+ 	  Message:player login in game and finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:48:14 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679455 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-23_10:48:14 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-23_10:48:14 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-23_10:48:16 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:48:57 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:49:00 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1098
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-23_10:49:00 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-23_10:49:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1688
+ 	  Message:gameserver request dbserver player[4294968799] container info
+LOGDEBUG
+2016-12-23_10:49:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4078
+ 	  Message:finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:49:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4113
+ 	  Message:player login in game and finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:49:01 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679455 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-23_10:49:01 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-23_10:49:01 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-23_10:49:06 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:49:09 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_RANKINGREWARD LINE:208
+ 	  Message:request ranking reward from client
+LOGDEBUG
+2016-12-23_10:50:08 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1129
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-23_10:50:12 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:50:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1098
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-23_10:50:16 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-23_10:50:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1688
+ 	  Message:gameserver request dbserver player[4294968799] container info
+LOGDEBUG
+2016-12-23_10:50:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4078
+ 	  Message:finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:50:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4113
+ 	  Message:player login in game and finish player[4294968799] info 
+LOGDEBUG
+2016-12-23_10:50:16 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679455 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-23_10:50:17 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-23_10:50:17 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-23_10:50:20 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:50:24 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1129
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-23_10:50:29 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1129
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-23_10:50:33 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_ARENAINFO LINE:65
+ 	  Message:request Arena  war report info from client
+LOGDEBUG
+2016-12-23_10:50:35 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_RANKINGREWARD LINE:208
+ 	  Message:request ranking reward from client
+LOGDEBUG
+2016-12-23_10:50:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1129
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-23_10:51:16 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-23_10:51:26 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8

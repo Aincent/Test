@@ -1,0 +1,76 @@
+
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:26:57 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-13_09:38:53 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-10-13_09:39:31 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-10-13_09:39:41 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-10-13_09:55:30 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1590
+ 	  Message:save player[0] battle info[56] but null
+LOGERROR
+2016-10-13_09:55:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1695
+ 	  Message:get player[charid=12884901916] container info but player is not existed
+LOGERROR
+2016-10-13_10:18:37 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-10-13_12:18:16 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281487861612569 skillID:1302
+LOGERROR
+2016-10-13_12:18:16 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281487861612569 skillID:1702
+LOGERROR
+2016-10-13_12:18:16 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281487861612569 skillID:1402
+LOGERROR
+2016-10-13_12:18:16 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281487861612569 skillID:1602
+LOGERROR
+2016-10-13_15:30:09 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877813345]
+LOGERROR
+2016-10-13_15:30:09 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877878882]
+LOGERROR
+2016-10-13_15:30:09 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877944419]
+LOGERROR
+2016-10-13_15:30:09 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501878009956]

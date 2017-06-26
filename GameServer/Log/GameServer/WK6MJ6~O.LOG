@@ -1,0 +1,130 @@
+
+LOGWARNING
+2016-12-22_15:25:59 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-22_15:26:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-22_15:26:56 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:26:57 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:28 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:28 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:33 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:33 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:40 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:41 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:43 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:44 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:54 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:54 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:54 FILE:../src/QuickMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_QUICKMESSAGE LINE:182
+ 	  Message:receive quick requested message but player[281479271679474] is not existed
+LOGWARNING
+2016-12-22_15:27:57 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:27:57 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:28:10 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:29:03 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:29:03 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:29:03 FILE:../src/QuickMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_QUICKMESSAGE LINE:182
+ 	  Message:receive quick requested message but player[281479271679474] is not existed
+LOGWARNING
+2016-12-22_15:33:31 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:33:56 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-22_15:34:48 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:34:48 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:34:52 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:34:53 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:34:57 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:34:58 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:35:01 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:35:01 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:35:03 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-22_15:35:41 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:35:41 FILE:../src/QuickMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_QUICKMESSAGE LINE:182
+ 	  Message:receive quick requested message but player[281479271679474] is not existed
+LOGWARNING
+2016-12-22_15:35:41 FILE:../src/QuickMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_QUICKMESSAGE LINE:182
+ 	  Message:receive quick requested message but player[281479271679474] is not existed
+LOGWARNING
+2016-12-22_15:35:41 FILE:../src/QuickMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_QUICKMESSAGE LINE:182
+ 	  Message:receive quick requested message but player[281479271679474] is not existed
+LOGWARNING
+2016-12-22_15:35:44 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-22_15:35:44 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:35:45 FILE:../src/QuickMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_QUICKMESSAGE LINE:182
+ 	  Message:receive quick requested message but player[281479271679474] is not existed
+LOGWARNING
+2016-12-22_15:35:57 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:35:57 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:36:02 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-12-22_15:37:10 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack

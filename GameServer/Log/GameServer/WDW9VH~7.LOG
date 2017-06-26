@@ -1,0 +1,19 @@
+
+LOGWARNING
+2016-10-31_15:34:38 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-10-31_15:35:14 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:852
+ 	  Message:gameserver request worldserver create map and ack timeout
+LOGWARNING
+2016-10-31_15:36:02 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-10-31_15:37:58 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:852
+ 	  Message:gameserver request worldserver create map and ack timeout
+LOGWARNING
+2016-10-31_15:38:40 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:852
+ 	  Message:gameserver request worldserver create map and ack timeout
+LOGWARNING
+2016-10-31_15:38:50 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:269
+ 	  Message:unknown channel build error [channelid = 87, remoteid=1, remotetype=4, ip=127.0.0.1 , errorno=30]

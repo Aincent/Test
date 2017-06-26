@@ -1,0 +1,10 @@
+
+LOGWARNING
+2016-12-02_12:23:09 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-02_12:23:44 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:845
+ 	  Message:gameserver request worldserver create map and ack timeout
+LOGWARNING
+2016-12-02_12:23:48 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:845
+ 	  Message:gameserver request worldserver create map and ack timeout

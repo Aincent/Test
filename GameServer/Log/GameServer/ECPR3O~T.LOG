@@ -1,0 +1,31 @@
+
+LOGERROR
+2016-11-23_18:30:13 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-23_18:30:13 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-24_15:30:02 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884301391]
+LOGERROR
+2016-11-24_15:30:02 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884366928]
+LOGERROR
+2016-11-24_15:30:02 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884432465]
+LOGERROR
+2016-11-24_15:30:02 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884498002]
+LOGERROR
+2016-11-24_15:30:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884301391]
+LOGERROR
+2016-11-24_15:30:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884366928]
+LOGERROR
+2016-11-24_15:30:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884432465]
+LOGERROR
+2016-11-24_15:30:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884498002]

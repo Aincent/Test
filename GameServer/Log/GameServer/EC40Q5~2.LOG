@@ -1,0 +1,94 @@
+
+LOGERROR
+2016-12-22_15:25:14 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-22_15:25:14 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-22_15:26:57 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:26:57 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:28 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:28 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:33 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:33 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:41 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:41 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:43 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:44 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:54 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:54 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:57 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:27:57 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:29:03 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:29:03 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:34:48 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:34:48 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:34:53 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:34:53 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:34:57 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:34:58 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:35:01 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:35:01 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:35:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:IsLoginON LINE:571
+ 	  Message:Transfer Map[211] is error
+LOGERROR
+2016-12-22_15:35:45 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:90
+ 	  Message:player request horse info but player is not logined
+LOGERROR
+2016-12-22_15:35:45 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:35:57 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times
+LOGERROR
+2016-12-22_15:35:57 FILE:../src/EscortEx/EscortMgr.cpp FUNC:StartEscort LINE:469
+ 	  Message:player[4294968818] escort start too more times

@@ -1,0 +1,4 @@
+
+LOGINFO
+2016-10-19_15:51:24 FILE:../src/ServerManager.cpp FUNC:on_new_channel_build LINE:86
+ 	  Message:db new channel build [channelid = 66, remoteid=1, remotetype=5, ip=127.0.0.1]

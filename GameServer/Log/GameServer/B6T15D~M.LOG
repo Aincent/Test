@@ -1,0 +1,667 @@
+
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuoqijinjie/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shenbingjinjie/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/danlujinjie/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shenqijinjie/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/xinfajinjie/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben5/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben6/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben7/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben5/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben6/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben7/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/born/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jiankang/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/changan/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/mamingguan/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/baibiguan/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/taiyuancheng/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/huanggong/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiantangxian/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/erxianzhuangwai/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/erxianzhuang/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/wanniangong/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shaohuashan/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/hulaoguanwai/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/hulaoguan/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben5/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben6/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben7/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben8/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying5/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying6/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying7/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying8/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng5/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng6/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng7/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng8/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben5/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben6/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben7/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben8/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/dati/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingjichang/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/kuafu/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jiehun/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhenyinBoss/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhenyinzhan/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/meiguihaitan/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/bangpaijifensai/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/bangpaicheng/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/yingxiongta/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu0/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu1/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu2/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu3/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu4/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu5/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu6/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:43:08 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu7/FieldSpring.lua] error
+LOGBASE
+2016-11-29_17:52:08 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=18 , len=12] time[390943] too more-----------------
+LOGBASE
+2016-11-29_17:52:08 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 1] time = 390943040
+LOGBASE
+2016-12-01_17:53:24 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[88] event 
+LOGBASE
+2016-12-01_17:53:24 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[88] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:24 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:29 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[86] event 
+LOGBASE
+2016-12-01_17:53:29 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[86] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:29 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[46] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[47] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[48] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[49] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[50] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[51] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[52] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[53] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[54] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[55] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[57] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[58] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[56] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[59] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[60] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[61] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[62] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[63] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[64] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[65] event 
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[46] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[47] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[48] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[49] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[50] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[51] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[52] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[53] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[54] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[55] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[57] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[58] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[56] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[59] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[60] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[61] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[62] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[63] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[64] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[65] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:33 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:37 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[87] event 
+LOGBASE
+2016-12-01_17:53:37 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[87] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:37 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[66] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[67] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[68] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[69] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[71] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[70] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[73] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[72] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[74] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[75] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[76] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[77] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[78] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[80] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[79] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[82] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[83] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[84] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[81] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:svr LINE:363
+ 	  Message:client close channel[85] event 
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[66] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[67] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[68] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[69] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[71] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[70] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[73] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[72] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[74] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[75] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[76] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[77] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[78] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[80] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[79] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[82] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[83] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[84] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[81] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/Message_Facade.cpp FUNC:CloseChannel LINE:154
+ 	  Message:message facade close session[85] , @@@@@@@@@@@@@@@@@
+LOGBASE
+2016-12-01_17:53:44 FILE:../Network/EpollMain.cpp FUNC:EpollCtl LINE:455
+ 	  Message:epoll add socket event error

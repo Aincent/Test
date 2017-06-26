@@ -1,0 +1,37 @@
+
+LOGFATAL
+2016-12-08_19:56:21 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[7159]
+LOGFATAL
+2016-12-08_19:56:21 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[7161], createtime[0], scene time[1],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_19:58:45 FILE:../src/Mail/MailMessage.cpp FUNC:Handle_Ack LINE:72
+ 	  Message:Message:[messageid = 6711 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[143310]
+LOGFATAL
+2016-12-08_19:58:45 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[143310], createtime[0], scene time[3],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_20:29:14 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[26240]
+LOGFATAL
+2016-12-08_20:29:14 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[26240], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_20:29:28 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[10785]
+LOGFATAL
+2016-12-08_20:29:28 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[10785], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_20:29:35 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[1726]
+LOGFATAL
+2016-12-08_20:29:35 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[1726], createtime[0], scene time[3],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_20:29:42 FILE:../src/Mail/MailMessage.cpp FUNC:Handle_Ack LINE:72
+ 	  Message:Message:[messageid = 6714 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[3345]
+LOGFATAL
+2016-12-08_20:29:42 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[3345], createtime[0], scene time[4],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]

@@ -1,0 +1,13 @@
+
+LOGFATAL
+2016-12-16_17:11:54 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[0], createtime[0], scene time[2],flush time[0], timer time[3362], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-16_18:47:01 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[1], createtime[0], scene time[9],flush time[0], timer time[3415061], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-16_18:47:03 FILE:../src/Map/GameDuplicate.cpp FUNC:~CGameDuplicate LINE:65
+ 	  Message:duplicate destroy but player(count=1) is in the map
+LOGFATAL
+2016-12-16_18:47:03 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[0], createtime[0], scene time[10],flush time[0], timer time[1644], path time[0], quick message time[0], date time[0]

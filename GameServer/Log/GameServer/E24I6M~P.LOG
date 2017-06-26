@@ -1,0 +1,25 @@
+
+LOGERROR
+2016-12-02_10:07:13 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-02_10:07:13 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-02_11:22:59 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-12-02_11:25:28 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679459 skillID:1302
+LOGERROR
+2016-12-02_11:25:28 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679459 skillID:1702
+LOGERROR
+2016-12-02_11:25:28 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679459 skillID:1402
+LOGERROR
+2016-12-02_11:25:28 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679459 skillID:1602
+LOGERROR
+2016-12-02_11:26:22 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679459 skillID:1102

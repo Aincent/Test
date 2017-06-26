@@ -22,6 +22,7 @@ void do_gate_netmsg(handler_msg* msg,uint64_t userid,uint64_t netid)
 void init_netprotocol()
 {
 	tcpmsg_regist_binary(CONN_GATE_INFO,NULL,0,do_gate_netmsg);
+	tcpmsg_regist_binary(CONN_HEART_INFO,NULL,0,do_gate_netmsg);
 	tcpmsg_regist_binary(TCPCONNECT_MSGID,NULL,0,do_gate_netmsg);
 	tcpmsg_regist_binary(TCPCONNECT_LOST_MSGID,NULL,0,do_gate_netmsg);
 }

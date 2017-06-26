@@ -1,0 +1,284 @@
+
+LOGDEBUG
+2016-10-28_19:37:00 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-10-28_19:37:01 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-10-28_19:37:01 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:42:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-10-28_19:42:02 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1203
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-10-28_19:42:02 FILE:../src/Activity/ActivityMgr.cpp FUNC:IsCanEnterActive LINE:404
+ 	  Message:intanceId is invalid 247.
+LOGDEBUG
+2016-10-28_19:42:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1674
+ 	  Message:gameserver request dbserver player[12884901920] container info
+LOGDEBUG
+2016-10-28_19:42:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4053
+ 	  Message:finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_19:42:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4088
+ 	  Message:player login in game and finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_19:42:02 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281487861612576 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-10-28_19:42:03 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-10-28_19:42:03 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-28_19:47:16 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:330
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-10-28_19:47:26 FILE:../src/Chat/ChatMgr.cpp FUNC:Marquee LINE:326
+ 	  Message:gameserver marquee type:38 name:章弘化 target:6 param: !
+LOGDEBUG
+2016-10-28_19:53:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-10-28_19:53:42 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1203
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-10-28_19:53:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1674
+ 	  Message:gameserver request dbserver player[12884901920] container info
+LOGDEBUG
+2016-10-28_19:53:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4053
+ 	  Message:finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_19:53:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4088
+ 	  Message:player login in game and finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_19:53:42 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281487861612576 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-10-28_19:53:43 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-10-28_19:53:43 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-28_19:53:48 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:53:49 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:861
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-10-28_19:53:49 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-28_19:53:50 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:51 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:51 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:52 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:54 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:55 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:56 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:56 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-10-28_19:53:57 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:53:58 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:54:00 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:54:01 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:54:01 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:54:01 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:54:02 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:54:03 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-10-28_19:54:05 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:06 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:06 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:06 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:06 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:06 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:07 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:07 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:07 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:08 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-10-28_19:54:17 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 40000001
+LOGDEBUG
+2016-10-28_19:54:18 FILE:../src/MapInstance/InstanceMgr.cpp FUNC:SendAwardToPlayer LINE:2310
+ 	  Message:Send to intance award to player simple message player 281487861612576
+LOGDEBUG
+2016-10-28_19:54:29 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-28_19:54:29 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 130
+LOGDEBUG
+2016-10-28_19:54:35 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:314
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-28_19:54:35 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:861
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-10-28_19:54:35 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-28_19:55:04 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 53300001
+LOGDEBUG
+2016-10-28_19:55:06 FILE:../src/MapInstance/InstanceMgr.cpp FUNC:SendAwardToPlayer LINE:2310
+ 	  Message:Send to intance award to player simple message player 281487861612576
+LOGDEBUG
+2016-10-28_19:55:50 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 214
+LOGDEBUG
+2016-10-28_19:55:51 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-28_20:00:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-10-28_20:00:01 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1203
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-10-28_20:00:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1674
+ 	  Message:gameserver request dbserver player[12884901920] container info
+LOGDEBUG
+2016-10-28_20:00:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4053
+ 	  Message:finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_20:00:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4088
+ 	  Message:player login in game and finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_20:00:01 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281487861612576 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-10-28_20:00:02 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-10-28_20:00:02 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-28_20:17:57 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-10-28_20:17:57 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1203
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-10-28_20:17:57 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1674
+ 	  Message:gameserver request dbserver player[12884901920] container info
+LOGDEBUG
+2016-10-28_20:17:57 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4053
+ 	  Message:finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_20:17:57 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4088
+ 	  Message:player login in game and finish player[12884901920] info 
+LOGDEBUG
+2016-10-28_20:17:57 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281487861612576 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-10-28_20:17:58 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-10-28_20:17:58 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info

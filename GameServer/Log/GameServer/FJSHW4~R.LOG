@@ -1,0 +1,25 @@
+
+LOGFATAL
+2016-12-08_11:07:44 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[0], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_11:08:53 FILE:../src/QuickMessage.cpp FUNC:Handle_Request LINE:43
+ 	  Message:Message:[messageid = 18 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[8142]
+LOGFATAL
+2016-12-08_11:08:53 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[8142], createtime[0], scene time[0],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_11:31:12 FILE:../src/Country/GsCountryMgr.cpp FUNC:Handle_Request LINE:656
+ 	  Message:Message:[messageid = 12020 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[207866]
+LOGFATAL
+2016-12-08_11:31:12 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[207867], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_12:14:25 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[4], createtime[0], scene time[1],flush time[0], timer time[13187], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_12:14:31 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[2], createtime[0], scene time[0],flush time[0], timer time[4277], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-08_12:16:01 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[0], createtime[0], scene time[1],flush time[0], timer time[14271], path time[0], quick message time[0], date time[0]

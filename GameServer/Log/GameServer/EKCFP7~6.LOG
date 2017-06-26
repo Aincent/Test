@@ -1,0 +1,112 @@
+
+LOGERROR
+2016-09-13_18:37:15 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-13_18:37:15 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-13_18:37:15 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-13_18:37:15 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-14_09:40:08 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-09-14_09:42:32 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-09-14_10:03:37 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1102
+LOGERROR
+2016-09-14_10:03:38 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1101
+LOGERROR
+2016-09-14_10:03:43 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1002
+LOGERROR
+2016-09-14_10:03:43 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1002
+LOGERROR
+2016-09-14_10:04:19 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1202
+LOGERROR
+2016-09-14_10:04:19 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1302
+LOGERROR
+2016-09-14_10:04:19 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1402
+LOGERROR
+2016-09-14_10:04:19 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1502
+LOGERROR
+2016-09-14_10:04:19 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1602
+LOGERROR
+2016-09-14_10:04:19 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612546 skillID:1702
+LOGERROR
+2016-09-14_10:04:20 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1201
+LOGERROR
+2016-09-14_10:04:20 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1701
+LOGERROR
+2016-09-14_10:04:20 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1601
+LOGERROR
+2016-09-14_10:04:20 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1301
+LOGERROR
+2016-09-14_10:04:20 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1401
+LOGERROR
+2016-09-14_10:04:20 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612546 skillID:1501
+LOGERROR
+2016-09-14_10:14:45 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612547 skillID:1102
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612547 skillID:1202
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612547 skillID:1302
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612547 skillID:1402
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612547 skillID:1502
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612547 skillID:1602
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1742
+ 	  Message:playerSkillUpGrade playerID:281487861612547 skillID:1702
+LOGERROR
+2016-09-14_10:15:06 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612547 skillID:1101
+LOGERROR
+2016-09-14_10:15:07 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612547 skillID:1301
+LOGERROR
+2016-09-14_10:15:07 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612547 skillID:1401
+LOGERROR
+2016-09-14_10:15:07 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612547 skillID:1501
+LOGERROR
+2016-09-14_10:15:07 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612547 skillID:1601
+LOGERROR
+2016-09-14_10:15:07 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612547 skillID:1201
+LOGERROR
+2016-09-14_10:15:07 FILE:../src/Container/ArticleEquipMgr.cpp FUNC:SetQuickSector LINE:303
+ 	  Message:SetQuickSector playerID:281487861612547 skillID:1701

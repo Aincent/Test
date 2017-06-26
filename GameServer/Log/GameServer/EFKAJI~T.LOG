@@ -1,0 +1,589 @@
+
+LOGERROR
+2016-12-19_16:19:40 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-19_16:19:40 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-19_16:26:52 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-12-19_16:35:18 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679453 skillID:4302
+LOGERROR
+2016-12-19_16:35:18 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679453 skillID:4502
+LOGERROR
+2016-12-19_16:35:18 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679453 skillID:4702
+LOGERROR
+2016-12-19_16:35:18 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679453 skillID:4402
+LOGERROR
+2016-12-19_16:41:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:RemoveDelayPlayer LINE:1564
+ 	  Message:remove delay nowtime[1482136898634], oldtime[1482136879416], player[4294968797] and gameserver request gt exit
+LOGERROR
+2016-12-19_16:42:10 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:IsLoginON LINE:571
+ 	  Message:Transfer Map[221] is error
+LOGERROR
+2016-12-19_16:42:10 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=2203338276865]
+LOGERROR
+2016-12-19_16:42:10 FILE:../src/Map/SceneManager.cpp FUNC:EnterScene LINE:240
+ 	  Message:object enter scene but find not scene[sceneid=2203338276865]
+LOGERROR
+2016-12-19_16:42:10 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CLIENTIN LINE:780
+ 	  Message:client already in map and synch view but player[gs charid=281479271679453] cannot enter scene
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_GT2GM_SYNCHPOS LINE:943
+ 	  Message:player synch position but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Skill/SkillMessage.cpp FUNC:On_MSG_REQUEST_MSG_SIM_GT2GM_ATTACK LINE:110
+ 	  Message:Player request attack but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_16:58:38 FILE:../src/Container/ContainerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_USEGOODS LINE:380
+ 	  Message:Player request use goods but player[gs charid=4294968797] is not exist
+LOGERROR
+2016-12-19_17:15:27 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task

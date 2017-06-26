@@ -1,0 +1,10 @@
+
+LOGWARNING
+2016-12-19_15:18:52 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-19_15:19:30 FILE:../src/QuickMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_QUICKMESSAGE LINE:182
+ 	  Message:receive quick requested message but player[281479271679467] is not existed
+LOGWARNING
+2016-12-19_15:25:07 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack

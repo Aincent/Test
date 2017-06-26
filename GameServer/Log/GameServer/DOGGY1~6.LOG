@@ -1,0 +1,743 @@
+
+LOGDEBUG
+2016-09-20_10:37:01 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:02 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_10:37:33 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_10:37:33 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_10:37:33 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_10:37:33 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_10:37:33 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_10:37:35 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_10:37:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_10:37:47 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:37:57 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:38:00 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:38:02 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:38:03 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:38:05 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:38:07 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:38:09 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-09-20_10:41:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_10:41:52 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_10:41:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901891] container info
+LOGDEBUG
+2016-09-20_10:41:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:41:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:41:53 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:80
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-09-20_10:41:54 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_10:49:48 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_10:49:48 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_10:49:48 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_10:49:48 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_10:49:48 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_10:49:50 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_10:49:54 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_10:50:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_10:50:42 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_10:50:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901891] container info
+LOGDEBUG
+2016-09-20_10:50:43 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:50:43 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:50:44 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_10:51:49 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_10:52:23 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_10:52:23 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_10:52:23 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901891] container info
+LOGDEBUG
+2016-09-20_10:52:24 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:52:24 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:52:25 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_10:52:31 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_10:54:22 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_10:54:22 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_10:54:22 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901891] container info
+LOGDEBUG
+2016-09-20_10:54:23 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:54:23 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:54:24 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_10:54:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_10:54:30 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:54:30 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:35 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_10:56:35 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_10:56:35 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901891] container info
+LOGDEBUG
+2016-09-20_10:56:35 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:56:35 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_10:56:37 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_10:56:40 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_10:56:44 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:46 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:46 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:46 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:46 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:47 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:47 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:48 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:48 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:48 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:48 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:49 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:49 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:49 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:49 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:50 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:50 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:51 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:51 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:56:54 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_AFFIRMREFINE LINE:1200
+ 	  Message:return AffirmRefine state = 0
+LOGDEBUG
+2016-09-20_10:56:59 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:56:59 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:01 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:01 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:02 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:02 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:03 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:03 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:10 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_AFFIRMREFINE LINE:1200
+ 	  Message:return AffirmRefine state = 0
+LOGDEBUG
+2016-09-20_10:57:26 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:26 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:28 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:28 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:29 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:29 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:30 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:30 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:31 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:31 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:31 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:31 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:32 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:32 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:33 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_REFINE LINE:962
+ 	  Message:Player GT2GM refine
+LOGDEBUG
+2016-09-20_10:57:33 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:RefineEquip LINE:1159
+ 	  Message:refine GM TO GAT
+LOGDEBUG
+2016-09-20_10:57:35 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_AFFIRMREFINE LINE:1200
+ 	  Message:return AffirmRefine state = 0
+LOGDEBUG
+2016-09-20_11:00:03 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_11:04:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_11:04:38 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_11:04:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901891] container info
+LOGDEBUG
+2016-09-20_11:04:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_11:04:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_11:04:40 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_11:04:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_11:38:06 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_11:38:06 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_11:38:06 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_11:38:06 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:38:06 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:38:08 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:80
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-09-20_11:38:08 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_11:50:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_11:50:26 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_11:50:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_11:50:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:50:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:50:28 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:80
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-09-20_11:50:28 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_11:54:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_11:54:16 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_11:54:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901891] container info
+LOGDEBUG
+2016-09-20_11:54:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_11:54:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901891] info 
+LOGDEBUG
+2016-09-20_11:54:19 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_11:54:23 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_11:54:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_11:54:58 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_11:54:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_11:54:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:54:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:55:02 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_11:55:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_11:55:30 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_11:55:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_11:55:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:55:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_11:55:33 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_11:55:35 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:00:03 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:303
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-09-20_12:01:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:01:01 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:01:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:01:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:01:01 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:01:04 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:01:09 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:02:57 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:02:57 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:02:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:02:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:02:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:03:00 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:03:02 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:04:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:04:52 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:04:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:04:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:04:52 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:04:55 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:05:06 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:05:39 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:05:39 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:05:39 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:05:39 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:05:39 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:05:41 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:80
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-09-20_12:05:41 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:10:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:10:11 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:10:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:10:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:10:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:10:14 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:10:15 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:12:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:12:11 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:12:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:12:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:12:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:12:14 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:12:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:15:15 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:15:16 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:15:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:15:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:15:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:15:18 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:15:23 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:26:11 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:26:11 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:26:12 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:26:12 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:26:12 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:26:14 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:26:17 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:26:22 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPGRADEEQUIP LINE:304
+ 	  Message:client req gt get upgrade equip
+LOGDEBUG
+2016-09-20_12:26:24 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPGRADEEQUIP LINE:304
+ 	  Message:client req gt get upgrade equip
+LOGDEBUG
+2016-09-20_12:26:32 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPGRADEEQUIP LINE:304
+ 	  Message:client req gt get upgrade equip
+LOGDEBUG
+2016-09-20_12:28:12 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-09-20_12:28:12 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1205
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-09-20_12:28:12 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1671
+ 	  Message:gameserver request dbserver player[12884901890] container info
+LOGDEBUG
+2016-09-20_12:28:12 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4050
+ 	  Message:finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:28:12 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4085
+ 	  Message:player login in game and finish player[12884901890] info 
+LOGDEBUG
+2016-09-20_12:28:18 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-09-20_12:28:18 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1122
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-09-20_12:28:24 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPGRADEEQUIP LINE:304
+ 	  Message:client req gt get upgrade equip
+LOGDEBUG
+2016-09-20_12:28:56 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPGRADEEQUIP LINE:304
+ 	  Message:client req gt get upgrade equip

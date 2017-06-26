@@ -1,0 +1,1783 @@
+
+LOGDEBUG
+2016-12-11_13:54:58 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-12-11_13:54:59 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-12-11_13:54:59 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-12-11_13:54:59 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:00 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_13:55:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-11_13:55:27 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-11_13:55:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968935] container info
+LOGDEBUG
+2016-12-11_13:55:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968935] info 
+LOGDEBUG
+2016-12-11_13:55:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968935] info 
+LOGDEBUG
+2016-12-11_13:55:36 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-11_13:55:55 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-11_13:56:03 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-11_13:56:03 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-11_13:56:03 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968935] container info
+LOGDEBUG
+2016-12-11_13:56:04 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968935] info 
+LOGDEBUG
+2016-12-11_13:56:04 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968935] info 
+LOGDEBUG
+2016-12-11_13:56:04 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-11_13:56:04 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-11_13:56:30 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:330
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-12-11_13:56:50 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10003 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_13:57:03 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-11_13:57:04 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10003
+LOGDEBUG
+2016-12-11_13:57:04 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10004 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:57:08 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10004 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:57:14 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10004
+LOGDEBUG
+2016-12-11_13:57:14 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10005 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_13:57:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 81 ...............m_ypos = 58
+LOGDEBUG
+2016-12-11_13:57:16 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10005 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_13:57:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10005
+LOGDEBUG
+2016-12-11_13:57:28 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10006 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:57:28 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10006 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:57:35 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10006
+LOGDEBUG
+2016-12-11_13:57:35 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10007 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,3
+LOGDEBUG
+2016-12-11_13:57:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 88 ...............m_ypos = 74
+LOGDEBUG
+2016-12-11_13:57:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 84 ...............m_ypos = 74
+LOGDEBUG
+2016-12-11_13:57:54 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10007 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,3 targeNum,3
+LOGDEBUG
+2016-12-11_13:58:04 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10007
+LOGDEBUG
+2016-12-11_13:58:04 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10008 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:04 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10008 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:19 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10008
+LOGDEBUG
+2016-12-11_13:58:19 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10009 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,4
+LOGDEBUG
+2016-12-11_13:58:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 85 ...............m_ypos = 94
+LOGDEBUG
+2016-12-11_13:58:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 87 ...............m_ypos = 96
+LOGDEBUG
+2016-12-11_13:58:25 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10009 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,4 targeNum,4
+LOGDEBUG
+2016-12-11_13:58:35 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10009
+LOGDEBUG
+2016-12-11_13:58:35 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10010 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:35 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10010 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:43 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10010
+LOGDEBUG
+2016-12-11_13:58:43 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10011 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:43 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10011 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:51 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10011
+LOGDEBUG
+2016-12-11_13:58:51 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10012 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:51 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10012 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:58:56 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10012
+LOGDEBUG
+2016-12-11_13:58:56 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10013 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,5
+LOGDEBUG
+2016-12-11_13:58:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 67 ...............m_ypos = 106
+LOGDEBUG
+2016-12-11_13:58:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 64 ...............m_ypos = 106
+LOGDEBUG
+2016-12-11_13:58:59 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10013 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,5 targeNum,5
+LOGDEBUG
+2016-12-11_13:59:06 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10013
+LOGDEBUG
+2016-12-11_13:59:06 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10014 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:59:06 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10014 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:59:13 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10014
+LOGDEBUG
+2016-12-11_13:59:13 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10015 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_13:59:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 53 ...............m_ypos = 116
+LOGDEBUG
+2016-12-11_13:59:15 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10015 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_13:59:21 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10015
+LOGDEBUG
+2016-12-11_13:59:21 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10016 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_13:59:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 53 ...............m_ypos = 115
+LOGDEBUG
+2016-12-11_13:59:23 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10016 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_13:59:29 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10016
+LOGDEBUG
+2016-12-11_13:59:29 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10017 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:59:29 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10017 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:59:37 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10017
+LOGDEBUG
+2016-12-11_13:59:37 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10018 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:59:37 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10018 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_13:59:58 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10018
+LOGDEBUG
+2016-12-11_13:59:58 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10019 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:00:03 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_14:00:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 40 ...............m_ypos = 109
+LOGDEBUG
+2016-12-11_14:00:14 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10019 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:00:20 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10019
+LOGDEBUG
+2016-12-11_14:00:20 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10020 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,5
+LOGDEBUG
+2016-12-11_14:00:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 110
+LOGDEBUG
+2016-12-11_14:00:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 40 ...............m_ypos = 110
+LOGDEBUG
+2016-12-11_14:00:24 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10020 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,5 targeNum,5
+LOGDEBUG
+2016-12-11_14:00:33 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10020
+LOGDEBUG
+2016-12-11_14:00:33 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10021 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:00:33 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10021 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:00:48 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10021
+LOGDEBUG
+2016-12-11_14:00:48 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10022 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,3
+LOGDEBUG
+2016-12-11_14:00:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 25 ...............m_ypos = 49
+LOGDEBUG
+2016-12-11_14:00:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 22 ...............m_ypos = 50
+LOGDEBUG
+2016-12-11_14:00:54 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10022 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,3 targeNum,3
+LOGDEBUG
+2016-12-11_14:01:02 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10022
+LOGDEBUG
+2016-12-11_14:01:02 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10023 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:02 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10023 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:07 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10023
+LOGDEBUG
+2016-12-11_14:01:07 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10024 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:07 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10024 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:17 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10024
+LOGDEBUG
+2016-12-11_14:01:17 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10025 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:17 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10025 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:22 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10025
+LOGDEBUG
+2016-12-11_14:01:22 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10026 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:22 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10026 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:29 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10026
+LOGDEBUG
+2016-12-11_14:01:29 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10027 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:29 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10027 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:51 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10027
+LOGDEBUG
+2016-12-11_14:01:51 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10028 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:01:51 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10028 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:10 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10028
+LOGDEBUG
+2016-12-11_14:02:10 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10029 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:10 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10029 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:16 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10029
+LOGDEBUG
+2016-12-11_14:02:16 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10030 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:21 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10030 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:27 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10030
+LOGDEBUG
+2016-12-11_14:02:27 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10031 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:27 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10031 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:32 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10031
+LOGDEBUG
+2016-12-11_14:02:32 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10032 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:32 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10032 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:51 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10032
+LOGDEBUG
+2016-12-11_14:02:51 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10033 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:02:51 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10033 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:03:08 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10033
+LOGDEBUG
+2016-12-11_14:03:08 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10034 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,9
+LOGDEBUG
+2016-12-11_14:03:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 57
+LOGDEBUG
+2016-12-11_14:03:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 80 ...............m_ypos = 55
+LOGDEBUG
+2016-12-11_14:03:12 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10034 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,9 targeNum,9
+LOGDEBUG
+2016-12-11_14:03:21 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10034
+LOGDEBUG
+2016-12-11_14:03:21 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10035 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:03:21 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10035 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:03:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10035
+LOGDEBUG
+2016-12-11_14:03:28 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10036 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,9
+LOGDEBUG
+2016-12-11_14:03:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 94 ...............m_ypos = 54
+LOGDEBUG
+2016-12-11_14:03:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 97 ...............m_ypos = 52
+LOGDEBUG
+2016-12-11_14:03:32 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10036 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,9 targeNum,9
+LOGDEBUG
+2016-12-11_14:03:42 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10036
+LOGDEBUG
+2016-12-11_14:03:42 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10037 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:03:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 134 ...............m_ypos = 41
+LOGDEBUG
+2016-12-11_14:03:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 135 ...............m_ypos = 41
+LOGDEBUG
+2016-12-11_14:03:48 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10037 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:03:57 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10037
+LOGDEBUG
+2016-12-11_14:03:57 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10038 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:04:01 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10038 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:04:08 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10038
+LOGDEBUG
+2016-12-11_14:04:08 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10039 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,9
+LOGDEBUG
+2016-12-11_14:04:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 139 ...............m_ypos = 36
+LOGDEBUG
+2016-12-11_14:04:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 143 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:04:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 136 ...............m_ypos = 29
+LOGDEBUG
+2016-12-11_14:04:16 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10039 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,9 targeNum,9
+LOGDEBUG
+2016-12-11_14:04:23 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10039
+LOGDEBUG
+2016-12-11_14:04:23 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10040 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:04:23 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10040 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:04:35 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10040
+LOGDEBUG
+2016-12-11_14:04:35 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10041 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:04:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 13
+LOGDEBUG
+2016-12-11_14:04:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 13
+LOGDEBUG
+2016-12-11_14:04:48 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10041 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:04:58 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10041
+LOGDEBUG
+2016-12-11_14:04:58 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10042 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:04:58 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10042 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:05:07 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10042
+LOGDEBUG
+2016-12-11_14:05:07 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10043 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:05:07 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10043 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:05:13 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10043
+LOGDEBUG
+2016-12-11_14:05:13 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10044 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:05:17 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10044 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:05:23 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10044
+LOGDEBUG
+2016-12-11_14:05:23 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10045 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:05:23 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10045 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:05:33 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10045
+LOGDEBUG
+2016-12-11_14:05:33 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10046 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:05:33 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10046 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:05:44 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10046
+LOGDEBUG
+2016-12-11_14:05:44 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10047 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,11
+LOGDEBUG
+2016-12-11_14:05:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 109 ...............m_ypos = 43
+LOGDEBUG
+2016-12-11_14:05:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 107 ...............m_ypos = 43
+LOGDEBUG
+2016-12-11_14:05:48 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10047 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,11 targeNum,11
+LOGDEBUG
+2016-12-11_14:05:55 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10047
+LOGDEBUG
+2016-12-11_14:05:55 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10048 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:06:02 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10048 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:06:12 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10048
+LOGDEBUG
+2016-12-11_14:06:12 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10049 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,11
+LOGDEBUG
+2016-12-11_14:06:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 71 ...............m_ypos = 38
+LOGDEBUG
+2016-12-11_14:06:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 73 ...............m_ypos = 35
+LOGDEBUG
+2016-12-11_14:06:20 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10049 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,11 targeNum,11
+LOGDEBUG
+2016-12-11_14:06:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10049
+LOGDEBUG
+2016-12-11_14:06:28 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10050 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,12
+LOGDEBUG
+2016-12-11_14:06:32 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 53 ...............m_ypos = 20
+LOGDEBUG
+2016-12-11_14:06:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 51 ...............m_ypos = 20
+LOGDEBUG
+2016-12-11_14:06:36 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10050 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,12 targeNum,12
+LOGDEBUG
+2016-12-11_14:06:45 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10050
+LOGDEBUG
+2016-12-11_14:06:45 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10051 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:06:45 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10051 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:07:07 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10051
+LOGDEBUG
+2016-12-11_14:07:07 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10052 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,12
+LOGDEBUG
+2016-12-11_14:07:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 21 ...............m_ypos = 73
+LOGDEBUG
+2016-12-11_14:07:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 23 ...............m_ypos = 74
+LOGDEBUG
+2016-12-11_14:07:20 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10052 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,12 targeNum,12
+LOGDEBUG
+2016-12-11_14:07:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10052
+LOGDEBUG
+2016-12-11_14:07:28 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10053 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:07:28 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10053 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:08:08 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10053
+LOGDEBUG
+2016-12-11_14:08:08 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10054 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,12
+LOGDEBUG
+2016-12-11_14:08:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 119 ...............m_ypos = 26
+LOGDEBUG
+2016-12-11_14:08:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 117 ...............m_ypos = 27
+LOGDEBUG
+2016-12-11_14:08:12 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10054 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,12 targeNum,12
+LOGDEBUG
+2016-12-11_14:08:20 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10054
+LOGDEBUG
+2016-12-11_14:08:20 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10055 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:08:20 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10055 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:08:42 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10055
+LOGDEBUG
+2016-12-11_14:08:42 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10056 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:08:54 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10056 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:09:07 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10056
+LOGDEBUG
+2016-12-11_14:09:07 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10057 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:09:07 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10057 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:09:29 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10057
+LOGDEBUG
+2016-12-11_14:09:29 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10058 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:09:29 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10058 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:09:44 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10058
+LOGDEBUG
+2016-12-11_14:09:44 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10059 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:09:44 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10059 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:09:59 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10059
+LOGDEBUG
+2016-12-11_14:09:59 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10060 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:09:59 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10060 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:10:04 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10060
+LOGDEBUG
+2016-12-11_14:10:04 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10061 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:10:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 32
+LOGDEBUG
+2016-12-11_14:10:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 32
+LOGDEBUG
+2016-12-11_14:10:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 32
+LOGDEBUG
+2016-12-11_14:10:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 98 ...............m_ypos = 32
+LOGDEBUG
+2016-12-11_14:10:14 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10061 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:10:22 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10061
+LOGDEBUG
+2016-12-11_14:10:22 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10062 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:10:22 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10062 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:10:27 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10062
+LOGDEBUG
+2016-12-11_14:10:27 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10063 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:10:27 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10063 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:10:37 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10063
+LOGDEBUG
+2016-12-11_14:10:37 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10064 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:10:37 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10064 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:10:49 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10064
+LOGDEBUG
+2016-12-11_14:10:49 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10065 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,14
+LOGDEBUG
+2016-12-11_14:10:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 49
+LOGDEBUG
+2016-12-11_14:10:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 47
+LOGDEBUG
+2016-12-11_14:10:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 129 ...............m_ypos = 47
+LOGDEBUG
+2016-12-11_14:11:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 128 ...............m_ypos = 47
+LOGDEBUG
+2016-12-11_14:11:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 126 ...............m_ypos = 49
+LOGDEBUG
+2016-12-11_14:11:05 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10065 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,14 targeNum,14
+LOGDEBUG
+2016-12-11_14:11:12 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10065
+LOGDEBUG
+2016-12-11_14:11:12 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10066 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:11:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 61
+LOGDEBUG
+2016-12-11_14:11:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 61
+LOGDEBUG
+2016-12-11_14:11:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 61
+LOGDEBUG
+2016-12-11_14:11:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 61
+LOGDEBUG
+2016-12-11_14:11:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 61
+LOGDEBUG
+2016-12-11_14:11:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 61
+LOGDEBUG
+2016-12-11_14:11:26 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10066 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:11:34 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10066
+LOGDEBUG
+2016-12-11_14:11:34 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10067 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:11:34 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10067 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:11:46 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10067
+LOGDEBUG
+2016-12-11_14:11:46 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10068 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:11:46 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10068 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:12:02 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10068
+LOGDEBUG
+2016-12-11_14:12:02 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10069 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,14
+LOGDEBUG
+2016-12-11_14:12:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 39 ...............m_ypos = 15
+LOGDEBUG
+2016-12-11_14:12:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 39 ...............m_ypos = 15
+LOGDEBUG
+2016-12-11_14:12:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 40 ...............m_ypos = 7
+LOGDEBUG
+2016-12-11_14:12:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 40 ...............m_ypos = 7
+LOGDEBUG
+2016-12-11_14:12:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 37 ...............m_ypos = 11
+LOGDEBUG
+2016-12-11_14:12:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 36 ...............m_ypos = 11
+LOGDEBUG
+2016-12-11_14:12:18 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10069 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,14 targeNum,14
+LOGDEBUG
+2016-12-11_14:12:43 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10069
+LOGDEBUG
+2016-12-11_14:12:43 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10070 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,14
+LOGDEBUG
+2016-12-11_14:12:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 55 ...............m_ypos = 86
+LOGDEBUG
+2016-12-11_14:12:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 55 ...............m_ypos = 87
+LOGDEBUG
+2016-12-11_14:12:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 54 ...............m_ypos = 84
+LOGDEBUG
+2016-12-11_14:12:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 55 ...............m_ypos = 87
+LOGDEBUG
+2016-12-11_14:12:54 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10070 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,14 targeNum,14
+LOGDEBUG
+2016-12-11_14:13:02 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10070
+LOGDEBUG
+2016-12-11_14:13:02 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10071 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:13:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 56 ...............m_ypos = 80
+LOGDEBUG
+2016-12-11_14:13:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 56 ...............m_ypos = 80
+LOGDEBUG
+2016-12-11_14:13:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 56 ...............m_ypos = 80
+LOGDEBUG
+2016-12-11_14:13:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 56 ...............m_ypos = 80
+LOGDEBUG
+2016-12-11_14:13:11 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10071 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:13:25 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10071
+LOGDEBUG
+2016-12-11_14:13:25 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10072 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:13:25 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10072 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:13:40 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10072
+LOGDEBUG
+2016-12-11_14:13:40 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10073 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:13:40 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10073 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:14:09 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10073
+LOGDEBUG
+2016-12-11_14:14:09 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10074 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,15
+LOGDEBUG
+2016-12-11_14:14:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 38 ...............m_ypos = 51
+LOGDEBUG
+2016-12-11_14:14:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 38 ...............m_ypos = 52
+LOGDEBUG
+2016-12-11_14:14:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 39 ...............m_ypos = 50
+LOGDEBUG
+2016-12-11_14:14:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 38 ...............m_ypos = 50
+LOGDEBUG
+2016-12-11_14:14:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 40 ...............m_ypos = 50
+LOGDEBUG
+2016-12-11_14:14:22 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10074 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,15 targeNum,15
+LOGDEBUG
+2016-12-11_14:14:29 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10074
+LOGDEBUG
+2016-12-11_14:14:29 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10075 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:14:29 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10075 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:14:40 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10075
+LOGDEBUG
+2016-12-11_14:14:40 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10076 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-11_14:14:40 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10076 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-11_14:14:40 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10076
+LOGDEBUG
+2016-12-11_14:14:40 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10077 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,15
+LOGDEBUG
+2016-12-11_14:14:40 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10076
+LOGDEBUG
+2016-12-11_14:14:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 60 ...............m_ypos = 39
+LOGDEBUG
+2016-12-11_14:14:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 60 ...............m_ypos = 39
+LOGDEBUG
+2016-12-11_14:14:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 58 ...............m_ypos = 43
+LOGDEBUG
+2016-12-11_14:14:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 58 ...............m_ypos = 43
+LOGDEBUG
+2016-12-11_14:14:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 59 ...............m_ypos = 46
+LOGDEBUG
+2016-12-11_14:14:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 56 ...............m_ypos = 46
+LOGDEBUG
+2016-12-11_14:14:55 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10077 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,15 targeNum,15
+LOGDEBUG
+2016-12-11_14:15:03 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10077
+LOGDEBUG
+2016-12-11_14:15:03 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10078 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-11_14:15:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 63 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:15:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 63 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:15:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 63 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:15:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 63 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:15:13 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10078 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-11_14:15:22 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10078
+LOGDEBUG
+2016-12-11_14:15:22 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10079 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,42 targeNum,42
+LOGDEBUG
+2016-12-11_14:15:22 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10079 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,42 targeNum,42
+LOGDEBUG
+2016-12-11_14:15:22 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10079
+LOGDEBUG
+2016-12-11_14:15:22 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10080 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,3
+LOGDEBUG
+2016-12-11_14:15:22 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10079
+LOGDEBUG
+2016-12-11_14:15:32 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10080 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,3 targeNum,3
+LOGDEBUG
+2016-12-11_14:15:41 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10080
+LOGDEBUG
+2016-12-11_14:15:41 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10081 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:15:41 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10081 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:15:51 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10081
+LOGDEBUG
+2016-12-11_14:15:51 FILE:../src/MapInstance/InstanceMgr.cpp FUNC:GetLeftValidTimes LINE:1064
+ 	  Message:InstanceMgr::GetLeftValidTimes: intanceId is invalid 0.
+LOGDEBUG
+2016-12-11_14:15:51 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10082 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:15:51 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10082 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:15:57 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10082
+LOGDEBUG
+2016-12-11_14:15:57 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10083 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:15:57 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10083 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:16:02 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10083
+LOGDEBUG
+2016-12-11_14:16:02 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10084 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,16
+LOGDEBUG
+2016-12-11_14:16:05 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 71 ...............m_ypos = 36
+LOGDEBUG
+2016-12-11_14:16:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 72 ...............m_ypos = 36
+LOGDEBUG
+2016-12-11_14:16:10 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 74 ...............m_ypos = 36
+LOGDEBUG
+2016-12-11_14:16:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 73 ...............m_ypos = 36
+LOGDEBUG
+2016-12-11_14:16:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 74 ...............m_ypos = 37
+LOGDEBUG
+2016-12-11_14:16:16 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 74 ...............m_ypos = 37
+LOGDEBUG
+2016-12-11_14:16:20 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10084 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,16 targeNum,16
+LOGDEBUG
+2016-12-11_14:16:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10084
+LOGDEBUG
+2016-12-11_14:16:28 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10085 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,45 targeNum,45
+LOGDEBUG
+2016-12-11_14:16:28 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10085 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,45 targeNum,45
+LOGDEBUG
+2016-12-11_14:16:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10085
+LOGDEBUG
+2016-12-11_14:16:28 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10086 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,10
+LOGDEBUG
+2016-12-11_14:16:28 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10085
+LOGDEBUG
+2016-12-11_14:16:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 77 ...............m_ypos = 37
+LOGDEBUG
+2016-12-11_14:16:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 77 ...............m_ypos = 37
+LOGDEBUG
+2016-12-11_14:16:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 77 ...............m_ypos = 39
+LOGDEBUG
+2016-12-11_14:16:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 76 ...............m_ypos = 38
+LOGDEBUG
+2016-12-11_14:16:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 75 ...............m_ypos = 38
+LOGDEBUG
+2016-12-11_14:16:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 75 ...............m_ypos = 39
+LOGDEBUG
+2016-12-11_14:16:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 74 ...............m_ypos = 39
+LOGDEBUG
+2016-12-11_14:16:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 73 ...............m_ypos = 39
+LOGDEBUG
+2016-12-11_14:16:47 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10086 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,10 targeNum,10
+LOGDEBUG
+2016-12-11_14:16:56 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10086
+LOGDEBUG
+2016-12-11_14:16:56 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10087 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:16:56 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10087 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:17:01 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10087
+LOGDEBUG
+2016-12-11_14:17:01 FILE:../src/MapInstance/InstanceMgr.cpp FUNC:GetLeftValidTimes LINE:1064
+ 	  Message:InstanceMgr::GetLeftValidTimes: intanceId is invalid 0.
+LOGDEBUG
+2016-12-11_14:17:01 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10088 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:17:01 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10088 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-11_14:17:10 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10088
+LOGDEBUG
+2016-12-11_14:17:10 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679591 CanSubmit Task,10089 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,47 targeNum,47
+LOGDEBUG
+2016-12-11_14:17:10 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10089 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,47 targeNum,47
+LOGDEBUG
+2016-12-11_14:17:10 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10089
+LOGDEBUG
+2016-12-11_14:17:10 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679591 accept Task,10090 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,17
+LOGDEBUG
+2016-12-11_14:17:10 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679591 Submit Task 10089
+LOGDEBUG
+2016-12-11_14:17:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 89 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:17:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 87 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:17:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 87 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:17:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 87 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:17:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 88 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:17:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 88 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:17:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 89 ...............m_ypos = 33
+LOGDEBUG
+2016-12-11_14:18:15 FILE:../src/DanLu/DanLuMessager.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GT_DANLUINFO LINE:81
+ 	  Message:Player request Danlu info
+LOGDEBUG
+2016-12-11_14:18:33 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-11_14:18:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-11_14:18:46 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-11_14:18:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968935] container info
+LOGDEBUG
+2016-12-11_14:18:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968935] info 
+LOGDEBUG
+2016-12-11_14:18:46 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968935] info 
+LOGDEBUG
+2016-12-11_14:18:46 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-11_14:18:46 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-11_14:19:15 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-11_14:19:36 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-11_18:00:15 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 228
+LOGDEBUG
+2016-12-11_19:00:03 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-11_23:00:15 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 228
+LOGDEBUG
+2016-12-12_08:00:03 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-12_10:23:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-12_10:23:26 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-12_10:23:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968935] container info
+LOGDEBUG
+2016-12-12_10:23:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968935] info 
+LOGDEBUG
+2016-12-12_10:23:26 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968935] info 
+LOGDEBUG
+2016-12-12_10:23:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-12_10:23:27 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-12_10:23:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:23:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 19
+LOGDEBUG
+2016-12-12_10:23:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:23:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 116 ...............m_ypos = 28
+LOGDEBUG
+2016-12-12_10:23:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:23:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:23:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 119 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:23:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 120 ...............m_ypos = 42
+LOGDEBUG
+2016-12-12_10:23:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:23:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 129 ...............m_ypos = 45
+LOGDEBUG
+2016-12-12_10:24:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 126 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:24:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 39
+LOGDEBUG
+2016-12-12_10:24:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:24:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 129 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:24:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:24:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:24:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:24:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:24:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 114 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:24:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 119 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:24:26 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-12_10:24:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:24:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:24:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 19
+LOGDEBUG
+2016-12-12_10:24:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:24:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:24:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:24:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 28
+LOGDEBUG
+2016-12-12_10:24:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 28
+LOGDEBUG
+2016-12-12_10:24:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 123 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:24:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:24:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:24:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:25:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 117 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:25:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 117 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:25:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:25:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:25:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:25:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 123 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:25:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:25:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 19
+LOGDEBUG
+2016-12-12_10:25:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 117 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:25:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:25:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:25:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:25:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:25:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:25:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:25:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:25:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:25:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 22
+LOGDEBUG
+2016-12-12_10:25:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:25:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 19
+LOGDEBUG
+2016-12-12_10:25:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 19
+LOGDEBUG
+2016-12-12_10:26:00 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:26:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:26:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:26:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:26:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:26:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:26:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:26:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:26:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 123 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:26:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:26:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:26:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 117 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:26:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 28
+LOGDEBUG
+2016-12-12_10:26:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 30
+LOGDEBUG
+2016-12-12_10:26:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 25
+LOGDEBUG
+2016-12-12_10:26:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 25
+LOGDEBUG
+2016-12-12_10:26:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 105 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:26:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 31
+LOGDEBUG
+2016-12-12_10:26:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:26:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:26:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 116 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:26:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:27:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:27:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:27:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:27:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:27:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 103 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:27:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 101 ...............m_ypos = 32
+LOGDEBUG
+2016-12-12_10:27:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:27:20 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 120 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:27:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:27:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:27:29 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:27:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:27:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:27:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:27:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 120 ...............m_ypos = 33
+LOGDEBUG
+2016-12-12_10:27:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:27:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 123 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:27:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 42
+LOGDEBUG
+2016-12-12_10:27:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 123 ...............m_ypos = 50
+LOGDEBUG
+2016-12-12_10:27:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 123 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:27:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:27:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:28:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:28:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:28:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 129 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:19 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:28:24 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:30 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 129 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:28:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 48
+LOGDEBUG
+2016-12-12_10:28:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 48
+LOGDEBUG
+2016-12-12_10:28:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:28:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:28:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:28:51 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:28:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 48
+LOGDEBUG
+2016-12-12_10:28:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:28:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:29:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:29:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:29:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 48
+LOGDEBUG
+2016-12-12_10:29:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 45
+LOGDEBUG
+2016-12-12_10:29:12 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:29:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:29:18 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:29:20 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 126 ...............m_ypos = 39
+LOGDEBUG
+2016-12-12_10:29:23 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 42
+LOGDEBUG
+2016-12-12_10:29:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:29:28 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 122 ...............m_ypos = 41
+LOGDEBUG
+2016-12-12_10:29:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 126 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:29:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 127 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:29:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 122 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:29:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 123 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:29:42 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 39
+LOGDEBUG
+2016-12-12_10:29:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 45
+LOGDEBUG
+2016-12-12_10:29:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 39
+LOGDEBUG
+2016-12-12_10:29:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 46
+LOGDEBUG
+2016-12-12_10:29:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 49
+LOGDEBUG
+2016-12-12_10:29:56 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:29:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 130 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:30:01 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 124 ...............m_ypos = 43
+LOGDEBUG
+2016-12-12_10:30:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 119 ...............m_ypos = 40
+LOGDEBUG
+2016-12-12_10:30:06 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 31
+LOGDEBUG
+2016-12-12_10:30:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 28
+LOGDEBUG
+2016-12-12_10:30:11 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 117 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:30:14 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 122 ...............m_ypos = 21
+LOGDEBUG
+2016-12-12_10:30:17 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 120 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:30:20 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:30:22 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 111 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:30:25 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:30:27 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 22
+LOGDEBUG
+2016-12-12_10:30:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:30:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 23
+LOGDEBUG
+2016-12-12_10:30:36 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:30:39 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 22
+LOGDEBUG
+2016-12-12_10:30:41 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 115 ...............m_ypos = 26
+LOGDEBUG
+2016-12-12_10:30:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 118 ...............m_ypos = 29
+LOGDEBUG
+2016-12-12_10:30:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 121 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:30:50 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 116 ...............m_ypos = 20
+LOGDEBUG
+2016-12-12_10:30:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 112 ...............m_ypos = 20

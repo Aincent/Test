@@ -1,0 +1,7 @@
+
+LOGFATAL
+2016-12-22_15:35:41 FILE:../src/Arena/ArenaMessage.cpp FUNC:Handle_Ack LINE:55
+ 	  Message:Message:[messageid = 8534 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[28881]
+LOGFATAL
+2016-12-22_15:35:41 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[28881], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]

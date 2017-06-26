@@ -1,0 +1,49 @@
+
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_15:58:11 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-10-19_16:08:24 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1589
+ 	  Message:save player[0] battle info[60] but null
+LOGERROR
+2016-10-19_16:09:49 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1589
+ 	  Message:save player[0] battle info[60] but null
+LOGERROR
+2016-10-19_16:10:14 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1589
+ 	  Message:save player[0] battle info[60] but null
+LOGERROR
+2016-10-19_16:11:19 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1589
+ 	  Message:save player[0] battle info[58] but null
+LOGERROR
+2016-10-19_16:14:19 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1589
+ 	  Message:save player[0] battle info[58] but null

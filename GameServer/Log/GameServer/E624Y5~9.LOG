@@ -1,0 +1,22 @@
+
+LOGERROR
+2016-12-20_17:16:41 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-20_17:16:41 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-20_17:34:18 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:RemoveDelayPlayer LINE:1564
+ 	  Message:remove delay nowtime[1482226458627], oldtime[1482226425747], player[4294968801] and gameserver request gt exit
+LOGERROR
+2016-12-20_17:34:50 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:IsLoginON LINE:571
+ 	  Message:Transfer Map[221] is error
+LOGERROR
+2016-12-20_17:34:50 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=2203338276865]
+LOGERROR
+2016-12-20_17:34:51 FILE:../src/Map/SceneManager.cpp FUNC:EnterScene LINE:240
+ 	  Message:object enter scene but find not scene[sceneid=2203338276865]
+LOGERROR
+2016-12-20_17:34:51 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CLIENTIN LINE:780
+ 	  Message:client already in map and synch view but player[gs charid=281479271679457] cannot enter scene

@@ -1,0 +1,872 @@
+
+LOGDEBUG
+2016-12-08_19:49:44 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-12-08_19:49:45 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-12-08_19:49:45 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-12-08_19:49:45 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:49:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:50:44 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-08_19:50:44 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-08_19:50:44 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-08_19:50:44 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968900] container info
+LOGDEBUG
+2016-12-08_19:50:44 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968900] info 
+LOGDEBUG
+2016-12-08_19:50:44 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968900] info 
+LOGDEBUG
+2016-12-08_19:50:44 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679556 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_19:50:45 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-08_19:50:45 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-08_19:50:47 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_19:50:53 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_19:50:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-08_19:50:58 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-08_19:50:58 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-08_19:50:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968916] container info
+LOGDEBUG
+2016-12-08_19:50:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:50:58 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:50:58 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679572 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_19:50:59 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-08_19:50:59 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-08_19:51:12 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:330
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-12-08_19:51:24 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1306
+ 	  Message:Player 281479271679572 Submit Task 10001
+LOGDEBUG
+2016-12-08_19:51:24 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679572 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_19:51:24 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679572 accept Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_19:51:28 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_19:51:46 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STONEDAADEL LINE:766
+ 	  Message:Player add or delete stone on stone
+LOGDEBUG
+2016-12-08_19:51:55 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:51:55 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:51:56 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:51:56 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:51:56 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:51:56 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:51:56 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:51:58 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_19:52:00 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_19:52:08 FILE:../src/EquipSmith/EquipSmithEx/EquipSmithExMgr.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_STRENGTHEQUIP LINE:532
+ 	  Message:Player start to strength equip
+LOGDEBUG
+2016-12-08_19:52:14 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_19:52:22 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-08_19:52:22 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-08_19:52:22 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-08_19:52:22 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968916] container info
+LOGDEBUG
+2016-12-08_19:52:22 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:52:22 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:52:22 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679572 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_19:52:23 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-08_19:52:23 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-08_19:52:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_19:52:46 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:52:47 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:856
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-12-08_19:52:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 17 ...............m_ypos = 37
+LOGDEBUG
+2016-12-08_19:52:48 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 25 ...............m_ypos = 33
+LOGDEBUG
+2016-12-08_19:52:50 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:50 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:52:50 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:52:50 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:52:50 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:12 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 130
+LOGDEBUG
+2016-12-08_19:53:14 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_19:53:18 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-08_19:53:18 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-08_19:53:18 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-08_19:53:18 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968916] container info
+LOGDEBUG
+2016-12-08_19:53:18 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:53:18 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:53:18 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679572 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_19:53:19 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-08_19:53:19 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-08_19:53:30 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_19:53:30 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:856
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-12-08_19:53:31 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 17 ...............m_ypos = 37
+LOGDEBUG
+2016-12-08_19:53:31 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:33 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 25 ...............m_ypos = 33
+LOGDEBUG
+2016-12-08_19:53:33 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:35 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:35 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:35 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:35 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:35 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:37 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 25 ...............m_ypos = 35
+LOGDEBUG
+2016-12-08_19:53:37 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320001
+LOGDEBUG
+2016-12-08_19:53:38 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 27 ...............m_ypos = 33
+LOGDEBUG
+2016-12-08_19:53:38 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:41 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:41 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:41 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:41 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:42 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:43 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 44 ...............m_ypos = 25
+LOGDEBUG
+2016-12-08_19:53:43 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:43 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320002
+LOGDEBUG
+2016-12-08_19:53:44 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 23
+LOGDEBUG
+2016-12-08_19:53:46 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:47 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:47 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:47 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 33 ...............m_ypos = 11
+LOGDEBUG
+2016-12-08_19:53:49 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 33 ...............m_ypos = 11
+LOGDEBUG
+2016-12-08_19:53:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:50 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:51 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 40000001
+LOGDEBUG
+2016-12-08_19:53:53 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:53 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:54 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 28 ...............m_ypos = 9
+LOGDEBUG
+2016-12-08_19:53:54 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:55 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 30 ...............m_ypos = 6
+LOGDEBUG
+2016-12-08_19:53:55 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41320003
+LOGDEBUG
+2016-12-08_19:53:56 FILE:../src/MapInstance/InstanceMgr.cpp FUNC:SendAwardToPlayer LINE:2113
+ 	  Message:Send to intance award to player simple message player 281479271679572
+LOGDEBUG
+2016-12-08_19:53:59 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 130
+LOGDEBUG
+2016-12-08_19:54:18 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_19:56:10 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_19:56:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-08_19:56:14 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-08_19:56:14 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-08_19:56:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968916] container info
+LOGDEBUG
+2016-12-08_19:56:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:56:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_19:56:14 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679572 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_19:56:14 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-08_19:58:45 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GT2WS_CLIENTIN LINE:822
+ 	  Message:gameserver request worldserver player info and ack timeout
+LOGDEBUG
+2016-12-08_19:58:45 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_20:04:24 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-08_20:04:24 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-08_20:04:24 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-08_20:04:25 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968916] container info
+LOGDEBUG
+2016-12-08_20:04:25 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_20:04:25 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968916] info 
+LOGDEBUG
+2016-12-08_20:04:25 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679572 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-08_20:04:25 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-08_20:04:25 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-08_20:04:33 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_20:04:33 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:856
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-12-08_20:04:34 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 17 ...............m_ypos = 37
+LOGDEBUG
+2016-12-08_20:04:34 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:35 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 25 ...............m_ypos = 33
+LOGDEBUG
+2016-12-08_20:04:36 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:36 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:36 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:36 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:37 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:37 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:37 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920001
+LOGDEBUG
+2016-12-08_20:04:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 27 ...............m_ypos = 33
+LOGDEBUG
+2016-12-08_20:04:40 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:40 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 35 ...............m_ypos = 31
+LOGDEBUG
+2016-12-08_20:04:42 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:42 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:43 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:45 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 38 ...............m_ypos = 25
+LOGDEBUG
+2016-12-08_20:04:45 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:46 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 40 ...............m_ypos = 27
+LOGDEBUG
+2016-12-08_20:04:47 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:48 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:48 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920002
+LOGDEBUG
+2016-12-08_20:04:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 37 ...............m_ypos = 18
+LOGDEBUG
+2016-12-08_20:04:52 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:04:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 37 ...............m_ypos = 18
+LOGDEBUG
+2016-12-08_20:04:54 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:04:55 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:04:56 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:04:57 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 31 ...............m_ypos = 12
+LOGDEBUG
+2016-12-08_20:04:57 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:04:57 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:04:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 27 ...............m_ypos = 11
+LOGDEBUG
+2016-12-08_20:04:58 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:04:59 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:05:01 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:05:02 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 30 ...............m_ypos = 6
+LOGDEBUG
+2016-12-08_20:05:02 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41920003
+LOGDEBUG
+2016-12-08_20:05:04 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 39 ...............m_ypos = 7
+LOGDEBUG
+2016-12-08_20:05:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 7
+LOGDEBUG
+2016-12-08_20:05:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 7
+LOGDEBUG
+2016-12-08_20:05:13 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 7
+LOGDEBUG
+2016-12-08_20:05:15 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 7
+LOGDEBUG
+2016-12-08_20:05:15 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 42000001
+LOGDEBUG
+2016-12-08_20:05:16 FILE:../src/MapInstance/InstanceMgr.cpp FUNC:SendAwardToPlayer LINE:2113
+ 	  Message:Send to intance award to player simple message player 281479271679572
+LOGDEBUG
+2016-12-08_20:05:17 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 170
+LOGDEBUG
+2016-12-08_20:05:24 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_20:05:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:05:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:200
+ 	  Message:gameserver ret gt get mail goods ack
+LOGDEBUG
+2016-12-08_20:05:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_20:16:29 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_20:16:45 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-08_20:16:46 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:856
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-12-08_20:16:47 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 17 ...............m_ypos = 37
+LOGDEBUG
+2016-12-08_20:16:47 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:48 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 25 ...............m_ypos = 33
+LOGDEBUG
+2016-12-08_20:16:48 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:49 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820001
+LOGDEBUG
+2016-12-08_20:16:51 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:52 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 39 ...............m_ypos = 30
+LOGDEBUG
+2016-12-08_20:16:52 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:53 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 37 ...............m_ypos = 30
+LOGDEBUG
+2016-12-08_20:16:53 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:54 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:54 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:54 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:54 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:56 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820002
+LOGDEBUG
+2016-12-08_20:16:58 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 35 ...............m_ypos = 18
+LOGDEBUG
+2016-12-08_20:16:58 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:16:59 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 28 ...............m_ypos = 12
+LOGDEBUG
+2016-12-08_20:16:59 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:16:59 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:16:59 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:16:59 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:16:59 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:16:59 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:17:01 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:17:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 33 ...............m_ypos = 6
+LOGDEBUG
+2016-12-08_20:17:03 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:17:03 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 33 ...............m_ypos = 5
+LOGDEBUG
+2016-12-08_20:17:03 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41820003
+LOGDEBUG
+2016-12-08_20:17:08 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 7
+LOGDEBUG
+2016-12-08_20:17:09 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 43 ...............m_ypos = 7
+LOGDEBUG
+2016-12-08_20:17:12 FILE:../src/Map/GameDuplicate.cpp FUNC:HandleMonsterDeadEvent LINE:715
+ 	  Message:CGameDuplicate::HandleMonsterDeadEvent 	 41000001
+LOGDEBUG
+2016-12-08_20:17:13 FILE:../src/MapInstance/InstanceMgr.cpp FUNC:SendAwardToPlayer LINE:2113
+ 	  Message:Send to intance award to player simple message player 281479271679572
+LOGDEBUG
+2016-12-08_20:17:17 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 150
+LOGDEBUG
+2016-12-08_20:17:18 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_20:17:38 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:17:38 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_GETMAILGOODS LINE:200
+ 	  Message:gameserver ret gt get mail goods ack
+LOGDEBUG
+2016-12-08_20:17:41 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_20:26:41 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_20:26:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-08_20:26:59 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-08_20:26:59 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-08_20:26:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968894] container info
+LOGDEBUG
+2016-12-08_20:26:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968894] info 
+LOGDEBUG
+2016-12-08_20:26:59 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968894] info 
+LOGDEBUG
+2016-12-08_20:26:59 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679550 CanSubmit Task,10077 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,15 targeNum,15
+LOGDEBUG
+2016-12-08_20:27:00 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-08_20:27:00 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-08_20:27:08 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_20:27:13 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:20 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_20:27:25 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:26 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:26 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:26 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:28 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:29 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:35 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:35 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:27:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-08_20:27:59 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-08_20:28:07 FILE:../src/Skill/SkillClass.cpp FUNC:Result LINE:183
+ 	  Message:CSkillBlink::Result............m_xpos = 78 ...............m_ypos = 36
+LOGDEBUG
+2016-12-08_20:28:48 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:29:18 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods
+LOGDEBUG
+2016-12-08_20:29:34 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_GETMAILGOODS LINE:118
+ 	  Message:client req gt get mail goods

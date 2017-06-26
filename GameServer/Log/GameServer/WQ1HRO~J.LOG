@@ -1,0 +1,4 @@
+
+LOGWARNING
+2016-12-08_22:13:50 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:426
+ 	  Message:gameserver request dbserver push server id and ack timeout

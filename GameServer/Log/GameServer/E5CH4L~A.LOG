@@ -1,0 +1,19 @@
+
+LOGERROR
+2016-11-25_16:49:45 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-25_16:49:45 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-25_16:51:59 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678052 skillID:1302
+LOGERROR
+2016-11-25_17:15:04 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884825790]
+LOGERROR
+2016-11-26_16:43:14 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1573
+ 	  Message:save player[0] battle info[60] but null
+LOGERROR
+2016-11-26_16:43:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_GET_WS_DATA LINE:4418
+ 	  Message:get player[charid=4294967396] container info but player is not existed

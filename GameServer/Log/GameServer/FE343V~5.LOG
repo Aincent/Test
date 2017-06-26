@@ -1,0 +1,4 @@
+
+LOGFATAL
+2016-12-06_11:35:54 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[0], createtime[0], scene time[17],flush time[0], timer time[18272], path time[0], quick message time[0], date time[0]

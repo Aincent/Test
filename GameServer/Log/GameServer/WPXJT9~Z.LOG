@@ -1,0 +1,940 @@
+
+LOGWARNING
+2016-09-30_11:56:42 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_11:58:02 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:35:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:40:05 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_13:50:00 FILE:../src/Object/Monster/Monster.cpp FUNC:Dead LINE:786
+ 	  Message:monster dead but maxweight is null
+LOGWARNING
+2016-09-30_15:07:53 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_15:32:28 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_15:34:36 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_17:16:07 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_17:26:13 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_17:31:55 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_17:32:53 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_17:33:30 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_17:35:49 FILE:../src/Object/AI/AIBrain.cpp FUNC:UpdatePath LINE:1177
+ 	  Message:path already come
+LOGWARNING
+2016-09-30_18:25:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-30_18:26:50 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack

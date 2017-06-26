@@ -1,0 +1,13 @@
+
+LOGINFO
+2016-10-28_20:54:12 FILE:../src/ServerManager.cpp FUNC:on_new_channel_build LINE:55
+ 	  Message:GateServer new channel build [channelid = 46, remoteid=1, remotetype=1, ip=127.0.0.1]
+LOGINFO
+2016-10-28_20:54:13 FILE:../src/ServerManager.cpp FUNC:on_new_channel_build LINE:86
+ 	  Message:db new channel build [channelid = 66, remoteid=1, remotetype=5, ip=127.0.0.1]
+LOGINFO
+2016-10-28_20:54:13 FILE:../src/ServerManager.cpp FUNC:on_new_channel_build LINE:120
+ 	  Message:pathserver new channel build [channelid = 86, remoteid=1, remotetype=3, ip=127.0.0.1]
+LOGINFO
+2016-10-28_20:54:13 FILE:../src/ServerManager.cpp FUNC:on_new_channel_build LINE:136
+ 	  Message:worldServer new channel build [channelid = 87, remoteid=1, remotetype=4, ip=127.0.0.1]

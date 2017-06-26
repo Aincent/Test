@@ -1,0 +1,10 @@
+
+LOGERROR
+2016-12-23_11:42:28 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-23_11:42:28 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-23_11:42:35 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:IsLoginON LINE:571
+ 	  Message:Transfer Map[211] is error

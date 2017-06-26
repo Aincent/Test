@@ -1,0 +1,158 @@
+
+LOGDEBUG
+2016-10-31_15:48:39 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:48:40 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:49:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1091
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-10-31_15:49:13 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1203
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-10-31_15:49:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1674
+ 	  Message:gameserver request dbserver player[4294967330] container info
+LOGDEBUG
+2016-10-31_15:49:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4053
+ 	  Message:finish player[4294967330] info 
+LOGDEBUG
+2016-10-31_15:49:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4088
+ 	  Message:player login in game and finish player[4294967330] info 
+LOGDEBUG
+2016-10-31_15:49:13 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271677986 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-10-31_15:49:14 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-10-31_15:49:14 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-31_15:49:28 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-10-31_15:49:28 FILE:../src/MapInstance/MapInstanceMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_CREATEINSTANCE LINE:863
+ 	  Message:gameserver request worldserver create map
+LOGDEBUG
+2016-10-31_15:49:31 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-10-31_15:55:12 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 60
+LOGDEBUG
+2016-10-31_15:59:48 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:263
+ 	  Message:ManagerServer new channel build error [channelid = 88, remoteid=1, remotetype=7, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_15:59:53 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:240
+ 	  Message:PathServer new channel build error [channelid = 86, remoteid=1, remotetype=3, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 66, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 67, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 69, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 68, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 70, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 71, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 74, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 78, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 82, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 72, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 73, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 75, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 76, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 79, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 77, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 80, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 83, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 84, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 81, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-10-31_16:00:11 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:233
+ 	  Message:GameServer new channel build error [channelid = 85, remoteid=1, remotetype=5, ip=127.0.0.1 , errorno=30]

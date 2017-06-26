@@ -1,0 +1,19 @@
+
+LOGERROR
+2016-09-22_15:54:55 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-22_15:54:55 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-22_15:54:55 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-22_15:54:55 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-22_16:07:45 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1097
+ 	  Message:player[1] is online
+LOGERROR
+2016-09-22_16:07:53 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:RemoveDelayPlayer LINE:1547
+ 	  Message:remove delay nowtime[1474531673193], oldtime[1474531596658], player[12884901890] and gameserver request gt exit

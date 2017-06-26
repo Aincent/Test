@@ -1,0 +1,97 @@
+
+LOGWARNING
+2016-12-16_16:19:00 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:23:17 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:28:56 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:29:45 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:31:00 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:39:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:40:37 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:42:20 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:43:27 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_16:46:19 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_17:02:03 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_17:02:17 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:20 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:21 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:21 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:21 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:39 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:39 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:40 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:40 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:02:40 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:03:26 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_17:03:33 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:141
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-12-16_17:03:40 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:03:41 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:03:41 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:03:41 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:03:41 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:03:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:03:42 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:04:27 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout
+LOGWARNING
+2016-12-16_17:05:00 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2GT_CHANGEMAP LINE:1442
+ 	  Message:gameserver request gateserver player change map and ack timeout

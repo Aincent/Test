@@ -1,0 +1,61 @@
+
+LOGERROR
+2016-11-23_12:03:37 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-23_12:03:37 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-11-23_15:30:00 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884301355]
+LOGERROR
+2016-11-23_15:30:05 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884301355]
+LOGERROR
+2016-11-23_15:30:05 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884366892]
+LOGERROR
+2016-11-23_15:30:05 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884432429]
+LOGERROR
+2016-11-23_15:30:05 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884497966]
+LOGERROR
+2016-11-23_16:22:39 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-11-23_16:23:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678048 skillID:1302
+LOGERROR
+2016-11-23_16:23:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678048 skillID:1702
+LOGERROR
+2016-11-23_16:23:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678048 skillID:1402
+LOGERROR
+2016-11-23_16:23:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678048 skillID:1602
+LOGERROR
+2016-11-23_16:44:49 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-11-23_16:48:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678049 skillID:1302
+LOGERROR
+2016-11-23_16:48:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678049 skillID:1702
+LOGERROR
+2016-11-23_16:48:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678049 skillID:1402
+LOGERROR
+2016-11-23_16:48:03 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271678049 skillID:1602
+LOGERROR
+2016-11-23_16:48:43 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-11-23_16:49:14 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:RemoveDelayPlayer LINE:1558
+ 	  Message:remove delay nowtime[1479890954783], oldtime[1479890883570], player[4294967392] and gameserver request gt exit
+LOGERROR
+2016-11-23_16:53:35 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task

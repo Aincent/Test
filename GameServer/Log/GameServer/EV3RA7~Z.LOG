@@ -1,0 +1,55 @@
+
+LOGERROR
+2016-12-19_12:29:48 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-19_12:29:48 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-12-19_14:43:09 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-12-19_14:43:09 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1573
+ 	  Message:save player[0] battle info[56] but null
+LOGERROR
+2016-12-19_14:43:10 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1712
+ 	  Message:get player[charid=4294968811] container info but player is not existed
+LOGERROR
+2016-12-19_14:44:18 FILE:../src/QuestNew/QuestClan.cpp FUNC:GetInitClanQuestId LINE:82
+ 	  Message:Player Selet Clan Task,But Not Have Property Task
+LOGERROR
+2016-12-19_14:46:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679467 skillID:4302
+LOGERROR
+2016-12-19_14:46:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679467 skillID:4502
+LOGERROR
+2016-12-19_14:46:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679467 skillID:4702
+LOGERROR
+2016-12-19_14:46:53 FILE:../src/Skill/SkillManager.cpp FUNC:SkillUpgrade LINE:1744
+ 	  Message:playerSkillUpGrade playerID:281479271679467 skillID:4402
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884301313]
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884366850]
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884432387]
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884497924]
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884301313]
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884366850]
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884432387]
+LOGERROR
+2016-12-19_15:05:07 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501884497924]

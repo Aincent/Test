@@ -1,0 +1,10 @@
+
+LOGWARNING
+2016-09-18_18:56:30 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:286
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-18_18:56:53 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:286
+ 	  Message:gameserver request dbserver get mails and ack
+LOGWARNING
+2016-09-18_19:00:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_MAILS LINE:286
+ 	  Message:gameserver request dbserver get mails and ack

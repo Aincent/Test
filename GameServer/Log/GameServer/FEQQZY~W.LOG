@@ -1,0 +1,103 @@
+
+LOGFATAL
+2016-12-19_17:44:22 FILE:../src/Container/ContainerMessage.cpp FUNC:Handle_Request LINE:86
+ 	  Message:Message:[messageid = 3031 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[8398]
+LOGFATAL
+2016-12-19_17:44:22 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[8398], createtime[0], scene time[1],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-19_18:15:04 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[117526], createtime[111], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-19_18:15:10 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Request LINE:313
+ 	  Message:Message:[messageid = 1011 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[172]
+LOGFATAL
+2016-12-19_18:15:10 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[232], createtime[0], scene time[4813],flush time[0], timer time[879], path time[19], quick message time[21], date time[0]
+LOGFATAL
+2016-12-19_18:15:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 1012 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[2501]
+LOGFATAL
+2016-12-19_18:15:13 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[2501], createtime[0], scene time[0],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-19_18:15:16 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 12708 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[1751]
+LOGFATAL
+2016-12-19_18:15:16 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[1778], createtime[0], scene time[1],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-19_18:15:16 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[198]
+LOGFATAL
+2016-12-19_18:15:17 FILE:../src/Map/FindPathMgr.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_PS2GM_PATHPOS LINE:152
+ 	  Message:20 message id and to more time[1121]  mapid size[8]
+LOGFATAL
+2016-12-19_18:15:17 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[1121]
+LOGFATAL
+2016-12-19_18:15:17 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[102]
+LOGFATAL
+2016-12-19_18:15:17 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[1434], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-19_18:19:55 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 1012 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[40421]
+LOGFATAL
+2016-12-19_18:19:55 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[40421], createtime[56], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-19_18:20:06 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Request LINE:313
+ 	  Message:Message:[messageid = 1022 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[1021]
+LOGFATAL
+2016-12-19_18:20:06 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[1], message time[1072], createtime[0], scene time[9367],flush time[0], timer time[554], path time[74], quick message time[0], date time[0]
+LOGFATAL
+2016-12-19_18:20:07 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 1012 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[608]
+LOGFATAL
+2016-12-19_18:20:10 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[357]
+LOGFATAL
+2016-12-19_19:08:03 FILE:../src/Container/ContainerMessage.cpp FUNC:Handle_Request LINE:86
+ 	  Message:Message:[messageid = 3031 ] DEF_MSG_DISPATCH_FUN [ Handle_Request ] and too more time[244]
+LOGFATAL
+2016-12-19_20:44:06 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 12708 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[560]
+LOGFATAL
+2016-12-20_10:01:48 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 1012 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[62826]
+LOGFATAL
+2016-12-20_10:01:50 FILE:../src/Map/FindPathMgr.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_PS2GM_PATHPOS LINE:145
+ 	  Message:20 message id and to more time[1315]  mapid[283678318329857] size[1]  path size[2]
+LOGFATAL
+2016-12-20_10:01:50 FILE:../src/Map/FindPathMgr.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_PS2GM_PATHPOS LINE:152
+ 	  Message:20 message id and to more time[1315]  mapid size[1]
+LOGFATAL
+2016-12-20_10:01:50 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[1348]
+LOGFATAL
+2016-12-20_10:01:50 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[64271], createtime[0], scene time[1],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-20_10:01:57 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[25], createtime[0], scene time[4765],flush time[0], timer time[2389], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-20_10:02:02 FILE:../src/Map/FindPathMgr.cpp FUNC:On_MSG_SIMPLE_MSG_SIM_PS2GM_PATHPOS LINE:152
+ 	  Message:20 message id and to more time[1846]  mapid size[8]
+LOGFATAL
+2016-12-20_10:02:02 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[1847]
+LOGFATAL
+2016-12-20_10:02:02 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[168]
+LOGFATAL
+2016-12-20_10:02:02 FILE:../src/ServiceMain.cpp FUNC:Start LINE:1126
+ 	  Message:fps is slow  skill time[0], message time[2015], createtime[0], scene time[2],flush time[0], timer time[0], path time[0], quick message time[0], date time[0]
+LOGFATAL
+2016-12-20_10:02:38 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 12708 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[456]
+LOGFATAL
+2016-12-20_16:03:41 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:Handle_Ack LINE:329
+ 	  Message:Message:[messageid = 12708 ] DEF_MSG_DISPATCH_FUN [ Handle_Ack ] and too more time[444]

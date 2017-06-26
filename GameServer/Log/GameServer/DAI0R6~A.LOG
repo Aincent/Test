@@ -1,0 +1,4 @@
+
+LOGDEBUG
+2016-12-22_12:01:46 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id

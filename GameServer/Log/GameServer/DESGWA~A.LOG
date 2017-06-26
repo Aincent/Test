@@ -1,0 +1,7 @@
+
+LOGDEBUG
+2016-12-06_14:27:07 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:240
+ 	  Message:PathServer new channel build error [channelid = 86, remoteid=1, remotetype=3, ip=127.0.0.1 , errorno=30]
+LOGDEBUG
+2016-12-06_14:27:07 FILE:../src/ServerManager.cpp FUNC:on_channel_error LINE:263
+ 	  Message:ManagerServer new channel build error [channelid = 88, remoteid=1, remotetype=7, ip=127.0.0.1 , errorno=30]

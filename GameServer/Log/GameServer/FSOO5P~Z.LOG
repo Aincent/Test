@@ -1,0 +1,4 @@
+
+LOGFATAL
+2016-11-11_18:20:01 FILE:../src/Map/FindPathMgr.cpp FUNC:Handle_Message LINE:109
+ 	  Message:Message:[messageid = 20 ] DEF_MSG_DISPATCH_FUN [ Handle_Message ] and too more time[156]

@@ -1,0 +1,7 @@
+
+LOGINFO
+2016-12-08_20:45:09 FILE:../src/ServerManager.cpp FUNC:on_new_channel_build LINE:120
+ 	  Message:pathserver new channel build [channelid = 84, remoteid=1, remotetype=3, ip=127.0.0.1]
+LOGINFO
+2016-12-08_20:45:09 FILE:../src/ServerManager.cpp FUNC:on_new_channel_build LINE:136
+ 	  Message:worldServer new channel build [channelid = 85, remoteid=1, remotetype=4, ip=127.0.0.1]

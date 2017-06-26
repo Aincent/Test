@@ -1,0 +1,364 @@
+
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuoqijinjie/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shenbingjinjie/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shenqijinjie/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/danlujinjie/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/xinfajinjie/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben5/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben6/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben7/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingyanfuben8/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben5/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben6/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben7/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tongqianfuben8/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/born/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jiankang/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/changan/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/mamingguan/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/baibiguan/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/taiyuancheng/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/huanggong/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/tiantangxian/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/erxianzhuangwai/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/erxianzhuang/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/wanniangong/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shaohuashan/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/hulaoguanwai/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/hulaoguan/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben5/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben6/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben7/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/fuben8/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying5/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying6/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying7/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingying8/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng5/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng6/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng7/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/emeng8/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben5/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben6/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben7/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zuduifuben8/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/dati/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jingjichang/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/kuafu/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/vipfuben3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/jiehun/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhenyinBoss/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/zhenyinzhan/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/douzhanchonglou4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/meiguihaitan/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/bangpaijifensai/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/bangpaicheng/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/yingxiongta/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/shijieboss/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu0/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu1/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu2/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu3/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu4/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu5/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu6/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:43:53 FILE:../Lua/LuaInterface.cpp FUNC:LoadFile LINE:70
+ 	  Message:Load file[filepath=/data/game/cx/Server/ybtx/Bin_Mob/Data/Map/guajiditu7/FieldSpring.lua] error
+LOGBASE
+2016-12-19_17:44:22 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=3031 , len=9] time[8398] too more-----------------
+LOGBASE
+2016-12-19_17:44:22 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 1] time = 8397823
+LOGBASE
+2016-12-19_18:15:04 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:249
+ 	  Message:------------------ despatch Ack message[id=1012 , reqid=57, len=678] time[117367] too more-----------------
+LOGBASE
+2016-12-19_18:15:04 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 1] time = 117405845
+LOGBASE
+2016-12-19_18:15:10 FILE:../Network/Message_Facade.cpp FUNC:Send LINE:131
+ 	  Message:============================send message [10323] tim [12]e to more==================
+LOGBASE
+2016-12-19_18:15:13 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:249
+ 	  Message:------------------ despatch Ack message[id=1012 , reqid=58, len=747] time[2501] too more-----------------
+LOGBASE
+2016-12-19_18:15:13 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 1] time = 2501567
+LOGBASE
+2016-12-19_18:15:16 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:249
+ 	  Message:------------------ despatch Ack message[id=12708 , reqid=60, len=26] time[1751] too more-----------------
+LOGBASE
+2016-12-19_18:15:16 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 1] time = 1778107
+LOGBASE
+2016-12-19_18:15:17 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:183
+ 	  Message:------------------ despatch simple message[id=20 , len=1014] time[1121] too more-----------------
+LOGBASE
+2016-12-19_18:15:17 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 3] time = 1433803
+LOGBASE
+2016-12-19_18:19:54 FILE:../Network/Message_Facade.cpp FUNC:Send LINE:131
+ 	  Message:============================send message [3002] tim [79]e to more==================
+LOGBASE
+2016-12-19_18:19:54 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:595
+ 	  Message:dispatch[index=0] message[count = 1] time = 440388
+LOGBASE
+2016-12-19_18:19:55 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:249
+ 	  Message:------------------ despatch Ack message[id=1012 , reqid=61, len=678] time[40421] too more-----------------
+LOGBASE
+2016-12-19_18:19:55 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 1] time = 40420584
+LOGBASE
+2016-12-19_18:20:06 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:214
+ 	  Message:------------------ despatch request message[id=1022 , len=10] time[1021] too more-----------------
+LOGBASE
+2016-12-19_18:20:06 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 3] time = 1072329
+LOGBASE
+2016-12-19_18:20:07 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:249
+ 	  Message:------------------ despatch Ack message[id=1012 , reqid=64, len=678] time[608] too more-----------------
+LOGBASE
+2016-12-19_18:20:07 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 2] time = 630550
+LOGBASE
+2016-12-19_20:44:06 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:249
+ 	  Message:------------------ despatch Ack message[id=12708 , reqid=70, len=33] time[560] too more-----------------
+LOGBASE
+2016-12-19_20:44:06 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 1] time = 559275
+LOGBASE
+2016-12-20_10:01:48 FILE:../Network/Message_Facade.cpp FUNC:Send LINE:131
+ 	  Message:============================send message [3002] tim [53]e to more==================
+LOGBASE
+2016-12-20_10:01:49 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:249
+ 	  Message:------------------ despatch Ack message[id=1012 , reqid=124, len=678] time[62827] too more-----------------
+LOGBASE
+2016-12-20_10:01:50 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:183
+ 	  Message:------------------ despatch simple message[id=20 , len=44] time[1422] too more-----------------
+LOGBASE
+2016-12-20_10:01:50 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 2] time = 64270772
+LOGBASE
+2016-12-20_10:01:58 FILE:../Network/DispatchMessage.cpp FUNC:svr LINE:595
+ 	  Message:dispatch[index=0] message[count = 1] time = 156961
+LOGBASE
+2016-12-20_10:02:02 FILE:../Network/DispatchMessage.cpp FUNC:Dispatch LINE:183
+ 	  Message:------------------ despatch simple message[id=20 , len=943] time[1847] too more-----------------
+LOGBASE
+2016-12-20_10:02:02 FILE:../Network/DispatchMessage.cpp FUNC:ProcessMessage LINE:554
+ 	  Message:dispatch[index=0] message[count = 2] time = 2014726

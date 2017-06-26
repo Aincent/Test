@@ -1,0 +1,4 @@
+
+LOGFATAL
+2016-12-19_10:10:12 FILE:../src/Map/GameDuplicate.cpp FUNC:~CGameDuplicate LINE:65
+ 	  Message:duplicate destroy but player(count=1) is in the map

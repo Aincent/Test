@@ -1,0 +1,393 @@
+
+LOGDEBUG
+2016-12-06_10:55:05 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_GT2GM_PUSHSERVERID LINE:393
+ 	  Message:gateServer push server id
+LOGDEBUG
+2016-12-06_10:55:06 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_SIM_DB2GM_PUSHSERVERID LINE:431
+ 	  Message:dbServer push server id
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2MS_PUSHSERVERID LINE:497
+ 	  Message:managerServer push server id
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/ServerManager.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_PUSHSERVERID LINE:463
+ 	  Message:worldserver push server id
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:07 FILE:../src/Map/CreatMapTask.cpp FUNC:On_MSG_REQUEST_MSG_REQ_WS2GM_CREATESCENE LINE:329
+ 	  Message:gateserver request gameserver create map
+LOGDEBUG
+2016-12-06_10:55:17 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 135
+LOGDEBUG
+2016-12-06_10:55:17 FILE:../src/Map/DuplicateMgr.cpp FUNC:UpdateTimer LINE:76
+ 	  Message:m_duplicate destory instance map id = 135
+LOGDEBUG
+2016-12-06_10:55:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-06_10:55:34 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-06_10:55:34 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-06_10:55:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968873] container info
+LOGDEBUG
+2016-12-06_10:55:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968873] info 
+LOGDEBUG
+2016-12-06_10:55:34 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968873] info 
+LOGDEBUG
+2016-12-06_10:55:34 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679529 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_10:55:35 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-06_10:55:35 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-06_10:55:53 FILE:../src/Chat/ChatMgr.cpp FUNC:Marquee LINE:326
+ 	  Message:gameserver marquee type:38 name:盖康裕 target:10 param: !
+LOGDEBUG
+2016-12-06_10:56:00 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:330
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-12-06_10:56:22 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679529 Submit Task 10001
+LOGDEBUG
+2016-12-06_10:56:22 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679529 CanSubmit Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_10:56:22 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679529 accept Task,10002 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_10:56:30 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679529 Submit Task 10002
+LOGDEBUG
+2016-12-06_10:56:30 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679529 accept Task,10003 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,1
+LOGDEBUG
+2016-12-06_10:56:34 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-06_10:56:37 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679529 CanSubmit Task,10003 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,1 targeNum,1
+LOGDEBUG
+2016-12-06_11:03:06 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679529 Submit Task 70005
+LOGDEBUG
+2016-12-06_11:03:06 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679529 accept Task,0 type,7 state,1 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_11:08:35 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679529 Submit Task 70005
+LOGDEBUG
+2016-12-06_11:08:35 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679529 accept Task,0 type,7 state,1 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_11:15:58 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679529 Submit Task 70005
+LOGDEBUG
+2016-12-06_11:15:58 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679529 accept Task,0 type,7 state,1 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_11:22:02 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679529 Submit Task 70005
+LOGDEBUG
+2016-12-06_11:22:02 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679529 accept Task,0 type,7 state,1 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_11:24:42 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679529 Submit Task 10003
+LOGDEBUG
+2016-12-06_11:24:42 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679529 accept Task,10004 type,1 state,2 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_11:25:15 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-06_11:25:30 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_PLAYERINFO LINE:1093
+ 	  Message:Player login on and get playerinfo[1]
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/Object/Player/Player.cpp FUNC:InitBaseInfo LINE:1188
+ 	  Message:iRet=1802 err:[src/OpenApiV3.cpp][278][ParamIsValid]openid is invalid
+
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/Trade/BaseShop.cpp FUNC:FlushMyster LINE:438
+ 	  Message:FlushMyster ............................. 8
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1683
+ 	  Message:gameserver request dbserver player[4294968876] container info
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4068
+ 	  Message:finish player[4294968876] info 
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:FinishiInit LINE:4103
+ 	  Message:player login in game and finish player[4294968876] info 
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/QuestNew/AcceptedQuest.cpp FUNC:updateToClient LINE:270
+ 	  Message:Player 281479271679532 CanSubmit Task,10001 type,1 state,3 numStar,1 rewardStar,1 times,0 nowNum,0 targeNum,0
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/Mail/MailMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_MAILS LINE:77
+ 	  Message:client req gt get mails
+LOGDEBUG
+2016-12-06_11:25:31 FILE:../src/Horse/HorseMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_HORSEINFO LINE:72
+ 	  Message:Player request horse info
+LOGDEBUG
+2016-12-06_11:25:46 FILE:../src/Arena/ArenaMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_SYNCARENA LINE:330
+ 	  Message:gameserver request worldserver  synch player info 
+LOGDEBUG
+2016-12-06_11:25:58 FILE:../src/Chat/ChatMgr.cpp FUNC:Marquee LINE:326
+ 	  Message:gameserver marquee type:38 name:阳鸿羲 target:3 param: !
+LOGDEBUG
+2016-12-06_11:26:06 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,0 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:06 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:26:06 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,1 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:13 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,1 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:13 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20027
+LOGDEBUG
+2016-12-06_11:26:13 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,2 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:22 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,2 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:22 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:26:22 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20028 type,2 state,2 numStar,1 rewardStar,1 times,3 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:23 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20028 type,2 state,3 numStar,1 rewardStar,1 times,3 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:23 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20028
+LOGDEBUG
+2016-12-06_11:26:23 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,4 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:25 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,4 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:25 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20027
+LOGDEBUG
+2016-12-06_11:26:25 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,5 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:31 FILE:../src/Trade/BaseShop.cpp FUNC:SetBaseShopInfo LINE:115
+ 	  Message:SetBaseShopInfo ............................. 8
+LOGDEBUG
+2016-12-06_11:26:42 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,5 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:43 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:26:43 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20028 type,2 state,2 numStar,1 rewardStar,1 times,6 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:45 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20028 type,2 state,3 numStar,1 rewardStar,1 times,6 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:45 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20028
+LOGDEBUG
+2016-12-06_11:26:45 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,7 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:46 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,7 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:46 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:26:46 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,8 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:47 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,8 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20027
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,9 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,9 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20028 type,2 state,2 numStar,1 rewardStar,1 times,10 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20028 type,2 state,3 numStar,1 rewardStar,1 times,10 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20028
+LOGDEBUG
+2016-12-06_11:26:48 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,11 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:49 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,11 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:49 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20027
+LOGDEBUG
+2016-12-06_11:26:49 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,12 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:49 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,12 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:49 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:26:49 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,13 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:50 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,13 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:26:50 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20027
+LOGDEBUG
+2016-12-06_11:26:50 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,14 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:35 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,14 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:36 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:28:36 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,15 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:36 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,15 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:36 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20027
+LOGDEBUG
+2016-12-06_11:28:36 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,16 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:37 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,16 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:37 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:28:37 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,17 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:38 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,17 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:28:38 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20027
+LOGDEBUG
+2016-12-06_11:28:38 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20026 type,2 state,2 numStar,1 rewardStar,1 times,18 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:29:19 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20026 type,2 state,3 numStar,1 rewardStar,1 times,18 nowNum,40 targeNum,40
+LOGDEBUG
+2016-12-06_11:29:19 FILE:../src/QuestNew/QuestPart.cpp FUNC:submit LINE:1323
+ 	  Message:Player 281479271679532 Submit Task 20026
+LOGDEBUG
+2016-12-06_11:29:19 FILE:../src/QuestNew/QuestMessage.cpp FUNC:On_MSG_QUICK_REQUEST_MSG_REQ_C2GM_UPDATEQUEST LINE:104
+ 	  Message:Player 281479271679532 accept Task,20027 type,2 state,2 numStar,1 rewardStar,1 times,19 nowNum,0 targeNum,40
+LOGDEBUG
+2016-12-06_11:36:32 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_REQUEST_MSG_REQ_GT2GM_CHARATTR LINE:1124
+ 	  Message:Player request battle attribute
+LOGDEBUG
+2016-12-06_11:36:40 FILE:../src/QuestNew/QuestDaily.cpp FUNC:updateToClient LINE:542
+ 	  Message:Player 281479271679532 CanSubmit Task,20027 type,2 state,3 numStar,1 rewardStar,1 times,19 nowNum,40 targeNum,40

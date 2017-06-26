@@ -1,0 +1,37 @@
+
+LOGERROR
+2016-09-18_19:13:30 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-18_19:13:30 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-18_19:13:30 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-18_19:13:30 FILE:../src/Map/SceneManager.cpp FUNC:SendAllMap LINE:93
+ 	  Message:send map to Gateserver but gameserver map is not existed in world
+LOGERROR
+2016-09-19_09:49:36 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1590
+ 	  Message:save player[0] battle info[60] but null
+LOGERROR
+2016-09-19_09:49:36 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2DB_CONTAINERINFO LINE:1695
+ 	  Message:get player[charid=12884901890] container info but player is not existed
+LOGERROR
+2016-09-19_10:49:13 FILE:../src/Object/Player/Player.cpp FUNC:SaveAllPlayer LINE:1590
+ 	  Message:save player[0] battle info[60] but null
+LOGERROR
+2016-09-19_10:49:13 FILE:../src/Object/Player/PlayerMessage.cpp FUNC:On_MSG_ACK_MSG_REQ_GM2WS_GET_WS_DATA LINE:4399
+ 	  Message:get player[charid=12884901890] container info but player is not existed
+LOGERROR
+2016-09-19_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877813755]
+LOGERROR
+2016-09-19_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877879292]
+LOGERROR
+2016-09-19_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501877944829]
+LOGERROR
+2016-09-19_15:30:08 FILE:../src/Map/SceneManager.cpp FUNC:GetGameZone LINE:331
+ 	  Message:Get Scene but find not scene[sceneid=5501878010366]
